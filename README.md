@@ -1,6 +1,8 @@
 # ¿Qué vemos?
 
-![Logo](docs/img/logo.png)
+<p align="center">
+  <img width="500" height="500" src="docs/img/logo.png">
+</p>
 
 > "Logo designed by Freepik"
 
