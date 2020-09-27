@@ -16,5 +16,8 @@
 
 "Qué vemos" hace una selección de contenido, os muestra una sucesión de películas/series en vuestros móviles y cada uno decide si hacer "swipe left" o "swipe right". En cuanto tengáis una candidata en común, la selección parará y os mostrará vuestra elección.
 
+## Herramientas
+- **Python**: Utilizando *features* modernas del lenguaje, como *async/await* o *typing*.
+
 ## Documentación adicional
 - [Configuración de git](docs/configurando-git.md)
