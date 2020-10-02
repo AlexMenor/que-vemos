@@ -4,7 +4,7 @@
   <img width="500" height="500" src="docs/img/logo.png">
 </p>
 
-> "Logo designed by Freepik"
+> "Lemur designed by Freepik"
 
 ## El problema
 
