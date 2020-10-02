@@ -12,6 +12,11 @@
 
 ¿Y no es aún peor cuando esta decisión la tienes que tomar junto a tus padres? ¿O tu pareja? 
 
+## ¿Por qué he elegido este problema?
+
+- Tengo personalmente este problema y me motiva resolverlo.
+- De cara a la implementación me parece un proyecto interesante. Tiene fuentes de datos externas, persistencia temporal, REST y Websockets. Además, si tengo tiempo me gustaría diseñar un frontend que consuma el servicio.
+
 ## Interacción con el usuario
 
 "Qué vemos" hace una selección de contenido, muestra una sucesión de películas/series en uno o varios clientes con conexión a internet (móvil, ordenador, ...) y cada uno decide si hacer "swipe left" o "swipe right". En cuanto haya una candidata en común, la selección parará y se mostrará la elección del grupo.
