@@ -5,5 +5,3 @@ class Watchable:
     title: str
     synopsis: str
     year: int
-
-
