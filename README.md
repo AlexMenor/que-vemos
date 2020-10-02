@@ -30,3 +30,4 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 
 ## Documentación adicional
 - [Configuración de git](docs/configurando-git.md)
+- [Planteamiento de implementación](docs/pasos.md)
