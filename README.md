@@ -32,6 +32,7 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 - **Logging**: Para conocer mejor el uso que los usuarios hacen del servicio e identificar problemas.
 - **Fuente de datos de películas y series**: API externa, crawler o base de datos ya populada. En cualquier caso, tiene que estar "al día".
 - **Memoria de sesiones**: Cuando los usuarios interactúan con el servicio, en alguna parte se tienen que almacenar temporalmente estructuras de datos que representen las elecciones que están haciendo.
+- **Administrador de dependencias**: He elegido [poetry](https://python-poetry.org/), que hace una gestión de los entornos virtuales y de las dependencias muy cómoda.
 
 ## Documentación adicional
 - [Configuración de git](docs/configurando-git.md)
