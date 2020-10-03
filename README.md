@@ -39,6 +39,7 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 
 - [Configuración de git](docs/configurando-git.md)
 - [Planteamiento de implementación](docs/pasos.md)
+- [Historias de usuario y milestones](docs/hu-and-milestones.md)
 
 ## Comandos
 
