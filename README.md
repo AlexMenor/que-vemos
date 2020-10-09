@@ -38,8 +38,9 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 ## Documentación adicional
 
 - [Configuración de git](docs/configurando-git.md)
-- [Planteamiento de implementación](docs/pasos.md)
+- [Pasos de implementación](docs/pasos.md)
 - [Historias de usuario y milestones](docs/hu-and-milestones.md)
+- [Primer avance de código](app/entities/watchable.py)
 
 ## Comandos
 
