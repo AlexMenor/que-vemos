@@ -7,7 +7,7 @@ from .watchable import Watchable
 
 @dataclass
 class Session:
-  """ Contains users, the watchables they are choosing from and their choices """
-  id: str
-  users: List[User]
-  watchables: List[Watchable]
+    """ Contains users, the watchables they are choosing from and their choices """
+    id: str
+    users: List[User]
+    watchables: List[Watchable]
