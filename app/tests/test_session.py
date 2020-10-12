@@ -39,3 +39,10 @@ def test_add_user_throws_exception(user, watchables):
 
     with pytest.raises(NotMoreUsersAllowedException):
         session.add_user(new_user)
+
+def test_vote(user, watchables):
+    session = Session("OtroID", user, watchables)
+
+    session.vote(user.id, 0, True)
+
+    assert session._Session__votes[0][user.id] == True
