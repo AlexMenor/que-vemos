@@ -22,21 +22,21 @@ class Session:
             self.__users.append(new_user)
         else:
             raise NotMoreUsersAllowedException
-    
+
     def __checkUserExists(self, user_id: int):
         try:
             self.__users.index(user_id)
         except:
             raise UserNotFoundInSession
-    
+
     def __checkWatchableExists(self, watchable_index: int):
         if watchable_index >= len(self.watchables):
             raise WatchableNotFound
 
 
     def vote(self, user_id: int, watchable_index: int, vote: bool):
-        __checkUserExists(user_id)
-        __checkWatchableExists(watchable_index)
+        self.__checkUserExists(user_id)
+        self.__checkWatchableExists(watchable_index)
 
         if watchable_index not in self.__votes:
             watchable_current_votes = {}
