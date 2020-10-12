@@ -22,8 +22,22 @@ class Session:
             self.__users.append(new_user)
         else:
             raise NotMoreUsersAllowedException
+    
+    def __checkUserExists(self, user_id: int):
+        try:
+            self.__users.index(user_id)
+        except:
+            raise UserNotFoundInSession
+    
+    def __checkWatchableExists(self, watchable_index: int):
+        if watchable_index >= len(self.watchables):
+            raise WatchableNotFound
+
 
     def vote(self, user_id: int, watchable_index: int, vote: bool):
+        __checkUserExists(user_id)
+        __checkWatchableExists(watchable_index)
+
         if watchable_index not in self.__votes:
             watchable_current_votes = {}
         else:
@@ -39,4 +53,16 @@ class NotMoreUsersAllowedException(Exception):
     """ Exception raised when the number of users in a session is already the maximum """
     def __init__(self):
         self.message = "The session already have the maximum number of users allowed"
+        super().__init__(self.message)
+
+class UserNotFoundInSession(Exception):
+    """ Exception raised when the user is not found in the session"""
+    def __init__(self):
+        self.message = "There is no user with such id in the session"
+        super().__init__(self.message)
+
+class WatchableNotFound(Exception):
+    """ Exception raised when the watchable is not found in the session"""
+    def __init__(self):
+        self.message = "There is no watchable with such index in the session"
         super().__init__(self.message)
