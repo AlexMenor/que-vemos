@@ -12,6 +12,7 @@ class Session:
         self.id = session_id
         self.__users: List[User] = [first_user]
         self.watchables = watchables
+        self.__votes = {}
 
     def get_users(self) -> List[User]:
         return self.__users
@@ -21,6 +22,18 @@ class Session:
             self.__users.append(new_user)
         else:
             raise NotMoreUsersAllowedException
+
+    def vote(self, user_id: int, watchable_index: int, vote: bool):
+        if watchable_index not in self.__votes:
+            watchable_current_votes = {}
+        else:
+            watchable_current_votes = self.__votes[watchable_index]
+
+        watchable_current_votes[user_id] = vote
+
+        self.__votes[watchable_index] = watchable_current_votes
+
+
 
 class NotMoreUsersAllowedException(Exception):
     """ Exception raised when the number of users in a session is already the maximum """
