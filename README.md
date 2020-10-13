@@ -33,14 +33,12 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 - **Logging**: Para conocer mejor el uso que los usuarios hacen del servicio e identificar problemas.
 - **Fuente de datos de películas y series**: API externa, crawler o base de datos ya populada. En cualquier caso, tiene que estar "al día".
 - **Memoria de sesiones**: Cuando los usuarios interactúan con el servicio, en alguna parte se tienen que almacenar temporalmente estructuras de datos que representen las elecciones que están haciendo.
-- **Administrador de dependencias**: He elegido [poetry](https://python-poetry.org/), que hace una gestión de los entornos virtuales y de las dependencias muy cómoda.
 
-## Documentación adicional
+## Administración de dependencias y tareas: Poetry
 
-- [Configuración de git](docs/configurando-git.md)
-- [Pasos de implementación](docs/pasos.md)
-- [Historias de usuario y milestones](docs/hu-and-milestones.md)
-- [Primer avance de código](app/entities/watchable.py)
+De manera análoga a package.json en Node, Poetry utiliza pyproject.toml para definir todas las dependencias de nuestro paquete.
+Por defecto, crea un entorno virtual en nuestro sistema con todas las dependencias y la versión de python especificadas en pyproject.toml.
+Además permite ejecutar comandos dentro de este entorno con _poetry run_, por lo que podemos hacer _poetry run pytest_ por ejemplo. Sin embargo, he preferido añadir una dependencia de desarrollo que se llama [taskipy](https://pypi.org/project/taskipy/) que permite añadir en pyproject.toml alias de comandos más largos, por ejemplo: _poetry run pylint app_ se queda en _poetry run task lint_ (en este caso es igual de largo, pero más genérico).
 
 ## Comandos
 
@@ -57,5 +55,20 @@ poetry install
 El proyecto utiliza [pylint](https://www.pylint.org/) para hacer comprobaciones de sintaxis y estilo:
 
 ```bash
-pylint app/
+poetry run task lint
 ```
+
+### Test
+
+Utilizo [pytest](https://docs.pytest.org/en/stable/):
+
+```bash
+poetry run task test
+```
+
+## Documentación adicional
+
+- [Configuración de git](docs/configurando-git.md)
+- [Pasos de implementación](docs/pasos.md)
+- [Historias de usuario y milestones](docs/hu-and-milestones.md)
+- [Primer avance de código](app/entities/watchable.py)
