@@ -1,5 +1,5 @@
 from ..entities.user import User
-from ..entities.session import Session, NotMoreUsersAllowedException
+from ..entities.session import Session, NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
 from ..entities.watchable import Watchable
 
 import pytest
@@ -46,3 +46,16 @@ def test_vote(user, watchables):
     session.vote(user.id, 0, True)
 
     assert session._Session__votes[0][user.id] == True
+
+def test_vote_throws_if_not_found_user(user, watchables):
+    session = Session("OtroID", user, watchables)
+
+    with pytest.raises(UserNotFoundInSession):
+        session.vote("No existe", 0, True)
+
+def test_vote_throws_if_not_found_watchable(user, watchables):
+    session = Session("OtroID", user, watchables)
+
+    with pytest.raises(WatchableNotFound):
+        session.vote(user.id, 1, True)
+
