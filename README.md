@@ -64,7 +64,7 @@ poetry install
 
 ### Lint
 
-El proyecto utiliza [pylint](https://www.pylint.org/) para hacer comprobaciones de sintaxis y estilo:
+El proyecto utiliza [pylint](https://www.pylint.org/) para hacer **comprobaciones de sintaxis y estilo**:
 
 ```bash
 poetry run task lint
