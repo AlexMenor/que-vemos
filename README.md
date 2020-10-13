@@ -36,7 +36,7 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 
 ## Administración de dependencias y tareas: Poetry
 
-De manera análoga a package.json en Node, Poetry utiliza `pyproject.toml` para definir todas las dependencias de nuestro paquete.
+De manera análoga a `package.json` en Node, Poetry utiliza `pyproject.toml` para definir todas las dependencias de nuestro paquete.
 
 Por defecto, crea un entorno virtual en nuestro sistema con todas las dependencias y la versión de python especificadas en `pyproject.toml.`
 
