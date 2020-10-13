@@ -59,3 +59,38 @@ def test_vote_throws_if_not_found_watchable(user, watchables):
     with pytest.raises(WatchableNotFound):
         session.vote(user.id, 1, True)
 
+def test_count_yes(user, watchables):
+    session = Session("OtroID", user, watchables)
+
+    session.vote(user.id, 0, True)
+
+    new_user = User("Nuevo_user")
+    session.add_user(new_user)
+
+    session.vote(new_user.id, 0, False)
+
+    assert session._Session__count_yes(session._Session__votes[0]) == 1
+
+def test_is_match_positive(user, watchables):
+    session = Session("OtroID", user, watchables)
+
+    session.vote(user.id, 0, True)
+
+    new_user = User("Nuevo_user")
+    session.add_user(new_user)
+
+    session.vote(new_user.id, 0, True)
+
+    assert session.is_match() == True
+
+def test_is_match_negative(user, watchables):
+    session = Session("OtroID", user, watchables)
+
+    session.vote(user.id, 0, True)
+
+    new_user = User("Nuevo_user")
+    session.add_user(new_user)
+
+    session.vote(new_user.id, 0, False)
+
+    assert session.is_match() == False

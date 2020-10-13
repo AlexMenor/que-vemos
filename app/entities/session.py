@@ -1,6 +1,7 @@
 """ Defines session class """
 
-from typing import List
+from typing import List, Dict
+from functools import reduce
 from .user import User
 from .watchable import Watchable
 
@@ -23,15 +24,6 @@ class Session:
         else:
             raise NotMoreUsersAllowedException
 
-    def __checkUserExists(self, user_id: int):
-        if len(list(filter(lambda u : u.id == user_id, self.__users))) != 1:
-            raise UserNotFoundInSession
-
-    def __checkWatchableExists(self, watchable_index: int):
-        if watchable_index >= len(self.watchables):
-            raise WatchableNotFound
-
-
     def vote(self, user_id: int, watchable_index: int, vote: bool):
         self.__checkUserExists(user_id)
         self.__checkWatchableExists(watchable_index)
@@ -45,6 +37,22 @@ class Session:
 
         self.__votes[watchable_index] = watchable_current_votes
 
+    def is_match(self) -> bool:
+        for watchable_index in self.__votes:
+            if self.__count_yes(self.__votes[watchable_index]) == len(self.__users):
+                return True
+        return False
+
+    def __checkUserExists(self, user_id: int):
+        if len(list(filter(lambda u : u.id == user_id, self.__users))) != 1:
+            raise UserNotFoundInSession
+
+    def __checkWatchableExists(self, watchable_index: int):
+        if watchable_index >= len(self.watchables):
+            raise WatchableNotFound
+
+    def __count_yes(self, votes_of_watchable: Dict) -> int :
+        return reduce(lambda acum, vote: acum + 1 if votes_of_watchable[vote] else acum, votes_of_watchable, 0)
 
 
 class NotMoreUsersAllowedException(Exception):
