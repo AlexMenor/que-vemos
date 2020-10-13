@@ -84,3 +84,4 @@ poetry run task test
 - [Pasos de implementación](docs/pasos.md)
 - [Historias de usuario y milestones](docs/hu-and-milestones.md)
 - [Primer avance de código](app/entities/watchable.py)
+- [Justificación de uso de @dataclass](docs/dataclass.md)
