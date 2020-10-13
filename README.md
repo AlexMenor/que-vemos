@@ -37,13 +37,17 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 ## Administración de dependencias y tareas: Poetry
 
 De manera análoga a package.json en Node, Poetry utiliza `pyproject.toml` para definir todas las dependencias de nuestro paquete.
+
 Por defecto, crea un entorno virtual en nuestro sistema con todas las dependencias y la versión de python especificadas en `pyproject.toml.`
+
 Además permite ejecutar comandos dentro de este entorno con `poetry run`, por lo que podemos hacer `poetry run pytest` por ejemplo. Sin embargo, he preferido añadir una dependencia de desarrollo que se llama [taskipy](https://pypi.org/project/taskipy/) que permite añadir en pyproject.toml alias de comandos más largos, por ejemplo: `poetry run pylint app` se queda en `poetry run task lint` (en este caso es igual de largo, pero más genérico).
 
 ## Tests
 
 Utilizo [pytest](https://docs.pytest.org/en/stable/) porque la forma de hacer fixtures es muy simple y no hay apenas añadidos a python puro, es muy intuitiva.
+
 En la documentación de _pytest_ se recogen dos patrones comunes: Poner la carpeta de tests fuera de la raíz de código (en este caso al mismo nivel que app) y poner la carpeta de tests dentro de la raíz de código (dentro de app). He acabado decantándome por esta segunda, ya que hay relación entre los test unitarios y los módulos, por ejemplo: `test_session.py` y `session.py.`
+
 El primer patrón tiene sentido cuando los test son más funcionales.
 
 [Mi primer fichero de tests.](app/tests/test_session.py)
