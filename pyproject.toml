@@ -13,9 +13,11 @@ python = "^3.8"
 [tool.poetry.dev-dependencies]
 pylint = "^2.6.0"
 pytest = "^6.1.1"
+taskipy = "^1.4.0"
 
-[tool.poetry.scripts]
-test = 'pytest:main'
+[tool.taskipy.tasks]
+test = 'pytest'
+lint = 'pylint app'
 
 [build-system]
 requires = ["poetry-core>=1.0.0a5"]
