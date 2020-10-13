@@ -48,6 +48,10 @@ El primer patrón tiene sentido cuando los test son más funcionales.
 
 [Mi primer fichero de tests.](app/tests/test_session.py)
 
+## Primera clase testeable
+
+[Session](app/entities/session.py) representa el grupo de personas indecisas sobre qué película o serie ver. Para testearla basta con hacer `poetry run task test` (previo `poetry install`).
+
 ## Comandos
 
 ### Instalación de dependencias
