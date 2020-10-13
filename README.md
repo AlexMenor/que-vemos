@@ -29,7 +29,7 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 ## Herramientas
 
 - **Python**: Utilizando _features_ modernas del lenguaje, como _async/await_ o _typing_.
-- **Framework Web**: Que permita especificar de forma declarativa endpoints (_REST_ y _Websockets_) y los documente automáticamente conforme a algún estándar, por ejemplo Open API.
+- **Framework Web**: Que permita especificar de forma declarativa endpoints (_REST_ y _Websockets_) y los documente automáticamente conforme a algún estándar, por ejemplo _Open API_.
 - **Logging**: Para conocer mejor el uso que los usuarios hacen del servicio e identificar problemas.
 - **Fuente de datos de películas y series**: API externa, crawler o base de datos ya populada. En cualquier caso, tiene que estar "al día".
 - **Memoria de sesiones**: Cuando los usuarios interactúan con el servicio, en alguna parte se tienen que almacenar temporalmente estructuras de datos que representen las elecciones que están haciendo.
