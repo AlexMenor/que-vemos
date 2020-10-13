@@ -17,7 +17,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - uses: Gr1N/setup-poetry@v3
       - run: poetry install
-      - run: poetry run pylint app
+      - run: poetry run task lint
 
   test:
     runs-on: ubuntu-latest
@@ -32,4 +32,4 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - uses: Gr1N/setup-poetry@v3
       - run: poetry install
-      - run: poetry run test
+      - run: poetry run task test
