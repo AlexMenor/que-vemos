@@ -1,1 +1,4 @@
 entidad: app/entities/watchable.py
+lenguaje: python
+test: app/tests/test_session.py
+taskfile: pyproject.toml
