@@ -3,6 +3,9 @@ name = "que-vemos"
 version = "0.1.0"
 description = ""
 authors = ["Alex Menor <alex4menor@gmail.com>"]
+packages = [
+  {include = "app"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -10,6 +13,9 @@ python = "^3.8"
 [tool.poetry.dev-dependencies]
 pylint = "^2.6.0"
 pytest = "^6.1.1"
+
+[tool.poetry.scripts]
+test = 'pytest:main'
 
 [build-system]
 requires = ["poetry-core>=1.0.0a5"]
