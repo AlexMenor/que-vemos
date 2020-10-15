@@ -54,7 +54,7 @@ El primer patrón tiene sentido cuando los test son más funcionales.
 
 [Mi primer fichero de tests.](app/tests/test_session.py)
 
-He añadido también una github action que los ejecuta:
+He añadido también una _github action_ que los ejecuta:
 
 ![GH Action Tests](docs/img/tests.png)
 
