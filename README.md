@@ -34,6 +34,10 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 - **Fuente de datos de películas y series**: API externa, crawler o base de datos ya populada. En cualquier caso, tiene que estar "al día".
 - **Memoria de sesiones**: Cuando los usuarios interactúan con el servicio, en alguna parte se tienen que almacenar temporalmente estructuras de datos que representen las elecciones que están haciendo.
 
+## Contenedor para entorno de pruebas
+
+[Dockerfile](./Dockerfile)
+
 ## Comandos
 
 ### Instalación de dependencias
