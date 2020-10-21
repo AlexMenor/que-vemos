@@ -38,7 +38,7 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 
 ### Imagen base
 
-Como mi proyecto está escrito en python, lo primero que hice fue investigar en [docker hub](https://hub.docker.com/_/python) las imagenes mantenidas por la organización.
+Como mi proyecto está escrito en python, lo primero que hice fue investigar en [docker hub](https://hub.docker.com/_/python) las imágenes mantenidas por la organización.
 Para cualquiera de las versiones tenemos tres opciones:
 
 - python:[version]: Tiene como imagen base [buildpack-deps](https://hub.docker.com/_/buildpack-deps/) e incluye las utilidades más comunes de una distribución Debian. Por defecto, es la última versión de Debian estable (ahora mismo buster). Es ideal si vamos a utilizar unos pocos paquetes para la construcción y así no tener que instalarlos manualmente. En mi caso, como especificaré más adelante, no necesito apenas ninguno. Es la más pesada de las tres, ocupa casi 900 MB.
@@ -55,7 +55,7 @@ Por todo esto y al comprobar que "solo" necesito instalar el paquete `build-esse
 
 ### Dockerfile
 
-Voy a utilizar el patrón conocido como "multi-stage builds", recogido [aquí](https://docs.docker.com/develop/develop-images/multistage-build/). Estos surgieron para hacer más fácil la optimización de Dockerfiles, sin sacrificar legibilidad. Esencialmente, definimos varias imagenes. Especificamente utilizo dos: Una para instalar dependencias que necesito para, valga la redundancia, instalar dependencias y otro para usar la construción de la fase anterior y correr los tests.
+Voy a utilizar el patrón conocido como "multi-stage builds", recogido [aquí](https://docs.docker.com/develop/develop-images/multistage-build/). Estos surgieron para hacer más fácil la optimización de Dockerfiles, sin sacrificar legibilidad. Esencialmente, definimos varias imágenes. Específicamente utilizo dos: Una para instalar dependencias que necesito para, valga la redundancia, instalar dependencias y otro para usar la construcción de la fase anterior y correr los tests.
 
 Cuando se escribe un Dockerfile es conveniente, en la medida de lo posible, poner "más arriba" lo que menos va a cambiar. Por eso, empiezo instalando `build-essential`. Como pequeña optimización, el flag `--no-install-recommends` se asegura de que no instalamos más que el paquete en cuestión.
 
