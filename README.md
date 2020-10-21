@@ -38,6 +38,8 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 
 [Dockerfile](./Dockerfile)
 
+![Docker hub](docs/img/docker-hub.png)
+
 ## Comandos
 
 ### Instalación de dependencias
