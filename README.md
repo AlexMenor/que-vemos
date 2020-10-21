@@ -41,7 +41,7 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 Como mi proyecto está escrito en python, lo primero que hice fue investigar en [docker hub](https://hub.docker.com/_/python) las imagenes mantenidas por la organización.
 Para cualquiera de las versiones tenemos tres opciones:
 
-- python:[version]: Tiene como imagen base [buildpack-deps](https://hub.docker.com/_/buildpack-deps/) e incluye las utilidades más comunes de una distribución Debian. Por defecto, es la última versión de Debian estable (ahora mismo buster). Es ideal si vamos a utilizar unos pocos paquetes para la construcción y así no tener que instarlos manualmente. En mi caso, como especificaré más adelante, no necesito apenas ninguno. Es la más pesada de las tres, ocupa casi 900 MB.
+- python:[version]: Tiene como imagen base [buildpack-deps](https://hub.docker.com/_/buildpack-deps/) e incluye las utilidades más comunes de una distribución Debian. Por defecto, es la última versión de Debian estable (ahora mismo buster). Es ideal si vamos a utilizar unos pocos paquetes para la construcción y así no tener que instalarlos manualmente. En mi caso, como especificaré más adelante, no necesito apenas ninguno. Es la más pesada de las tres, ocupa casi 900 MB.
 - python:[version]-slim: Con una base similar a la anterior pero más "delgada", solo contiene paquetes imprescindibles para ejecutar python. No incluye paquetes como gcc que nos hacen falta para construir alguna de las dependencias, sin embargo, pesa algo más de 100 MB por lo que puede merecer la pena.
 - python:[version]-alpine: Con una base totalmente distinta a las dos anteriores. Es muy popular, sin embargo, con python tiene principalmente dos desventajas:
 
@@ -65,9 +65,9 @@ Cuando se empezaron a "Dockerizar" aplicaciones en Python, se consideraba una ma
 
 Una vez creo este entorno, copio `pyproject.toml` y `poetry.lock` y los utilizo para generar un `requirements.txt` que utilizará `pip` para instalar las dependencias en el `venv`.
 
-Finalmente, ya en la fase final, copio el `venv` de la fase anterior y lo añado a `$PATH$` para ejecutar sobre el volumen `/test` `pytest`.
+Finalmente, ya en la fase final, copio el `venv` de la fase anterior y lo añado a `$PATH` para ejecutar sobre el volumen `/test` `pytest`.
 
-Una pega que le pongo a este Dockerfile, es el no poder utilizar Poetry para ejecutar los tests. Si algún día decidiera cambiar a otra biblioteca de tests, tendría que cambiar a mano `CMD ["python", "-m", "pytest"`, en vez de cambiarlo únicamente en `pyproject.toml`. Sin embargo, he decidido sacrificar eso a cambio de no aumentar la complejidad del Dockerfile y el tamaño de la imagen final.
+Una pega que le pongo a este Dockerfile, es el no poder utilizar Poetry para ejecutar los tests. Si algún día decidiera cambiar a otra biblioteca de tests, tendría que cambiar a mano `CMD ["python", "-m", "pytest"]`, en vez de cambiarlo únicamente en `pyproject.toml`. Sin embargo, he decidido sacrificar eso a cambio de no aumentar la complejidad del Dockerfile y el tamaño de la imagen final.
 
 [Dockerfile](./Dockerfile)
 
