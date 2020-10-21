@@ -21,15 +21,6 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.8]
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python-version }}
-      - uses: Gr1N/setup-poetry@v3
-      - run: poetry install
-      - run: poetry run task test
+      - run: docker run -t -v `pwd`:/test alexmenor/que-vemos
