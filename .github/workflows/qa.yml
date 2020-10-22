@@ -19,6 +19,18 @@ jobs:
       - run: poetry install
       - run: poetry run task lint
 
+  push-test-container-to-GPR:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish Docker Images to GPR
+        uses: machine-learning-apps/gpr-docker-publish@v1.3
+        with:
+          IMAGE_FILE: "que-vemos"
+          DOCKERFILE_PATH: "Dockerfile"
+          BUILD_CONTEXT: "/"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   test:
     runs-on: ubuntu-latest
     steps:
