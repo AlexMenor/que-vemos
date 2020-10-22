@@ -33,4 +33,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: docker run -t -v `pwd`:/test alexmenor/que-vemos
+      - run: docker run -t -v `pwd`:/test docker.pkg.github.com/alexmenor/que-vemos/test-env:latest
