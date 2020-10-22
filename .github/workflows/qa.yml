@@ -30,7 +30,7 @@ jobs:
       - name: Push
         run: docker build -t $IMAGE_PATH && docker push $IMAGE_PATH
         env:
-          IMAGE_PATH: ghcr.io/AlexMenor/que-vemos-test-env:latest
+          IMAGE_PATH: ghcr.io/alexmenor/que-vemos-test-env:latest
 
   test:
     runs-on: ubuntu-latest
@@ -42,4 +42,4 @@ jobs:
       - uses: actions/checkout@v2
       - run: docker run -t -v `pwd`:/test $IMAGE_PATH
         env:
-          IMAGE_PATH: ghcr.io/AlexMenor/que-vemos-test-env:latest
+          IMAGE_PATH: ghcr.io/alexmenor/que-vemos-test-env:latest
