@@ -28,7 +28,7 @@ jobs:
         env:
           CR_PAT: ${{ secrets.CR_PAT }}
       - name: Push
-        run: docker build -t $IMAGE_PATH && docker push $IMAGE_PATH
+        run: docker build -t $IMAGE_PATH . && docker push $IMAGE_PATH
         env:
           IMAGE_PATH: ghcr.io/alexmenor/que-vemos-test-env:latest
 
