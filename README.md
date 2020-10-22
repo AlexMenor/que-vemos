@@ -41,9 +41,9 @@ Necesita una fuente de datos (series y películas), que se concretará más adel
 Como mi proyecto está escrito en python, lo primero que hice fue investigar en [docker hub](https://hub.docker.com/_/python) las imágenes mantenidas por la organización.
 Para cualquiera de las versiones tenemos tres opciones:
 
-- python:[version]: Tiene como imagen base [buildpack-deps](https://hub.docker.com/_/buildpack-deps/) e incluye las utilidades más comunes de una distribución Debian. Por defecto, es la última versión de Debian estable (ahora mismo buster). Es ideal si vamos a utilizar unos pocos paquetes para la construcción y así no tener que instalarlos manualmente. En mi caso, como especificaré más adelante, no necesito apenas ninguno. Es la más pesada de las tres, ocupa casi 900 MB.
-- python:[version]-slim: Con una base similar a la anterior pero más "delgada", solo contiene paquetes imprescindibles para ejecutar python. No incluye paquetes como gcc que nos hacen falta para construir alguna de las dependencias, sin embargo, pesa algo más de 100 MB por lo que puede merecer la pena.
-- python:[version]-alpine: Con una base totalmente distinta a las dos anteriores. Es muy popular, sin embargo, con python tiene principalmente dos desventajas:
+- **python:[version]**: Tiene como imagen base [buildpack-deps](https://hub.docker.com/_/buildpack-deps/) e incluye las utilidades más comunes de una distribución Debian. Por defecto, es la última versión de Debian estable (ahora mismo buster). Es ideal si vamos a utilizar unos pocos paquetes para la construcción y así no tener que instalarlos manualmente. En mi caso, como especificaré más adelante, no necesito apenas ninguno. Es la más pesada de las tres, ocupa casi 900 MB.
+- **python:[version]-slim**: Con una base similar a la anterior pero más "delgada", solo contiene paquetes imprescindibles para ejecutar python. No incluye paquetes como gcc que nos hacen falta para construir alguna de las dependencias, sin embargo, pesa algo más de 100 MB por lo que puede merecer la pena.
+- **python:[version]-alpine**: Con una base totalmente distinta a las dos anteriores. Es muy popular, sin embargo, con python tiene principalmente dos desventajas:
 
 1. Las PyPI wheels no funcionan en alpine. Muchos de los paquetes que podemos instalar con `pip` vienen parcial o totalmente precompilados para reducir el tiempo de instalación. Sin embargo, estos paquetes se compilan con `glibc` y Alpine utiliza `musl`, lo que hace incompatibles estos binarios con esta imagen y nos fuerza a compilar todas las dependencias nosotros. Cabe mencionar que contra este inconveniente Alpine esta incluyendo estos binarios en su administrador de paquetes, pero lógicamente, va siempre por detrás de PypI.
    Esto evidentemente repercute mucho en nuestro tiempo de construcción.
@@ -51,7 +51,7 @@ Para cualquiera de las versiones tenemos tres opciones:
 
 [Para más información...](https://pythonspeed.com/articles/alpine-docker-python/)
 
-Por todo esto y al comprobar que "solo" necesito instalar el paquete `build-essential` para tener todo lo que necesito, he elegido la segunda opción.
+Por las pruebas que elaboro más abajo, he elegido la segunda opción.
 
 ### Dockerfile
 
@@ -70,6 +70,16 @@ Finalmente, ya en la fase final, copio el `venv` de la fase anterior y lo añado
 Una pega que le pongo a este Dockerfile, es el no poder utilizar Poetry para ejecutar los tests. Si algún día decidiera cambiar a otra biblioteca de tests, tendría que cambiar a mano `CMD ["python", "-m", "pytest"]`, en vez de cambiarlo únicamente en `pyproject.toml`. Sin embargo, he decidido sacrificar eso a cambio de no aumentar la complejidad del Dockerfile y el tamaño de la imagen final.
 
 [Dockerfile](./Dockerfile)
+
+### Pruebas
+
+Estas son las pruebas que he hecho respecto a tiempo de construcción y tamaño de la imagen con las dos decisiones más importantes que he tenido que tomar: Imagen base y el usar o no multistage build.
+
+| Imagen estándar          | Imagen delgada          | Imagen delgada + multistage build |
+| ------------------------ | ----------------------- | --------------------------------- |
+| 112.41 segundos y 927 MB | 39.87 segundos y 381 MB | 48.93 segundos y 134 MB           |
+
+Me he quedado con la última opción pesé a tardar algo más en construirse, ya que esta construcción solo se hará cuando cambien las dependencias del proyecto o el Dockerfile (como elaboro más abajo). Me parece en este caso más importante adelgazar la imagen final, pues la descarga de esta se hará en cada commit que haga en el proyecto.
 
 ### Integración continua
 
