@@ -19,8 +19,25 @@ jobs:
       - run: poetry install
       - run: poetry run task lint
 
+  check-if-container-needs-rebuild:
+    outputs:
+      run_docker_build: ${{ steps.check_files.outputs.run_docker_build }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          git diff --name-only HEAD^ HEAD | grep -E "(Dockerfile|pyproject.toml)"
+          if [[ $? ]]; then
+            echo "::set-output name=run_docker_build::true"
+            break
+          else
+            echo "::set-output name=run_docker_build::false"
+          fi
+
   push-test-container-to-GPR:
     runs-on: ubuntu-latest
+    needs: check-if-container-needs-rebuild
+    if: needs.check-if-container-needs-rebuild.outputs.run_docker_build == 'true'
     steps:
       - uses: actions/checkout@v2
       - name: Login Container Registry
