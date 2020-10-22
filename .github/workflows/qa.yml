@@ -23,14 +23,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Publish Docker Images to GPR
-        uses: VaultVulp/gp-docker-action@1.1.7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          image-name: "test-env"
+      - name: Login Container Registry
+        run: echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin
+        env:
+          CR_PAT: ${{ secrets.CR_PAT }}
+      - name: Push
+        run: docker build -t $IMAGE_PATH && docker push $IMAGE_PATH
+        env:
+          IMAGE_PATH: ghcr.io/AlexMenor/que-vemos-test-env:latest
 
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Login Container Registry
+        run: echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin
+        env:
+          CR_PAT: ${{ secrets.CR_PAT }}
       - uses: actions/checkout@v2
-      - run: docker run -t -v `pwd`:/test docker.pkg.github.com/alexmenor/que-vemos/test-env:latest
+      - run: docker run -t -v `pwd`:/test $IMAGE_PATH
+        env:
+          IMAGE_PATH: ghcr.io/AlexMenor/que-vemos-test-env:latest
