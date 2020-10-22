@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Publish Docker Images to GPR
-        uses: machine-learning-apps/gpr-docker-publish@v1.3
+        uses: machine-learning-apps/gpr-docker-publish@v1.4
         with:
           IMAGE_NAME: "que-vemos"
           TAG: "que-vemos"
