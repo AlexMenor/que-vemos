@@ -23,14 +23,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Publish Docker Images to GPR
-        uses: machine-learning-apps/gpr-docker-publish@v1.4
+        uses: VaultVulp/gp-docker-action@1.1.7
         with:
-          IMAGE_NAME: "que-vemos"
-          TAG: "que-vemos"
-          DOCKERFILE_PATH: "Dockerfile"
-          BUILD_CONTEXT: "."
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          image-name: "que-vemos"
 
   test:
     runs-on: ubuntu-latest
