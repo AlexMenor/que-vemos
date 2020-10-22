@@ -25,7 +25,7 @@ jobs:
       - name: Publish Docker Images to GPR
         uses: machine-learning-apps/gpr-docker-publish@v1.3
         with:
-          IMAGE_FILE: "que-vemos"
+          IMAGE_NAME: "que-vemos"
           DOCKERFILE_PATH: "Dockerfile"
           BUILD_CONTEXT: "/"
         env:
