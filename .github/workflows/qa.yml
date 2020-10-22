@@ -25,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
       - run: |
           git diff --name-only HEAD^ HEAD | grep -E "(Dockerfile|pyproject.toml)"
           if [[ $? ]]; then
