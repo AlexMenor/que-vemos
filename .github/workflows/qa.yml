@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 2
-      - run: git diff --name-only HEAD^ HEAD | grep -E "(Dockerfile|pyproject.toml)" && echo "::set-output name=run_docker_build::true"
+      - run: git diff --name-only HEAD^ HEAD | grep -E "(Dockerfile|pyproject.toml)" && echo "::set-output name=run_docker_build::true" || echo "::set-output name=run_docker_build::false"
 
   push-test-container-to-GPR:
     runs-on: ubuntu-latest
