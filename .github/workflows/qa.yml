@@ -2,6 +2,8 @@ name: que-vemos QA
 on:
   push:
     branches: [master]
+env:
+  TEST_IMAGE_PATH: ghcr.io/alexmenor/que-vemos-test-env:latest
 
 jobs:
   lint:
@@ -42,9 +44,7 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.CR_PAT }}
       - name: Push
-        run: docker build -t $IMAGE_PATH . && docker push $IMAGE_PATH
-        env:
-          IMAGE_PATH: ghcr.io/alexmenor/que-vemos-test-env:latest
+        run: docker build -t $IMAGE_PATH . && docker push $TEST_IMAGE_PATH
 
   test:
     runs-on: ubuntu-latest
@@ -58,6 +58,4 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.CR_PAT }}
       - uses: actions/checkout@v2
-      - run: docker run -t -v `pwd`:/test $IMAGE_PATH
-        env:
-          IMAGE_PATH: ghcr.io/alexmenor/que-vemos-test-env:latest
+      - run: docker run -t -v `pwd`:/test $TEST_IMAGE_PATH
