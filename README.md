@@ -71,7 +71,23 @@ Una pega que le pongo a este Dockerfile, es el no poder utilizar Poetry para eje
 
 [Dockerfile](./Dockerfile)
 
+### Integración continua
+
+He configurado la publicación automática en dos registros de imágenes de contenedores: Docker Hub y Github Container Registry.
+
 ![Docker hub](docs/img/docker-hub.png)
+![ghcr](docs/img/ghcr.png)
+
+En cuanto a tiempo de construcción, en las pruebas que he hecho Github es más rápido. Este tarda en torno a 1 minuto, Docker Hub tarda unos 2 minutos.
+
+Para este último he configurado la publicación en Github Actions y los test que tenía ahora corren en esta imagen.
+Cuando vimos la explicación en clase, no sabía si de alguna forma podía evitar que un cambio en las dependencias o en el Dockerfile harían fallar los tests en ese commit.
+He conseguido evitarlo configurando una dependencia entre los tests y la construción de la imagen.
+
+Además, este proceso solo se hace si ha habido algún cambio en el Dockerfile o en las dependencias del proyecto, por lo que la construcción solo retrasa los test si es necesario.
+[Link al workflow](.github/workflows/qa.yml)
+
+Antes de correr los test en el contenedor, estos tardaban 27 segundos. Ahora tardan unos 13 segundos, lo cual es una mejora bastante grande, aunque al menos de momento insignificante.
 
 ## Comandos
 
