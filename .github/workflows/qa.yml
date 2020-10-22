@@ -35,10 +35,12 @@ jobs:
     if: needs.check-if-container-needs-rebuild.outputs.run_docker_build == 'true'
     steps:
       - uses: actions/checkout@v2
-      - name: Login Container Registry
-        run: echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin
-        env:
-          CR_PAT: ${{ secrets.CR_PAT }}
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.CR_PAT }}
       - name: Push
         run: docker build -t $IMAGE_PATH . && docker push $IMAGE_PATH
         env:
@@ -47,10 +49,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Login Container Registry
-        run: echo $CR_PAT | docker login ghcr.io -u USERNAME --password-stdin
-        env:
-          CR_PAT: ${{ secrets.CR_PAT }}
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.CR_PAT }}
       - uses: actions/checkout@v2
       - run: docker run -t -v `pwd`:/test $IMAGE_PATH
         env:
