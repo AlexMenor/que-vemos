@@ -91,7 +91,7 @@ He configurado la publicación automática en dos registros de imágenes de cont
 En cuanto a tiempo de construcción, en las pruebas que he hecho Github es más rápido. Este tarda en torno a 1 minuto, Docker Hub tarda unos 2 minutos.
 
 Para este último he configurado la publicación en Github Actions y los test que tenía ahora corren en esta imagen.
-Cuando vimos la explicación en clase, no sabía si de alguna forma podía evitar que un cambio en las dependencias o en el Dockerfile hagan fallar los tests en ese commit.
+No sabía si de alguna forma podía evitar que un cambio en las dependencias o en el Dockerfile hagan fallar los tests en ese commit (porque los tests de ese commit utilizarían la última imagen construida).
 He conseguido evitarlo configurando una dependencia entre los tests y la construcción de la imagen.
 
 Además, este proceso solo se hace si ha habido algún cambio en el Dockerfile o en las dependencias del proyecto, por lo que la construcción solo retrasa los test si es necesario.
