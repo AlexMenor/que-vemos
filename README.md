@@ -75,11 +75,13 @@ Una pega que le pongo a este Dockerfile, es el no poder utilizar Poetry para eje
 
 Estas son las pruebas que he hecho respecto a tiempo de construcción y tamaño de la imagen con las dos decisiones más importantes que he tenido que tomar: Imagen base y el usar o no multistage build.
 
+He decidido medir el tiempo de construcción porque como explico más adelante, en algunos casos voy a esperar a la reconstrucción del contenedor de tests para ejecutarlos. El tamaño de la imagen sin embargo, es lo más importante, pues los test necesitan descargarla en cada commit (en caso de que no esté en caché).
+
 | Imagen estándar          | Imagen delgada          | Imagen delgada + multistage build |
 | ------------------------ | ----------------------- | --------------------------------- |
 | 112.41 segundos y 927 MB | 39.87 segundos y 381 MB | 48.93 segundos y 134 MB           |
 
-Me he quedado con la última opción pesé a tardar algo más en construirse, ya que esta construcción solo se hará cuando cambien las dependencias del proyecto o el Dockerfile (como elaboro más abajo). Me parece en este caso más importante adelgazar la imagen final, pues la descarga de esta se hará en cada commit que haga en el proyecto.
+Me he quedado con la última opción pesé a tardar algo más en construirse, ya que esta construcción solo se hará cuando cambien las dependencias del proyecto o el Dockerfile (como elaboro más abajo). Me parece en este caso más importante adelgazar la imagen final, como he explicado antes.
 
 ### Integración continua
 
