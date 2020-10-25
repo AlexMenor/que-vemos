@@ -44,7 +44,7 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.CR_PAT }}
       - name: Push
-        run: docker build -t $IMAGE_PATH . && docker push $TEST_IMAGE_PATH
+        run: docker build -t $TEST_IMAGE_PATH . && docker push $TEST_IMAGE_PATH
 
   test:
     runs-on: ubuntu-latest
