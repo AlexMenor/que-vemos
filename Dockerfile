@@ -17,6 +17,10 @@ RUN poetry export -f requirements.txt --dev | /venv/bin/pip install -r /dev/stdi
 
 FROM base AS final
 
+RUN groupadd -r tests && useradd --no-log-init -r -g tests tests
+
+USER tests
+
 ENV PATH="/venv/bin:$PATH"
 
 COPY --from=builder /venv /venv
