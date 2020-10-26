@@ -30,7 +30,7 @@ jobs:
         with:
           fetch-depth: 2
       - id: check_files
-        run: git diff --name-only HEAD^ HEAD | grep -E "(Dockerfile|pyproject.toml)" && echo "::set-output name=run_docker_build::true" || echo "::set-output name=run_docker_build::false"
+        run: git diff --name-only HEAD^ HEAD | grep -E "(Dockerfile|pyproject.toml|qa.yml)" && echo "::set-output name=run_docker_build::true" || echo "::set-output name=run_docker_build::false"
 
   push-test-container-to-GPR:
     runs-on: ubuntu-latest
