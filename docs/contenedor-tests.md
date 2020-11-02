@@ -47,7 +47,7 @@ He decidido medir el tiempo de construcción porque como explico más adelante, 
 
 Me he quedado con la última opción pesé a tardar algo más en construirse, ya que esta construcción solo se hará cuando cambien las dependencias del proyecto o el Dockerfile (como elaboro más abajo). Me parece en este caso más importante adelgazar la imagen final, como he explicado antes.
 
-### Integración continua
+### Publicación automática
 
 He configurado la publicación automática en dos registros de imágenes de contenedores: Docker Hub y Github Container Registry.
 
