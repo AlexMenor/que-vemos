@@ -33,7 +33,7 @@ Finalmente, ya en la fase final, copio el `venv` de la fase anterior y lo añado
 
 Una pega que le pongo a este Dockerfile, es el no poder utilizar Poetry para ejecutar los tests. Si algún día decidiera cambiar a otra biblioteca de tests, tendría que cambiar a mano `CMD ["python", "-m", "pytest"]`, en vez de cambiarlo únicamente en `pyproject.toml`. Sin embargo, he decidido sacrificar eso a cambio de no aumentar la complejidad del Dockerfile y el tamaño de la imagen final.
 
-[Dockerfile](./Dockerfile)
+[Dockerfile](../Dockerfile)
 
 ### Pruebas
 
@@ -51,8 +51,8 @@ Me he quedado con la última opción pesé a tardar algo más en construirse, ya
 
 He configurado la publicación automática en dos registros de imágenes de contenedores: Docker Hub y Github Container Registry.
 
-![Docker hub](docs/img/docker-hub.png)
-![ghcr](docs/img/ghcr.png)
+![Docker hub](./img/docker-hub.png)
+![ghcr](./img/ghcr.png)
 
 En cuanto a tiempo de construcción, en las pruebas que he hecho Github es más rápido. Este tarda en torno a 1 minuto, Docker Hub tarda unos 2 minutos.
 
@@ -61,6 +61,6 @@ No sabía si de alguna forma podía evitar que un cambio en las dependencias o e
 He conseguido evitarlo configurando una dependencia entre los tests y la construcción de la imagen.
 
 Además, este proceso solo se hace si ha habido algún cambio en el Dockerfile o en las dependencias del proyecto, por lo que la construcción solo retrasa los test si es necesario.
-[Link al workflow](.github/workflows/qa.yml)
+[Link al workflow](../.github/workflows/qa.yml)
 
 Antes de correr los test en el contenedor, estos tardaban 27 segundos. Ahora tardan unos 13 segundos, lo cual es una mejora bastante grande, aunque al menos de momento insignificante.
