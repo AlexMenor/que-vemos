@@ -8,5 +8,4 @@ before_install:
 install:
   - poetry install
 
-test:
-  - poetry run task test
+script: poetry run task test
