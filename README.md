@@ -45,6 +45,8 @@ Es el servicio de integración continua adicional que estoy utilizando para corr
 
 En definitiva, he seguido las prácticas que he encontrado [aquí](https://github.com/python-poetry/poetry/issues/366) y se puede consultar el fichero resultante [aquí](.travis.yml).
 
+Ejecuto `poetry run task test` para correr los tests.
+
 ### CircleCI
 
 [![codecov](https://codecov.io/gh/AlexMenor/que-vemos/branch/master/graph/badge.svg?token=DGPWNVEISN)](https://codecov.io/gh/AlexMenor/que-vemos)
@@ -52,6 +54,8 @@ En definitiva, he seguido las prácticas que he encontrado [aquí](https://githu
 Por último, utilizo CircleCI para hacer los tests de cobertura recogidos en la [historia de usuario correspondiente](https://github.com/AlexMenor/que-vemos/issues/45). Para la visualización utilizo CodeCov.
 
 [Esta](.circleci/config.yml) es la configuración de CircleCI.
+
+Ejecuto `poetry run task cov` para generar informe de cobertura.
 
 ## Comandos
 
