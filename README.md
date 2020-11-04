@@ -91,6 +91,12 @@ Utilizo [pytest](https://docs.pytest.org/en/stable/):
 poetry run task test
 ```
 
+### Informe de cobertura
+
+```bash
+poetry run task cov
+```
+
 ## Documentación adicional
 
 - [Configuración de git](docs/configurando-git.md)
