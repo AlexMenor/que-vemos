@@ -20,6 +20,27 @@
 - **Fuente de datos de películas y series**: API externa, crawler o base de datos ya populada. En cualquier caso, tiene que estar "al día".
 - **Memoria de sesiones**: Cuando los usuarios interactúan con el servicio, en alguna parte se tienen que almacenar temporalmente estructuras de datos que representen las elecciones que están haciendo.
 
+## Integración continua
+
+### Github Actions
+
+Lo estoy utilizando para:
+
+- Lint del código: [La configuración de PyLint](.pylintrc) y [la configuración de la action](.github/workflows/qa.yml).
+- Construcción de la imagen que utilizo para testear, como explico [aquí](docs/contenedor-tests) solo se reconstruye si es necesario.
+- Tests aprovechando la imagen del paso anterior. Este paso es dependiente del anterior, si hace falta reconstruir la imagen, este "esperaría". La configuración es también [esta](.github/workflows/qa.yml).
+
+### Travis
+
+Es el servicio de integración continua adicional que estoy utilizando para correr los tests en varias versiones de Python.
+
+- He configurado 3.7, 3.8 y 3.9. La 3.6 no está porque _@dataclass_ no está disponible. Justifico su uso [aquí](docs/dataclass.md).
+- Además, usa una caché para no tener que recrear el entorno virtual de poetry:
+  - He configurado poetry para que no cree el entorno virtual en un directorio arbitrario: `poetry config virtualenvs.in-project true`.
+  - He cacheado el directorio `venv` que se crea en su lugar.
+
+En definitiva, he seguido las prácticas que he encontrado [aquí](https://github.com/python-poetry/poetry/issues/366) y se puede consultar el fichero resultante [aquí](.travis.yml).
+
 ## Comandos
 
 ### Instalación de dependencias
