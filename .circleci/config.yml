@@ -2,12 +2,15 @@ version: 2.1
 
 orbs:
   poetry: frameio/poetry@0.17.3
+  codecov: codecov/codecov@1.1.1
 
 workflows:
   ci:
     jobs:
       - poetry/install
       - poetry/shell:
-          args: task test
+          args: task cov
           requires:
             - poetry/install
+      - codecov/upload:
+          file: "coverage.xml"
