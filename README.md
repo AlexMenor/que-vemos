@@ -51,6 +51,8 @@ En definitiva, he seguido las prácticas que he encontrado [aquí](https://githu
 
 Por último, utilizo CircleCI para hacer los tests de cobertura recogidos en la [historia de usuario correspondiente](https://github.com/AlexMenor/que-vemos/issues/45). Para la visualización utilizo CodeCov.
 
+[Esta](.circleci/config.yml) es la configuración de CircleCI.
+
 ## Comandos
 
 ### Instalación de dependencias
