@@ -14,3 +14,5 @@ workflows:
             - poetry/install
       - codecov/upload:
           file: "coverage.xml"
+          requires:
+            - poetry/shell
