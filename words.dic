@@ -118,3 +118,5 @@ travis
 CircleCI
 codecov
 CodeCov
+SessionHandler
+UserPayload
