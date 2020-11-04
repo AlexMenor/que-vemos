@@ -24,6 +24,8 @@
 
 ### Github Actions
 
+![que-vemos gha](https://github.com/AlexMenor/que-vemos/workflows/que-vemos%20QA/badge.svg)
+
 Lo estoy utilizando para:
 
 - Lint del código: [La configuración de PyLint](.pylintrc) y [la configuración de la action](.github/workflows/qa.yml).
@@ -31,6 +33,8 @@ Lo estoy utilizando para:
 - Tests aprovechando la imagen del paso anterior. Este paso es dependiente del anterior, si hace falta reconstruir la imagen, este "esperaría". La configuración es también [esta](.github/workflows/qa.yml).
 
 ### Travis
+
+![que-vemos travis](https://travis-ci.com/AlexMenor/que-vemos.svg?branch=master)
 
 Es el servicio de integración continua adicional que estoy utilizando para correr los tests en varias versiones de Python.
 
