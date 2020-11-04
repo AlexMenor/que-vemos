@@ -4,7 +4,7 @@ orbs:
   poetry: frameio/poetry@0.17.3
 
 workflows:
-  ci:
+  codecov:
     jobs:
       - poetry/install
       - poetry/shell:
