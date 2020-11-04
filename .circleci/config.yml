@@ -12,7 +12,9 @@ workflows:
           args: task cov
           requires:
             - poetry/install
-      - codecov/upload:
-          file: "coverage.xml"
-          requires:
-            - poetry/shell
+      - upload:
+          steps:
+            - codecov/upload:
+              file: "coverage.xml"
+              requires:
+                - poetry/shell
