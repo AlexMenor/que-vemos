@@ -113,3 +113,8 @@ build
 PyLint
 Travis
 disponible
+gha
+travis
+CircleCI
+codecov
+CodeCov
