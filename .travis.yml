@@ -12,7 +12,7 @@ python:
 
 before_install:
   - pip install poetry
-  - poetry config settings.virtualenvs.in-project true
+  - poetry config virtualenvs.in-project true
 
 install:
   - poetry install
