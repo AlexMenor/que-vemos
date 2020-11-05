@@ -30,5 +30,6 @@ class SessionHandler:
     def __save_session(self, session: Session):
         self.__sessions[session.id] = session
 
+    @staticmethod
     def gen_random_id() -> str:
         return uuid.uuid4()
