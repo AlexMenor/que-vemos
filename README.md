@@ -29,7 +29,7 @@
 Lo estoy utilizando para:
 
 - Lint del código: [La configuración de PyLint](.pylintrc) y [la configuración de la action](.github/workflows/qa.yml).
-- Construcción de la imagen que utilizo para testear, como explico [aquí](docs/contenedor-tests) solo se reconstruye si es necesario.
+- Construcción de la imagen que utilizo para testear, como explico [aquí](docs/contenedor-tests.md) solo se reconstruye si es necesario.
 - Tests aprovechando la imagen del paso anterior. Este paso es dependiente del anterior, si hace falta reconstruir la imagen, este "esperaría". La configuración es también [esta](.github/workflows/qa.yml).
 
 ### Travis
