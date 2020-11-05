@@ -59,7 +59,7 @@ Ejecuto `poetry run task cov` para generar informe de cobertura.
 
 ## Avance de código
 
-Para este hito he avanzado el código para [la historia de usuario 2](https://github.com/AlexMenor/que-vemos/issues/14):
+He avanzado el código para [la historia de usuario 2](https://github.com/AlexMenor/que-vemos/issues/14):
 
 - [SessionHandler](app/session_handler.py) se encargará de administrar todas las sesiones de la aplicación.
 - [UserPayload](app/entities/user_payload.py) representa la información que necesita un usuario para votar a lo largo de la sesión.
