@@ -11,14 +11,11 @@ def session_handler():
     return SessionHandler(get_watchables)
 
 def test_init_session(session_handler: SessionHandler):
-    user_payload = session_handler.init_session()
+    session = session_handler.init_session()
 
-    assert user_payload.watchables[0] == get_watchables()[0]
+    assert session.watchables[0] == get_watchables()[0]
 
     sessions = session_handler._SessionHandler__sessions
 
-    assert user_payload.session_id in sessions
+    assert session.id in sessions
 
-    first_user = sessions[user_payload.session_id].get_users()[0]
-
-    assert user_payload.user_id == first_user.id

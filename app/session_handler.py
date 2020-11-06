@@ -15,16 +15,14 @@ class SessionHandler:
         self.__sessions = {}
         self.__get_watchables = get_watchables
 
-    def init_session(self) -> UserPayload:
+    def init_session(self) -> Session:
         session_id = SessionHandler.gen_random_id()
 
-        first_user = SessionHandler.__create_user()
-
-        session = Session(session_id, first_user, self.__get_watchables())
+        session = Session(session_id, self.__get_watchables())
 
         self.__save_session(session)
 
-        return UserPayload(first_user.id, session_id, session.watchables)
+        return session
 
     def join_user_to_session(self, session_id: str):
         if session_id not in self.__sessions:
