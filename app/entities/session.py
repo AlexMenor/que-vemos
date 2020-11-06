@@ -9,9 +9,9 @@ class Session:
     """ Contains users, the watchables they are choosing from and their choices """
 
     MAX_USERS_PER_SESSION = 8
-    def __init__(self, session_id: str, first_user: User, watchables: List[Watchable]):
+    def __init__(self, session_id: str, watchables: List[Watchable]):
         self.id = session_id
-        self.__users: List[User] = [first_user]
+        self.__users: List[User] = []
         self.watchables = watchables
         self.__votes = {}
 
