@@ -26,6 +26,17 @@ class SessionHandler:
 
         return UserPayload(first_user.id, session_id, session.watchables)
 
+    def join_user_to_session(self, session_id: str):
+        if session_id not in self.__sessions:
+            raise SessionNotFound
+
+        session = self.__sessions[session_id]
+
+        new_user = SessionHandler.__create_user()
+        session.add_user(new_user)
+
+        return UserPayload(new_user.id, session_id, session.watchables)
+
     def __save_session(self, session: Session):
         self.__sessions[session.id] = session
 
@@ -37,3 +48,10 @@ class SessionHandler:
     @staticmethod
     def gen_random_id() -> str:
         return uuid.uuid4()
+
+
+class SessionNotFound(Exception):
+    """ Exception raised when a Session is not found in this handler"""
+    def __init__(self):
+        self.message = "There is no session with such id"
+        super().__init__(self.message)
