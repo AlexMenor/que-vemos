@@ -24,7 +24,7 @@ class SessionHandler:
 
         return session
 
-    def join_user_to_session(self, session_id: str):
+    def join_user_to_session(self, session_id: str) -> UserPayload:
         if session_id not in self.__sessions:
             raise SessionNotFound
 
