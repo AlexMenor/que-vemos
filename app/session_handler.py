@@ -17,18 +17,22 @@ class SessionHandler:
 
     def init_session(self) -> UserPayload:
         session_id = SessionHandler.gen_random_id()
-        first_user_id = SessionHandler.gen_random_id()
 
-        first_user = User(first_user_id)
+        first_user = SessionHandler.__create_user()
 
         session = Session(session_id, first_user, self.__get_watchables())
 
         self.__save_session(session)
 
-        return UserPayload(first_user_id, session_id, session.watchables)
+        return UserPayload(first_user.id, session_id, session.watchables)
 
     def __save_session(self, session: Session):
         self.__sessions[session.id] = session
+
+    @staticmethod
+    def __create_user():
+        user_id = SessionHandler.gen_random_id()
+        return User(user_id)
 
     @staticmethod
     def gen_random_id() -> str:
