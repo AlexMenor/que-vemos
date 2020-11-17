@@ -15,11 +15,13 @@ pylint = "^2.6.0"
 pytest = "^6.1.1"
 taskipy = "^1.4.0"
 pytest-cov = "^2.10.1"
+mutmut = "^2.1.0"
 
 [tool.taskipy.tasks]
 test = 'pytest'
 cov = 'pytest --cov-report=xml --cov=app'
 lint = 'pylint app'
+mut = 'mutmut run --paths-to-mutate=app'
 
 [build-system]
 requires = ["poetry-core>=1.0.0a5"]
