@@ -4,7 +4,8 @@ orbs:
   poetry: frameio/poetry@0.17.3
 executors:
   python-3.8:
-    - image: circleci/python:3.8
+    docker:
+      - image: circleci/python:3.8
 
 workflows:
   codecov:
