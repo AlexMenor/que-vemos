@@ -29,7 +29,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "Refresh Bot"
           git add $SERIALIZED_DATA_PATH
-          git commit -m "Refresh data bot" `date +'%d/%m/%Y'`
+          git commit -m "Refresh data bot: "`date +'%d/%m/%Y'`
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
