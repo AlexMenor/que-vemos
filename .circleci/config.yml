@@ -13,7 +13,6 @@ workflows:
       - poetry/install:
           executor: python-tres-ocho
       - poetry/shell:
-          executor: python-tres-ocho
           args: task cov && bash <(curl -s https://codecov.io/bash)
           requires:
             - poetry/install
