@@ -3,7 +3,7 @@ version: 2.1
 orbs:
   poetry: frameio/poetry@0.17.3
 executors:
-  python-3.8:
+  python-tres-ocho:
     docker:
       - image: circleci/python:3.8
 
@@ -11,9 +11,9 @@ workflows:
   codecov:
     jobs:
       - poetry/install:
-          executor: python-3.8
+          executor: python-tres-ocho
       - poetry/shell:
-          executor: python-3.8
+          executor: python-tres-ocho
           args: task cov && bash <(curl -s https://codecov.io/bash)
           requires:
             - poetry/install
