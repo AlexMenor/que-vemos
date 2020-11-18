@@ -1,4 +1,7 @@
 # ¿Qué vemos?
+![que-vemos gha](https://github.com/AlexMenor/que-vemos/workflows/que-vemos%20QA/badge.svg)
+![que-vemos travis](https://travis-ci.com/AlexMenor/que-vemos.svg?branch=master)
+[![codecov](https://codecov.io/gh/AlexMenor/que-vemos/branch/master/graph/badge.svg?token=DGPWNVEISN)](https://codecov.io/gh/AlexMenor/que-vemos)
 
 <p align="center">
   <img width="500" height="500" src="docs/img/logo.png">
@@ -19,51 +22,6 @@
 - **Logging**: Para conocer mejor el uso que los usuarios hacen del servicio e identificar problemas.
 - **Fuente de datos de películas y series**: API externa, crawler o base de datos ya populada. En cualquier caso, tiene que estar "al día".
 - **Memoria de sesiones**: Cuando los usuarios interactúan con el servicio, en alguna parte se tienen que almacenar temporalmente estructuras de datos que representen las elecciones que están haciendo.
-
-## Integración continua
-
-### Github Actions
-
-![que-vemos gha](https://github.com/AlexMenor/que-vemos/workflows/que-vemos%20QA/badge.svg)
-
-Lo estoy utilizando para:
-
-- Lint del código: [La configuración de PyLint](.pylintrc) y [la configuración de la action](.github/workflows/qa.yml).
-- Construcción de la imagen que utilizo para testear, como explico [aquí](docs/contenedor-tests.md) solo se reconstruye si es necesario.
-- Tests aprovechando la imagen del paso anterior. Este paso es dependiente del anterior, si hace falta reconstruir la imagen, este "esperaría". La configuración es también [esta](.github/workflows/qa.yml).
-
-### Travis
-
-![que-vemos travis](https://travis-ci.com/AlexMenor/que-vemos.svg?branch=master)
-
-Es el servicio de integración continua adicional que estoy utilizando para correr los tests en varias versiones de Python.
-
-- He configurado 3.7, 3.8 y 3.9. Las tres forman parte de las [active releases de python](https://www.python.org/downloads/). La 2.7 y 3.6 no están porque _features_ como _@dataclass_ (justifico su uso [aquí](docs/dataclass.md)) o _async/await_ no están disponibles.
-- Además, usa una caché para no tener que recrear el entorno virtual de poetry:
-  - He configurado poetry para que no cree el entorno virtual en un directorio arbitrario: `poetry config virtualenvs.in-project true`.
-  - He cacheado el directorio `venv` que se crea en su lugar.
-
-He encontrado estas prácticas [aquí](https://github.com/python-poetry/poetry/issues/366) y se puede consultar el fichero resultante [aquí](.travis.yml).
-
-Ejecuto `poetry run task test` para correr los tests.
-
-### CircleCI
-
-[![codecov](https://codecov.io/gh/AlexMenor/que-vemos/branch/master/graph/badge.svg?token=DGPWNVEISN)](https://codecov.io/gh/AlexMenor/que-vemos)
-
-Por último, utilizo CircleCI para hacer los tests de cobertura recogidos en la [historia de usuario correspondiente](https://github.com/AlexMenor/que-vemos/issues/45). Para la visualización utilizo CodeCov.
-
-[Esta](.circleci/config.yml) es la configuración de CircleCI.
-
-Ejecuto `poetry run task cov` para generar informe de cobertura.
-
-## Avance de código
-
-He avanzado el código para [la historia de usuario 2](https://github.com/AlexMenor/que-vemos/issues/14):
-
-- [SessionHandler](app/session_handler.py) se encargará de administrar todas las sesiones de la aplicación.
-- [UserPayload](app/entities/user_payload.py) representa la información que necesita un usuario para votar a lo largo de la sesión.
-- [Estos](app/tests/test_session_handler.py) son los tests para la lógica de SessionHandler.
 
 ## Comandos
 
@@ -108,3 +66,4 @@ poetry run task cov
 - [Sobre el task runner, Poetry](docs/task-runner.md)
 - [¿Cómo se testea el proyecto?](docs/tests.md)
 - [Contenedor entorno de tests](docs/contenedor-tests.md)
+- [Integración continua](docs/integracion-continua.md)
