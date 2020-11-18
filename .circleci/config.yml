@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 jobs:
   codecov:
     docker:
@@ -16,3 +16,7 @@ jobs:
       - run:
           name: Upload coverage
           command: 'bash <(curl -s https://codecov.io/bash)'
+workflows:
+  main:
+    jobs:
+      - codecov
