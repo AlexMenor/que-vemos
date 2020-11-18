@@ -1,7 +1,5 @@
 name: Refresh serialized watchables
 on:
-  push:
-    branches: [master]
   schedule:
     - cron: "0 0 * * *"
 
