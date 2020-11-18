@@ -64,6 +64,8 @@ def main():
 
 
 if __name__ == '__main__':
+    if MOVIE_DB_API_KEY is None:
+        raise Exception('MOVIE_DB_API_KEY is needed')
     main()
 
 
