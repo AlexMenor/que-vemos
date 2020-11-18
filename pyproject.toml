@@ -22,6 +22,7 @@ test = 'pytest'
 cov = 'pytest --cov-report=xml --cov=app'
 lint = 'pylint app'
 mut = 'mutmut run --paths-to-mutate=app'
+refresh-data = 'python -m app.data.watchables_extractor'
 
 [build-system]
 requires = ["poetry-core>=1.0.0a5"]

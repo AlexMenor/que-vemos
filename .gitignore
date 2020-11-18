@@ -131,3 +131,5 @@ dmypy.json
 .idea
 
 .mutmut-cache
+
+serialized_data
