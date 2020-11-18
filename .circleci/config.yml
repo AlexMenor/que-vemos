@@ -2,12 +2,17 @@ version: 2.1
 
 orbs:
   poetry: frameio/poetry@0.17.3
+executors:
+  python-3.8:
+    - image: circleci/python:3.8
 
 workflows:
   codecov:
     jobs:
-      - poetry/install
+      - poetry/install:
+          executor: python-3.8
       - poetry/shell:
+          executor: python-3.8
           args: task cov && bash <(curl -s https://codecov.io/bash)
           requires:
             - poetry/install
