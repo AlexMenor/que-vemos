@@ -12,6 +12,8 @@ MOVIE_DB_PATH = "/3/trending/all/day?api_key={}".format(MOVIE_DB_API_KEY)
 
 MOVIE_DB_IMG_BASE_PATH = "https://image.tmdb.org/t/p/w500/"
 
+SERIALIZED_DATA_PATH = "./app/data/serialized_data"
+
 PAGES_TO_FETCH = 2
 
 connection = http.client.HTTPSConnection(MOVIE_DB_URL)
@@ -59,7 +61,7 @@ def main():
 
         all_watchables += list_of_watchables
 
-    with open('serialized_data', 'wb+') as file:
+    with open(SERIALIZED_DATA_PATH, 'wb+') as file:
         Pickler(file).dump(all_watchables)
 
 
