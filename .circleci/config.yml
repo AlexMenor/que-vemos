@@ -1,18 +1,18 @@
 version: 2.1
-
-orbs:
-  poetry: frameio/poetry@0.17.3
-executors:
-  python-tres-ocho:
+jobs:
+  codecov:
     docker:
       - image: circleci/python:3.8
-
-workflows:
-  codecov:
-    jobs:
-      - poetry/install:
-          executor: python-tres-ocho
-      - poetry/shell:
-          args: task cov && bash <(curl -s https://codecov.io/bash)
-          requires:
-            - poetry/install
+    steps:
+      - run:
+          name: Install poetry
+          command: 'pip install poetry'
+      - run:
+          name: Install project
+          command: 'poetry install'
+      - run:
+          name: Run coverage
+          command: 'poetry run task cov'
+      - run:
+          name: Upload coverage
+          command: 'bash <(curl -s https://codecov.io/bash)'
