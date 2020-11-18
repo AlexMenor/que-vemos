@@ -1,6 +1,6 @@
 from ..entities.user import User
 from ..entities.session import Session, NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
-from ..entities.watchable import Watchable
+from ..entities.watchable import Watchable, WatchableType
 
 import pytest
 
@@ -10,7 +10,7 @@ def user():
 
 @pytest.fixture
 def watchables():
-    watchable = Watchable("Narcos", "Se centra en la historia real de una peligrosa difusión y propagación de una red de cocaína por todo el mundo durante los años 70 y 80.", 2015)
+    watchable = Watchable("Narcos", "Se centra en la historia real de una peligrosa difusión y propagación de una red de cocaína por todo el mundo durante los años 70 y 80.", 2015, WatchableType.SERIES)
     return [watchable] 
 
 @pytest.fixture

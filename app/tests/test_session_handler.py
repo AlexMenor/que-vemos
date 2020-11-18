@@ -1,10 +1,10 @@
 import pytest
 from ..session_handler import SessionHandler, SessionNotFound
-from ..entities.watchable import Watchable
+from ..entities.watchable import Watchable, WatchableType
 
 def get_watchables():
-    watchable = Watchable("Narcos", "Se centra en la historia real de una peligrosa difusión y propagación de una red de cocaína por todo el mundo durante los años 70 y 80.", 2015)
-    return [watchable] 
+    watchable = Watchable("Narcos", "Se centra en la historia real de una peligrosa difusión y propagación de una red de cocaína por todo el mundo durante los años 70 y 80.", 2015, WatchableType.SERIES)
+    return [watchable]
 
 @pytest.fixture
 def session_handler():
