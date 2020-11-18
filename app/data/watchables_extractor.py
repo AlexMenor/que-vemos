@@ -1,11 +1,12 @@
 import http.client
 import json
+import os
 from .data_request_exception import DataRequestException
 from ..entities.watchable import Watchable, WatchableType
 from typing import List
 from pickle import Pickler
 
-MOVIE_DB_API_KEY = "6e4c923ce0b56983dbe23918da75b0de"
+MOVIE_DB_API_KEY = os.getenv('MOVIE_DB_API_KEY')
 MOVIE_DB_URL = "api.themoviedb.org"
 MOVIE_DB_PATH = "/3/trending/all/day?api_key={}".format(MOVIE_DB_API_KEY)
 
