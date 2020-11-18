@@ -4,6 +4,7 @@ jobs:
     docker:
       - image: circleci/python:3.8
     steps:
+      - checkout
       - run:
           name: Install poetry
           command: 'pip install poetry'
