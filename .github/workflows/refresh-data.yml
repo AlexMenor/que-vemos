@@ -6,7 +6,7 @@ on:
     - cron: "0 0 * * *"
 
 env:
-  SERIALIZED_DATA_PATH: /app/data/serialized_data
+  SERIALIZED_DATA_PATH: app/data/serialized_data
   MOVIE_DB_API_KEY: ${{ secrets.MOVIE_DB_API_KEY }}
 
 jobs:
