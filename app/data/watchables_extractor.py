@@ -12,7 +12,8 @@ MOVIE_DB_PATH = "/3/trending/all/day?api_key={}".format(MOVIE_DB_API_KEY)
 
 MOVIE_DB_IMG_BASE_PATH = "https://image.tmdb.org/t/p/w500/"
 
-SERIALIZED_DATA_PATH = "./app/data/serialized_data"
+PICKLE_SERIALIZED_DATA_PATH = "./app/data/serialized_data"
+JSON_SERIALIZED_DATA_PATH = "./app/serverless/serialized_data.json"
 
 PAGES_TO_FETCH = 2
 
@@ -61,8 +62,11 @@ def main():
 
         all_watchables += list_of_watchables
 
-    with open(SERIALIZED_DATA_PATH, 'wb+') as file:
-        Pickler(file).dump(all_watchables)
+    with open(PICKLE_SERIALIZED_DATA_PATH, 'wb+') as pickle_file:
+        Pickler(pickle_file).dump(all_watchables)
+
+    with open(JSON_SERIALIZED_DATA_PATH, 'wb+') as json_file:
+        json.dump(all_watchables, json_file, sort_keys=True, indent=4)
 
 
 if __name__ == '__main__':
