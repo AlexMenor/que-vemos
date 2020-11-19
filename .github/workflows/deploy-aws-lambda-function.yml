@@ -1,0 +1,18 @@
+name: deploy to lambda
+on: [push]
+jobs:
+  deploy_zip:
+    name: deploy lambda function
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout source code
+        uses: actions/checkout@v2
+      - name: make zip
+        run: zip -r deploy.zip app/serverless/get_trending_watchables.py app/data/serialized_data
+      - uses: yvesgurcan/deploy-lambda-function
+        with:
+          package: deploy.zip
+          function-name: get_trending_watchables
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_SECRET_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
