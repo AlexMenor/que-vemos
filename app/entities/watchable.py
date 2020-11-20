@@ -16,3 +16,4 @@ class Watchable:
     year: int
     type: WatchableType
     poster: Optional[str] = None
+    popularity: Optional[float] = None
