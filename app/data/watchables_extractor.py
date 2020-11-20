@@ -41,7 +41,7 @@ def parse_watchable(item):
         watchable_type = WatchableType.SERIES
         title = item['name']
 
-    return Watchable(title, item['overview'], year, watchable_type, MOVIE_DB_IMG_BASE_PATH + item['poster_path'])
+    return Watchable(title, item['overview'], year, watchable_type, MOVIE_DB_IMG_BASE_PATH + item['poster_path'], popularity=item['popularity'])
 
 def parse_list(list) -> List[Watchable]:
     result = []
