@@ -6,7 +6,7 @@ on:
 
 env:
   PICKLE_SERIALIZED_DATA_PATH: app/data/serialized_data
-  JSON_SERIALIZED_DATA_PATH: app/data/serialized_data
+  JSON_SERIALIZED_DATA_PATH: app/serverless/serialized_data.json
   MOVIE_DB_API_KEY: ${{ secrets.MOVIE_DB_API_KEY }}
 
 jobs:
