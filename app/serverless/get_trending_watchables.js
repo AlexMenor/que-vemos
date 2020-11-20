@@ -9,7 +9,7 @@ exports.handler = async function(event, context) {
         result = result.filter(watchable => watchable.type == type)
 
     if (search)
-        result = result.filter(({name, synopsis}) => name.includes(search) || synopsis.includes(search))
+        result = result.filter(({title, synopsis}) => title.includes(search) || synopsis.includes(search))
 
     return {
         statusCode: 200,
