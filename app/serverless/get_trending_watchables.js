@@ -8,14 +8,6 @@ const headers = {
 
 exports.handler = async function(event, context) {
 
-    if (event.httpMethod !== 'GET') {
-        // To enable CORS
-        return {
-            statusCode: 200,
-            headers,
-            body: 'This was not a GET request!'
-        };
-    }
     let result = watchables;
 
     const {type, search, orderBy} = event.queryStringParameters
@@ -38,6 +30,7 @@ exports.handler = async function(event, context) {
 
     return {
         statusCode: 200,
+        headers,
         body: JSON.stringify(result)
     };
 }
