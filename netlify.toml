@@ -6,7 +6,7 @@
   publish = "frontend/dist/"
 
   # Default build command.
-  command = "cd frontend && npm run build && cd .."
+  command = "cd frontend && npm i && npm run build && cd .."
 
   # Directory with the serverless functions, including background functions,
   # to deploy to AWS. This is relative to the base directory if one has been set, 
