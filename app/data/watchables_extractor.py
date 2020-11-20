@@ -19,6 +19,7 @@ PAGES_TO_FETCH = 2
 
 connection = http.client.HTTPSConnection(MOVIE_DB_URL)
 
+
 def fetch_data(page=1):
     connection.request("GET", MOVIE_DB_PATH + '&page={}'.format(page))
 
@@ -65,8 +66,8 @@ def main():
     with open(PICKLE_SERIALIZED_DATA_PATH, 'wb+') as pickle_file:
         Pickler(pickle_file).dump(all_watchables)
 
-    with open(JSON_SERIALIZED_DATA_PATH, 'wb+') as json_file:
-        json.dump(all_watchables, json_file, sort_keys=True, indent=4)
+    with open(JSON_SERIALIZED_DATA_PATH, 'w+') as json_file:
+        json.dump(all_watchables, json_file, sort_keys=True, indent=4, default=lambda o: o.__dict__)
 
 
 if __name__ == '__main__':

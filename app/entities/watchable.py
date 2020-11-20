@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from typing import Optional
 from enum import Enum
 
-class WatchableType(Enum):
+class WatchableType(str, Enum):
     MOVIE = 'MOVIE'
     SERIES = 'SERIES'
 
