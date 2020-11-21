@@ -26,48 +26,25 @@
       ></v-text-field>
       <v-btn @click="fetch" color="primary">Go</v-btn>
     </v-row>
-    <v-row align="center" justify="center">
-      <v-card
-        class="ma-4"
+    <v-row align="stretch" justify="center">
+      <watchable
         v-for="(watchable, i) in watchables"
         :key="i"
-        max-width="300"
-      >
-        <v-container fluid class="d-flex justify-space-between">
-          <v-chip>
-            {{ watchable.type }}
-          </v-chip>
-          <div>
-            {{ watchable.year }}
-          </div>
-        </v-container>
-        <v-card-title>{{ watchable.title }}</v-card-title>
-        <v-card-text class="watchable-body">
-          <p>
-            {{ watchable.synopsis }}
-          </p>
-          <v-img :src="watchable.poster"></v-img>
-        </v-card-text>
-        <v-container fluid class="d-flex justify-end align-center">
-          <div>
-            Popularity:
-          </div>
-          <v-chip class="ml-2" color="primary">
-            {{ watchable.popularity }}
-          </v-chip>
-        </v-container>
-      </v-card>
+        :watchable="watchable"
+      ></watchable>
     </v-row>
   </v-container>
 </template>
 
 <script>
 import axios from "axios";
+import Watchable from "@/components/Watchable.vue";
 
 const TRENDING_WATCHABLES_ENDPOINT =
   "https://amazing-villani-e2d732.netlify.app/.netlify/functions/get_trending_watchables";
 
 export default {
+  components: { Watchable },
   data() {
     return {
       watchables: [],
@@ -98,12 +75,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.watchable-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-</style>
