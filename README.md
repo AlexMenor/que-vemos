@@ -40,7 +40,7 @@ Además, he implementado [este frontend](https://amazing-villani-e2d732.netlify.
 
 ![frontend](docs/img/frontend.png)
 
-Mi intención es que esta función se llame cada vez que un usuario entre a la página, de esta forma lo primero que ve son unas cuantas películas y series entre las que decidir.
+Mi intención es que esta función se llame cada vez que un usuario entre a la página, de esta forma lo primero que ve son unas cuantas películas y series entre las que decidir. Incentivando que inicie una sesión con alguien. 
 Así, el microservicio que se implementará más adelante tiene menos carga y se dedica solamente a administrar las sesiones.
 
 ### Watchables Extractor
@@ -71,10 +71,10 @@ Antes de usar esta plataforma he probado:
 - Azure Functions: Soporta python y hubiera sido una ventaja para no tener que serializar los datos también en json, pero me daba un error 500 al usar su cli y no fui capaz de solucionarlo.
 - AWS Lambda: Mismas ventajas que azure. Utilicé una cuenta AWS Educate y no me permitió crear el bucket S3 necesario para alojar una función.
 - Google Cloud Functions: Siguiendo su guía de integración con repositorios de Github, me daba un error sin descripción que tampoco pude solucionar.
-- Vercel: Impone una estructura de proyecto determinada y quería que las funciones serverless tuvieran más cohesión con todo el proyecto.
+- Vercel: Impone una estructura de proyecto determinada y quería que las funciones serverless tuvieran más cohesión con todo el proyecto, estando en el mismo repositorio.
 
 ## Tests de mutación
-Como avance extra también he introducido los tests de mutación a mi proyecto. Complementan a los tests de cobertura para asegurar no solo que estamos haciendo tests, sino que estos son de calidad.
+Como avance extra también he introducido los tests de mutación a mi proyecto con [mutmut](https://github.com/boxed/mutmut). Complementan a los tests de cobertura para asegurar no solo que estamos haciendo tests, sino que estos son también de calidad.
 Se ejecutan con `poetry run task mut`.
 
 ## Comandos
