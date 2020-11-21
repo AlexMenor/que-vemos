@@ -28,7 +28,7 @@
 ### Get Trending Watchables
 La primera función que he implementado usando serverless corresponde a [HU8: Como usuario, quiero poder obtener una lista de películas y series para ver ejemplos de lo que puedo elegir en la aplicación. Filtrar por películas/series, ordenarlas, buscar, ...](https://github.com/AlexMenor/que-vemos/issues/53).
 
-Esta función la [he alojado en netilfy](https://amazing-villani-e2d732.netlify.app/.netlify/functions/get_trending_watchables
+Esta función la [he alojado en netlify](https://amazing-villani-e2d732.netlify.app/.netlify/functions/get_trending_watchables
 ) admite peticiones GET con los siguientes query parameters opcionales:
 - 'type': Permite filtrar por tipo (películas o series) 'MOVIE' o 'SERIES'.
 - 'search': Busca en las synopsis y títulos la cadena de caracteres proporcionada.
@@ -66,7 +66,7 @@ Esta función se usa también en el frontend.
 La función es [esta](app/serverless/send_feedback.js) y los tests son [estos](app/serverless/test/send_feedback.test.js).
 
 ### Despliegue
-El despliegue de estas funciones y el frontend lo he hecho en Netlify. Pese a que se puede hacer desde la UI, he configurado todo con [netilfy.toml.](netlify.toml)
+El despliegue de estas funciones y el frontend lo he hecho en Netlify. Pese a que se puede hacer desde la UI, he configurado todo con [netlify.toml.](netlify.toml)
 Antes de usar esta plataforma he probado:
 - Azure Functions: Soporta python y hubiera sido una ventaja para no tener que serializar los datos también en json, pero me daba un error 500 al usar su cli y no fui capaz de solucionarlo.
 - AWS Lambda: Mismas ventajas que azure. Utilicé una cuenta AWS Educate y no me permitió crear el bucket S3 necesario para alojar una función.
