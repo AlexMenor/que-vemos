@@ -61,13 +61,13 @@ export default {
     async send() {
       try {
         await axios.post(SEND_FEEDBACK_ENDPOINT, { feedback: this.text });
+        this.snackbarText = "Thanks!";
       } catch (err) {
         const { status } = err.response;
         if (status == "400")
           this.snackbarText = "Your feedback is not useful 😔";
         else this.snackbarText = "Ups... Something went wrong";
       }
-      this.snackbarText = "Thanks!";
       this.snackbar = true;
     },
   },
