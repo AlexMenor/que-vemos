@@ -3,6 +3,11 @@ const headers = require('./cors_headers')
 
 exports.handler = async function(event, context) {
 
+    if (event.httpMethod != 'GET')
+        return {
+            statusCode: 405
+        }
+
     let result = watchables;
 
     const {type, search, orderBy} = event.queryStringParameters
