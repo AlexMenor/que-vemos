@@ -6,6 +6,8 @@
         alt="que-vemos logo"
         max-width="200px"
       />
+      <v-spacer></v-spacer>
+      <feedback></feedback>
     </v-app-bar>
 
     <v-main style="background-color: #f2b987">
@@ -16,10 +18,11 @@
 
 <script>
 import TrendingWatchables from "@/components/TrendingWatchables.vue";
+import Feedback from "@/components/Feedback.vue";
 export default {
   name: "App",
 
-  components: { TrendingWatchables },
+  components: { TrendingWatchables, Feedback },
 
   data: () => ({
     //

@@ -4,6 +4,14 @@ const https = require('https');
 const CHANNEL_NAME = '@sugerenciasQueVemos'
 
 exports.handler = async function(event, context) {
+
+    if (event.httpMethod == 'OPTIONS')
+        return {
+            statusCode: 200,
+            headers
+        }
+
+
     let feedback
     try {
         feedback = JSON.parse(event.body).feedback
@@ -28,7 +36,7 @@ exports.handler = async function(event, context) {
     }
 
     return {
-        statusCode: 200,
+        statusCode: 201,
         body: JSON.stringify({msg:'Feedback sent'}),
         headers
     }
