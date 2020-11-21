@@ -52,6 +52,17 @@ No directamente relacionado con serverless pero esencial para que la función an
 
 El script [es este](app/data/watchables_extractor.py), los test son [estos](app/tests/test_watchables_extractor.py) y la github action es [esta](.github/workflows/refresh-data.yml).
 
+### Send Feedback
+La otra función que he implementado usando FaaS corresponde a [HU9: Como desarrollador, quiero que los usuarios puedan dar feedback fácilmente.](https://github.com/AlexMenor/que-vemos/issues/58)
+- Solo admite el método POST y devuelve un código 405 de lo contrario.
+- Solo admite un cuerpo con formato: `{"feedback":[string]}`, de lo contrario devuelve un código 400.
+- Hace un _profanity filter_ en inglés con el mensaje y devuelve 400 si es ofensivo.
+- Por último, usando la API de Telegram, envía el mensaje a través de un bot a [este canal](https://t.me/sugerenciasQueVemos).
+
+Esta función se usa también en el frontend.
+
+![feedback](docs/img/feedback.png)
+
 ## Comandos
 
 ### Instalación de dependencias
