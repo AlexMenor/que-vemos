@@ -65,6 +65,18 @@ Esta función se usa también en el frontend.
 
 La función es [esta](app/serverless/send_feedback.js) y los tests son [estos](app/serverless/test/send_feedback.test.js).
 
+### Despliegue
+El despliegue de estas funciones y el frontend lo he hecho en Netlify. Pese a que se puede hacer desde la UI, he configurado todo con [netilfy.toml.](netlify.toml)
+Antes de usar esta plataforma he probado:
+- Azure Functions: Soporta python y hubiera sido una ventaja para no tener que serializar los datos también en json, pero me daba un error 500 al usar su cli y no fui capaz de solucionarlo.
+- AWS Lambda: Mismas ventajas que azure. Utilicé una cuenta AWS Educate y no me permitió crear el bucket S3 necesario para alojar una función.
+- Google Cloud Functions: Siguiendo su guía de integración con repositorios de Github, me daba un error sin descripción que tampoco pude solucionar.
+- Vercel: Impone una estructura de proyecto determinada y quería que las funciones serverless tuvieran más cohesión con todo el proyecto.
+
+## Tests de mutación
+Como avance extra también he introducido los tests de mutación a mi proyecto. Complementan a los tests de cobertura para asegurar no solo que estamos haciendo tests, sino que estos son de calidad.
+Se ejecutan con `poetry run task mut`.
+
 ## Comandos
 
 ### Instalación de dependencias
@@ -95,6 +107,12 @@ poetry run task test
 
 ```bash
 poetry run task cov
+```
+
+### Tests de mutación
+
+```bash
+poetry run task mut
 ```
 
 ## Documentación adicional
