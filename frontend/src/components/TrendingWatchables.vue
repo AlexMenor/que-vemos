@@ -15,6 +15,8 @@
         <v-select
           v-model="orderField"
           :items="['popularity', 'year']"
+          outlined
+          placeholder="Select a field "
         ></v-select>
         <v-radio label="From low to high" value="ASC"></v-radio>
         <v-radio label="From high to low" value="DESC"></v-radio>
@@ -23,6 +25,7 @@
         placeholder="Search..."
         style="max-width:300px"
         v-model="search"
+        outlined
       ></v-text-field>
       <v-btn @click="fetch" color="primary">Go</v-btn>
     </v-row>
