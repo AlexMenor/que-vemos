@@ -1,5 +1,6 @@
 const headers = require('./cors_headers')
 const https = require('https');
+const badWords = require('./bad-words')
 
 const CHANNEL_NAME = '@sugerenciasQueVemos'
 
@@ -23,6 +24,13 @@ exports.handler = async function(event, context) {
             headers
         }
     }
+
+    if (isOffensive(feedback))
+        return {
+            statusCode:400,
+            body: JSON.stringify({msg:'Offensive feedback is not useful'}),
+            headers
+        }
 
     try{
         await sendMsgToTelegram(feedback)
@@ -52,5 +60,11 @@ function sendMsgToTelegram(msg){
                 resolve()
         });
     })
+}
+
+function isOffensive(msg){
+    const msgWords = msg.split(' ')
+
+    return msgWords.some(word => badWords.includes(word))
 }
 
