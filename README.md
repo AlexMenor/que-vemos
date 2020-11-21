@@ -63,6 +63,8 @@ Esta función se usa también en el frontend.
 
 ![feedback](docs/img/feedback.png)
 
+La función es [esta](app/serverless/send_feedback.js) y los tests son [estos](app/serverless/test/send_feedback.test.js).
+
 ## Comandos
 
 ### Instalación de dependencias
