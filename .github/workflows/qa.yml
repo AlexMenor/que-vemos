@@ -72,5 +72,5 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-          - run: npm i -g jest
-          - run: cd app/serverless/test && jest --config=jest-config.json
+      - run: npm i -g jest
+      - run: cd app/serverless/test && jest --config=jest-config.json
