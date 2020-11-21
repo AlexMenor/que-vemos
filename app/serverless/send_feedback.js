@@ -11,9 +11,13 @@ exports.handler = async function(event, context) {
             statusCode: 200,
             headers
         }
-
+    else if (event.httpMethod != 'POST')
+        return {
+            statusCode: 405
+        }
 
     let feedback
+
     try {
         feedback = JSON.parse(event.body).feedback
     }
