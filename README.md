@@ -47,7 +47,7 @@ Así, el microservicio que se implementará más adelante tiene menos carga y se
 No directamente relacionado con serverless pero esencial para que la función anterior funcione y obtener todas estas películas y series he implementado un script en Python que es ejecutado por una Github Action diariamente.
 - Obtiene los datos de [the movie db](https://www.themoviedb.org/). En concreto, las películas y series "trending" del día.
 - Los parsea para instanciar entidades de mi aplicación.
-- Los serializa con pickle en binario, pensado para que el microservicio los consuma, y en JSON para que las funciones serverless (que he escrito en JS) los utilicen.
+- Serializa las instancias con pickle en binario, pensado para que el microservicio los consuma, y en JSON para que las funciones serverless (que he escrito en JS) los utilicen.
 - Por último hace commit y push al repositorio.
 
 El script [es este](app/data/watchables_extractor.py), los test son [estos](app/tests/test_watchables_extractor.py) y la github action es [esta](.github/workflows/refresh-data.yml).
