@@ -1,3 +1,5 @@
+""" Defines DataRequestException """
+
 class DataRequestException(Exception):
     """ Exception raised when the data cant be obtained from the provider"""
 def __init__(self):

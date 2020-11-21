@@ -1,10 +1,12 @@
+""" Script to fetch and parse data from The Movie DB, instantiate application entities and serialized them"""
+
 import http.client
 import json
 import os
-from .data_request_exception import DataRequestException
-from ..entities.watchable import Watchable, WatchableType
 from typing import List
 from pickle import Pickler
+from .data_request_exception import DataRequestException
+from ..entities.watchable import Watchable, WatchableType
 
 MOVIE_DB_API_KEY = os.getenv('MOVIE_DB_API_KEY')
 MOVIE_DB_URL = "api.themoviedb.org"
@@ -31,8 +33,8 @@ def fetch_data(page=1):
     return json.load(res)
 
 def parse_watchable(item):
-    type = item['media_type']
-    if type == 'movie':
+    media_type = item['media_type']
+    if media_type == 'movie':
         year = item['release_date'].split('-')[0]
         watchable_type = WatchableType.MOVIE
         title = item['title']
@@ -43,9 +45,9 @@ def parse_watchable(item):
 
     return Watchable(title, item['overview'], year, watchable_type, MOVIE_DB_IMG_BASE_PATH + item['poster_path'], popularity=item['popularity'])
 
-def parse_list(list) -> List[Watchable]:
+def parse_list(item_list) -> List[Watchable]:
     result = []
-    for item in list:
+    for item in item_list:
         if item['media_type'] == 'tv' or item['media_type'] == 'movie':
             result.append(parse_watchable(item))
 
@@ -74,5 +76,3 @@ if __name__ == '__main__':
     if MOVIE_DB_API_KEY is None:
         raise Exception('MOVIE_DB_API_KEY is needed')
     main()
-
-

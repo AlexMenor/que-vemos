@@ -5,6 +5,7 @@ from typing import Optional
 from enum import Enum
 
 class WatchableType(str, Enum):
+    """ Represent the type of watchable """
     MOVIE = 'MOVIE'
     SERIES = 'SERIES'
 
