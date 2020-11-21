@@ -24,6 +24,25 @@
 - **Fuente de datos de películas y series**: API externa, crawler o base de datos ya populada. En cualquier caso, tiene que estar "al día".
 - **Memoria de sesiones**: Cuando los usuarios interactúan con el servicio, en alguna parte se tienen que almacenar temporalmente estructuras de datos que representen las elecciones que están haciendo.
 
+## Serverless
+### Get Trending Watchables
+La primera función que he implementado usando serverless corresponde a [HU8: Como usuario, quiero poder obtener una lista de películas y series para ver ejemplos de lo que puedo elegir en la aplicación. Filtrar por películas/series, ordenarlas, buscar, ...](https://github.com/AlexMenor/que-vemos/issues/53).
+
+Esta función la [he alojado en netilfy](https://amazing-villani-e2d732.netlify.app/.netlify/functions/get_trending_watchables
+) admite peticiones GET con los siguientes query parameters opcionales:
+- 'type': Permite filtrar por tipo (películas o series) 'MOVIE' o 'SERIES'.
+- 'search': Busca en las synopsis y títulos la cadena de caracteres proporcionada.
+- 'orderBy': Ordena en base al siguiente criterio. `[campo],[orden]`. En `campo` admite 'popularity' y 'year'. En `orden` admite 'DESC' y 'ASC'.
+
+[Esta](app/serverless/get_trending_watchables.js) es la función y [estos](app/serverless/test/trending_watchables.test.js) sus tests que se ejecutan automáticamente en [esta](.github/workflows/qa.yml) github action.
+
+Además, he implementado [este frontend](https://amazing-villani-e2d732.netlify.app/) que se puede ver en [su carpeta](frontend) del repositorio.
+
+![frontend](docs/img/frontend.png)
+
+Mi intención es que esta función se llame cada vez que un usuario entre a la página, de esta forma lo primero que ve son unas cuantas películas y series entre las que decidir.
+Así, el microservicio que se implementará más adelante tiene menos carga y se dedica solamente a administrar las sesiones.
+
 ## Comandos
 
 ### Instalación de dependencias

@@ -21,7 +21,7 @@ mutmut = "^2.1.0"
 test = 'pytest'
 cov = 'pytest --cov-report=xml --cov=app'
 lint = 'pylint app'
-mut = 'mutmut run --paths-to-mutate=app'
+mut = 'mutmut run --paths-to-mutate=app/ --paths-to-exclude=app/tests/ --tests-dir=app/tests/'
 refresh-data = 'python -m app.data.watchables_extractor'
 
 [build-system]
