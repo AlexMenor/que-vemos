@@ -30,6 +30,15 @@
           </v-btn>
         </v-card-actions>
       </v-card>
+      <v-snackbar v-model="snackbar">
+        {{ snackbarText }}
+
+        <template v-slot:action="{ attrs }">
+          <v-btn color="white" text v-bind="attrs" @click="snackbar = false">
+            Close
+          </v-btn>
+        </template>
+      </v-snackbar>
     </v-dialog>
   </div>
 </template>
@@ -44,11 +53,22 @@ export default {
     return {
       dialog: false,
       text: "",
+      snackbarText: "",
+      snackbar: false,
     };
   },
   methods: {
     async send() {
-      await axios.post(SEND_FEEDBACK_ENDPOINT, { feedback: this.text });
+      try {
+        await axios.post(SEND_FEEDBACK_ENDPOINT, { feedback: this.text });
+      } catch (err) {
+        const { status } = err.response;
+        if (status == "400")
+          this.snackbarText = "Your feedback is not useful 😔";
+        else this.snackbarText = "Ups... Something went wrong";
+      }
+      this.snackbarText = "Thanks!";
+      this.snackbar = true;
     },
   },
 };
