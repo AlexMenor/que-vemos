@@ -1,5 +1,11 @@
 <template>
-  <v-card class="ma-4 watchable" max-width="300">
+  <v-card
+    class="ma-4 watchable"
+    max-width="300"
+    raised
+    hover="true"
+    rounded="lg"
+  >
     <div>
       <v-container fluid class="d-flex justify-space-between">
         <v-chip>
