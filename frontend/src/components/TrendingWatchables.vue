@@ -29,7 +29,10 @@
       ></v-text-field>
       <v-btn @click="fetch" color="primary">Go</v-btn>
     </v-row>
-    <v-row align="stretch" justify="center">
+    <v-row v-if="loading" align="center" justify="center">
+      <v-progress-circular indeterminate color="primary"></v-progress-circular>
+    </v-row>
+    <v-row v-else align="stretch" justify="center">
       <watchable
         v-for="(watchable, i) in watchables"
         :key="i"
@@ -55,6 +58,7 @@ export default {
       orderField: null,
       type: undefined,
       search: undefined,
+      loading: true,
     };
   },
   async mounted() {
@@ -62,6 +66,7 @@ export default {
   },
   methods: {
     async fetch() {
+      this.loading = true;
       const params = {
         type: this.type,
         orderBy: this.orderField
@@ -74,6 +79,7 @@ export default {
       });
 
       this.watchables = data;
+      this.loading = false;
     },
   },
 };
