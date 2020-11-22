@@ -73,6 +73,9 @@ Antes de usar esta plataforma he probado:
 - Google Cloud Functions: Siguiendo su guía de integración con repositorios de Github, me daba un error sin descripción que tampoco pude solucionar.
 - Vercel: Impone una estructura de proyecto determinada y quería que las funciones serverless tuvieran más cohesión con todo el proyecto, estando en el mismo repositorio.
 
+Finalmente, para probar también otro servicio, he implementado ambas funciones en [un repositorio aparte](https://github.com/AlexMenor/firebase-functions-que-vemos) para Firebase.
+Se despliegan con [esta github action.](https://github.com/AlexMenor/firebase-functions-que-vemos/blob/master/.github/workflows/deploy.yml) 
+
 ## Tests de mutación
 Como avance extra también he introducido los tests de mutación a mi proyecto con [mutmut](https://github.com/boxed/mutmut). Complementan a los tests de cobertura para asegurar no solo que estamos haciendo tests, sino que estos son también de calidad.
 Se ejecutan con `poetry run task mut`.
