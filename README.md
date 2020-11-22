@@ -76,6 +76,9 @@ Antes de usar esta plataforma he probado:
 Finalmente, para probar también otro servicio, he implementado ambas funciones en [un repositorio aparte](https://github.com/AlexMenor/firebase-functions-que-vemos) para Firebase.
 Se despliegan con [esta github action.](https://github.com/AlexMenor/firebase-functions-que-vemos/blob/master/.github/workflows/deploy.yml) 
 
+[Esta es GetTrendingWatchables](https://us-central1-que-vemos.cloudfunctions.net/getTrendingWatchables) y [esta es SendFeedback.](https://us-central1-que-vemos.cloudfunctions.net/sendFeedback
+)
+
 ## Tests de mutación
 Como avance extra también he introducido los tests de mutación a mi proyecto con [mutmut](https://github.com/boxed/mutmut). Complementan a los tests de cobertura para asegurar no solo que estamos haciendo tests, sino que estos son también de calidad.
 Se ejecutan con `poetry run task mut`.
