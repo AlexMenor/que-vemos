@@ -63,7 +63,7 @@ Esta función se usa también en el frontend.
 
 ![feedback](docs/img/feedback.png)
 
-La función es [esta](app/serverless/send_feedback.js) y los tests son [estos](app/serverless/test/send_feedback.test.js).
+La función es [esta](app/serverless/send_feedback.js), los tests son [estos](app/serverless/test/send_feedback.test.js) y el despliegue está [aquí](https://amazing-villani-e2d732.netlify.app/.netlify/functions/send_feedback).
 
 ### Despliegue
 El despliegue de estas funciones y el frontend lo he hecho en Netlify. Pese a que se puede hacer desde la UI, he configurado todo con [netlify.toml.](netlify.toml)
