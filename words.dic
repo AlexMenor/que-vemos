@@ -181,3 +181,9 @@ us
 cloudfunctions
 net
 sendFeedback
+method
+not
+allowed
+bad
+request
+configurable
