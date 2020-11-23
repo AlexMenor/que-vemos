@@ -54,8 +54,8 @@ El script [es este](app/data/watchables_extractor.py), los test son [estos](app/
 
 ### Send Feedback
 La otra función que he implementado usando FaaS corresponde a [HU9: Como desarrollador, quiero que los usuarios puedan dar feedback fácilmente.](https://github.com/AlexMenor/que-vemos/issues/58)
-- Solo admite el método POST y devuelve un código 405 de lo contrario.
-- Solo admite un cuerpo con formato: `{"feedback":[string]}`, de lo contrario devuelve un código 400.
+- Solo admite el método POST y devuelve un código 405 (method not allowed) de lo contrario.
+- Solo admite un cuerpo con formato: `{"feedback":[string]}`, de lo contrario devuelve un código 400 (bad request).
 - Hace un _profanity filter_ en inglés con el mensaje y devuelve 400 si es ofensivo.
 - Por último, usando la API de Telegram, envía el mensaje a través de un bot a [este canal](https://t.me/sugerenciasQueVemos).
 
@@ -66,12 +66,7 @@ Esta función se usa también en el frontend.
 La función es [esta](app/serverless/send_feedback.js), los tests son [estos](app/serverless/test/send_feedback.test.js) y el despliegue está [aquí](https://amazing-villani-e2d732.netlify.app/.netlify/functions/send_feedback).
 
 ### Despliegue
-El despliegue de estas funciones y el frontend lo he hecho en Netlify. Pese a que se puede hacer desde la UI, he configurado todo con [netlify.toml.](netlify.toml)
-Antes de usar esta plataforma he probado:
-- Azure Functions: Soporta python y hubiera sido una ventaja para no tener que serializar los datos también en json, pero me daba un error 500 al usar su cli y no fui capaz de solucionarlo.
-- AWS Lambda: Mismas ventajas que azure. Utilicé una cuenta AWS Educate y no me permitió crear el bucket S3 necesario para alojar una función.
-- Google Cloud Functions: Siguiendo su guía de integración con repositorios de Github, me daba un error sin descripción que tampoco pude solucionar.
-- Vercel: Impone una estructura de proyecto determinada y quería que las funciones serverless tuvieran más cohesión con todo el proyecto, estando en el mismo repositorio.
+El despliegue de estas funciones y el frontend lo he hecho en Netlify. Pese a que se puede hacer desde la UI, he configurado todo en [netlify.toml.](netlify.toml)
 
 Finalmente, para probar también otro servicio, he implementado ambas funciones en [un repositorio aparte](https://github.com/AlexMenor/firebase-functions-que-vemos) para Firebase.
 Se despliegan con [esta github action.](https://github.com/AlexMenor/firebase-functions-que-vemos/blob/master/.github/workflows/deploy.yml) 
