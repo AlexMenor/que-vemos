@@ -68,6 +68,8 @@ La función es [esta](app/serverless/send_feedback.js), los tests son [estos](ap
 ### Despliegue
 El despliegue de estas funciones y el frontend lo he hecho en Netlify. Pese a que se puede hacer desde la UI, he configurado todo en [netlify.toml.](netlify.toml)
 
+He utilizado este servicio porque es un término medio entre cómodo y configurable. Me ha permitido incorporarlo a la estructura que ya tenía del proyecto con bastante facilidad, además del frontend. 
+
 Finalmente, para probar también otro servicio, he implementado ambas funciones en [un repositorio aparte](https://github.com/AlexMenor/firebase-functions-que-vemos) para Firebase.
 Se despliegan con [esta github action.](https://github.com/AlexMenor/firebase-functions-que-vemos/blob/master/.github/workflows/deploy.yml) 
 
