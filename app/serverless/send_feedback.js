@@ -1,8 +1,12 @@
-const headers = require('./cors_headers')
 const https = require('https');
 const badWords = require('./bad-words')
 
 const CHANNEL_NAME = '@sugerenciasQueVemos'
+
+const headers = {
+    'Access-Control-Allow-Origin': '*',
+    'Content-Type': 'application/json; charset=UTF-8'
+}
 
 exports.handler = async function(event, context) {
 

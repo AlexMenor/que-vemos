@@ -1,5 +1,9 @@
 const watchables = require('./serialized_data.json')
-const headers = require('./cors_headers')
+
+const headers = {
+    'Access-Control-Allow-Origin': '*',
+    'Content-Type': 'application/json; charset=UTF-8'
+}
 
 exports.handler = async function(event, context) {
 
