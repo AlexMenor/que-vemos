@@ -35,11 +35,17 @@ def fetch_data(page=1):
 def parse_watchable(item):
     media_type = item['media_type']
     if media_type == 'movie':
-        year = item['release_date'].split('-')[0]
+        if 'release_date' in item:
+            year = item['release_date'].split('-')[0]
+        else:
+            year = None
         watchable_type = WatchableType.MOVIE
         title = item['title']
     else:
-        year = item['first_air_date'].split('-')[0]
+        if 'first_air_date' in item:
+            year = item['first_air_date'].split('-')[0]
+        else:
+            year = None
         watchable_type = WatchableType.SERIES
         title = item['name']
 
