@@ -25,6 +25,9 @@
 - **Memoria de sesiones**: Cuando los usuarios interactúan con el servicio, en alguna parte se tienen que almacenar temporalmente estructuras de datos que representen las elecciones que están haciendo.
 
 ## Serverless
+### Integración en el proyecto
+Las funciones que he implementado para despliegue FaaS no son un prototipo del microservicio sino que responden a historias de usuario y serán útiles en el proyecto. Por eso, he creado [una carpeta](app/serverless) en `app` junto al resto del código para estas funciones y sus tests.
+Más adelante explico el despliegue de esta parte.
 ### Get Trending Watchables
 La primera función que he implementado usando serverless corresponde a [HU8: Como usuario, quiero poder obtener una lista de películas y series para ver ejemplos de lo que puedo elegir en la aplicación. Filtrar por películas/series, ordenarlas, buscar, ...](https://github.com/AlexMenor/que-vemos/issues/53).
 
@@ -66,7 +69,7 @@ Esta función se usa también en el frontend.
 La función es [esta](app/serverless/send_feedback.js), los tests son [estos](app/serverless/test/send_feedback.test.js) y el despliegue está [aquí](https://amazing-villani-e2d732.netlify.app/.netlify/functions/send_feedback).
 
 ### Despliegue
-El despliegue de estas funciones y el frontend lo he hecho en Netlify. Pese a que se puede hacer desde la UI, he configurado todo en [netlify.toml.](netlify.toml)
+El despliegue de estas funciones y el frontend lo he hecho en Netlify. Pese a que se puede hacer desde la UI, he configurado todo en [netlify.toml.](netlify.toml) En él especifico el directorio en el que implemento las funciones serverless, el directorio del frontend y las instrucciones de construcción.
 
 He utilizado este servicio porque es un término medio entre cómodo y configurable. Me ha permitido incorporarlo a la estructura que ya tenía del proyecto con bastante facilidad, además del frontend. 
 
