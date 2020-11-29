@@ -1,6 +1,14 @@
 [
     {
-        "popularity": 66.777,
+        "popularity": 129.568,
+        "poster": "https://image.tmdb.org/t/p/w500//k68nPLbIST6NP96JmTxmZijEvCA.jpg",
+        "synopsis": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+        "title": "Tenet",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 93.488,
         "poster": "https://image.tmdb.org/t/p/w500//8QKWOuEZk77ey7oA1Ul3e3xm4KY.jpg",
         "synopsis": "Kate Pierce is reluctantly spending Christmas with her mom\u2019s new boyfriend and his son Jack. But when the North Pole and Christmas are threatened to be destroyed, Kate and Jack are unexpectedly pulled into a new adventure with Santa Claus.",
         "title": "The Christmas Chronicles: Part Two",
@@ -8,7 +16,7 @@
         "year": "2020"
     },
     {
-        "popularity": 2116.174,
+        "popularity": 2674.144,
         "poster": "https://image.tmdb.org/t/p/w500//sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
         "synopsis": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
         "title": "The Mandalorian",
@@ -16,15 +24,7 @@
         "year": "2019"
     },
     {
-        "popularity": 7.116,
-        "poster": "https://image.tmdb.org/t/p/w500//yVsrDK8KOuFwSCvTGsn2lX7srEn.jpg",
-        "synopsis": "When ISIS took their homes, families and city, one group of men fought to take it all back. Based on true events, this is the story of the Nineveh SWAT team, a renegade police unit who waged a guerrilla operation against ISIS in a desperate struggle to save their home city of Mosul.",
-        "title": "Mosul",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 39.974,
+        "popularity": 55.964,
         "poster": "https://image.tmdb.org/t/p/w500//su6XRWgHDyg3fosiXdodCHFfZwu.jpg",
         "synopsis": "Born free in the American West, Black Beauty is a horse rounded up and brought to Birtwick Stables, where she meets spirited teenager Jo Green. The two forge a bond that carries Beauty through the different chapters, challenges and adventures.",
         "title": "Black Beauty",
@@ -32,15 +32,31 @@
         "year": "2020"
     },
     {
-        "popularity": 45.905,
-        "poster": "https://image.tmdb.org/t/p/w500//aA0D6DKIfLtXYNy94Qq2IW5NiGR.jpg",
-        "synopsis": "An urgent phone call pulls a Yale Law student back to his Ohio hometown, where he reflects on three generations of family history and his own future.",
-        "title": "Hillbilly Elegy",
+        "popularity": 9.895,
+        "poster": "https://image.tmdb.org/t/p/w500//4FSW7PgPkPRPCm0GnAuDHUb2uvJ.jpg",
+        "synopsis": "After the strange death of his young son at their new home, Daniel hears a ghostly plea for help, spurring him to seek out a renowned paranormal expert.",
+        "title": "Don't Listen",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 15.317,
+        "popularity": 9.962,
+        "poster": "https://image.tmdb.org/t/p/w500//jRg6yOz3zXxszEqaOrAOgi3Gy32.jpg",
+        "synopsis": "When ISIS took their homes, families and city, one group of men fought to take it all back. Based on true events, this is the story of the Nineveh SWAT team, a renegade police unit who waged a guerrilla operation against ISIS in a desperate struggle to save their home city of Mosul.",
+        "title": "Mosul",
+        "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 31.462,
+        "poster": "https://image.tmdb.org/t/p/w500//iik8EaTX1ElExuZLfHKBi4dl9Zh.jpg",
+        "synopsis": "To rescue his daughter, an unstable Special Forces veteran unleashes his inner beast as he pursues her kidnappers \u2014 and soon becomes a suspect himself.",
+        "title": "The Beast",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 21.444,
         "poster": "https://image.tmdb.org/t/p/w500//9QjaS6M5oR0tg9almf7odQW4Vi7.jpg",
         "synopsis": "A retired special forces officer is trapped in a never-ending time loop on the day of his death.",
         "title": "Boss Level",
@@ -48,39 +64,7 @@
         "year": "2020"
     },
     {
-        "popularity": 18.381,
-        "poster": "https://image.tmdb.org/t/p/w500//u3yozs3oGY0ubwf4cKQKOMWqNx3.jpg",
-        "synopsis": "In 1973, when Frank Bledsoe and his 18-year-old niece Beth take a road trip from Manhattan to Creekville, South Carolina for the family patriarch's funeral, they're unexpectedly joined by Frank's lover Walid.",
-        "title": "Uncle Frank",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 22.473,
-        "poster": "https://image.tmdb.org/t/p/w500//lgmviKEWxPpfXS1cbZGd42Gixrx.jpg",
-        "synopsis": "To rescue his daughter, an unstable Special Forces veteran unleashes his inner beast as he pursues her kidnappers \u2014 and soon becomes a suspect himself.",
-        "title": "The Beast",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 7.068,
-        "poster": "https://image.tmdb.org/t/p/w500//ffdPUteSePSqJEhKJKwgSIWumC2.jpg",
-        "synopsis": "After the strange death of his young son at their new home, Daniel hears a ghostly plea for help, spurring him to seek out a renowned paranormal expert.",
-        "title": "Don't Listen",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 94.079,
-        "poster": "https://image.tmdb.org/t/p/w500//yBZu9MOX38NCshVkHK57GkOps8S.jpg",
-        "synopsis": "Following the loss of their son, a retired sheriff and his wife leave their Montana ranch to rescue their young grandson from the clutches of a dangerous family living off the grid in the Dakotas.",
-        "title": "Let Him Go",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 103.918,
+        "popularity": 145.485,
         "poster": "https://image.tmdb.org/t/p/w500//vzec9kkOSE93tygyfOktedkeOQ.jpg",
         "synopsis": "A young woman's plans to propose to her girlfriend while at her family's annual holiday party are upended when she discovers her partner hasn't yet come out to her conservative parents.",
         "title": "Happiest Season",
@@ -88,7 +72,23 @@
         "year": "2020"
     },
     {
-        "popularity": 67.379,
+        "popularity": 25.733,
+        "poster": "https://image.tmdb.org/t/p/w500//u3yozs3oGY0ubwf4cKQKOMWqNx3.jpg",
+        "synopsis": "In 1973, when Frank Bledsoe and his 18-year-old niece Beth take a road trip from Manhattan to Creekville, South Carolina for the family patriarch's funeral, they're unexpectedly joined by Frank's lover Walid.",
+        "title": "Uncle Frank",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 64.267,
+        "poster": "https://image.tmdb.org/t/p/w500//aA0D6DKIfLtXYNy94Qq2IW5NiGR.jpg",
+        "synopsis": "An urgent phone call pulls a Yale Law student back to his Ohio hometown, where he reflects on three generations of family history and his own future.",
+        "title": "Hillbilly Elegy",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 94.331,
         "poster": "https://image.tmdb.org/t/p/w500//podzoGfamoxObotrMMoH2WIc8nj.jpg",
         "synopsis": "When an all-powerful Superintelligence chooses to study the most average person on Earth, Carol Peters, the fate of the world hangs in the balance. As the A.I. decides to enslave, save or destroy humanity, it\u2019s up to Carol to prove that people are worth saving.",
         "title": "Superintelligence",
@@ -96,15 +96,15 @@
         "year": "2020"
     },
     {
-        "popularity": 462.092,
-        "poster": "https://image.tmdb.org/t/p/w500//xrI4EnZWftpo1B7tTvlMUXVOikd.jpg",
-        "synopsis": "Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves.",
-        "title": "The New Mutants",
+        "popularity": 131.711,
+        "poster": "https://image.tmdb.org/t/p/w500//yBZu9MOX38NCshVkHK57GkOps8S.jpg",
+        "synopsis": "Following the loss of their son, a retired sheriff and his wife leave their Montana ranch to rescue their young grandson from the clutches of a dangerous family living off the grid in the Dakotas.",
+        "title": "Let Him Go",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 810.626,
+        "popularity": 778.445,
         "poster": "https://image.tmdb.org/t/p/w500//bNo2mcvSwIvnx8K6y1euAc1TLVq.jpg",
         "synopsis": "John Garrity, his estranged wife and their young son embark on a perilous journey to find sanctuary as a planet-killing comet hurtles toward Earth. Amid terrifying accounts of cities getting levelled, the Garrity's experience the best and worst in humanity. As the countdown to the global apocalypse approaches zero, their incredible trek culminates in a desperate and last-minute flight to a possible safe haven.",
         "title": "Greenland",
@@ -112,7 +112,23 @@
         "year": "2020"
     },
     {
-        "popularity": 117.364,
+        "popularity": 450.11,
+        "poster": "https://image.tmdb.org/t/p/w500//xrI4EnZWftpo1B7tTvlMUXVOikd.jpg",
+        "synopsis": "Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves.",
+        "title": "The New Mutants",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 37.481,
+        "poster": "https://image.tmdb.org/t/p/w500//22olUUiyt5CHWZUgATipg4N9wbn.jpg",
+        "synopsis": "When 28-year-old Seo-yeon gets a call from a woman named Young-sook asking for her friend. Seo-yeon hangs up thinking the woman has the wrong number, but later learns that the call was coming from the same house 20 years ago.",
+        "title": "The Call",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 91.998,
         "poster": "https://image.tmdb.org/t/p/w500//8azUzeNTqdHlSjkc12A5s6fpS6P.jpg",
         "synopsis": "Flight attendant Cassandra Bowden wakes in her hotel room hungover from the night before in Dubai with a dead body lying next to her. Afraid to call the police, she continues her morning as if nothing happened. In New York, she is met by FBI agents who question her about her recent layover in Dubai. Still unable to piece the night together, she begins to wonder if she could be the killer.",
         "title": "The Flight Attendant",
@@ -120,7 +136,7 @@
         "year": "2020"
     },
     {
-        "popularity": 257.568,
+        "popularity": 360.595,
         "poster": "https://image.tmdb.org/t/p/w500//4n8QNNdk4BOX9Dslfbz5Dy6j1HK.jpg",
         "synopsis": "A rowdy, unorthodox Santa Claus is fighting to save his declining business. Meanwhile, Billy, a neglected and precocious 12 year old, hires a hit man to kill Santa after receiving a lump of coal in his stocking.",
         "title": "Fatman",
@@ -128,15 +144,7 @@
         "year": "2020"
     },
     {
-        "popularity": 119.805,
-        "poster": "https://image.tmdb.org/t/p/w500//mtDYMa2inpJjxq2DjELPXbtf02v.jpg",
-        "synopsis": "Chloe, a teenager who is confined to a wheelchair, is homeschooled by her mother, Diane. Chloe soon becomes suspicious of her mother and begins to suspect that she may be harboring a dark secret.",
-        "title": "Run",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 89.842,
+        "popularity": 125.779,
         "poster": "https://image.tmdb.org/t/p/w500//jSm9HdxUy9PpsJt0mVAQ0y7gbDJ.jpg",
         "synopsis": "After seeing an ad for a midwife, a recently divorced big-city nurse moves to the redwood forests of California, where she meets an intriguing man.",
         "title": "Virgin River",
@@ -144,23 +152,23 @@
         "year": "2019"
     },
     {
-        "popularity": 89.827,
-        "poster": "https://image.tmdb.org/t/p/w500//5Il2EMSF2KecrUKZPuen6BZmaCP.jpg",
-        "synopsis": "Siblings Kate and Teddy try to prove Santa Claus is real, but when they accidentally cause his sleigh to crash, they have to save Christmas.",
-        "title": "The Christmas Chronicles",
+        "popularity": 99.93,
+        "poster": "https://image.tmdb.org/t/p/w500//mtDYMa2inpJjxq2DjELPXbtf02v.jpg",
+        "synopsis": "Chloe, a teenager who is confined to a wheelchair, is homeschooled by her mother, Diane. Chloe soon becomes suspicious of her mother and begins to suspect that she may be harboring a dark secret.",
+        "title": "Run",
         "type": "MOVIE",
-        "year": "2018"
-    },
-    {
-        "popularity": 476.348,
-        "poster": "https://image.tmdb.org/t/p/w500//zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg",
-        "synopsis": "In a Kentucky orphanage in the 1950s, a young girl discovers an astonishing talent for chess while struggling with addiction.",
-        "title": "The Queen's Gambit",
-        "type": "SERIES",
         "year": "2020"
     },
     {
-        "popularity": 10.958,
+        "popularity": 15.295,
+        "poster": "https://image.tmdb.org/t/p/w500//6T81pMlU7x0nOGbvXv1RsM4UbDt.jpg",
+        "synopsis": "A 17 year old finds out that his girlfriend is dying, so he sets out to give her an entire life, in the last year she has left.",
+        "title": "Life in a Year",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 15.341,
         "poster": "https://image.tmdb.org/t/p/w500//tkcWVz2qOaOmEfcRpei2MmnCSfP.jpg",
         "synopsis": "The gritty, thrilling story of local militias and uneasy allies who banded together to liberate Iraq's second-largest city of 1.3 million people from ISIS in 2017.",
         "title": "Mosul",
@@ -168,23 +176,7 @@
         "year": "2019"
     },
     {
-        "popularity": 125.013,
-        "poster": "https://image.tmdb.org/t/p/w500//98RYSYsRNKWgrAAFBn0WfploUG7.jpg",
-        "synopsis": "Follow the voyages of Starfleet on their missions to discover new worlds and new life forms, and one Starfleet officer who must learn that to truly understand all things alien, you must first understand yourself.",
-        "title": "Star Trek: Discovery",
-        "type": "SERIES",
-        "year": "2017"
-    },
-    {
-        "popularity": 26.772,
-        "poster": "https://image.tmdb.org/t/p/w500//22olUUiyt5CHWZUgATipg4N9wbn.jpg",
-        "synopsis": "When 28-year-old Seo-yeon gets a call from a woman named Young-sook asking for her friend. Seo-yeon hangs up thinking the woman has the wrong number, but later learns that the call was coming from the same house 20 years ago.",
-        "title": "Call",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 14.453,
+        "popularity": 20.234,
         "poster": "https://image.tmdb.org/t/p/w500//iKmykghTmvQj6zum79TsdUL5mPF.jpg",
         "synopsis": "In the fall of 1987, a group of small-town friends must survive the night in the home of a sinister couple after a tragic accident occurs. Needing only to make a single phone call, the request seems horribly ordinary until they realize that this call could change their life\u2026or end it.",
         "title": "The Call",
@@ -192,71 +184,23 @@
         "year": "2020"
     },
     {
-        "popularity": 10.925,
-        "poster": "https://image.tmdb.org/t/p/w500//6T81pMlU7x0nOGbvXv1RsM4UbDt.jpg",
-        "synopsis": "A 17 year old finds out that his girlfriend is dying, so he sets out to give her an entire life, in the last year she has left.",
-        "title": "Life in a Year",
+        "popularity": 519.553,
+        "poster": "https://image.tmdb.org/t/p/w500//zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg",
+        "synopsis": "In a Kentucky orphanage in the 1950s, a young girl discovers an astonishing talent for chess while struggling with addiction.",
+        "title": "The Queen's Gambit",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 125.758,
+        "poster": "https://image.tmdb.org/t/p/w500//5Il2EMSF2KecrUKZPuen6BZmaCP.jpg",
+        "synopsis": "Siblings Kate and Teddy try to prove Santa Claus is real, but when they accidentally cause his sleigh to crash, they have to save Christmas.",
+        "title": "The Christmas Chronicles",
         "type": "MOVIE",
         "year": "2018"
     },
     {
-        "popularity": 2.744,
-        "poster": "https://image.tmdb.org/t/p/w500//4iroJUn8YuQBekDwGy7r61YHXiu.jpg",
-        "synopsis": "An intimate concert film, in which Taylor Swift performs each song from her album 'folklore' in order, as she reveals the meaning and the stories behind all 17 tracks for the very first time.",
-        "title": "Folklore: The Long Pond Studio Sessions",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 305.469,
-        "poster": "https://image.tmdb.org/t/p/w500//u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
-        "synopsis": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
-        "title": "Game of Thrones",
-        "type": "SERIES",
-        "year": "2011"
-    },
-    {
-        "popularity": 2.744,
-        "poster": "https://image.tmdb.org/t/p/w500//ttEmrRgBGes24lxGBt7SZABPGr1.jpg",
-        "synopsis": "Snowfall marks the start of Odinyule \u2014 the Viking holiday of giving! But crazy weather might cancel the tradition unless the Rescue Riders can swoop in.",
-        "title": "Dragons: Rescue Riders: Huttsgalor Holiday",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 331.826,
-        "poster": "https://image.tmdb.org/t/p/w500//z31GxpVgDsFAF4paZR8PRsiP16D.jpg",
-        "synopsis": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
-        "title": "The Walking Dead: World Beyond",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 18.018,
-        "poster": "https://image.tmdb.org/t/p/w500//fxMdefiLKvapV58pdXYEH6CIBti.jpg",
-        "synopsis": "Maggie and Jack are childhood family friends and now as adults give dating advice together on their popular local radio show. When they find out their show is being shopped around for national syndication, their boss encourages them to introduce their significant others to their families for a live, on-air New Year\u2019s Eve special. Knowing their fathers\u2019 local jazz club, The Magnolia, is struggling financially, Maggie and Jack agree to the special as long as it\u2019s hosted at the club. But when Maggie and Jack are both dumped before the big event, Jack suggests they pretend to be a couple and surprise their listeners with the news during a midnight kiss on New Year\u2019s Eve!",
-        "title": "Midnight at the Magnolia",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 334.596,
-        "poster": "https://image.tmdb.org/t/p/w500//e4qXQXXaVYvHBE3Rx5x3qrmxorB.jpg",
-        "synopsis": "When Duchess Margaret unexpectedly inherits the throne & hits a rough patch with Kevin, it\u2019s up to Stacy to save the day before a new lookalike \u2014 party girl Fiona \u2014 foils their plans.",
-        "title": "The Princess Switch: Switched Again",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 73.048,
-        "poster": "https://image.tmdb.org/t/p/w500//nI5XuD0Il8LgsSyPvXESdafAtaD.jpg",
-        "synopsis": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her son to remember her by. Based on a true story.",
-        "title": "Notes for My Son",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 647.283,
+        "popularity": 634.859,
         "poster": "https://image.tmdb.org/t/p/w500//aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
         "synopsis": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
         "title": "Mulan",
@@ -264,39 +208,23 @@
         "year": "2020"
     },
     {
-        "popularity": 34.47,
-        "poster": "https://image.tmdb.org/t/p/w500//mBIDRtrj1iX2NQYTRPwRJwwQR9Y.jpg",
-        "synopsis": "When California governor Zack Morris gets into hot water for closing too many low-income high schools, he proposes they send the affected students to the highest performing schools in the state \u2013 including Bayside High. The influx of new students gives the over privileged Bayside kids a much needed and hilarious dose of reality.",
-        "title": "Saved by the Bell",
+        "popularity": 348.954,
+        "poster": "https://image.tmdb.org/t/p/w500//z31GxpVgDsFAF4paZR8PRsiP16D.jpg",
+        "synopsis": "A heroic group of teens sheltered from the dangers of the post-apocalyptic world receive a message that inspires them to leave the safety of the only home they have ever known and embark on a cross-country journey to find the one man who can possibly save the world.",
+        "title": "The Walking Dead: World Beyond",
         "type": "SERIES",
         "year": "2020"
     },
     {
-        "popularity": 34.514,
-        "poster": "https://image.tmdb.org/t/p/w500//uzptLYsWpERhHxyGS1WEHtXkIdM.jpg",
-        "synopsis": "Down-and-out musician Bastian battles the blues as he returns home for Christmas and encounters a series of not-so-cheery surprises.",
-        "title": "Over Christmas",
+        "popularity": 116.173,
+        "poster": "https://image.tmdb.org/t/p/w500//98RYSYsRNKWgrAAFBn0WfploUG7.jpg",
+        "synopsis": "Follow the voyages of Starfleet on their missions to discover new worlds and new life forms, and one Starfleet officer who must learn that to truly understand all things alien, you must first understand yourself.",
+        "title": "Star Trek: Discovery",
         "type": "SERIES",
-        "year": "2020"
+        "year": "2017"
     },
     {
-        "popularity": 191.18,
-        "poster": "https://image.tmdb.org/t/p/w500//or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-        "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
-        "title": "Avengers: Endgame",
-        "type": "MOVIE",
-        "year": "2019"
-    },
-    {
-        "popularity": 52.281,
-        "poster": "https://image.tmdb.org/t/p/w500//bYHu47S3yBPbWvlh4YbIYJ5e8X1.jpg",
-        "synopsis": "The Warner siblings, Yakko and Wakko, and Dot, have a great time wreaking havoc and mayhem in the lives of everyone they meet. After returning to their beloved home, the Warner Bros. Water Tower, the Animaniacs waste no time in causing chaos and comic confusion as they run loose through the studio and beyond, turning the world into their personal playground. Joining Yakko, Wakko and Dot, fan-favorite characters Pinky and the Brain will also return to continue their quest for world domination.",
-        "title": "Animaniacs",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 354.093,
+        "popularity": 371.198,
         "poster": "https://image.tmdb.org/t/p/w500//g6tIKGc3f1H5QMz1dcgCwADKpZ7.jpg",
         "synopsis": "Lyra is an orphan who lives in a parallel universe in which science, theology and magic are entwined. Lyra's search for a kidnapped friend uncovers a sinister plot involving stolen children, and turns into a quest to understand a mysterious phenomenon called Dust. She is later joined on her journey by Will, a boy who possesses a knife that can cut windows between worlds. As Lyra learns the truth about her parents and her prophesied destiny, the two young people are caught up in a war against celestial powers that ranges across many worlds.",
         "title": "His Dark Materials",
@@ -304,15 +232,87 @@
         "year": "2019"
     },
     {
-        "popularity": 501.847,
-        "poster": "https://image.tmdb.org/t/p/w500//5RbyHIVydD3Krmec1LlUV7rRjet.jpg",
-        "synopsis": "An imaginary world comes to life in a holiday tale of an eccentric toymaker, his adventurous granddaughter, and a magical invention that has the power to change their lives forever.",
-        "title": "Jingle Jangle: A Christmas Journey",
+        "popularity": 40.445,
+        "poster": "https://image.tmdb.org/t/p/w500//uzptLYsWpERhHxyGS1WEHtXkIdM.jpg",
+        "synopsis": "Down-and-out musician Bastian battles the blues as he returns home for Christmas and encounters a series of not-so-cheery surprises.",
+        "title": "Over Christmas",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 313.355,
+        "poster": "https://image.tmdb.org/t/p/w500//u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+        "synopsis": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+        "title": "Game of Thrones",
+        "type": "SERIES",
+        "year": "2011"
+    },
+    {
+        "popularity": 201.574,
+        "poster": "https://image.tmdb.org/t/p/w500//or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+        "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+        "title": "Avengers: Endgame",
+        "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 25.225,
+        "poster": "https://image.tmdb.org/t/p/w500//fxMdefiLKvapV58pdXYEH6CIBti.jpg",
+        "synopsis": "Maggie and Jack are childhood family friends and now as adults give dating advice together on their popular local radio show. When they find out their show is being shopped around for national syndication, their boss encourages them to introduce their significant others to their families for a live, on-air New Year\u2019s Eve special. Knowing their fathers\u2019 local jazz club, The Magnolia, is struggling financially, Maggie and Jack agree to the special as long as it\u2019s hosted at the club. But when Maggie and Jack are both dumped before the big event, Jack suggests they pretend to be a couple and surprise their listeners with the news during a midnight kiss on New Year\u2019s Eve!",
+        "title": "Midnight at the Magnolia",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 641.417,
+        "popularity": 30.413,
+        "poster": "https://image.tmdb.org/t/p/w500//dOIb7faqFhXJwvG5jPO0yT3KkzK.jpg",
+        "synopsis": "Joshua, lives in an informal settlement with his grandmother and father, a well-educated black man and single parent who was forced to flee his home as a result of Zimbabwean politics.  Once a scholarship student with a great future, Joshua dreams of winning a BMX cycling championship as a means to finding a better life than the spaza shop which his father owns, can provide. But, even this dream is shattered when he narrowly survives a vicious xenophobic attack during which his father and grandmother lose their lives.",
+        "title": "Who Are You?",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 3.842,
+        "poster": "https://image.tmdb.org/t/p/w500//4iroJUn8YuQBekDwGy7r61YHXiu.jpg",
+        "synopsis": "An intimate concert film, in which Taylor Swift performs each song from her album 'folklore' in order, as she reveals the meaning and the stories behind all 17 tracks for the very first time.",
+        "title": "Folklore: The Long Pond Studio Sessions",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 581.647,
+        "poster": "https://image.tmdb.org/t/p/w500//kiX7UYfOpYrMFSAGbI6j1pFkLzQ.jpg",
+        "synopsis": "Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever.",
+        "title": "After We Collided",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 321.492,
+        "poster": "https://image.tmdb.org/t/p/w500//e4qXQXXaVYvHBE3Rx5x3qrmxorB.jpg",
+        "synopsis": "When Duchess Margaret unexpectedly inherits the throne & hits a rough patch with Kevin, it\u2019s up to Stacy to save the day before a new lookalike \u2014 party girl Fiona \u2014 foils their plans.",
+        "title": "The Princess Switch: Switched Again",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 64.499,
+        "poster": "https://image.tmdb.org/t/p/w500//6WC3cIhuaLZSq3SbtdOp2ZTSTe.jpg",
+        "synopsis": "A divorced mother honks impatiently at a deranged middle-aged stranger at a red light while running late on her way to work. His road rage escalates to horrifyingly psychotic proportions as he becomes single-mindedly determined to teach her a deadly lesson for provoking him.",
+        "title": "Unhinged",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 258.102,
+        "poster": "https://image.tmdb.org/t/p/w500//tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+        "synopsis": "After leaving their cave, the Croods encounter their biggest threat since leaving: another family called the Bettermans, who claim to be better and evolved. But after Eep and the Bettermans' only daughter escape, the two families must put aside their differences to save them.",
+        "title": "The Croods: A New Age",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 877.498,
         "poster": "https://image.tmdb.org/t/p/w500//sy6DvAu72kjoseZEjocnm2ZZ09i.jpg",
         "synopsis": "A soldier and his team battle hordes of post-apocalyptic zombies in the wastelands of the Korean Peninsula.",
         "title": "Peninsula",
