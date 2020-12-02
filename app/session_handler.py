@@ -1,6 +1,8 @@
 """ Defines SessionHandler class """
 
 import uuid
+
+from .data.session_store import SessionStore
 from .entities.user import User
 from .entities.session import Session
 from .entities.user_payload import UserPayload
@@ -12,8 +14,8 @@ class SessionHandler:
 
     NUM_OF_WATCHABLES_PER_SESSION = 20
 
-    def __init__(self, watchables_store: WatchablesStore):
-        self.__sessions = {}
+    def __init__(self, watchables_store: WatchablesStore, session_store: SessionStore):
+        self.__session_store = session_store
         self.__watchables_store = watchables_store
 
     async def init_session(self) -> Session:
@@ -21,23 +23,20 @@ class SessionHandler:
 
         session = Session(session_id, await self.__watchables_store.get_some_watchables(SessionHandler.NUM_OF_WATCHABLES_PER_SESSION))
 
-        self.__save_session(session)
+        await self.__session_store.save(session)
 
         return session
 
-    def join_user_to_session(self, session_id: str) -> UserPayload:
-        if session_id not in self.__sessions:
-            raise SessionNotFound
+    async def join_user_to_session(self, session_id: str) -> UserPayload:
 
-        session = self.__sessions[session_id]
+        session = await self.__session_store.get_one(session_id)
 
         new_user = SessionHandler.__create_user()
         session.add_user(new_user)
 
-        return UserPayload(new_user.id, session_id, session.watchables)
+        await self.__session_store.save(session)
 
-    def __save_session(self, session: Session):
-        self.__sessions[session.id] = session
+        return UserPayload(new_user.id, session_id, session.watchables)
 
     @staticmethod
     def __create_user():
