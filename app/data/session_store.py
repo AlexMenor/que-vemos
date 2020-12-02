@@ -8,5 +8,5 @@ class SessionStore(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    async def get_one(self, id: str) -> Session:
+    async def get_one(self, session_id: str) -> Session:
         raise NotImplementedError
