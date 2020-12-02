@@ -5,8 +5,8 @@ import json
 import os
 from typing import List
 from pickle import Pickler
-from .data_request_exception import DataRequestException
-from ..entities.watchable import Watchable, WatchableType
+from app.data.watchables_extractor.data_request_exception import DataRequestException
+from app.entities.watchable import Watchable, WatchableType
 
 MOVIE_DB_API_KEY = os.getenv('MOVIE_DB_API_KEY')
 MOVIE_DB_URL = "api.themoviedb.org"
@@ -14,7 +14,7 @@ MOVIE_DB_PATH = "/3/trending/all/day?api_key={}".format(MOVIE_DB_API_KEY)
 
 MOVIE_DB_IMG_BASE_PATH = "https://image.tmdb.org/t/p/w500/"
 
-PICKLE_SERIALIZED_DATA_PATH = "./app/data/serialized_data"
+PICKLE_SERIALIZED_DATA_PATH = "./app/data/watchables_extractor/serialized_data"
 JSON_SERIALIZED_DATA_PATH = "./app/serverless/serialized_data.json"
 
 PAGES_TO_FETCH = 2

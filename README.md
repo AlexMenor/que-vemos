@@ -53,7 +53,7 @@ No directamente relacionado con serverless pero esencial para que la función an
 - Serializa las instancias con pickle en binario, pensado para que el microservicio los consuma, y en JSON para que las funciones serverless (que he escrito en JS) los utilicen.
 - Por último hace commit y push al repositorio.
 
-El script [es este](app/data/watchables_extractor.py), los test son [estos](app/tests/test_watchables_extractor.py) y la github action es [esta](.github/workflows/refresh-data.yml).
+El script [es este](app/data/watchables_extractor/watchables_extractor.py), los test son [estos](app/tests/test_watchables_extractor.py) y la github action es [esta](.github/workflows/refresh-data.yml).
 
 ### Send Feedback
 La otra función que he implementado usando FaaS corresponde a [HU9: Como desarrollador, quiero que los usuarios puedan dar feedback fácilmente.](https://github.com/AlexMenor/que-vemos/issues/58)
