@@ -6,5 +6,5 @@ from ..entities.watchable import Watchable
 
 class WatchablesStore(ABC):
     @abstractmethod
-    def get_some_watchables(self, n: int) -> List[Watchable]:
+    async def get_some_watchables(self, n: int) -> List[Watchable]:
         raise NotImplementedError

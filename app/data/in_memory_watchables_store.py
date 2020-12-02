@@ -11,5 +11,5 @@ class InMemoryWatchablesStore(WatchablesStore):
         with open(PICKLE_SERIALIZED_DATA_PATH, 'rb') as file:
             self.__watchables = Unpickler(file).load()
 
-    def get_some_watchables(self, n: int) -> List[Watchable]:
+    async def get_some_watchables(self, n: int) -> List[Watchable]:
         return random.sample(self.__watchables, n)
