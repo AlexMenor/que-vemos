@@ -1,6 +1,6 @@
 from .session_store import SessionStore
-from ..entities.session import Session
-from ..session_handler import SessionNotFound
+from app.entities.session import Session
+from app.session_handler import SessionNotFound
 
 
 class InMemorySessionStore(SessionStore):

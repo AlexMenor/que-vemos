@@ -2,7 +2,7 @@
 
 import uuid
 
-from .data.session_store import SessionStore
+from .data.session_store.session_store import SessionStore
 from .entities.user import User
 from .entities.session import Session
 from .entities.user_payload import UserPayload

@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from ..entities.session import Session
+from app.entities.session import Session
 
 class SessionStore(ABC):
     @abstractmethod
