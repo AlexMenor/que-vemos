@@ -8,7 +8,8 @@ from ..entities.watchable import Watchable
 
 class InMemoryWatchablesStore(WatchablesStore):
     def __init__(self):
-        self.__watchables = Unpickler(PICKLE_SERIALIZED_DATA_PATH).load()
+        with open(PICKLE_SERIALIZED_DATA_PATH, 'rb') as file:
+            self.__watchables = Unpickler(file).load()
 
     def get_some_watchables(self, n: int) -> List[Watchable]:
         return random.sample(self.__watchables, n)

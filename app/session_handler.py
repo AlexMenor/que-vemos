@@ -1,24 +1,25 @@
 """ Defines SessionHandler class """
 
 import uuid
-from typing import Callable, List
 from .entities.user import User
 from .entities.session import Session
 from .entities.user_payload import UserPayload
-from .entities.watchable import Watchable
+from .data.watchables_store import WatchablesStore
 
 
 class SessionHandler:
     """ Handles all active sessions, represents an entrypoint for business logic """
 
-    def __init__(self, get_watchables: Callable[[], List[Watchable]]):
+    NUM_OF_WATCHABLES_PER_SESSION = 20
+
+    def __init__(self, watchables_store: WatchablesStore):
         self.__sessions = {}
-        self.__get_watchables = get_watchables
+        self.__watchables_store = watchables_store
 
     def init_session(self) -> Session:
         session_id = SessionHandler.gen_random_id()
 
-        session = Session(session_id, self.__get_watchables())
+        session = Session(session_id, self.__watchables_store.get_some_watchables(SessionHandler.NUM_OF_WATCHABLES_PER_SESSION))
 
         self.__save_session(session)
 
