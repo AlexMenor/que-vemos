@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List
 
-from ..entities.watchable import Watchable
+from app.entities.watchable import Watchable
 
 
 class WatchablesStore(ABC):

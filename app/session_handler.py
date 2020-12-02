@@ -6,7 +6,7 @@ from .data.session_store import SessionStore
 from .entities.user import User
 from .entities.session import Session
 from .entities.user_payload import UserPayload
-from .data.watchables_store import WatchablesStore
+from .data.watchables_store.watchables_store import WatchablesStore
 
 
 class SessionHandler:

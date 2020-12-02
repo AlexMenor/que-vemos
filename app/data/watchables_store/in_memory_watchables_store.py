@@ -3,8 +3,8 @@ from typing import List
 import random
 
 from .watchables_store import WatchablesStore
-from .watchables_extractor.watchables_extractor import PICKLE_SERIALIZED_DATA_PATH
-from ..entities.watchable import Watchable
+from app.data.watchables_extractor.watchables_extractor import PICKLE_SERIALIZED_DATA_PATH
+from app.entities.watchable import Watchable
 
 class InMemoryWatchablesStore(WatchablesStore):
     def __init__(self):
