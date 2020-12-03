@@ -17,7 +17,9 @@ session_handler = SessionHandler(watchables_store, session_store)
 
 async def create_session(_):
     session_id = await session_handler.init_session()
-    return JSONResponse({'session_id': session_id})
+    response = JSONResponse({'session_id': session_id})
+    response.status_code = 201
+    return response
 
 
 app = Starlette(debug=True, routes=[
