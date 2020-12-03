@@ -15,11 +15,9 @@ def session_handler():
 
 @pytest.mark.asyncio
 async def test_init_session(session_handler: SessionHandler):
-    session = await session_handler.init_session()
+    session_id = await session_handler.init_session()
 
-    assert isinstance(session.watchables[0], Watchable)
-
-    assert await session_handler._SessionHandler__session_store.get_one(session.id) == session
+    assert (await session_handler._SessionHandler__session_store.get_one(session_id)).id == session_id
 
 @pytest.mark.asyncio
 async def test_join_user_to_session_throw(session_handler: SessionHandler):
@@ -30,10 +28,6 @@ async def test_join_user_to_session_throw(session_handler: SessionHandler):
 
 @pytest.mark.asyncio
 async def test_join_user_to_session(session_handler: SessionHandler):
-    session = await session_handler.init_session()
+    session_id = await session_handler.init_session()
     
-    user_payload = await session_handler.join_user_to_session(session.id)
-
-    assert session.get_users()[0].id == user_payload.user_id
-
-    
+    user_payload = await session_handler.join_user_to_session(session_id)

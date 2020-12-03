@@ -18,14 +18,14 @@ class SessionHandler:
         self.__session_store = session_store
         self.__watchables_store = watchables_store
 
-    async def init_session(self) -> Session:
+    async def init_session(self) -> str:
         session_id = SessionHandler.gen_random_id()
 
         session = Session(session_id, await self.__watchables_store.get_some_watchables(SessionHandler.NUM_OF_WATCHABLES_PER_SESSION))
 
         await self.__session_store.save(session)
 
-        return session
+        return session.id
 
     async def join_user_to_session(self, session_id: str) -> UserPayload:
 
@@ -45,7 +45,7 @@ class SessionHandler:
 
     @staticmethod
     def gen_random_id() -> str:
-        return uuid.uuid4()
+        return str(uuid.uuid4())
 
 
 class SessionNotFound(Exception):
