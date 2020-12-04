@@ -59,6 +59,21 @@ class Session:
 
         return SessionSummary(users, votes)
 
+    def get_votes_of_watchable(self, watchable_index: int):
+        """ First return value are the positive votes count
+            Second return value are the total votes count
+        """
+        self.__checkWatchableExists(watchable_index)
+
+        if watchable_index not in self.__votes:
+            return 0, 0
+
+        positive_votes = self.__count_yes(self.__votes[watchable_index])
+
+        total_votes = len(self.__votes[watchable_index])
+
+        return positive_votes, total_votes
+
 
     def __checkUserExists(self, user_id: str):
         if len(list(filter(lambda u: u.id == user_id, self.__users))) != 1:
