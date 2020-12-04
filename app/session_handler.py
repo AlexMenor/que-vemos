@@ -21,7 +21,10 @@ class SessionHandler:
     async def init_session(self) -> str:
         session_id = SessionHandler.gen_random_id()
 
-        session = Session(session_id, await self.__watchables_store.get_some_watchables(SessionHandler.NUM_OF_WATCHABLES_PER_SESSION))
+        watchables = await self.__watchables_store.\
+            get_some_watchables(SessionHandler.NUM_OF_WATCHABLES_PER_SESSION)
+
+        session = Session(session_id, watchables)
 
         await self.__session_store.save(session)
 

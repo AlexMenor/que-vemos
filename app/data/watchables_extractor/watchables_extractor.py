@@ -1,4 +1,9 @@
-""" Script to fetch and parse data from The Movie DB, instantiate application entities and serialized them"""
+"""
+
+Script to fetch and parse data from The Movie DB,
+instantiate application entities and serialized them
+
+"""
 
 import http.client
 import json
@@ -49,7 +54,9 @@ def parse_watchable(item):
         watchable_type = WatchableType.SERIES
         title = item['name']
 
-    return Watchable(title, item['overview'], year, watchable_type, MOVIE_DB_IMG_BASE_PATH + item['poster_path'], popularity=item['popularity'])
+    return Watchable(title, item['overview'], year, watchable_type,
+                     MOVIE_DB_IMG_BASE_PATH + item['poster_path'],
+                     popularity=item['popularity'])
 
 def parse_list(item_list) -> List[Watchable]:
     result = []

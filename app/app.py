@@ -1,3 +1,5 @@
+""" This file is the entrypoint of the application """
+
 from fastapi import FastAPI, HTTPException
 
 from .entities.session import NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
@@ -32,10 +34,12 @@ async def user_joins_session(session_id: str):
     try:
         return await session_handler.join_user_to_session(session_id)
     except SessionNotFound:
-        raise HTTPException(status_code=404, detail=f'A session with id {session_id} could not be found')
+        raise HTTPException(status_code=404,
+                            detail=f'A session with id {session_id} could not be found')
     except NotMoreUsersAllowedException:
-        raise HTTPException(status_code=409,
-                            detail=f'Session with id ${session_id} already has the maximum number of users')
+        raise HTTPException(
+            status_code=409,
+            detail=f'Session with id ${session_id} already has the maximum number of users')
 
 @app.post('/session/{session_id}/user/{user_id}/vote',
           responses={404: {'description': 'Session or user could not be found'},
@@ -43,12 +47,13 @@ async def user_joins_session(session_id: str):
           status_code=201)
 async def emit_vote(session_id: str, user_id: str, vote: Vote):
     try:
-        return await session_handler.emit_vote_to_session(session_id,user_id, vote.watchable_index, vote.content)
+        return await session_handler.emit_vote_to_session(session_id, user_id, vote.watchable_index, vote.content)
     except SessionNotFound:
-        raise HTTPException(status_code=404, detail=f'A session with id {session_id} could not be found')
+        raise HTTPException(status_code=404,
+                            detail=f'A session with id {session_id} could not be found')
     except UserNotFoundInSession:
         raise HTTPException(status_code=404,
                             detail=f'An user with id {user_id} could not be found in session {session_id}')
     except WatchableNotFound:
-        raise HTTPException(status_code=400, detail=f'The watchable index {vote.watchable_index} is out of bounds')
-
+        raise HTTPException(status_code=400,
+                            detail=f'The watchable index {vote.watchable_index} is out of bounds')

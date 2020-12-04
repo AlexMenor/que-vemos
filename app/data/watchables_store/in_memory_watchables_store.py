@@ -1,3 +1,5 @@
+""" Declares an implementation of the interface WatchablesStore"""
+
 from pickle import Unpickler
 from typing import List
 import random
@@ -7,6 +9,8 @@ from app.entities.watchable import Watchable
 from .watchables_store import WatchablesStore
 
 class InMemoryWatchablesStore(WatchablesStore):
+    """ This implementation of WatchablesStore just reads a previously
+        serialized data and returns it from memory """
     def __init__(self):
         with open(PICKLE_SERIALIZED_DATA_PATH, 'rb') as file:
             self.__watchables = Unpickler(file).load()
