@@ -24,8 +24,9 @@ async def create_session():
     return {"session_id": session_id}
 
 
-@app.post("/session/{session_id}/user", responses={404: {'description': 'Session not found'},
-                                                   409: {'description':'Session already has the maximum number of users'}},
+@app.post("/session/{session_id}/user",
+          responses={404: {'description': 'Session not found'},
+                     409: {'description': 'Session already has the maximum number of users'}},
           status_code=201, response_model=UserPayload)
 async def user_joins_session(session_id: str):
     try:
@@ -33,7 +34,8 @@ async def user_joins_session(session_id: str):
     except SessionNotFound:
         raise HTTPException(status_code=404, detail=f'A session with id {session_id} could not be found')
     except NotMoreUsersAllowedException:
-        raise HTTPException(status_code=409, detail=f'Session with id ${session_id} already has the maximum number of users')
+        raise HTTPException(status_code=409,
+                            detail=f'Session with id ${session_id} already has the maximum number of users')
 
 @app.post('/session/{session_id}/user/{user_id}/vote',
           responses={404: {'description': 'Session or user could not be found'},
@@ -45,7 +47,8 @@ async def emit_vote(session_id: str, user_id: str, vote: Vote):
     except SessionNotFound:
         raise HTTPException(status_code=404, detail=f'A session with id {session_id} could not be found')
     except UserNotFoundInSession:
-        raise HTTPException(status_code=404, detail=f'An user with id {user_id} could not be found in session {session_id}')
+        raise HTTPException(status_code=404,
+                            detail=f'An user with id {user_id} could not be found in session {session_id}')
     except WatchableNotFound:
         raise HTTPException(status_code=400, detail=f'The watchable index {vote.watchable_index} is out of bounds')
 
