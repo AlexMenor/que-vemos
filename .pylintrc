@@ -141,7 +141,10 @@ disable=print-statement,
         comprehension-escape,
         invalid-name,
         missing-function-docstring,
-        raise-missing-from
+        raise-missing-from,
+        no-name-in-module,
+        too-few-public-methods,
+        no-self-use
 
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option

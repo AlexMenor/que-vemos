@@ -1,7 +1,8 @@
 from fastapi import FastAPI, HTTPException
 
-from .entities.session import NotMoreUsersAllowedException
+from .entities.session import NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
 from .entities.user_payload import UserPayload
+from .entities.vote import Vote
 from .session_handler import SessionHandler
 from .data.watchables_store.in_memory_watchables_store import InMemoryWatchablesStore
 from .data.watchables_store.watchables_store import WatchablesStore
@@ -23,7 +24,9 @@ async def create_session():
     return {"session_id": session_id}
 
 
-@app.post("/session/{session_id}/user", responses={404: {'description': 'Session not found'}, 409: {'description':'Session already has the maximum number of users'}}, status_code=201, response_model=UserPayload)
+@app.post("/session/{session_id}/user", responses={404: {'description': 'Session not found'},
+                                                   409: {'description':'Session already has the maximum number of users'}},
+          status_code=201, response_model=UserPayload)
 async def user_joins_session(session_id: str):
     try:
         return await session_handler.join_user_to_session(session_id)
@@ -31,3 +34,18 @@ async def user_joins_session(session_id: str):
         raise HTTPException(status_code=404, detail=f'A session with id {session_id} could not be found')
     except NotMoreUsersAllowedException:
         raise HTTPException(status_code=409, detail=f'Session with id ${session_id} already has the maximum number of users')
+
+@app.post('/session/{session_id}/user/{user_id}/vote',
+          responses={404: {'description': 'Session or user could not be found'},
+                     400: {'description': 'Watchable index is out of bounds'}},
+          status_code=201)
+async def emit_vote(session_id: str, user_id: str, vote: Vote):
+    try:
+        return await session_handler.emit_vote_to_session(session_id,user_id, vote.watchable_index, vote.content)
+    except SessionNotFound:
+        raise HTTPException(status_code=404, detail=f'A session with id {session_id} could not be found')
+    except UserNotFoundInSession:
+        raise HTTPException(status_code=404, detail=f'An user with id {user_id} could not be found in session {session_id}')
+    except WatchableNotFound:
+        raise HTTPException(status_code=400, detail=f'The watchable index {vote.watchable_index} is out of bounds')
+
