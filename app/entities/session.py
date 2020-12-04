@@ -24,7 +24,7 @@ class Session:
         else:
             raise NotMoreUsersAllowedException
 
-    def vote(self, user_id: int, watchable_index: int, vote: bool):
+    def vote(self, user_id: str, watchable_index: int, vote: bool):
         self.__checkUserExists(user_id)
         self.__checkWatchableExists(watchable_index)
 
@@ -43,8 +43,8 @@ class Session:
                 return True
         return False
 
-    def __checkUserExists(self, user_id: int):
-        if len(list(filter(lambda u : u.id == user_id, self.__users))) != 1:
+    def __checkUserExists(self, user_id: str):
+        if len(list(filter(lambda u: u.id == user_id, self.__users))) != 1:
             raise UserNotFoundInSession
 
     def __checkWatchableExists(self, watchable_index: int):

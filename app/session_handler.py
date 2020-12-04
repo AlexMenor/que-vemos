@@ -38,6 +38,14 @@ class SessionHandler:
 
         return UserPayload(new_user.id, session_id, session.watchables)
 
+    async def emit_vote_to_session(self, session_id: str, user_id: str, watchable_index: int, vote: bool) -> None:
+        session = await self.__session_store.get_one(session_id)
+
+        session.vote(user_id, watchable_index, vote)
+
+        await self.__session_store.save(session)
+
+
     @staticmethod
     def __create_user():
         user_id = SessionHandler.gen_random_id()

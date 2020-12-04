@@ -3,7 +3,6 @@ import pytest
 from ..data.session_store.in_memory_session_store import InMemorySessionStore
 from ..session_handler import SessionHandler, SessionNotFound
 from app.data.watchables_store.in_memory_watchables_store import InMemoryWatchablesStore
-from ..entities.watchable import Watchable
 
 
 watchables_store = InMemoryWatchablesStore()
@@ -31,3 +30,9 @@ async def test_join_user_to_session(session_handler: SessionHandler):
     session_id = await session_handler.init_session()
     
     user_payload = await session_handler.join_user_to_session(session_id)
+
+@pytest.mark.asyncio
+async def test_emit_vote_throws_if_session_not_found(session_handler: SessionHandler):
+    with pytest.raises(SessionNotFound):
+        await session_handler.emit_vote_to_session('no existo', 'yo tampoco', 404, True)
+

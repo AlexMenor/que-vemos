@@ -31,4 +31,3 @@ async def user_joins_session(session_id: str):
         raise HTTPException(status_code=404, detail=f'A session with id {session_id} could not be found')
     except NotMoreUsersAllowedException:
         raise HTTPException(status_code=409, detail=f'Session with id ${session_id} already has the maximum number of users')
-
