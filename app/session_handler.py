@@ -3,6 +3,7 @@
 import uuid
 
 from .data.session_store.session_store import SessionStore
+from .entities.session_summary import SessionSummary
 from .entities.user import User
 from .entities.session import Session
 from .entities.user_payload import UserPayload
@@ -47,6 +48,9 @@ class SessionHandler:
         session.vote(user_id, watchable_index, vote)
 
         await self.__session_store.save(session)
+
+    async def get_session_summary(self, session_id: str) -> SessionSummary:
+        return (await self.__session_store.get_one(session_id)).summary()
 
 
     @staticmethod

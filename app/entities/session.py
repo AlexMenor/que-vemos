@@ -2,6 +2,8 @@
 
 from typing import List, Dict
 from functools import reduce
+
+from .session_summary import SessionSummary, WatchableSummary
 from .user import User
 from .watchable import Watchable
 
@@ -42,6 +44,21 @@ class Session:
             if self.__count_yes(self.__votes[watchable_index]) == len(self.__users):
                 return True
         return False
+
+    def summary(self) -> SessionSummary:
+        users = self.__users
+        votes = []
+        for watchable_index in self.__votes:
+            watchable_title = self.watchables[watchable_index].title
+            watchable_votes = []
+            for user_id in self.__votes[watchable_index]:
+                user = next(u for u in users if u.id == user_id)
+                content = self.__votes[watchable_index][user_id]
+                watchable_votes.append((user, content))
+            votes.append(WatchableSummary(watchable_title, watchable_votes))
+
+        return SessionSummary(users, votes)
+
 
     def __checkUserExists(self, user_id: str):
         if len(list(filter(lambda u: u.id == user_id, self.__users))) != 1:

@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI, HTTPException
 
-from .entities.session import NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
+from .entities.session import NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound, Session
 from .entities.user_payload import UserPayload
 from .entities.vote import Vote
 from .session_handler import SessionHandler
@@ -57,3 +57,12 @@ async def emit_vote(session_id: str, user_id: str, vote: Vote):
     except WatchableNotFound:
         raise HTTPException(status_code=400,
                             detail=f'The watchable index {vote.watchable_index} is out of bounds')
+
+
+@app.get('/session/{session_id}/summary', responses={404: {'description': 'Session does not exist'}})
+async def get_session_summary(session_id: str):
+    try:
+        return await session_handler.get_session_summary(session_id)
+    except SessionNotFound:
+        raise HTTPException(status_code=404,
+                            detail=f'A session with id {session_id} could not be found')
