@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from typing import List
 from .watchable import Watchable
 
+
 @dataclass
 class UserPayload:
     """ Represents the information that an user should have after joining the session"""

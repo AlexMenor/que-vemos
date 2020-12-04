@@ -21,6 +21,14 @@ def session_with_user(watchables, user):
 
     return session
 
+@pytest.fixture
+def session_with_vote_yes(session_with_user, user):
+    session = session_with_user
+
+    session.vote(user.id, 0, True)
+
+    return session
+
 def test_users_getter(session_with_user):
     assert session_with_user.get_users()[0].id is not None
 
@@ -45,10 +53,8 @@ def test_add_user_throws_exception(session_with_user):
     with pytest.raises(NotMoreUsersAllowedException):
         session.add_user(new_user)
 
-def test_vote(session_with_user, user):
-    session = session_with_user
-
-    session.vote(user.id, 0, True)
+def test_vote(session_with_vote_yes, user):
+    session = session_with_vote_yes
 
     assert session._Session__votes[0][user.id] == True
 
@@ -64,22 +70,29 @@ def test_vote_throws_if_not_found_watchable(user, session_with_user):
     with pytest.raises(WatchableNotFound):
         session.vote(user.id, 1, True)
 
-def test_count_yes(user, session_with_user):
-    session = session_with_user
-
-    session.vote(user.id, 0, True)
+def test_count_yes(user, session_with_vote_yes):
+    session = session_with_vote_yes
 
     new_user = User("Nuevo_user")
     session.add_user(new_user)
 
     session.vote(new_user.id, 0, False)
 
-    assert session._Session__count_yes(session._Session__votes[0]) == 1
+    yes_votes, total_votes = session.get_votes_of_watchable(0)
 
-def test_is_match_positive(user, session_with_user):
+    assert yes_votes == 1
+    assert total_votes == 2
+
+def test_count_yes_none_voted(session_with_user):
     session = session_with_user
 
-    session.vote(user.id, 0, True)
+    yes_votes, total_votes = session.get_votes_of_watchable(0)
+
+    assert yes_votes == 0
+    assert total_votes == 0
+
+def test_is_match_positive(session_with_vote_yes):
+    session = session_with_vote_yes
 
     new_user = User("Nuevo_user")
     session.add_user(new_user)
@@ -88,10 +101,8 @@ def test_is_match_positive(user, session_with_user):
 
     assert session.is_match() == True
 
-def test_is_match_negative(user, session_with_user):
-    session = session_with_user
-
-    session.vote(user.id, 0, True)
+def test_is_match_negative(session_with_vote_yes):
+    session = session_with_vote_yes
 
     new_user = User("Nuevo_user")
     session.add_user(new_user)
