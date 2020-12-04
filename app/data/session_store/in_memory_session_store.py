@@ -1,8 +1,7 @@
 """ Declares an implementation of SessionStore """
 
 from app.entities.session import Session
-from app.session_handler import SessionNotFound
-from .session_store import SessionStore
+from .session_store import SessionStore, SessionNotFound
 
 
 class InMemorySessionStore(SessionStore):

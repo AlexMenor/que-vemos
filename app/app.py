@@ -9,8 +9,7 @@ from .session_handler import SessionHandler
 from .data.watchables_store.in_memory_watchables_store import InMemoryWatchablesStore
 from .data.watchables_store.watchables_store import WatchablesStore
 from .data.session_store.in_memory_session_store import InMemorySessionStore
-from .data.session_store.session_store import SessionStore
-from .session_handler import SessionNotFound
+from .data.session_store.session_store import SessionStore, SessionNotFound
 
 watchables_store: WatchablesStore = InMemoryWatchablesStore()
 

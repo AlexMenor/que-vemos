@@ -61,10 +61,3 @@ class SessionHandler:
     @staticmethod
     def gen_random_id() -> str:
         return str(uuid.uuid4())
-
-
-class SessionNotFound(Exception):
-    """ Exception raised when a Session is not found in this handler"""
-    def __init__(self):
-        self.message = "There is no session with such id"
-        super().__init__(self.message)
