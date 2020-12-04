@@ -1,6 +1,7 @@
 import pytest
-from ..data.watchables_extractor.watchables_extractor import parse_watchable
-from ..entities.watchable import WatchableType
+from ..data.watchables_extractor.watchables_extractor import parse_watchable, parse_list
+from ..entities.watchable import WatchableType, Watchable
+
 
 @pytest.fixture
 def movie_db_movie():
@@ -37,3 +38,11 @@ def test_parse_watchable_with_movie_without_date(movie_db_movie_without_date):
 
 def test_parse_watchable_with_series_without_date(movie_db_series_without_date):
     watchable = parse_watchable(movie_db_series_without_date)
+
+def test_parse_list(movie_db_movie, movie_db_series):
+    watchables = parse_list([movie_db_series, movie_db_movie])
+
+    assert len(watchables) == 2
+
+    assert isinstance(watchables[0], Watchable)
+    assert isinstance(watchables[1], Watchable)
