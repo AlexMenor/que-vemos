@@ -112,10 +112,10 @@ def test_is_match_negative(session_with_vote_yes):
 
     assert session.is_match() == False
 
-def summary(session_with_vote_yes: Session, user, watchable):
+def test_summary(session_with_vote_yes: Session, user, watchables):
     summary: SessionSummary = session_with_vote_yes.summary()
 
-    assert summary.votes[0].title == watchable.title
+    assert summary.votes[0].title == watchables[0].title
 
     assert summary.votes[0].votes[0][0].id == user.id
 
