@@ -1,3 +1,4 @@
+from ..entities.session_summary import SessionSummary
 from ..entities.user import User
 from ..entities.session import Session, NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
 from ..entities.watchable import Watchable, WatchableType
@@ -110,3 +111,15 @@ def test_is_match_negative(session_with_vote_yes):
     session.vote(new_user.id, 0, False)
 
     assert session.is_match() == False
+
+def summary(session_with_vote_yes: Session, user, watchable):
+    summary: SessionSummary = session_with_vote_yes.summary()
+
+    assert summary.votes[0].title == watchable.title
+
+    assert summary.votes[0].votes[0][0].id == user.id
+
+    assert summary.votes[0].votes[0][1]
+
+    assert summary.users[0].id == user.id
+
