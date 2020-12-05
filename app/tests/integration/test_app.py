@@ -174,3 +174,38 @@ def test_voting():
     assert session.get_votes_of_watchable(0)[0] == 1 and session.get_votes_of_watchable(0)[1] == 1
 
     app.dependency_overrides = {}
+
+
+def test_summary_non_existing_session():
+    response = client.get('/session/no-existo/summary')
+
+    assert response.status_code == 404
+
+
+def test_summary():
+    watchable = Watchable("Narcos", "Se centra en la historia real de una peligrosa difusión y propagación de una red de cocaína por todo el mundo durante los años 70 y 80.", 2015, WatchableType.SERIES)
+    session = Session('yo-sí-existo', [watchable])
+
+    class Mock(SessionStore):
+        async def save(self, session: Session) -> None:
+            pass
+
+        async def get_one(self, _):
+            return session
+
+    watchables_store = InMemoryWatchablesStore()
+
+    session_handler_mocked = SessionHandlerDependency(watchables_store, Mock())
+
+    app.dependency_overrides[session_handler_dependency] = session_handler_mocked
+
+    response = client.get('/session/yo-sí-existo/summary')
+    body = response.json()
+
+    assert response.status_code == 200
+
+    assert 'users' in body
+
+    assert 'votes' in body
+
+    app.dependency_overrides = {}
