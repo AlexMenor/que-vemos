@@ -1,6 +1,6 @@
 """ This file is the entrypoint of the application """
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Depends
 
 from .entities.session import NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
 from .entities.user_payload import UserPayload
@@ -11,16 +11,21 @@ from .data.watchables_store.watchables_store import WatchablesStore
 from .data.session_store.in_memory_session_store import InMemorySessionStore
 from .data.session_store.session_store import SessionStore, SessionNotFound
 
-watchables_store: WatchablesStore = InMemoryWatchablesStore()
 
-session_store: SessionStore = InMemorySessionStore()
+class SessionHandlerDependency:
+    def __init__(self, watchables_store: WatchablesStore, session_store: SessionStore):
+        self.session_handler = SessionHandler(watchables_store, session_store)
 
-session_handler = SessionHandler(watchables_store, session_store)
+    def __call__(self):
+        return self.session_handler
+
+
+session_handler_dependency = SessionHandlerDependency(InMemoryWatchablesStore(), InMemorySessionStore())
 
 app = FastAPI()
 
 @app.post("/session", status_code=201)
-async def create_session():
+async def create_session(session_handler: SessionHandler = Depends(session_handler_dependency)):
     session_id = await session_handler.init_session()
     return {"session_id": session_id}
 
@@ -29,7 +34,7 @@ async def create_session():
           responses={404: {'description': 'Session not found'},
                      409: {'description': 'Session already has the maximum number of users'}},
           status_code=201, response_model=UserPayload)
-async def user_joins_session(session_id: str):
+async def user_joins_session(session_id: str, session_handler: SessionHandler = Depends(session_handler_dependency)):
     try:
         return await session_handler.join_user_to_session(session_id)
     except SessionNotFound:
@@ -44,7 +49,7 @@ async def user_joins_session(session_id: str):
           responses={404: {'description': 'Session or user could not be found'},
                      400: {'description': 'Watchable index is out of bounds'}},
           status_code=201)
-async def emit_vote(session_id: str, user_id: str, vote: Vote):
+async def emit_vote(session_id: str, user_id: str, vote: Vote, session_handler: SessionHandler = Depends(session_handler_dependency)):
     try:
         return await session_handler.emit_vote_to_session(session_id, user_id, vote.watchable_index, vote.content)
     except SessionNotFound:
@@ -59,7 +64,7 @@ async def emit_vote(session_id: str, user_id: str, vote: Vote):
 
 
 @app.get('/session/{session_id}/summary', responses={404: {'description': 'Session does not exist'}})
-async def get_session_summary(session_id: str):
+async def get_session_summary(session_id: str, session_handler: SessionHandler = Depends(session_handler_dependency)):
     try:
         return await session_handler.get_session_summary(session_id)
     except SessionNotFound:
