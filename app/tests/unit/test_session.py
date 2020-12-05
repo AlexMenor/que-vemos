@@ -57,7 +57,7 @@ def test_add_user_throws_exception(session_with_user):
 def test_vote(session_with_vote_yes, user):
     session = session_with_vote_yes
 
-    assert session._Session__votes[0][user.id] == True
+    assert session._Session__votes[0][user.id]
 
 def test_vote_throws_if_not_found_user(session_with_user):
     session = session_with_user
@@ -100,7 +100,7 @@ def test_is_match_positive(session_with_vote_yes):
 
     session.vote(new_user.id, 0, True)
 
-    assert session.is_match() == True
+    assert session.is_match()
 
 def test_is_match_negative(session_with_vote_yes):
     session = session_with_vote_yes
@@ -110,7 +110,7 @@ def test_is_match_negative(session_with_vote_yes):
 
     session.vote(new_user.id, 0, False)
 
-    assert session.is_match() == False
+    assert not session.is_match()
 
 def test_summary(session_with_vote_yes: Session, user, watchables):
     summary: SessionSummary = session_with_vote_yes.summary()

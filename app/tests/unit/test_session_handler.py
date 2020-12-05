@@ -46,7 +46,7 @@ async def test_join_user_to_session_throw(session_handler: SessionHandler):
     await session_handler.init_session()
 
     with pytest.raises(SessionNotFound):
-        await session_handler.join_user_to_session("no-soy-una-sesion")
+        await session_handler.join_user_to_session("no-soy-una-sesión")
 
 @pytest.mark.asyncio
 async def test_join_user_to_session(session_handler: SessionHandler, session_store: SessionStore):
