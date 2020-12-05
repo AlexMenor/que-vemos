@@ -1,7 +1,7 @@
-from ..entities.session_summary import SessionSummary
-from ..entities.user import User
-from ..entities.session import Session, NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
-from ..entities.watchable import Watchable, WatchableType
+from app.entities.session_summary import SessionSummary
+from app.entities.user import User
+from app.entities.session import Session, NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
+from app.entities.watchable import Watchable, WatchableType
 
 import pytest
 

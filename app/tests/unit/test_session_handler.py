@@ -1,10 +1,10 @@
 import pytest
 
-from ..data.session_store.in_memory_session_store import InMemorySessionStore
-from ..data.session_store.session_store import SessionStore, SessionNotFound
-from ..entities.session import UserNotFoundInSession, WatchableNotFound
-from ..entities.watchable import Watchable
-from ..session_handler import SessionHandler
+from app.data.session_store.in_memory_session_store import InMemorySessionStore
+from app.data.session_store.session_store import SessionStore, SessionNotFound
+from app.entities.session import UserNotFoundInSession, WatchableNotFound
+from app.entities.watchable import Watchable
+from app.session_handler import SessionHandler
 from app.data.watchables_store.in_memory_watchables_store import InMemoryWatchablesStore
 
 

@@ -1,6 +1,6 @@
 import pytest
-from ..data.watchables_extractor.watchables_extractor import parse_watchable, parse_list
-from ..entities.watchable import WatchableType, Watchable
+from app.data.watchables_extractor.watchables_extractor import parse_watchable, parse_list
+from app.entities.watchable import WatchableType, Watchable
 
 
 @pytest.fixture
