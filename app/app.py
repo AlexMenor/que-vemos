@@ -45,6 +45,7 @@ async def user_joins_session(session_id: str, session_handler: SessionHandler = 
             status_code=409,
             detail=f'Session with id ${session_id} already has the maximum number of users')
 
+
 @app.post('/session/{session_id}/user/{user_id}/vote',
           responses={404: {'description': 'Session or user could not be found'},
                      400: {'description': 'Watchable index is out of bounds'}},

@@ -13,3 +13,8 @@ def test_create_session():
     assert response.status_code == 201
     assert 'session_id' in body
     UUID(body['session_id'])
+
+def test_joining_non_existing_session():
+    response = client.post('/session/no-existo/user')
+
+    assert response.status_code == 404
