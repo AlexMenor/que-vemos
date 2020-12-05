@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI, HTTPException
 
-from .entities.session import NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound, Session
+from .entities.session import NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
 from .entities.user_payload import UserPayload
 from .entities.vote import Vote
 from .session_handler import SessionHandler
