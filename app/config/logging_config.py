@@ -4,7 +4,7 @@ import sys
 
 from logging.handlers import SysLogHandler
 
-from .config import config
+from .config import config, MODE, PAPERTRAIL_PORT, PAPERTRAIL_HOST
 
 class ContextFilter(logging.Filter):
     hostname = socket.gethostname()
@@ -13,8 +13,8 @@ class ContextFilter(logging.Filter):
         return True
 
 
-if config.mode == 'prod':
-    handler = SysLogHandler(address=(config.papertrail_host, int(config.papertrail_port)))
+if config[MODE] == 'prod':
+    handler = SysLogHandler(address=(config[PAPERTRAIL_HOST], int(config[PAPERTRAIL_PORT])))
 else:
     handler = logging.StreamHandler(sys.stdout)
 

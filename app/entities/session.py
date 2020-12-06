@@ -6,12 +6,12 @@ from functools import reduce
 from .session_summary import SessionSummary, WatchableSummary
 from .user import User
 from .watchable import Watchable
-from ..config.config import config
+from ..config.config import config, MAX_USERS_PER_SESSION
 
 class Session:
     """ Contains users, the watchables they are choosing from and their choices """
 
-    MAX_USERS_PER_SESSION = int(config.max_users_per_session)
+    MAX_USERS_PER_SESSION = int(config[MAX_USERS_PER_SESSION])
 
     def __init__(self, session_id: str, watchables: List[Watchable]):
         self.id = session_id
