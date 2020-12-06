@@ -1,7 +1,8 @@
 from uuid import UUID
 from fastapi.testclient import TestClient
 
-from app.app import app, session_handler_dependency, SessionHandlerDependency
+from app.app import app
+from app.routes.session_routes import SessionHandlerDependency, session_handler_dependency
 from app.data.session_store.session_store import SessionStore
 from app.data.watchables_store.in_memory_watchables_store import InMemoryWatchablesStore
 from app.entities.session import NotMoreUsersAllowedException, Session
