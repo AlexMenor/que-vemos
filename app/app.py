@@ -5,6 +5,7 @@ from fastapi import FastAPI, HTTPException, Depends
 from .entities.session import NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
 from .entities.user_payload import UserPayload
 from .entities.vote import Vote
+from .middleware.logging import LoggingMiddleware
 from .session_handler import SessionHandler
 from .data.watchables_store.in_memory_watchables_store import InMemoryWatchablesStore
 from .data.watchables_store.watchables_store import WatchablesStore
@@ -23,6 +24,8 @@ class SessionHandlerDependency:
 session_handler_dependency = SessionHandlerDependency(InMemoryWatchablesStore(), InMemorySessionStore())
 
 app = FastAPI()
+
+app.add_middleware(LoggingMiddleware)
 
 @app.post("/session", status_code=201)
 async def create_session(session_handler: SessionHandler = Depends(session_handler_dependency)):

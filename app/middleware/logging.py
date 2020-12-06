@@ -3,10 +3,10 @@ import uuid
 import time
 
 from starlette.middleware.base import BaseHTTPMiddleware
-from ..logging_config import syslog
+from app.config.logging_config import handler
 
 logger = logging.getLogger("HTTPMiddleware")
-logger.addHandler(syslog)
+logger.addHandler(handler)
 logger.setLevel(logging.INFO)
 
 

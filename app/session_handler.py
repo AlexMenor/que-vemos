@@ -2,6 +2,7 @@
 
 import uuid
 
+from .config.config import config
 from .data.session_store.session_store import SessionStore
 from .entities.session_summary import SessionSummary
 from .entities.user import User
@@ -13,7 +14,7 @@ from .data.watchables_store.watchables_store import WatchablesStore
 class SessionHandler:
     """ Handles all active sessions, represents an entrypoint for business logic """
 
-    NUM_OF_WATCHABLES_PER_SESSION = 20
+    NUM_OF_WATCHABLES_PER_SESSION = int(config.num_of_watchables_per_session)
 
     def __init__(self, watchables_store: WatchablesStore, session_store: SessionStore):
         self.__session_store = session_store

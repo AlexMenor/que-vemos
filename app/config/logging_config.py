@@ -1,6 +1,10 @@
 import logging
 import socket
+import sys
+
 from logging.handlers import SysLogHandler
+
+from .config import config
 
 class ContextFilter(logging.Filter):
     hostname = socket.gethostname()
@@ -9,13 +13,15 @@ class ContextFilter(logging.Filter):
         return True
 
 
-syslog = SysLogHandler(address=('logsN.papertrailapp.com', 00000))
+if config.mode == 'prod':
+    handler = SysLogHandler(address=(config.papertrail_host, int(config.papertrail_port)))
+else:
+    handler = logging.StreamHandler(sys.stdout)
 
-syslog.addFilter(ContextFilter())
-
+handler.addFilter(ContextFilter())
 format = '%(asctime)s %(hostname)s que-vemos: %(message)s'
 
 formatter = logging.Formatter(format, datefmt='%b %d %H:%M:%S')
 
-syslog.setFormatter(formatter)
+handler.setFormatter(formatter)
 
