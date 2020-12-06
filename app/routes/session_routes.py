@@ -21,7 +21,7 @@ class SessionHandlerDependency:
 session_handler_dependency = SessionHandlerDependency(InMemoryWatchablesStore(), InMemorySessionStore())
 
 
-router = APIRouter(prefix='/session', tags=['Session Routes'], dependencies=[Depends(session_handler_dependency)])
+router = APIRouter(prefix='/session', tags=['Session Routes'])
 
 
 @router.post("", status_code=201)
