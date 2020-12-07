@@ -178,6 +178,34 @@ Además, contiene el script que extrae los datos todos los días [WatchablesExtr
 Se ha aplicado inversión del control de forma que la interfaz y la persistencia dependan de la lógica y nunca al revés.
 De ahí la definición de interfaces en la capa de persistencia, que realmente no son necesarias para el funcionamiento de la aplicación (control) pero si para su mantenimiento.
 
+## Configuración
+
+En el módulo [config](app/config/config.py) está toda la configuración de la aplicación.
+- Desde otros módulos se puede importar `config` que no es más que un diccionario y la constante a utilizar. 
+Por ejemplo, en la configuración de los logs:
+```python
+handler = SysLogHandler(address=(config[PAPERTRAIL_HOST], int(config[PAPERTRAIL_PORT])))
+
+PAPERTRAIL_HOST = 'PAPERTRAIL_HOST'
+PAPERTRAIL_PORT = 'PAPERTRAIL_PORT'
+""" 
+PAPERTRAIL_HOST y PAPERTRAIL_PORT son constantes declaradas en el módulo
+config también. Al declararlas así no hay posibilidad de equivocarse al usarlas.
+"""
+config['PAPERTRAIL_POST'] # Así sí me puedo equivocar
+
+```
+- En primer lugar se intentan obtener las variables de `etcd`.
+- Si falla, usamos `dotenv` para tomarlas de un `.env` o del entorno es este no existe.
+- Por último, se verifica la configuración:
+    - Si el modo es producción deben estar todas las variables inicializadas.
+    - Si el modo es desarrollo, todas deben estar inicializadas excepto la `PAPERTRAIL_*`  que explicaré más adelante.
+    - Se lanza una excepción si falla esta verificación.
+
+
+Los tests de este módulo se pueden ver [aquí](app/tests/unit/test_config.py).
+
+
 ## Comandos
 
 ### Instalación de dependencias
