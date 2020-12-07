@@ -27,7 +27,7 @@ Como servidores ASGI tenemos:
 - Daphne
 - Hypercorn
 
-Estoy utilizando Uvicorn porque utiliza como implementación del event loop uvloop (que es una implementación más rápida escrita en C), algo que no tiene Daphne
+Estoy utilizando Uvicorn porque utiliza como implementación del loop uvloop (que es una implementación más rápida escrita en C) algo que no tiene Daphne
 y es más estable que Hypercorn que está en beta.
 Sin embargo, no me compromete a nada porque puedo cambiarlo por otro más adelante sin tener que tocar una línea de código (los tres implementan el estándar ASGI).
 
