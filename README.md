@@ -57,6 +57,64 @@ yield session
 app.dependency_overrides = {}
 ```
 
+### Cómo lo uso
+Las rutas las voy a declarar en [el directorio routes](routes), allí exporto un objeto de la clase `APIRouter` que importaré en [app.py](app/app.py) donde 
+se "pegan" todas las rutas.
+El objeto `router`, aparte de declarar todas las rutas con decoradores, defino un prefijo que llevarán todas ese rutas (en el caso de session routes `/session`) 
+y una descripción para la documentación automática.
+![Documentación rutas](docs/img/documentacion-rutas.png)
+
+En el decorador de cada ruta también documento las distintas respuestas que puede haber desde cada ruta, para que se vean reflejadas en Swagger también.
+```python
+@router.post("/{session_id}/user",
+          responses={404: {'description': 'Session not found'},
+                     409: {'description': 'Session already has the maximum number of users'}},
+          status_code=201, response_model=UserPayload)
+```
+
+Desde cada ruta, utilizo el manejador de sesiones que he venido desarrollando hasta ahora. Este manejador se inyecta:
+```python
+async def user_joins_session(session_id: str, session_handler: SessionHandler = Depends(session_handler_dependency)):
+```
+FastAPI se encarga de dos cosas ahí: 
+- Que session_id tenga el valor que se pase en el parámetro de la ruta (lo hemos especificado en el decorador).
+- Inyectar session_handler.
+
+Para esto último declaro antes:
+```python
+class SessionHandlerDependency:
+    def __init__(self, watchables_store: WatchablesStore, session_store: SessionStore):
+        self.session_handler = SessionHandler(watchables_store, session_store)
+
+    def __call__(self):
+        return self.session_handler
+
+
+session_handler_dependency = SessionHandlerDependency(InMemoryWatchablesStore(), InMemorySessionStore())
+```
+
+De esta forma, puedo pasar como argumentos las implementaciones de WatchablesStore y SessionStore que quiera (en este caso las dos en memoria)
+y se inyecta en las rutas en las que se declare como la anterior.
+
+Como he dicho antes, para juntarlo todo está [app.py](app/app.py):
+```python
+app = FastAPI()
+
+app.add_middleware(LoggingMiddleware)
+
+app.include_router(session_routes.router)
+```
+
+Para implementar cualquier middleware, basta con extender la clase `BaseHTTPMiddleware` que provee FastAPI pero que está implementada en Starlette.
+En esta clase hay que definir el método `dispatch`:
+```python
+async def dispatch(self, request, call_next):
+```
+Donde request es la petición y call_next es una co-rutina que nos devuelve la respuesta que se va a devolver
+si usamos `await`. Esto nos permite definir middleware que tiene efectos cuando entra la petición y cuando sale la respuesta.
+
+
+
 
 ## Comandos
 
