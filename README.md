@@ -196,7 +196,7 @@ config['PAPERTRAIL_POST'] # Así sí me puedo equivocar
 
 ```
 - En primer lugar se intentan obtener las variables de `etcd`.
-- Si falla, usamos `dotenv` para tomarlas de un `.env` o del entorno es este no existe.
+- Si falla, usamos `dotenv` para tomarlas de un `.env` o del entorno si este no existe.
 - Por último, se verifica la configuración:
     - Si el modo es producción deben estar todas las variables inicializadas.
     - Si el modo es desarrollo, todas deben estar inicializadas excepto la `PAPERTRAIL_*`  que explicaré más adelante.
@@ -218,6 +218,40 @@ Si el modo de ejecución es `dev` los imprime por consola. Si el modo de ejecuci
 ![logs](docs/img/logs.png)
 
 De nuevo hay un desacoplamiento de la implementación concreta, haciendo el servicio de logging intercambiable.
+
+## Tests de integración
+Pese a utilizar un framework asíncrono, FastAPI [provee un cliente de tests](https://fastapi.tiangolo.com/tutorial/testing/) basado en [requests](https://requests.readthedocs.io/en/master/)
+que permite programar estos tests con funciones síncronas.
+Además de este cliente, también he considerado [HTTPX](https://github.com/encode/httpx) en los que las funciones sí son asíncronas.
+
+Finalmente me he decantado por el primero porque es más estable, porque no tengo funciones asíncronas en los tests de integración
+y porque tiene un estilo más simple:
+```python
+# Requests
+def test_read_main():
+    response = client.get("/")
+    assert response.status_code == 200
+    assert response.json() == {"msg": "Hello World"}
+```
+```python
+# HTTPX
+@pytest.mark.asyncio
+async def test_root():
+    async with AsyncClient(app=app, base_url="http://test") as ac:
+        response = await ac.get("/")
+    assert response.status_code == 200
+    assert response.json() == {"msg": "Hello world"}
+```
+
+De todas formas, más adelante en caso de necesitarlo podría utilizar `HTTPX` en unos tests y `requests` en otros.
+De momento, `requests` hace lo que necesito, es más estable y tiene una interfaz más simple.
+
+Los tests que he implementado son [estos](app/tests/integration/test_session_routes.py) y corresponden
+a las historias de usuario que he comentado en la sección de rutas.
+
+En cuanto a la implementación de los mismos, destacar las fixtures con `yield` que están soportadas
+por `pytest` y me permiten utilizar la inyección de dependencias de FastAPI sin repetir en todos los tests setup y teardown.
+
 
 ## Comandos
 
