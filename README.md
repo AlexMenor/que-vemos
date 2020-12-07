@@ -78,6 +78,16 @@ async def user_joins_session(session_id: str, session_handler: SessionHandler = 
 ```
 FastAPI se encarga de dos cosas ahí: 
 - Que session_id tenga el valor que se pase en el parámetro de la ruta (lo hemos especificado en el decorador).
+- En caso de necesitar extraer el cuerpo la petición (y validarlo) podemos declarar un modelo:
+```python
+class Vote (BaseModel):
+    """ Represents that an user wants (or not) to see a watchable """
+
+    watchable_index: int
+    content: bool
+```
+Si alguno de los campos no esta presente o es de un tipo distinto al anotado, FastAPI devuelve un status code 422 con los detalles
+de la validación.
 - Inyectar session_handler.
 
 Para esto último declaro antes:
