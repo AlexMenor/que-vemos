@@ -39,7 +39,7 @@ En cuanto a microframeworks he considerado:
 
 Empecé a usar Starlette y FastAPI: Quería un microframework simple (django no lo es), que no me abstrajera demasiado de las peticiones y con mantenimiento y comunidad mediana detrás (punto en contra de Quart).
 
-Al final me decidí por FastAPI por la conveniencia de tener la documentación OpenAPI automáticamente implementada (intenté conseguir lo mismo en Starlette sin éxito).
+Al final me decidí por FastAPI por la conveniencia de tener la documentación OpenAPI automáticamente implementada (intenté conseguir lo mismo en Starlette sin éxito), que además era [una historia de usuario](https://github.com/AlexMenor/que-vemos/issues/65).
 
 Además, su sistema de inyección de dependencias me ha sido muy útil en los tests de integración para hacer por ejemplo:
 ```python
