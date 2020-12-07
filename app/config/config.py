@@ -28,7 +28,7 @@ def __config_via_dotenv():
 
 def __verify_config():
     for var in VARIABLES:
-        if config[var] is None:
+        if config[var] == 'None':
             if var in (PAPERTRAIL_HOST, PAPERTRAIL_PORT):
                 if config[MODE] == 'prod':
                     raise ConfigIncomplete(config)
