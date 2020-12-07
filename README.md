@@ -14,6 +14,50 @@
 
 ¿Y no es aún peor cuando esta decisión la tienes que tomar junto a tus padres? ¿O tu pareja?
 
+## Microframework
+
+Tras avanzar lógica de negocio, necesitamos un microframework que exponga operaciones al exterior mediante una interfaz REST y adicionalmente websockets.
+
+En python podemos elegir (desde hace poco) entre un framework que implemente el estándar WSGI o el ASGI. Este último aprovecha las co-rutinas introducidas
+en versiones modernas de python y por tanto mejora la utilización de CPU en servidores web que suelen hacer uso extensivo de I/O.
+
+Muy relacionada con la elección de microframework está la elección de servidor. 
+Como servidores ASGI tenemos:
+- Uvicorn
+- Daphne
+- Hypercorn
+
+Estoy utilizando Uvicorn porque utiliza como implementación del loop uvloop (que es una implementación más rápida escrita en C) algo que no tiene Daphne
+y es más estable que Hypercorn que está en beta.
+Sin embargo, no me compromete a nada porque puedo cambiarlo por otro más adelante sin tener que tocar una línea de código (los tres implementan el estándar ASGI).
+
+En cuanto a microframeworks he considerado:
+- Django/Channels: Hace Django compatible con async. Django es más un framework completo que un microframework.
+- Starlette: Soporte para websockets, anotado con tipos, sin dependencias y muy rápido.
+- Quart: Es una reimplementación de Flask para ASGI.
+- FastAPI: Toma Starlette como base y añade conveniencias como validación, generación automática de documentación OpenAPI, sistema de inyección de dependencias, manejado de excepciones, etc...
+
+Empecé a usar Starlette y FastAPI: Quería un microframework simple (django no lo es), que no me abstrajera demasiado de las peticiones y con mantenimiento y comunidad mediana detrás (punto en contra de Quart).
+
+Al final me decidí por FastAPI por la conveniencia de tener la documentación OpenAPI automáticamente implementada (intenté conseguir lo mismo en Starlette sin éxito).
+
+Además, su sistema de inyección de dependencias me ha sido muy útil en los tests de integración para hacer por ejemplo:
+```python
+watchables_store = InMemoryWatchablesStore()
+
+session_handler_mocked = SessionHandlerDependency(watchables_store, Mock())
+
+# Cambio la dependencia
+app.dependency_overrides[session_handler_dependency] = session_handler_mocked
+
+# Se ejecuta el test
+yield session
+
+# Deshago el cambio
+app.dependency_overrides = {}
+```
+
+
 ## Comandos
 
 ### Instalación de dependencias
