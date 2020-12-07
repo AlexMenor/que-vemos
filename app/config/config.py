@@ -26,7 +26,7 @@ def __config_via_dotenv():
     for variable in VARIABLES:
         config[variable] = str(os.getenv(variable))
 
-def __verify_config():
+def __verify_config(config):
     for var in VARIABLES:
         if config[var] == 'None':
             if var in (PAPERTRAIL_HOST, PAPERTRAIL_PORT):
@@ -48,4 +48,4 @@ if os.getenv('ETCD_HOST'):
 else:
     __config_via_dotenv()
 
-__verify_config()
+__verify_config(config)
