@@ -34,12 +34,16 @@ Sin embargo, no me compromete a nada porque puedo cambiarlo por otro más adelan
 En cuanto a microframeworks he considerado:
 - Django/Channels: Hace Django compatible con async. Django es más un framework completo que un microframework.
 - Starlette: Soporte para websockets, anotado con tipos, sin dependencias y muy rápido.
+- Sanic: Maduro y con una interfaz muy limpia. Parecido a flask y con el mismo tratamiento de parámetros y cuerpo que starlette.
 - Quart: Es una reimplementación de Flask para ASGI.
 - FastAPI: Toma Starlette como base y añade conveniencias como validación, generación automática de documentación OpenAPI, sistema de inyección de dependencias, manejado de excepciones, etc...
 
 Empecé a usar Starlette y FastAPI: Quería un microframework simple (django no lo es), que no me abstrajera demasiado de las peticiones y con mantenimiento y comunidad mediana detrás (punto en contra de Quart).
+Sanic también cumplía estos requisitos, pero starlette cuenta con [una interfaz](https://www.starlette.io/endpoints/#websocketendpoint) para usar websockets muy cómoda.
 
-Al final me decidí por FastAPI por la conveniencia de tener la documentación OpenAPI automáticamente implementada (intenté conseguir lo mismo en Starlette sin éxito), que además era [una historia de usuario](https://github.com/AlexMenor/que-vemos/issues/65).
+Al final me decidí por FastAPI, cuenta con todas las ventajas de Starlette y la conveniencia de tener la documentación OpenAPI automáticamente implementada (intenté conseguir lo mismo en Starlette sin éxito), que además era [una historia de usuario](https://github.com/AlexMenor/que-vemos/issues/65).
+También es más cómodo que starlette en el tratamiento de parámetros y cuerpo (se explica más abajo) sin dejar de positibilitar tratar con 
+[peticiones a bajo nivel si es necesario](https://fastapi.tiangolo.com/advanced/using-request-directly/).
 
 Además, su sistema de inyección de dependencias me ha sido muy útil en los tests de integración para hacer por ejemplo:
 ```python
@@ -60,7 +64,7 @@ app.dependency_overrides = {}
 ### Cómo lo uso
 Las rutas las voy a declarar en [el directorio routes](routes), allí exporto un objeto de la clase `APIRouter` que importaré en [app.py](app/app.py) donde 
 se "pegan" todas las rutas.
-El objeto `router`, aparte de declarar todas las rutas con decoradores, defino un prefijo que llevarán todas ese rutas (en el caso de session routes `/session`) 
+El objeto `router`, aparte de declarar todas las rutas con decoradores, sirve para definir un prefijo que llevarán todas ese rutas (en el caso de session routes `/session`) 
 y una descripción para la documentación automática.
 ![Documentación rutas](docs/img/documentacion-rutas.png)
 
@@ -172,7 +176,7 @@ La forman: Servidor (Uvicorn), microframework (FastAPI), [middleware](app/middle
 Para testear el código escrito en estos dos últimos (además de la integración de las capas) están [los tests de integración](app/tests/integration/test_session_routes.py).
 - Lógica: [Entidades](app/entities) y [session_handler](app/session_handler.py).
 - Persistencia: Todo bajo el directorio [data](app/data).
-Se definen las interfaces de persistencia ([SessionStore](app/data/session_store/session_store.py) y [WatchablesStore](app/data/watchables_store/watchables_store.py)) y sus implementaciones.
+Se definen las interfaces de persistencia ([SessionStore](app/data/session_store/session_store.py) y [WatchablesStore](app/data/watchables_store/watchables_store.py)) y sus implementaciones (de momento solo persisten en memoria).
 Además, contiene el script que extrae los datos todos los días [WatchablesExtractor](app/data/watchables_extractor/watchables_extractor.py).
 
 Se ha aplicado inversión del control de forma que la interfaz y la persistencia dependan de la lógica y nunca al revés.
@@ -291,6 +295,17 @@ poetry run task cov
 poetry run task mut
 ```
 
+### Iniciar microservicio
+
+```bash
+poetry run task start
+```
+
+### Iniciar microservicio para desarrollo
+En este modo al hacer cambios en cualquier fichero, la aplicación se reinicia.
+```bash
+poetry run task dev
+```
 ## Documentación adicional
 
 - [Configuración de git](docs/configurando-git.md)
