@@ -42,7 +42,7 @@ Empecé a usar Starlette y FastAPI: Quería un microframework simple (django no 
 Sanic también cumplía estos requisitos, pero starlette cuenta con [una interfaz](https://www.starlette.io/endpoints/#websocketendpoint) para usar websockets muy cómoda.
 
 Al final me decidí por FastAPI, cuenta con todas las ventajas de Starlette y la conveniencia de tener la documentación OpenAPI automáticamente implementada (intenté conseguir lo mismo en Starlette sin éxito), que además era [una historia de usuario](https://github.com/AlexMenor/que-vemos/issues/65).
-También es más cómodo que starlette en el tratamiento de parámetros y cuerpo (se explica más abajo) sin dejar de positibilitar tratar con 
+También es más cómodo que starlette en el tratamiento de parámetros y cuerpo (se explica más abajo) sin dejar de permitir tratar con 
 [peticiones a bajo nivel si es necesario](https://fastapi.tiangolo.com/advanced/using-request-directly/).
 
 Además, su sistema de inyección de dependencias me ha sido muy útil en los tests de integración para hacer por ejemplo:
