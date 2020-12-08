@@ -180,22 +180,20 @@ Se definen las interfaces de persistencia ([SessionStore](app/data/session_store
 Además, contiene el script que extrae los datos todos los días [WatchablesExtractor](app/data/watchables_extractor/watchables_extractor.py).
 
 Se ha aplicado inversión del control de forma que la interfaz y la persistencia dependan de la lógica y nunca al revés.
-De ahí la definición de interfaces en la capa de persistencia, que realmente no son necesarias para el funcionamiento de la aplicación (control) pero si para su mantenimiento.
 
 ## Configuración
 
 En el módulo [config](app/config/config.py) está toda la configuración de la aplicación.
-- Desde otros módulos se puede importar `config` que no es más que un diccionario y la constante a utilizar. 
+- Desde otros módulos se puede importar `config` (que no es más que un diccionario) y la constante a utilizar. 
 Por ejemplo, en la configuración de los logs:
 ```python
 handler = SysLogHandler(address=(config[PAPERTRAIL_HOST], int(config[PAPERTRAIL_PORT])))
 
+# (PAPERTRAIL_HOST, PAPERTRAIL_PORT están declaradas así)
 PAPERTRAIL_HOST = 'PAPERTRAIL_HOST'
 PAPERTRAIL_PORT = 'PAPERTRAIL_PORT'
-""" 
-PAPERTRAIL_HOST y PAPERTRAIL_PORT son constantes declaradas en el módulo
-config también. Al declararlas así no hay posibilidad de equivocarse al usarlas.
-"""
+#Al declararlas así no hay posibilidad de equivocarse al usarlas.
+
 config['PAPERTRAIL_POST'] # Así sí me puedo equivocar
 
 ```
@@ -208,6 +206,12 @@ config['PAPERTRAIL_POST'] # Así sí me puedo equivocar
 
 
 Los tests de este módulo se pueden ver [aquí](app/tests/unit/test_config.py).
+
+Las variables declaradas hasta el momento son:
+- MODE: Si se está ejecutando la aplicación en desarrollo o en producción. Más abajo lo explico en detalle.
+-  NUM_OF_WATCHABLES_PER_SESSION: Cuántos watchables se votarán en cada sesión.
+-  MAX_USERS_PER_SESSION: Cuántos usuarios máximos admite cada sesión.
+-  PAPERTRAIL_HOST y PAPERTRAIL_PORT: Configuración de papertrail.
 
 ## Logs
 Dos módulos fundamentales:
