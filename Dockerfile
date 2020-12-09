@@ -17,6 +17,8 @@ RUN poetry export -f requirements.txt --dev | /venv/bin/pip install -r /dev/stdi
 
 FROM base AS final
 
+RUN apt update && apt install make -y --no-install-recommends
+
 RUN groupadd -r tests && useradd --no-log-init -r -g tests tests
 
 USER tests
