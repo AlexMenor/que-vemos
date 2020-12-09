@@ -1,6 +1,6 @@
 [
     {
-        "popularity": 1973.492,
+        "popularity": 1594.345,
         "poster": "https://image.tmdb.org/t/p/w500//k68nPLbIST6NP96JmTxmZijEvCA.jpg",
         "synopsis": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
         "title": "Tenet",
@@ -8,7 +8,15 @@
         "year": "2020"
     },
     {
-        "popularity": 68.081,
+        "popularity": 0.0,
+        "poster": "https://image.tmdb.org/t/p/w500//dmMk2dXq793UHTyrlQZaGRPHLqD.jpg",
+        "synopsis": "New edit and restoration of the final film in the epic Godfather trilogy, following Michael Corleone's attempt to free his family from crime and find a suitable successor to his empire.",
+        "title": "Mario Puzo's The Godfather, Coda: The Death of Michael Corleone",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 95.313,
         "poster": "https://image.tmdb.org/t/p/w500//zeD4PabP6099gpE0STWJrJrCBCs.jpg",
         "synopsis": "A bank robber tries to turn himself in because he's falling in love and wants to live an honest life...but when he realizes the Feds are more corrupt than him, he must fight back to clear his name.",
         "title": "Honest Thief",
@@ -16,23 +24,7 @@
         "year": "2020"
     },
     {
-        "popularity": 66.445,
-        "poster": "https://image.tmdb.org/t/p/w500//hsMrWKY4ltL6tNrMapjp6z2KBPl.jpg",
-        "synopsis": "1930s Hollywood is reevaluated through the eyes of scathing social critic and alcoholic screenwriter Herman J. Mankiewicz as he races to finish the screenplay of Citizen Kane.",
-        "title": "Mank",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 120.11,
-        "poster": "https://image.tmdb.org/t/p/w500//yXlf0iwxdVmIZgRSZMIMsT1ekuE.jpg",
-        "synopsis": "A young and unskilled fairy godmother that ventures out on her own to prove her worth by tracking down a young girl whose request for help was ignored. What she discovers is that the girl has now become a grown woman in need of something very different than a \"prince charming.\"",
-        "title": "Godmothered",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 218.424,
+        "popularity": 175.029,
         "poster": "https://image.tmdb.org/t/p/w500//lK0NAXT7mcJrC3NK8vpXwK5EJQu.jpg",
         "synopsis": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
         "title": "Attack on Titan",
@@ -40,7 +32,23 @@
         "year": "2013"
     },
     {
-        "popularity": 251.81,
+        "popularity": 93.023,
+        "poster": "https://image.tmdb.org/t/p/w500//hsMrWKY4ltL6tNrMapjp6z2KBPl.jpg",
+        "synopsis": "1930s Hollywood is reevaluated through the eyes of scathing social critic and alcoholic screenwriter Herman J. Mankiewicz as he races to finish the screenplay of Citizen Kane.",
+        "title": "Mank",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 168.154,
+        "poster": "https://image.tmdb.org/t/p/w500//yXlf0iwxdVmIZgRSZMIMsT1ekuE.jpg",
+        "synopsis": "A young and unskilled fairy godmother that ventures out on her own to prove her worth by tracking down a young girl whose request for help was ignored. What she discovers is that the girl has now become a grown woman in need of something very different than a \"prince charming.\"",
+        "title": "Godmothered",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 352.534,
         "poster": "https://image.tmdb.org/t/p/w500//8xC6QSyxrpm0D5A6iyHNemEWBVe.jpg",
         "synopsis": "A mystical, ancient dagger causes a notorious serial killer to magically switch bodies with a 17-year-old girl.",
         "title": "Freaky",
@@ -48,7 +56,7 @@
         "year": "2020"
     },
     {
-        "popularity": 2110.837,
+        "popularity": 1959.989,
         "poster": "https://image.tmdb.org/t/p/w500//sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
         "synopsis": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
         "title": "The Mandalorian",
@@ -56,15 +64,7 @@
         "year": "2019"
     },
     {
-        "popularity": 68.653,
-        "poster": "https://image.tmdb.org/t/p/w500//hEIh0kQ656fObMtOoj1itTMGrZn.jpg",
-        "synopsis": "New Orleans judge Michael Desiato is forced to confront his own deepest convictions when his son is involved in a hit and run that embroils an organized crime family.",
-        "title": "Your Honor",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 458.964,
+        "popularity": 454.472,
         "poster": "https://image.tmdb.org/t/p/w500//xrI4EnZWftpo1B7tTvlMUXVOikd.jpg",
         "synopsis": "Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves.",
         "title": "The New Mutants",
@@ -72,15 +72,15 @@
         "year": "2020"
     },
     {
-        "popularity": 1143.073,
-        "poster": "https://image.tmdb.org/t/p/w500//bNo2mcvSwIvnx8K6y1euAc1TLVq.jpg",
-        "synopsis": "John Garrity, his estranged wife and their young son embark on a perilous journey to find sanctuary as a planet-killing comet hurtles toward Earth. Amid terrifying accounts of cities getting levelled, the Garrity's experience the best and worst in humanity. As the countdown to the global apocalypse approaches zero, their incredible trek culminates in a desperate and last-minute flight to a possible safe haven.",
-        "title": "Greenland",
-        "type": "MOVIE",
+        "popularity": 58.976,
+        "poster": "https://image.tmdb.org/t/p/w500//hEIh0kQ656fObMtOoj1itTMGrZn.jpg",
+        "synopsis": "New Orleans judge Michael Desiato is forced to confront his own deepest convictions when his son is involved in a hit and run that embroils an organized crime family.",
+        "title": "Your Honor",
+        "type": "SERIES",
         "year": "2020"
     },
     {
-        "popularity": 34.026,
+        "popularity": 47.636,
         "poster": "https://image.tmdb.org/t/p/w500//pVHgv6leYDCKrW4bdzA77NlMXXM.jpg",
         "synopsis": "A drummer begins to lose his hearing and has to come to grips with a future that will be filled with silence. Watch on Prime Video.",
         "title": "Sound of Metal",
@@ -88,15 +88,39 @@
         "year": "2020"
     },
     {
-        "popularity": 116.337,
-        "poster": "https://image.tmdb.org/t/p/w500//xcea4Yp3Zk6WocoyPbaJCFUhgkE.jpg",
+        "popularity": 6.474,
+        "poster": "https://image.tmdb.org/t/p/w500//1f3qspv64L5FXrRy0MF8X92ieuw.jpg",
+        "synopsis": "A robotics company vying to win a lucrative military contract team up with a corrupt CIA agent to conduct an illegal live field test. They deploy four weaponized prototype robots into a suspected drug manufacturing camp in the Golden Triangle, assuming they'd be killing drug runners that no one would miss. Six doctors on a humanitarian mission witness the brutal slaughter and become prime targets.",
+        "title": "Monsters of Man",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 947.9,
+        "poster": "https://image.tmdb.org/t/p/w500//bNo2mcvSwIvnx8K6y1euAc1TLVq.jpg",
+        "synopsis": "John Garrity, his estranged wife and their young son embark on a perilous journey to find sanctuary as a planet-killing comet hurtles toward Earth. Amid terrifying accounts of cities getting levelled, the Garrity's experience the best and worst in humanity. As the countdown to the global apocalypse approaches zero, their incredible trek culminates in a desperate and last-minute flight to a possible safe haven.",
+        "title": "Greenland",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 0.0,
+        "poster": "https://image.tmdb.org/t/p/w500//jwdQfmXVg5qFBvMUuxkkrW4bWTR.jpg",
+        "synopsis": "Celebrating the 30th Anniversary of The Godfather: Part III, director/screenwriter Francis Ford Coppola brings a definitive new edit and restoration of the final film in his epic Godfather trilogy\u2014Mario Puzo\u2019s THE GODFATHER, Coda: The Death of Michael Corleone. Michael Corleone (Al Pacino), now in his 60s, seeks to free his family from crime and find a suitable successor to his empire. That successor could be fiery Vincent (Andy Garcia)... but he may also be the spark that turns Michael's hope of business legitimacy into an inferno of mob violence. The film\u2019s meticulously restored picture and sound, under the supervision of American Zoetrope and Paramount Pictures, includes a new beginning and ending, as well as changes to scenes, shots, and music cues. The resulting project reflects author Mario Puzo and Coppola\u2019s original intentions of The Godfather: Part III, and delivers, in the words of Coppola, \u201ca more appropriate conclusion to The Godfather and The Godfather: Part II.\u201d",
+        "title": "The Godfather, Coda: The Death of Michael Corleone",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 162.872,
+        "poster": "https://image.tmdb.org/t/p/w500//2AwPvNHphpZBJDqjZKVuMAbvS0v.jpg",
         "synopsis": "After getting hired to probe a suspicious death in the small town of Wander, a mentally unstable private investigator becomes convinced the case is linked to the same 'conspiracy cover up' that caused the death of his daughter.",
         "title": "Wander",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 139.226,
+        "popularity": 101.535,
         "poster": "https://image.tmdb.org/t/p/w500//6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
         "synopsis": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
         "title": "The Lord of the Rings: The Fellowship of the Ring",
@@ -104,7 +128,7 @@
         "year": "2001"
     },
     {
-        "popularity": 386.551,
+        "popularity": 320.666,
         "poster": "https://image.tmdb.org/t/p/w500//5mi3aRl16yKmfpQJMzvqN5TXkdA.jpg",
         "synopsis": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
         "title": "Euphoria",
@@ -112,15 +136,15 @@
         "year": "2019"
     },
     {
-        "popularity": 90.237,
-        "poster": "https://image.tmdb.org/t/p/w500//ry6dScak3TZDjLrO4f9pEzMiH2j.jpg",
-        "synopsis": "After taking a very nasty fall on Christmas Eve, grinchy Jorge blacks out and wakes up one year later, with no memory of the year that has passed. He soon realizes that he\u2019s doomed to keep waking up on Christmas Eve after Christmas Eve, having to deal with the aftermath of what his other self has done the other 364 days of the year.",
-        "title": "Just Another Christmas",
+        "popularity": 205.267,
+        "poster": "https://image.tmdb.org/t/p/w500//di1bCAfGoJ0BzNEavLsPyxQ2AaB.jpg",
+        "synopsis": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
+        "title": "Wonder Woman 1984",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 1848.361,
+        "popularity": 1532.345,
         "poster": "https://image.tmdb.org/t/p/w500//4n8QNNdk4BOX9Dslfbz5Dy6j1HK.jpg",
         "synopsis": "A rowdy, unorthodox Santa Claus is fighting to save his declining business. Meanwhile, Billy, a neglected and precocious 12 year old, hires a hit man to kill Santa after receiving a lump of coal in his stocking.",
         "title": "Fatman",
@@ -128,39 +152,7 @@
         "year": "2020"
     },
     {
-        "popularity": 133.97,
-        "poster": "https://image.tmdb.org/t/p/w500//9akij7PqZ1g6zl42DQQTtL9CTSb.jpg",
-        "synopsis": "Chicagoan Frank Gallagher is the proud single dad of six smart, industrious, independent kids, who without him would be... perhaps better off. When Frank's not at the bar spending what little money they have, he's passed out on the floor. But the kids have found ways to grow up in spite of him. They may not be like any family you know, but they make no apologies for being exactly who they are.",
-        "title": "Shameless",
-        "type": "SERIES",
-        "year": "2011"
-    },
-    {
-        "popularity": 282.509,
-        "poster": "https://image.tmdb.org/t/p/w500//mYsWyfiIMxx4HDm0Wck7oJ9ckez.jpg",
-        "synopsis": "As Mexican-American Tejano singer Selena comes of age and realizes her dreams, she and her family make tough choices to hold on to love and music.",
-        "title": "Selena: The Series",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 184.855,
-        "poster": "https://image.tmdb.org/t/p/w500//iesh3R6gfgbe9kMB7GMAjCTHjf1.jpg",
-        "synopsis": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
-        "title": "Wonder Woman 1984",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 1004.099,
-        "poster": "https://image.tmdb.org/t/p/w500//6sG0kbEvAi3RRLcGGU5h8l3qAPa.jpg",
-        "synopsis": "Kate Pierce is reluctantly spending Christmas with her mom\u2019s new boyfriend and his son Jack. But when the North Pole and Christmas are threatened to be destroyed, Kate and Jack are unexpectedly pulled into a new adventure with Santa Claus.",
-        "title": "The Christmas Chronicles: Part Two",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 1104.142,
+        "popularity": 932.315,
         "poster": "https://image.tmdb.org/t/p/w500//aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
         "synopsis": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
         "title": "Mulan",
@@ -168,95 +160,7 @@
         "year": "2020"
     },
     {
-        "popularity": 60.974,
-        "poster": "https://image.tmdb.org/t/p/w500//ajKpYK7XdzIYjy9Uy8nkgRboKyv.jpg",
-        "synopsis": "A man foils an attempted murder, then flees the crew of would-be killers along with their intended target as a woman he's just met tries to find him.",
-        "title": "Christmas Crossfire",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 22.907,
-        "poster": "https://image.tmdb.org/t/p/w500//syrY3P8a30tGcmSlVtZjXO0VX5r.jpg",
-        "synopsis": "At a remote lake house in the Adirondack Mountains, a couple entertains an out-of-town guest looking for inspiration in her filmmaking. The group quickly falls into a calculated game of desire, manipulation, and jealousy, unaware of how dangerously intertwined their lives will soon become.",
-        "title": "Black Bear",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 392.635,
-        "poster": "https://image.tmdb.org/t/p/w500//g6tIKGc3f1H5QMz1dcgCwADKpZ7.jpg",
-        "synopsis": "Lyra is an orphan who lives in a parallel universe in which science, theology and magic are entwined. Lyra's search for a kidnapped friend uncovers a sinister plot involving stolen children, and turns into a quest to understand a mysterious phenomenon called Dust. She is later joined on her journey by Will, a boy who possesses a knife that can cut windows between worlds. As Lyra learns the truth about her parents and her prophesied destiny, the two young people are caught up in a war against celestial powers that ranges across many worlds.",
-        "title": "His Dark Materials",
-        "type": "SERIES",
-        "year": "2019"
-    },
-    {
-        "popularity": 22.159,
-        "poster": "https://image.tmdb.org/t/p/w500//sn6Y021EjdNnYuMWCYQWsQhyCIS.jpg",
-        "synopsis": "Liberty, a socially awkward 16-year-old, returns from two months at camp to a blindsided introduction of her mother\u2019s fiance\u0301, John Smith, whose charm, intelligence, and beauty paint the picture of a man too perfect to be human.",
-        "title": "What Lies Below",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 663.458,
-        "poster": "https://image.tmdb.org/t/p/w500//qzA87Wf4jo1h8JMk9GilyIYvwsA.jpg",
-        "synopsis": "A black ops assassin is forced to fight for her own survival after a job goes dangerously wrong.",
-        "title": "Ava",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 80.252,
-        "poster": "https://image.tmdb.org/t/p/w500//yHA9Fc37VmpUA5UncTxxo3rTGVA.jpg",
-        "synopsis": "Bilbo Baggins, a hobbit enjoying his quiet life, is swept into an epic quest by Gandalf the Grey and thirteen dwarves who seek to reclaim their mountain home from Smaug, the dragon.",
-        "title": "The Hobbit: An Unexpected Journey",
-        "type": "MOVIE",
-        "year": "2012"
-    },
-    {
-        "popularity": 78.096,
-        "poster": "https://image.tmdb.org/t/p/w500//5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
-        "synopsis": "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
-        "title": "The Lord of the Rings: The Two Towers",
-        "type": "MOVIE",
-        "year": "2002"
-    },
-    {
-        "popularity": 37.301,
-        "poster": "https://image.tmdb.org/t/p/w500//vqDcQIgAeuGxStm2FNfS4gR67QK.jpg",
-        "synopsis": "When the Hardy boys, Frank and Joe and their father, Fenton arrive in Bridgeport they set out to uncover the truth behind the recent tragedy that has changed their lives, and in doing so, uncover something much more sinister.",
-        "title": "The Hardy Boys",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 79.693,
-        "poster": "https://image.tmdb.org/t/p/w500//rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
-        "synopsis": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
-        "title": "The Lord of the Rings: The Return of the King",
-        "type": "MOVIE",
-        "year": "2003"
-    },
-    {
-        "popularity": 1226.268,
-        "poster": "https://image.tmdb.org/t/p/w500//7D430eqZj8y3oVkLFfsWXGRcpEG.jpg",
-        "synopsis": "A lowly utility worker is called to the future by a mysterious radio signal, he must leave his dying wife to embark on a journey that will force him to face his deepest fears in an attempt to change the fabric of reality and save humankind from its greatest environmental crisis yet.",
-        "title": "2067",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 7.031,
-        "poster": "https://image.tmdb.org/t/p/w500//vRLzcCASEYCrba0vQisq1fxslHG.jpg",
-        "synopsis": "Set in the 1930s in Northern Australia and is inspired by true events. In a remote corner of the wild country, a bloody war rages. Travis is a bounty hunter with one last hope of redemption. Djumbatj is a young Indigenous man trying to save the last of his family. Together they embark on a manhunt, which unravels a secret that ultimately pits them against each other.",
-        "title": "High Ground",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 49.756,
+        "popularity": 64.044,
         "poster": "https://image.tmdb.org/t/p/w500//5lx4pUHWZoOKJWsVsvurRRNW9FK.jpg",
         "synopsis": "In 1840s England, palaeontologist Mary Anning and a young woman sent by her husband to convalesce by the sea develop an intense relationship. Despite the chasm between their social spheres and personalities, Mary and Charlotte discover they can each offer what the other has been searching for: the realisation that they are not alone. It is the beginning of a passionate and all-consuming love affair that will defy all social bounds and alter the course of both lives irrevocably.",
         "title": "Ammonite",
@@ -264,31 +168,119 @@
         "year": "2020"
     },
     {
-        "popularity": 238.494,
-        "poster": "https://image.tmdb.org/t/p/w500//eu747ko823mktL3ygo7ohdZznP7.jpg",
-        "synopsis": "A determined Angela makes a wish to reunite her family in time for Christmas, then launches a plan to find her way from Ireland to Australia.",
-        "title": "Angela's Christmas Wish",
+        "popularity": 405.493,
+        "poster": "https://image.tmdb.org/t/p/w500//g6tIKGc3f1H5QMz1dcgCwADKpZ7.jpg",
+        "synopsis": "Lyra is an orphan who lives in a parallel universe in which science, theology and magic are entwined. Lyra's search for a kidnapped friend uncovers a sinister plot involving stolen children, and turns into a quest to understand a mysterious phenomenon called Dust. She is later joined on her journey by Will, a boy who possesses a knife that can cut windows between worlds. As Lyra learns the truth about her parents and her prophesied destiny, the two young people are caught up in a war against celestial powers that ranges across many worlds.",
+        "title": "His Dark Materials",
+        "type": "SERIES",
+        "year": "2019"
+    },
+    {
+        "popularity": 126.332,
+        "poster": "https://image.tmdb.org/t/p/w500//ry6dScak3TZDjLrO4f9pEzMiH2j.jpg",
+        "synopsis": "After taking a very nasty fall on Christmas Eve, grinchy Jorge blacks out and wakes up one year later, with no memory of the year that has passed. He soon realizes that he\u2019s doomed to keep waking up on Christmas Eve after Christmas Eve, having to deal with the aftermath of what his other self has done the other 364 days of the year.",
+        "title": "Just Another Christmas",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 92.876,
-        "poster": "https://image.tmdb.org/t/p/w500//xQYiXsheRCDBA39DOrmaw1aSpbk.jpg",
-        "synopsis": "The Dwarves, Bilbo and Gandalf have successfully escaped the Misty Mountains, and Bilbo has gained the One Ring. They all continue their journey to get their gold back from the Dragon, Smaug.",
-        "title": "The Hobbit: The Desolation of Smaug",
-        "type": "MOVIE",
-        "year": "2013"
+        "popularity": 395.513,
+        "poster": "https://image.tmdb.org/t/p/w500//mYsWyfiIMxx4HDm0Wck7oJ9ckez.jpg",
+        "synopsis": "As Mexican-American Tejano singer Selena comes of age and realizes her dreams, she and her family make tough choices to hold on to love and music.",
+        "title": "Selena: The Series",
+        "type": "SERIES",
+        "year": "2020"
     },
     {
-        "popularity": 271.44,
-        "poster": "https://image.tmdb.org/t/p/w500//vzec9kkOSE93tygyfOktedkeOQ.jpg",
-        "synopsis": "A young woman's plans to propose to her girlfriend while at her family's annual holiday party are upended when she discovers her partner hasn't yet come out to her conservative parents.",
-        "title": "Happiest Season",
+        "popularity": 85.364,
+        "poster": "https://image.tmdb.org/t/p/w500//ajKpYK7XdzIYjy9Uy8nkgRboKyv.jpg",
+        "synopsis": "A man foils an attempted murder, then flees the crew of would-be killers along with their intended target as a woman he's just met tries to find him.",
+        "title": "Christmas Crossfire",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 449.525,
+        "popularity": 859.391,
+        "poster": "https://image.tmdb.org/t/p/w500//6sG0kbEvAi3RRLcGGU5h8l3qAPa.jpg",
+        "synopsis": "Kate Pierce is reluctantly spending Christmas with her mom\u2019s new boyfriend and his son Jack. But when the North Pole and Christmas are threatened to be destroyed, Kate and Jack are unexpectedly pulled into a new adventure with Santa Claus.",
+        "title": "The Christmas Chronicles: Part Two",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 31.025,
+        "poster": "https://image.tmdb.org/t/p/w500//vqDcQIgAeuGxStm2FNfS4gR67QK.jpg",
+        "synopsis": "When the Hardy boys, Frank and Joe and their father, Fenton arrive in Bridgeport they set out to uncover the truth behind the recent tragedy that has changed their lives, and in doing so, uncover something much more sinister.",
+        "title": "The Hardy Boys",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 72.965,
+        "poster": "https://image.tmdb.org/t/p/w500//5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+        "synopsis": "Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard.",
+        "title": "The Lord of the Rings: The Two Towers",
+        "type": "MOVIE",
+        "year": "2002"
+    },
+    {
+        "popularity": 102.878,
+        "poster": "https://image.tmdb.org/t/p/w500//9akij7PqZ1g6zl42DQQTtL9CTSb.jpg",
+        "synopsis": "Chicagoan Frank Gallagher is the proud single dad of six smart, industrious, independent kids, who without him would be... perhaps better off. When Frank's not at the bar spending what little money they have, he's passed out on the floor. But the kids have found ways to grow up in spite of him. They may not be like any family you know, but they make no apologies for being exactly who they are.",
+        "title": "Shameless",
+        "type": "SERIES",
+        "year": "2011"
+    },
+    {
+        "popularity": 70.043,
+        "poster": "https://image.tmdb.org/t/p/w500//yHA9Fc37VmpUA5UncTxxo3rTGVA.jpg",
+        "synopsis": "Bilbo Baggins, a hobbit enjoying his quiet life, is swept into an epic quest by Gandalf the Grey and thirteen dwarves who seek to reclaim their mountain home from Smaug, the dragon.",
+        "title": "The Hobbit: An Unexpected Journey",
+        "type": "MOVIE",
+        "year": "2012"
+    },
+    {
+        "popularity": 74.555,
+        "poster": "https://image.tmdb.org/t/p/w500//rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+        "synopsis": "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.",
+        "title": "The Lord of the Rings: The Return of the King",
+        "type": "MOVIE",
+        "year": "2003"
+    },
+    {
+        "popularity": 564.634,
+        "poster": "https://image.tmdb.org/t/p/w500//qzA87Wf4jo1h8JMk9GilyIYvwsA.jpg",
+        "synopsis": "A black ops assassin is forced to fight for her own survival after a job goes dangerously wrong.",
+        "title": "Ava",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 241.002,
+        "poster": "https://image.tmdb.org/t/p/w500//or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+        "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+        "title": "Avengers: Endgame",
+        "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 0.0,
+        "poster": "https://image.tmdb.org/t/p/w500//zil8jBEZeRSaWg0EnPa8xhdtw9d.jpg",
+        "synopsis": "Celebrating the 30th Anniversary of The Godfather: Part III, director/screenwriter Francis Ford Coppola brings a definitive new edit and restoration of the final film in his epic Godfather trilogy\u2014Mario Puzo\u2019s THE GODFATHER, Coda: The Death of Michael Corleone.",
+        "title": "Mario Puzo\u2019s The Godfather, Coda: The Death of Michael Corleone",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 31.023,
+        "poster": "https://image.tmdb.org/t/p/w500//6DuONLcivGDcl4xBw58YJJna4q8.jpg",
+        "synopsis": "Liberty, a socially awkward 16-year-old, returns from two months at camp to a blindsided introduction of her mother\u2019s fiance\u0301, John Smith, whose charm, intelligence, and beauty paint the picture of a man too perfect to be human.",
+        "title": "What Lies Below",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 428.373,
         "poster": "https://image.tmdb.org/t/p/w500//zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg",
         "synopsis": "In a Kentucky orphanage in the 1950s, a young girl discovers an astonishing talent for chess while struggling with addiction.",
         "title": "The Queen's Gambit",
@@ -296,27 +288,35 @@
         "year": "2020"
     },
     {
-        "popularity": 43.36,
-        "poster": "https://image.tmdb.org/t/p/w500//5ZjMNJJabwBEnGVQoR2yoMEL9um.jpg",
-        "synopsis": "Born free in the American West, Black Beauty is a horse rounded up and brought to Birtwick Stables, where she meets spirited teenager Jo Green. The two forge a bond that carries Beauty through the different chapters, challenges and adventures.",
-        "title": "Black Beauty",
+        "popularity": 32.07,
+        "poster": "https://image.tmdb.org/t/p/w500//syrY3P8a30tGcmSlVtZjXO0VX5r.jpg",
+        "synopsis": "At a remote lake house in the Adirondack Mountains, a couple entertains an out-of-town guest looking for inspiration in her filmmaking. The group quickly falls into a calculated game of desire, manipulation, and jealousy, unaware of how dangerously intertwined their lives will soon become.",
+        "title": "Black Bear",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 95.666,
-        "poster": "https://image.tmdb.org/t/p/w500//6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
-        "synopsis": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
-        "title": "Star Wars",
+        "popularity": 99.887,
+        "poster": "https://image.tmdb.org/t/p/w500//xQYiXsheRCDBA39DOrmaw1aSpbk.jpg",
+        "synopsis": "The Dwarves, Bilbo and Gandalf have successfully escaped the Misty Mountains, and Bilbo has gained the One Ring. They all continue their journey to get their gold back from the Dragon, Smaug.",
+        "title": "The Hobbit: The Desolation of Smaug",
         "type": "MOVIE",
-        "year": "1977"
+        "year": "2013"
     },
     {
-        "popularity": 109.856,
-        "poster": "https://image.tmdb.org/t/p/w500//xT98tLqatZPQApyRmlPL12LtiWp.jpg",
-        "synopsis": "Immediately after the events of The Desolation of Smaug, Bilbo and the dwarves try to defend Erebor's mountain of treasure from others who claim it: the men of the ruined Laketown and the elves of Mirkwood. Meanwhile an army of Orcs led by Azog the Defiler is marching on Erebor, fueled by the rise of the dark lord Sauron. Dwarves, elves and men must unite, and the hope for Middle-Earth falls into Bilbo's hands.",
-        "title": "The Hobbit: The Battle of the Five Armies",
+        "popularity": 1112.112,
+        "poster": "https://image.tmdb.org/t/p/w500//7D430eqZj8y3oVkLFfsWXGRcpEG.jpg",
+        "synopsis": "A lowly utility worker is called to the future by a mysterious radio signal, he must leave his dying wife to embark on a journey that will force him to face his deepest fears in an attempt to change the fabric of reality and save humankind from its greatest environmental crisis yet.",
+        "title": "2067",
         "type": "MOVIE",
-        "year": "2014"
+        "year": "2020"
+    },
+    {
+        "popularity": 72.989,
+        "poster": "https://image.tmdb.org/t/p/w500//ruNVQ6S87T1JipVdvllcDQlgwb3.jpg",
+        "synopsis": "Hilarious high school teacher Gabriel Iglesias tries to make a difference in the lives of some smart but underperforming students at his alma mater.",
+        "title": "Mr. Iglesias",
+        "type": "SERIES",
+        "year": "2019"
     }
 ]
