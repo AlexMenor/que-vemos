@@ -14,4 +14,4 @@ jobs:
           heroku_app_name: "que-vemos"
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           justlogin: true
-        - run: heroku git:remote -a que-vemos && git push heroku master
+      - run: heroku git:remote -a que-vemos && git push heroku master
