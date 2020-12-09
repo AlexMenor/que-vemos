@@ -267,7 +267,7 @@ Y he implementado [una github action](.github/workflows/deploy-to-heroku.yml) qu
 registro de contenedores de heroku y por último la pone en producción [aquí](https://que-vemos.herokuapp.com/docs).
 Se puede interactuar con el microservicio mediante la documentación de Swagger para probarlo y ver las operaciones disponibles.
 
-Al estar ya en producción, se le han pasado las variables de entorno correspondiente y los logs se envían a papertrail.
+Al estar ya en producción, se le han pasado las variables de entorno correspondientes y los logs se envían a papertrail.
 ![logs](docs/img/logs2.png)
 
 ## Comandos
