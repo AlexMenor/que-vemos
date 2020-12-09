@@ -1,5 +1,0 @@
-build:
-  docker:
-    web: production.Dockerfile
-run:
-  web: poetry run task start
