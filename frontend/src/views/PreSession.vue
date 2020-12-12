@@ -6,7 +6,7 @@
         <v-btn class="ma-5" color="primary" @click="createSession">
           Crea una sesión</v-btn
         >
-        <v-btn class="ma-5"> O únete a una</v-btn>
+        <v-btn class="ma-5" @click="scanQr"> O únete a una</v-btn>
       </div>
       <div id="qr-parent"></div>
     </card>
@@ -17,6 +17,7 @@
 import Card from "@/components/Card.vue";
 import axios from "axios";
 import * as QRCode from "qrcode";
+import QRScanner from "qr-code-scanner";
 
 const API_ENDPOINT = "https://que-vemos.herokuapp.com";
 export default {
@@ -45,6 +46,12 @@ export default {
             resolve(canvas);
           }
         );
+      });
+    },
+    scanQr() {
+      QRScanner.initiate({
+        onResult: console.log,
+        timeout: 10000,
       });
     },
   },
