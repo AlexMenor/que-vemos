@@ -32,5 +32,8 @@ export default {
   data: () => ({
     //
   }),
+  mounted() {
+    this.$router.push({ name: "PreSession" });
+  },
 };
 </script>
