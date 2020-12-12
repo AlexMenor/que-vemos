@@ -1,5 +1,5 @@
 <template>
-  <v-card class="ma-4 watchable" max-width="300" raised hover rounded="lg">
+  <card>
     <div>
       <v-container fluid class="d-flex justify-space-between">
         <v-chip>
@@ -25,19 +25,13 @@
         {{ watchable.popularity }}
       </v-chip>
     </v-container>
-  </v-card>
+  </card>
 </template>
 
 <script>
+import Card from "@/components/Card.vue";
 export default {
   props: ["watchable"],
+  components: { Card },
 };
 </script>
-
-<style>
-.watchable {
-  display: flex !important;
-  flex-direction: column;
-  justify-content: space-between;
-}
-</style>

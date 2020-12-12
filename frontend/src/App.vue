@@ -7,7 +7,6 @@
         max-width="200px"
       />
       <v-spacer></v-spacer>
-      <feedback></feedback>
       <a
         href="https://github.com/AlexMenor/que-vemos"
         target="_blank"
@@ -21,18 +20,14 @@
     </v-app-bar>
 
     <v-main style="background-color: #f2b987">
-      <trending-watchables></trending-watchables>
+      <router-view></router-view>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import TrendingWatchables from "@/components/TrendingWatchables.vue";
-import Feedback from "@/components/Feedback.vue";
 export default {
   name: "App",
-
-  components: { TrendingWatchables, Feedback },
 
   data: () => ({
     //
