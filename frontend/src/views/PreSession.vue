@@ -24,7 +24,6 @@ import axios from "axios";
 import * as QRCode from "qrcode";
 import QRScanner from "qr-code-scanner";
 
-const API_ENDPOINT = "https://que-vemos.herokuapp.com";
 export default {
   components: { Card },
   data() {
@@ -35,7 +34,9 @@ export default {
   },
   methods: {
     async createSession() {
-      const { data } = await axios.post(`${API_ENDPOINT}/session`);
+      const { data } = await axios.post(
+        `${process.env.VUE_APP_API_ENDPOINT}/session`
+      );
 
       this.sessionId = data["session_id"];
 
