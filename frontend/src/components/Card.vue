@@ -9,6 +9,8 @@
   display: flex !important;
   flex-direction: column;
   justify-content: space-between;
-  max-height: 80vh;
+  overflow: hidden;
+  min-height: 100%;
+  min-width: 100%;
 }
 </style>

@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import PreSession from "../views/PreSession.vue";
+import Session from "../views/Session.vue";
 import TrendingWatchables from "../views/TrendingWatchables.vue";
 
 Vue.use(VueRouter);
@@ -16,6 +17,11 @@ const routes = [
     path: "/session",
     name: "PreSession",
     component: PreSession,
+  },
+  {
+    path: "/session/:id",
+    name: "Session",
+    component: Session,
   },
   {
     path: "/trending",

@@ -12,7 +12,7 @@
         <p>Los demás tienen que escanear este código</p>
         <div id="qr-parent"></div>
         <p>O entrar en:</p>
-        <p>{{ sessionLink }}</p>
+        <a :href="sessionLink">{{ sessionLink }}</a>
       </v-layout>
     </card>
   </v-layout>

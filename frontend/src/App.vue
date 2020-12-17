@@ -32,8 +32,14 @@ export default {
   data: () => ({
     //
   }),
-  mounted() {
-    this.$router.push({ name: "PreSession" });
-  },
+  mounted() {},
 };
 </script>
+
+<style>
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+</style>

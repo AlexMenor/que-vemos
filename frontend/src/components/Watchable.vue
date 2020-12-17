@@ -16,7 +16,7 @@
         </p>
       </v-card-text>
     </div>
-    <v-img :src="watchable.poster" class="ma-4"></v-img>
+    <v-img :src="watchable.poster" class="ma-4" max-height="30vh"></v-img>
     <v-container fluid class="d-flex justify-end align-center">
       <div>
         Popularity:
