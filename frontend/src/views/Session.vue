@@ -8,10 +8,10 @@
     <Tinder
       ref="tinder"
       key-name="title"
-      :queue.sync="session.watchables"
+      :queue.sync="queue"
       :offset-y="10"
       @submit="onSubmit"
-      v-if="session"
+      v-if="queue"
     >
       <template slot-scope="scope">
         <watchable :watchable="scope.data"></watchable>
@@ -32,10 +32,12 @@ export default {
       sessionId: this.$route.params.id,
       session: null,
       watchableIndex: 0,
+      queue: null,
     };
   },
-  mounted() {
-    this.joinSession();
+  async mounted() {
+    await this.joinSession();
+    this.queue = [...this.session.watchables];
   },
   methods: {
     async joinSession() {
@@ -44,7 +46,18 @@ export default {
       );
       this.session = data;
     },
-    onSubmit() {},
+    async onSubmit(item) {
+      const { key, type } = item;
+      await axios.post(
+        `${process.env.VUE_APP_API_ENDPOINT}/session/${this.sessionId}/user/${this.session.user_id}/vote`,
+        {
+          watchable_index: this.session.watchables.findIndex(
+            (watchable) => watchable.title === key
+          ),
+          content: type === "like",
+        }
+      );
+    },
   },
 };
 </script>
@@ -59,7 +72,8 @@ export default {
 
   width: 90%;
   height: 90%;
-
+}
+.tinder-card {
   display: flex;
 
   justify-content: center;
