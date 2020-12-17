@@ -5,19 +5,28 @@
     align-center
     class="pa-4"
   >
-    <watchable
+    <Tinder
+      ref="tinder"
+      key-name="title"
+      :queue.sync="session.watchables"
+      :offset-y="10"
+      @submit="onSubmit"
       v-if="session"
-      :watchable="session.watchables[watchableIndex]"
-    ></watchable>
+    >
+      <template slot-scope="scope">
+        <watchable :watchable="scope.data"></watchable>
+      </template>
+    </Tinder>
   </v-layout>
 </template>
 
 <script>
 import axios from "axios";
 import Watchable from "@/components/Watchable.vue";
+import Tinder from "vue-tinder";
 
 export default {
-  components: { Watchable },
+  components: { Watchable, Tinder },
   data() {
     return {
       sessionId: this.$route.params.id,
@@ -35,6 +44,25 @@ export default {
       );
       this.session = data;
     },
+    onSubmit() {},
   },
 };
 </script>
+
+<style>
+#app .vue-tinder {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  width: 90%;
+  height: 90%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+</style>

@@ -16,6 +16,7 @@
     "roboto-fontface": "*",
     "vue": "^2.6.11",
     "vue-router": "^3.4.9",
+    "vue-tinder": "^2.0.2",
     "vuetify": "^2.2.11"
   },
   "devDependencies": {
