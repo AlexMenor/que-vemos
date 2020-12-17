@@ -8,7 +8,12 @@
         >
         <v-btn class="ma-5" @click="scanQr"> O únete a una</v-btn>
       </div>
-      <div id="qr-parent"></div>
+      <v-layout v-show="qr" column justify-center align-center>
+        <p>Los demás tienen que escanear este código</p>
+        <div id="qr-parent"></div>
+        <p>O entrar en:</p>
+        <p>{{ sessionLink }}</p>
+      </v-layout>
     </card>
   </v-layout>
 </template>
@@ -59,6 +64,11 @@ export default {
     qr() {
       const parent = document.getElementById("qr-parent");
       parent.appendChild(this.qr);
+    },
+  },
+  computed: {
+    sessionLink() {
+      return window.location.href + "/" + this.sessionId;
     },
   },
 };
