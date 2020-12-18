@@ -1,6 +1,6 @@
 [
     {
-        "popularity": 960.791,
+        "popularity": 877.927,
         "poster": "https://image.tmdb.org/t/p/w500//k68nPLbIST6NP96JmTxmZijEvCA.jpg",
         "synopsis": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
         "title": "Tenet",
@@ -8,7 +8,23 @@
         "year": "2020"
     },
     {
-        "popularity": 158.157,
+        "popularity": 504.364,
+        "poster": "https://image.tmdb.org/t/p/w500//tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+        "synopsis": "After leaving their cave, the Croods encounter their biggest threat since leaving: another family called the Bettermans, who claim and show to be better and evolved. Grug grows suspicious of the Betterman parents, Phil and Hope,  as they secretly plan to break up his daughter Eep with her loving boyfriend Guy to ensure that their daughter Dawn has a loving and smart partner to protect her.",
+        "title": "The Croods: A New Age",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 69.434,
+        "poster": "https://image.tmdb.org/t/p/w500//w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+        "synopsis": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+        "title": "The Stand",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 178.979,
         "poster": "https://image.tmdb.org/t/p/w500//5vQlVWkIMPhZ88OWchJsgwGEK9.jpg",
         "synopsis": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
         "title": "The Expanse",
@@ -16,7 +32,7 @@
         "year": "2015"
     },
     {
-        "popularity": 409.473,
+        "popularity": 562.298,
         "poster": "https://image.tmdb.org/t/p/w500//di1bCAfGoJ0BzNEavLsPyxQ2AaB.jpg",
         "synopsis": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
         "title": "Wonder Woman 1984",
@@ -24,15 +40,7 @@
         "year": "2020"
     },
     {
-        "popularity": 105.903,
-        "poster": "https://image.tmdb.org/t/p/w500//utYKyP9q7aYxU6LdOwkxRo92XFU.jpg",
-        "synopsis": "After the PTA of a conservative high school in Indiana bans same-sex couples from attending the annual prom, a gang of flamboyant Broadway stars try to boost their image by showing up to support two lesbian students.",
-        "title": "The Prom",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 1597.983,
+        "popularity": 1566.975,
         "poster": "https://image.tmdb.org/t/p/w500//sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
         "synopsis": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
         "title": "The Mandalorian",
@@ -40,151 +48,7 @@
         "year": "2019"
     },
     {
-        "popularity": 64.425,
-        "poster": "https://image.tmdb.org/t/p/w500//hvmOpnLYIYbTWdlV3RuE9iKlIOa.jpg",
-        "synopsis": "When an attack brings down the star student at an elite ballet school, her replacement enters a world of lies, betrayal -- and cutthroat competition.",
-        "title": "Tiny Pretty Things",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 20.105,
-        "poster": "https://image.tmdb.org/t/p/w500//caCbdsdGHDJNMjSiA5X4mgIfe61.jpg",
-        "synopsis": "With his carefree lifestyle on the line, a wealthy charmer poses as a ranch hand to get a hardworking farmer to sell her family\u2019s land before Christmas.",
-        "title": "A California Christmas",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 47.34,
-        "poster": "https://image.tmdb.org/t/p/w500//uTcJAxIV8BzNXuvcViBSibQSBid.jpg",
-        "synopsis": "In this 1970s set crime drama, a woman is forced to go on the run after her husband betrays his partners, sending her and her baby on a dangerous journey.",
-        "title": "I'm Your Woman",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 129.174,
-        "poster": "https://image.tmdb.org/t/p/w500//aiy35Evcofzl7hASZZvsFgltHTX.jpg",
-        "synopsis": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
-        "title": "Attack on Titan",
-        "type": "SERIES",
-        "year": "2013"
-    },
-    {
-        "popularity": 992.936,
-        "poster": "https://image.tmdb.org/t/p/w500//zeD4PabP6099gpE0STWJrJrCBCs.jpg",
-        "synopsis": "A bank robber tries to turn himself in because he's falling in love and wants to live an honest life...but when he realizes the Feds are more corrupt than him, he must fight back to clear his name.",
-        "title": "Honest Thief",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 69.354,
-        "poster": "https://image.tmdb.org/t/p/w500//ehAKuE48okTuonq6TpsNQj8vFTC.jpg",
-        "synopsis": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
-        "title": "Wolfwalkers",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 72.35,
-        "poster": "https://image.tmdb.org/t/p/w500//20mOwAAPwZ1vLQkw0fvuQHiG7bO.jpg",
-        "synopsis": "With his two friends, a video-game-obsessed young man finds himself in a strange version of Tokyo where they must compete in dangerous games to win.",
-        "title": "Alice in Borderland",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 1290.474,
-        "poster": "https://image.tmdb.org/t/p/w500//4n8QNNdk4BOX9Dslfbz5Dy6j1HK.jpg",
-        "synopsis": "A rowdy, unorthodox Santa Claus is fighting to save his declining business. Meanwhile, Billy, a neglected and precocious 12 year old, hires a hit man to kill Santa after receiving a lump of coal in his stocking.",
-        "title": "Fatman",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 1.96,
-        "poster": "https://image.tmdb.org/t/p/w500//xxv6yHSNTGaf7aqwF1XdLVNpvpB.jpg",
-        "synopsis": "Out hiking, Special Forces Brenner Baker stumbles onto a Cartel's compound. Her husband's killed and she's left for dead. The Cartel made two mistakes, killed her husband and left her alive. They won't live to make another.",
-        "title": "Army of One",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 40.806,
-        "poster": "https://image.tmdb.org/t/p/w500//sEgCNz0BMWTjuAVIGeK3PV5jIt6.jpg",
-        "synopsis": "For five years, between 1975 to 1980, the Yorkshire Ripper murders cast a dark shadow over the lives of women in the North of England. 13 women were dead and the police seemed incapable of catching the killer. No one felt safe \u2013 and every man was a suspect.",
-        "title": "The Ripper",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 684.542,
-        "poster": "https://image.tmdb.org/t/p/w500//bNo2mcvSwIvnx8K6y1euAc1TLVq.jpg",
-        "synopsis": "John Garrity, his estranged wife and their young son embark on a perilous journey to find sanctuary as a planet-killing comet hurtles toward Earth. Amid terrifying accounts of cities getting levelled, the Garrity's experience the best and worst in humanity. As the countdown to the global apocalypse approaches zero, their incredible trek culminates in a desperate and last-minute flight to a possible safe haven.",
-        "title": "Greenland",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 189.857,
-        "poster": "https://image.tmdb.org/t/p/w500//vzec9kkOSE93tygyfOktedkeOQ.jpg",
-        "synopsis": "A young woman's plans to propose to her girlfriend while at her family's annual holiday party are upended when she discovers her partner hasn't yet come out to her conservative parents.",
-        "title": "Happiest Season",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 51.779,
-        "poster": "https://image.tmdb.org/t/p/w500//aKWe6JLwdQRjZFTwSLGWy2IUbvi.jpg",
-        "synopsis": "The story of Ray-Ray McElrathbey, a freshman football player for Clemson University, who secretly raised his younger brother on campus after his home life became too unsteady.",
-        "title": "Safety",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 2.744,
-        "poster": "https://image.tmdb.org/t/p/w500//4uwzQsjOO7tcw6zfDtkzlH5UyXV.jpg",
-        "synopsis": "Prodigal daughter Tumi tries to make things right after completely ruining what should have been her sister's picture-perfect Christmas wedding.",
-        "title": "How To Ruin Christmas: The Wedding",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 53.09,
-        "poster": "https://image.tmdb.org/t/p/w500//1hdm3Axw9LjITbApvAXBbqO58zE.jpg",
-        "synopsis": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
-        "title": "The Godfather: Part III",
-        "type": "MOVIE",
-        "year": "1990"
-    },
-    {
-        "popularity": 388.088,
-        "poster": "https://image.tmdb.org/t/p/w500//eDnHgozW8vfOaLHzfpHluf1GZCW.jpg",
-        "synopsis": "2038: George Almore is working on a true human-equivalent AI, and his latest prototype is almost ready. This sensitive phase is also the riskiest as he has a goal that must be hidden at all costs\u2014being reunited with his dead wife.",
-        "title": "Archive",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 95.293,
-        "poster": "https://image.tmdb.org/t/p/w500//gHBtyMdHbWoM3tpM8VZymer8HfF.jpg",
-        "synopsis": "A group of teen girls from different backgrounds must fight for survival after a plane crash strands them on a deserted island. The castaways both clash and bond as they learn more about each other, the secrets they keep, and the traumas they've all endured. But there\u2019s just one twist\u2026 these girls did not end up on this island by accident.",
-        "title": "The Wilds",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 41.223,
-        "poster": "https://image.tmdb.org/t/p/w500//5FWzTsCklU0QY5kUqnQOwkxL334.jpg",
-        "synopsis": "Ip Man\u2019s promising career as a Policeman is ruined after he is framed for murder and targeted by a mob boss\u2019s daughter.",
-        "title": "Ip Man: Kung Fu Master",
-        "type": "MOVIE",
-        "year": "2019"
-    },
-    {
-        "popularity": 66.374,
+        "popularity": 66.803,
         "poster": "https://image.tmdb.org/t/p/w500//a1IyqmWVZIwVGGNyoh6H2x1nbWU.jpg",
         "synopsis": "During a pandemic lockdown, Nico, a young man with rare immunity, must overcome martial law, murderous vigilantes and a powerful family to reunite with his love, Sara.",
         "title": "Songbird",
@@ -192,15 +56,87 @@
         "year": "2020"
     },
     {
-        "popularity": 418.605,
-        "poster": "https://image.tmdb.org/t/p/w500//qzA87Wf4jo1h8JMk9GilyIYvwsA.jpg",
-        "synopsis": "A black ops assassin is forced to fight for her own survival after a job goes dangerously wrong.",
-        "title": "Ava",
+        "popularity": 102.72,
+        "poster": "https://image.tmdb.org/t/p/w500//utYKyP9q7aYxU6LdOwkxRo92XFU.jpg",
+        "synopsis": "After the PTA of a conservative high school in Indiana bans same-sex couples from attending the annual prom, a gang of flamboyant Broadway stars try to boost their image by showing up to support two lesbian students.",
+        "title": "The Prom",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 31.806,
+        "popularity": 62.95,
+        "poster": "https://image.tmdb.org/t/p/w500//hvmOpnLYIYbTWdlV3RuE9iKlIOa.jpg",
+        "synopsis": "When an attack brings down the star student at an elite ballet school, her replacement enters a world of lies, betrayal -- and cutthroat competition.",
+        "title": "Tiny Pretty Things",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 56.244,
+        "poster": "https://image.tmdb.org/t/p/w500//sEgCNz0BMWTjuAVIGeK3PV5jIt6.jpg",
+        "synopsis": "For five years, between 1975 to 1980, the Yorkshire Ripper murders cast a dark shadow over the lives of women in the North of England. 13 women were dead and the police seemed incapable of catching the killer. No one felt safe \u2013 and every man was a suspect.",
+        "title": "The Ripper",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 1087.816,
+        "poster": "https://image.tmdb.org/t/p/w500//4n8QNNdk4BOX9Dslfbz5Dy6j1HK.jpg",
+        "synopsis": "A rowdy, unorthodox Santa Claus is fighting to save his declining business. Meanwhile, Billy, a neglected and precocious 12 year old, hires a hit man to kill Santa after receiving a lump of coal in his stocking.",
+        "title": "Fatman",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 53.443,
+        "poster": "https://image.tmdb.org/t/p/w500//5FWzTsCklU0QY5kUqnQOwkxL334.jpg",
+        "synopsis": "Ip Man\u2019s promising career as a Policeman is ruined after he is framed for murder and targeted by a mob boss\u2019s daughter.",
+        "title": "Ip Man: Kung Fu Master",
+        "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 72.284,
+        "poster": "https://image.tmdb.org/t/p/w500//20mOwAAPwZ1vLQkw0fvuQHiG7bO.jpg",
+        "synopsis": "With his two friends, a video-game-obsessed young man finds himself in a strange version of Tokyo where they must compete in dangerous games to win.",
+        "title": "Alice in Borderland",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 28.147,
+        "poster": "https://image.tmdb.org/t/p/w500//caCbdsdGHDJNMjSiA5X4mgIfe61.jpg",
+        "synopsis": "With his carefree lifestyle on the line, a wealthy charmer poses as a ranch hand to get a hardworking farmer to sell her family\u2019s land before Christmas.",
+        "title": "A California Christmas",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 2.744,
+        "poster": "https://image.tmdb.org/t/p/w500//xxv6yHSNTGaf7aqwF1XdLVNpvpB.jpg",
+        "synopsis": "Out hiking, Special Forces Brenner Baker stumbles onto a Cartel's compound. Her husband's killed and she's left for dead. The Cartel made two mistakes, killed her husband and left her alive. They won't live to make another.",
+        "title": "Army of One",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 66.276,
+        "poster": "https://image.tmdb.org/t/p/w500//uTcJAxIV8BzNXuvcViBSibQSBid.jpg",
+        "synopsis": "In this 1970s set crime drama, a woman is forced to go on the run after her husband betrays his partners, sending her and her baby on a dangerous journey.",
+        "title": "I'm Your Woman",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 180.512,
+        "poster": "https://image.tmdb.org/t/p/w500//vzec9kkOSE93tygyfOktedkeOQ.jpg",
+        "synopsis": "A young woman's plans to propose to her girlfriend while at her family's annual holiday party are upended when she discovers her partner hasn't yet come out to her conservative parents.",
+        "title": "Happiest Season",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 44.528,
         "poster": "https://image.tmdb.org/t/p/w500//i8ZaUny5Stxxsmc02ECOEQan1il.jpg",
         "synopsis": "The story of a disaffected comedy actress and her ambitious stand-in trading places.",
         "title": "The Stand In",
@@ -208,23 +144,63 @@
         "year": "2020"
     },
     {
-        "popularity": 95.964,
-        "poster": "https://image.tmdb.org/t/p/w500//6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
-        "synopsis": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
-        "title": "Star Wars",
-        "type": "MOVIE",
-        "year": "1977"
-    },
-    {
-        "popularity": 581.573,
-        "poster": "https://image.tmdb.org/t/p/w500//aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
-        "synopsis": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
-        "title": "Mulan",
+        "popularity": 889.616,
+        "poster": "https://image.tmdb.org/t/p/w500//zeD4PabP6099gpE0STWJrJrCBCs.jpg",
+        "synopsis": "A bank robber tries to turn himself in because he's falling in love and wants to live an honest life...but when he realizes the Feds are more corrupt than him, he must fight back to clear his name.",
+        "title": "Honest Thief",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 25.141,
+        "popularity": 624.911,
+        "poster": "https://image.tmdb.org/t/p/w500//bNo2mcvSwIvnx8K6y1euAc1TLVq.jpg",
+        "synopsis": "John Garrity, his estranged wife and their young son embark on a perilous journey to find sanctuary as a planet-killing comet hurtles toward Earth. Amid terrifying accounts of cities getting levelled, the Garrity's experience the best and worst in humanity. As the countdown to the global apocalypse approaches zero, their incredible trek culminates in a desperate and last-minute flight to a possible safe haven.",
+        "title": "Greenland",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 130.28,
+        "poster": "https://image.tmdb.org/t/p/w500//aiy35Evcofzl7hASZZvsFgltHTX.jpg",
+        "synopsis": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
+        "title": "Attack on Titan",
+        "type": "SERIES",
+        "year": "2013"
+    },
+    {
+        "popularity": 54.468,
+        "poster": "https://image.tmdb.org/t/p/w500//8azUzeNTqdHlSjkc12A5s6fpS6P.jpg",
+        "synopsis": "Flight attendant Cassandra Bowden wakes in her hotel room hungover from the night before in Dubai with a dead body lying next to her. Afraid to call the police, she continues her morning as if nothing happened. In New York, she is met by FBI agents who question her about her recent layover in Dubai. Still unable to piece the night together, she begins to wonder if she could be the killer.",
+        "title": "The Flight Attendant",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 43.988,
+        "poster": "https://image.tmdb.org/t/p/w500//lFHZBtugqDiLtjVP9GC3Ig5GfwU.jpg",
+        "synopsis": "The story of Jim Worth, an expat British police officer starting a new life with his family as police chief in Little Big Bear, an idyllic town near the Rocky Mountains. When his small town is overrun by migrant workers from a massive new oil refinery \u2013 the wave of drugs, prostitution and organised crime that follows them threatens to sweep away everything in its wake.",
+        "title": "Tin Star",
+        "type": "SERIES",
+        "year": "2017"
+    },
+    {
+        "popularity": 3.842,
+        "poster": "https://image.tmdb.org/t/p/w500//4uwzQsjOO7tcw6zfDtkzlH5UyXV.jpg",
+        "synopsis": "Prodigal daughter Tumi tries to make things right after completely ruining what should have been her sister's picture-perfect Christmas wedding.",
+        "title": "How To Ruin Christmas: The Wedding",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 63.779,
+        "poster": "https://image.tmdb.org/t/p/w500//ehAKuE48okTuonq6TpsNQj8vFTC.jpg",
+        "synopsis": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
+        "title": "Wolfwalkers",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 35.197,
         "poster": "https://image.tmdb.org/t/p/w500//fsn4cjpCvWuP9wU9hcFnK7M8RZC.jpg",
         "synopsis": "Four high school teachers launch a drinking experiment: upholding a constant low level of intoxication.",
         "title": "Another Round",
@@ -232,7 +208,79 @@
         "year": "2020"
     },
     {
-        "popularity": 30.212,
+        "popularity": 334.781,
+        "poster": "https://image.tmdb.org/t/p/w500//u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+        "synopsis": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+        "title": "Game of Thrones",
+        "type": "SERIES",
+        "year": "2011"
+    },
+    {
+        "popularity": 95.257,
+        "poster": "https://image.tmdb.org/t/p/w500//gHBtyMdHbWoM3tpM8VZymer8HfF.jpg",
+        "synopsis": "A group of teen girls from different backgrounds must fight for survival after a plane crash strands them on a deserted island. The castaways both clash and bond as they learn more about each other, the secrets they keep, and the traumas they've all endured. But there\u2019s just one twist\u2026 these girls did not end up on this island by accident.",
+        "title": "The Wilds",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 44.93,
+        "poster": "https://image.tmdb.org/t/p/w500//aKWe6JLwdQRjZFTwSLGWy2IUbvi.jpg",
+        "synopsis": "The story of Ray-Ray McElrathbey, a freshman football player for Clemson University, who secretly raised his younger brother on campus after his home life became too unsteady.",
+        "title": "Safety",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 42.756,
+        "poster": "https://image.tmdb.org/t/p/w500//n3De61ct5Vcol3W7lXBh1sXTX3u.jpg",
+        "synopsis": "Jeremy Clarkson, Richard Hammond and James May are back with a show about adventure, excitement and friendship... as long as you accept that the people you call friends are also the ones you find extremely annoying. Sometimes it's even a show about cars. Follow them on their global adventure.",
+        "title": "The Grand Tour",
+        "type": "SERIES",
+        "year": "2016"
+    },
+    {
+        "popularity": 35.417,
+        "poster": "https://image.tmdb.org/t/p/w500//lS4cOR2WxHs2h4pegNUaZVVIyNA.jpg",
+        "synopsis": "Veering off course from his preset path, a track star follows his own pace and heart for the first time after a film translator steps into his life.",
+        "title": "Run On",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 133.831,
+        "poster": "https://image.tmdb.org/t/p/w500//98RYSYsRNKWgrAAFBn0WfploUG7.jpg",
+        "synopsis": "Follow the voyages of Starfleet on their missions to discover new worlds and new life forms, and one Starfleet officer who must learn that to truly understand all things alien, you must first understand yourself.",
+        "title": "Star Trek: Discovery",
+        "type": "SERIES",
+        "year": "2017"
+    },
+    {
+        "popularity": 401.25,
+        "poster": "https://image.tmdb.org/t/p/w500//qzA87Wf4jo1h8JMk9GilyIYvwsA.jpg",
+        "synopsis": "A black ops assassin is forced to fight for her own survival after a job goes dangerously wrong.",
+        "title": "Ava",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 523.913,
+        "poster": "https://image.tmdb.org/t/p/w500//aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
+        "synopsis": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
+        "title": "Mulan",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 722.985,
+        "poster": "https://image.tmdb.org/t/p/w500//clnyhPqj1SNgpAdeSS6a6fwE6Bo.jpg",
+        "synopsis": "Follows the personal and professional lives of a group of doctors at Seattle\u2019s Grey Sloan Memorial Hospital.",
+        "title": "Grey's Anatomy",
+        "type": "SERIES",
+        "year": "2005"
+    },
+    {
+        "popularity": 42.297,
         "poster": "https://image.tmdb.org/t/p/w500//pklyUbh4k1DbHdnsOMASyw7C6NH.jpg",
         "synopsis": "A former Marine turned doorman at a luxury New York City high-rise must outsmart and battle a group of art thieves and their ruthless leader \u2014 while struggling to protect her sister's family. As the thieves become increasingly desperate and violent, the doorman calls upon her deadly fighting skills to end the showdown.",
         "title": "The Doorman",
@@ -240,28 +288,12 @@
         "year": "2020"
     },
     {
-        "popularity": 373.917,
-        "poster": "https://image.tmdb.org/t/p/w500//xrI4EnZWftpo1B7tTvlMUXVOikd.jpg",
-        "synopsis": "Five young mutants, just discovering their abilities while held in a secret facility against their will, fight to escape their past sins and save themselves.",
-        "title": "The New Mutants",
+        "popularity": 19.459,
+        "poster": "https://image.tmdb.org/t/p/w500//7GtX3NDh8S8ImqtTp4Ww02SXh4B.jpg",
+        "synopsis": "The film follows 24 hours in the life of father and daughter Leo and Molly as she grapples with the challenges of dealing with her father\u2019s chaotic mental state. But as they weave their way around New York City, their ordinary but stressful day takes on a hallucinatory and epic quality, for Leo is seamlessly flowing in and out of several parallel lives; a passionate marriage with his childhood sweetheart Dolores in Mexico and a life of solitude on a remote Greek island, where a chance encounter with two young tourists unmasks the uncomfortable truths of a family life left behind...",
+        "title": "The Roads Not Taken",
         "type": "MOVIE",
         "year": "2020"
-    },
-    {
-        "popularity": 7.631,
-        "poster": "https://image.tmdb.org/t/p/w500//2WrT8AZUcDicvf5m8KVgspQEHK3.jpg",
-        "synopsis": "A once-celebrated kid detective, now 31, continues to solve the same trivial mysteries between hangovers and bouts of self-pity. Until a naive client brings him his first 'adult' case, to find out who brutally murdered her boyfriend.",
-        "title": "The Kid Detective",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 207.936,
-        "poster": "https://image.tmdb.org/t/p/w500//or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-        "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
-        "title": "Avengers: Endgame",
-        "type": "MOVIE",
-        "year": "2019"
     },
     {
         "popularity": 0.0,
@@ -272,51 +304,19 @@
         "year": "2020"
     },
     {
-        "popularity": 52.031,
-        "poster": "https://image.tmdb.org/t/p/w500//sF14a0UUhdLmDMv5vQ3QudoM31w.jpg",
-        "synopsis": "The origin story of Bruce Wayne's legendary butler, Alfred Pennyworth, a former British SAS soldier who forms a security company and goes to work with Thomas Wayne, Bruce's billionaire father, in 1960s London.",
-        "title": "Pennyworth",
-        "type": "SERIES",
-        "year": "2019"
-    },
-    {
-        "popularity": 335.867,
-        "poster": "https://image.tmdb.org/t/p/w500//u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
-        "synopsis": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
-        "title": "Game of Thrones",
-        "type": "SERIES",
-        "year": "2011"
-    },
-    {
-        "popularity": 32.957,
-        "poster": "https://image.tmdb.org/t/p/w500//piLCwkrlIRUKNlhNCjrE3IP91IB.jpg",
-        "synopsis": "Veering off course from his preset path, a track star follows his own pace and heart for the first time after a film translator steps into his life.",
-        "title": "Run On",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 5.379,
-        "poster": "https://image.tmdb.org/t/p/w500//2kWVSZfK9gbbNQD93Qwi8VvYjlB.jpg",
-        "synopsis": "When Santa crash-lands in the junkyard on Christmas Eve, Hank, Trash Truck and their animal friends all have a hand in rescuing the holiday for everyone.",
-        "title": "A Trash Truck Christmas",
+        "popularity": 45.614,
+        "poster": "https://image.tmdb.org/t/p/w500//1hdm3Axw9LjITbApvAXBbqO58zE.jpg",
+        "synopsis": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
+        "title": "The Godfather: Part III",
         "type": "MOVIE",
-        "year": "2020"
+        "year": "1990"
     },
     {
-        "popularity": 799.134,
-        "poster": "https://image.tmdb.org/t/p/w500//clnyhPqj1SNgpAdeSS6a6fwE6Bo.jpg",
-        "synopsis": "Follows the personal and professional lives of a group of doctors at Seattle\u2019s Grey Sloan Memorial Hospital.",
-        "title": "Grey's Anatomy",
-        "type": "SERIES",
-        "year": "2005"
-    },
-    {
-        "popularity": 382.877,
-        "poster": "https://image.tmdb.org/t/p/w500//g6tIKGc3f1H5QMz1dcgCwADKpZ7.jpg",
-        "synopsis": "Lyra is an orphan who lives in a parallel universe in which science, theology and magic are entwined. Lyra's search for a kidnapped friend uncovers a sinister plot involving stolen children, and turns into a quest to understand a mysterious phenomenon called Dust. She is later joined on her journey by Will, a boy who possesses a knife that can cut windows between worlds. As Lyra learns the truth about her parents and her prophesied destiny, the two young people are caught up in a war against celestial powers that ranges across many worlds.",
-        "title": "His Dark Materials",
-        "type": "SERIES",
-        "year": "2019"
+        "popularity": 75.893,
+        "poster": "https://image.tmdb.org/t/p/w500//6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "synopsis": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "type": "MOVIE",
+        "year": "2001"
     }
 ]
