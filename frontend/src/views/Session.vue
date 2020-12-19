@@ -17,34 +17,43 @@
         <watchable :watchable="scope.data"></watchable>
       </template>
     </Tinder>
+    <card v-else class="pa-4">
+      <v-card-title>¡Ya estás casi dentro!</v-card-title>
+      <v-text-field
+        label="Tu nombre (opcional)"
+        v-model="userName"
+      ></v-text-field>
+      <v-btn color="primary" @click="joinSession">Continuar</v-btn>
+    </card>
   </v-layout>
 </template>
 
 <script>
 import axios from "axios";
 import Watchable from "@/components/Watchable.vue";
+import Card from "@/components/Card.vue";
 import Tinder from "vue-tinder";
 
 export default {
-  components: { Watchable, Tinder },
+  components: { Watchable, Tinder, Card },
   data() {
     return {
       sessionId: this.$route.params.id,
       session: null,
       watchableIndex: 0,
       queue: null,
+      userName: "",
     };
-  },
-  async mounted() {
-    await this.joinSession();
-    this.queue = [...this.session.watchables];
   },
   methods: {
     async joinSession() {
       const { data } = await axios.post(
-        `${process.env.VUE_APP_API_ENDPOINT}/session/${this.sessionId}/user`
+        `${process.env.VUE_APP_API_ENDPOINT}/session/${this.sessionId}/user${
+          this.userName ? `?user_name=${this.userName}` : ""
+        }`
       );
       this.session = data;
+      this.queue = [...this.session.watchables];
     },
     async onSubmit(item) {
       const { key, type } = item;
