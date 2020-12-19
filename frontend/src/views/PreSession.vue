@@ -12,7 +12,7 @@
         <p>Los demás tienen que escanear este código</p>
         <div id="qr-parent"></div>
         <p>O entrar en:</p>
-        <a :href="sessionLink">{{ sessionLink }}</a>
+        <router-link :to="relativeSessionLink">{{ sessionLink }}</router-link>
       </v-layout>
     </card>
   </v-layout>
@@ -70,6 +70,9 @@ export default {
   computed: {
     sessionLink() {
       return window.location.href + "/" + this.sessionId;
+    },
+    relativeSessionLink() {
+      return "/session/" + this.sessionId;
     },
   },
 };
