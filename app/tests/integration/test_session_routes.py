@@ -79,7 +79,7 @@ def test_joining_non_existing_session():
 
 def test_joining_with_max_users():
     class Mock:
-        async def join_user_to_session(self, _):
+        async def join_user_to_session(self, _, __):
             raise NotMoreUsersAllowedException
 
     callable_mock = CallableMock(Mock())

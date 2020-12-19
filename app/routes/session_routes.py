@@ -20,7 +20,6 @@ class SessionHandlerDependency:
 
 session_handler_dependency = SessionHandlerDependency(InMemoryWatchablesStore(), InMemorySessionStore())
 
-
 router = APIRouter(prefix='/session', tags=['Session Routes'])
 
 
@@ -31,12 +30,13 @@ async def create_session(session_handler: SessionHandler = Depends(session_handl
 
 
 @router.post("/{session_id}/user",
-          responses={404: {'description': 'Session not found'},
-                     409: {'description': 'Session already has the maximum number of users'}},
-          status_code=201, response_model=UserPayload)
-async def user_joins_session(session_id: str, session_handler: SessionHandler = Depends(session_handler_dependency)):
+             responses={404: {'description': 'Session not found'},
+                        409: {'description': 'Session already has the maximum number of users'}},
+             status_code=201, response_model=UserPayload)
+async def user_joins_session(session_id: str, session_handler: SessionHandler = Depends(session_handler_dependency),
+                             user_name: str = None):
     try:
-        return await session_handler.join_user_to_session(session_id)
+        return await session_handler.join_user_to_session(session_id, user_name)
     except SessionNotFound:
         raise HTTPException(status_code=404,
                             detail=f'A session with id {session_id} could not be found')
@@ -47,9 +47,9 @@ async def user_joins_session(session_id: str, session_handler: SessionHandler = 
 
 
 @router.post('/{session_id}/user/{user_id}/vote',
-          responses={404: {'description': 'Session or user could not be found'},
-                     400: {'description': 'Watchable index is out of bounds'}},
-          status_code=201)
+             responses={404: {'description': 'Session or user could not be found'},
+                        400: {'description': 'Watchable index is out of bounds'}},
+             status_code=201)
 async def emit_vote(session_id: str, user_id: str, vote: Vote, session_handler: SessionHandler = Depends(
     session_handler_dependency)):
     try:

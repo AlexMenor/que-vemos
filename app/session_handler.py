@@ -32,11 +32,11 @@ class SessionHandler:
 
         return session.id
 
-    async def join_user_to_session(self, session_id: str) -> UserPayload:
+    async def join_user_to_session(self, session_id: str, user_name: str = None) -> UserPayload:
 
         session = await self.__session_store.get_one(session_id)
 
-        new_user = SessionHandler.__create_user()
+        new_user = SessionHandler.__create_user(user_name)
         session.add_user(new_user)
 
         await self.__session_store.save(session)
@@ -55,9 +55,9 @@ class SessionHandler:
 
 
     @staticmethod
-    def __create_user():
+    def __create_user(user_name: str = None):
         user_id = SessionHandler.gen_random_id()
-        return User(user_id)
+        return User(user_id, user_name)
 
     @staticmethod
     def gen_random_id() -> str:
