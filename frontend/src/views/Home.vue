@@ -6,5 +6,8 @@
 export default {
   name: "Home",
   components: {},
+  mounted() {
+    this.$router.push({ name: "PreSession" });
+  },
 };
 </script>
