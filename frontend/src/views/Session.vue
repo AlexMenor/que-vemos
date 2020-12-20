@@ -11,13 +11,13 @@
       :queue.sync="queue"
       :offset-y="10"
       @submit="onSubmit"
-      v-if="queue"
+      v-if="queue && !votedEveryWatchable"
     >
       <template slot-scope="scope">
         <watchable :watchable="scope.data"></watchable>
       </template>
     </Tinder>
-    <card v-else class="pa-4">
+    <card v-else-if="!queue" class="pa-4">
       <v-card-title>¡Ya estás casi dentro!</v-card-title>
       <v-text-field
         label="Tu nombre (opcional)"
@@ -25,6 +25,10 @@
       ></v-text-field>
       <v-btn color="primary" @click="joinSession">Continuar</v-btn>
     </card>
+    <session-summary
+      v-else-if="votedEveryWatchable"
+      :session-id="sessionId"
+    ></session-summary>
   </v-layout>
 </template>
 
@@ -32,15 +36,15 @@
 import axios from "axios";
 import Watchable from "@/components/Watchable.vue";
 import Card from "@/components/Card.vue";
+import Summary from "@/components/Summary.vue";
 import Tinder from "vue-tinder";
 
 export default {
-  components: { Watchable, Tinder, Card },
+  components: { Watchable, Tinder, Card, SessionSummary: Summary },
   data() {
     return {
       sessionId: this.$route.params.id,
       session: null,
-      watchableIndex: 0,
       queue: null,
       userName: "",
     };
@@ -66,6 +70,11 @@ export default {
           content: type === "like",
         }
       );
+    },
+  },
+  computed: {
+    votedEveryWatchable() {
+      return this.queue?.length === 0;
     },
   },
 };
