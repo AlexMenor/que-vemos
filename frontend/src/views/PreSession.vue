@@ -1,14 +1,19 @@
 <template>
-  <v-layout justify-center align-center style="min-height:100%">
-    <card class="pa-8">
+  <v-layout
+    justify-center
+    align-center
+    style="height:100%;width:100%;overflow:hidden;"
+    class="pa-4"
+  >
+    <card>
       <div v-if="!qr" class="presession-card-content">
-        <v-img src="@/assets/logo-lemur.png"></v-img>
+        <v-img src="@/assets/logo-lemur.png" max-height="400px" contain></v-img>
         <v-btn class="ma-5" color="primary" @click="createSession">
           Crea una sesión</v-btn
         >
         <v-btn class="ma-5" @click="scanQr"> O únete a una</v-btn>
       </div>
-      <v-layout v-show="qr" column justify-center align-center>
+      <v-layout v-show="qr" column justify-center align-center class="pa-4">
         <p>Los demás tienen que escanear este código</p>
         <div id="qr-parent"></div>
         <p>O entrar en:</p>
