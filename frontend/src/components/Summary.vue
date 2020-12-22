@@ -3,7 +3,8 @@
     column
     justify-space-between
     align-center
-    style="min-width:100%; min-height:100%"
+    style="width:100%;height:100vh; overflow:scroll;padding-bottom:85px"
+    class="summary"
   >
     <v-layout align-center justify-space-around style="width:100%">
       <v-avatar

@@ -42,4 +42,7 @@ body {
   width: 100vw;
   overflow: hidden;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 </style>
