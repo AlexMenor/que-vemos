@@ -1,6 +1,6 @@
 from fastapi import Depends, HTTPException, APIRouter
 
-from ..data.session_store.in_memory_session_store import InMemorySessionStore
+from ..data.session_store.redis_session_store import redis_session_store
 from ..data.session_store.session_store import SessionStore, SessionNotFound
 from ..data.watchables_store.in_memory_watchables_store import InMemoryWatchablesStore
 from ..data.watchables_store.watchables_store import WatchablesStore
@@ -18,7 +18,7 @@ class SessionHandlerDependency:
         return self.session_handler
 
 
-session_handler_dependency = SessionHandlerDependency(InMemoryWatchablesStore(), InMemorySessionStore())
+session_handler_dependency = SessionHandlerDependency(InMemoryWatchablesStore(), redis_session_store)
 
 router = APIRouter(prefix='/session', tags=['Session Routes'])
 
