@@ -4,7 +4,7 @@ import aioredis
 import pickle
 from app.entities.session import Session
 from .session_store import SessionStore, SessionNotFound
-from ...config.config import REDIS_URL, config
+from ...config.config import REDIS_URL, config, REDIS_EXPIRATION
 
 
 class RedisSessionStore(SessionStore):
@@ -13,7 +13,7 @@ class RedisSessionStore(SessionStore):
 
     async def save(self, session: Session) -> None:
         pickled_object = pickle.dumps(session)
-        await self.__redis.set(session.id, pickled_object)
+        await self.__redis.set(session.id, pickled_object, expire=int(config[REDIS_EXPIRATION]))
 
     async def get_one(self, session_id: str) -> Session:
         result = await self.__redis.get(session_id)

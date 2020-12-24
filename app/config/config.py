@@ -8,8 +8,10 @@ MAX_USERS_PER_SESSION = 'MAX_USERS_PER_SESSION'
 PAPERTRAIL_HOST = 'PAPERTRAIL_HOST'
 PAPERTRAIL_PORT = 'PAPERTRAIL_PORT'
 REDIS_URL = 'REDIS_URL'
+REDIS_EXPIRATION = 'REDIS_EXPIRATION'
 
-VARIABLES = [MODE, NUM_OF_WATCHABLES_PER_SESSION, MAX_USERS_PER_SESSION, PAPERTRAIL_HOST, PAPERTRAIL_PORT, REDIS_URL]
+VARIABLES = [MODE, NUM_OF_WATCHABLES_PER_SESSION, MAX_USERS_PER_SESSION, PAPERTRAIL_HOST, PAPERTRAIL_PORT,
+             REDIS_URL, REDIS_EXPIRATION]
 
 config = {}
 
@@ -30,7 +32,7 @@ def __config_via_dotenv():
 def __verify_config(config):
     for var in VARIABLES:
         if config[var] == 'None':
-            if var in (PAPERTRAIL_HOST, PAPERTRAIL_PORT, REDIS_URL):
+            if var in (PAPERTRAIL_HOST, PAPERTRAIL_PORT, REDIS_URL, REDIS_EXPIRATION):
                 if config[MODE] == 'prod':
                     raise ConfigIncomplete(config)
             else:

@@ -1,5 +1,5 @@
 import pytest
-from ...config.config import __verify_config, NUM_OF_WATCHABLES_PER_SESSION, MAX_USERS_PER_SESSION, MODE, PAPERTRAIL_PORT, PAPERTRAIL_HOST, ConfigIncomplete, REDIS_URL
+from ...config.config import __verify_config, NUM_OF_WATCHABLES_PER_SESSION, MAX_USERS_PER_SESSION, MODE, PAPERTRAIL_PORT, PAPERTRAIL_HOST, ConfigIncomplete, REDIS_URL, REDIS_EXPIRATION
 
 
 @pytest.fixture
@@ -10,7 +10,8 @@ def positive_config_dev():
         MODE: 'dev',
         PAPERTRAIL_PORT: 'None',
         PAPERTRAIL_HOST: 'None',
-        REDIS_URL: 'None'
+        REDIS_URL: 'None',
+        REDIS_EXPIRATION:'None'
     }
 
 @pytest.fixture
@@ -21,7 +22,8 @@ def positive_config_prod():
         MODE: 'prod',
         PAPERTRAIL_PORT: '4444',
         PAPERTRAIL_HOST: 'localhost',
-        REDIS_URL: 'redis://localhost'
+        REDIS_URL: 'redis://localhost',
+        REDIS_EXPIRATION: '3600'
     }
 
 @pytest.fixture
@@ -32,7 +34,8 @@ def negative_config_dev():
         MODE: 'dev',
         PAPERTRAIL_PORT: 'None',
         PAPERTRAIL_HOST: 'None',
-        REDIS_URL: 'None'
+        REDIS_URL: 'None',
+        REDIS_EXPIRATION: '3600'
     }
 
 @pytest.fixture
@@ -43,7 +46,8 @@ def negative_config_prod():
         MODE: 'prod',
         PAPERTRAIL_PORT: '4444',
         PAPERTRAIL_HOST: 'localhost',
-        REDIS_URL: 'None'
+        REDIS_URL: 'None',
+        REDIS_EXPIRATION: '3600'
     }
 
 def test_verify_config_positive_dev(positive_config_dev):
