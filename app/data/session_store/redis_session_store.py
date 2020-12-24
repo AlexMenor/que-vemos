@@ -4,11 +4,12 @@ import aioredis
 import pickle
 from app.entities.session import Session
 from .session_store import SessionStore, SessionNotFound
+from ...config.config import REDIS_URL, config
 
 
 class RedisSessionStore(SessionStore):
     async def init_pool(self):
-        self.__redis = await aioredis.create_redis_pool('redis://localhost')
+        self.__redis = await aioredis.create_redis_pool(config[REDIS_URL])
 
     async def save(self, session: Session) -> None:
         pickled_object = pickle.dumps(session)

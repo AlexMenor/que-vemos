@@ -2,12 +2,14 @@ from fastapi import Depends, HTTPException, APIRouter
 
 from ..data.session_store.redis_session_store import redis_session_store
 from ..data.session_store.session_store import SessionStore, SessionNotFound
+from ..data.session_store.in_memory_session_store import InMemorySessionStore
 from ..data.watchables_store.in_memory_watchables_store import InMemoryWatchablesStore
 from ..data.watchables_store.watchables_store import WatchablesStore
 from ..entities.session import NotMoreUsersAllowedException, UserNotFoundInSession, WatchableNotFound
 from ..entities.user_payload import UserPayload
 from ..entities.vote import Vote
 from ..session_handler import SessionHandler
+from ..config.config import config, MODE
 
 
 class SessionHandlerDependency:
@@ -18,7 +20,11 @@ class SessionHandlerDependency:
         return self.session_handler
 
 
-session_handler_dependency = SessionHandlerDependency(InMemoryWatchablesStore(), redis_session_store)
+if config[MODE] == 'prod':
+    session_handler_dependency = SessionHandlerDependency(InMemoryWatchablesStore(), redis_session_store)
+else:
+    session_handler_dependency = SessionHandlerDependency(InMemoryWatchablesStore(), InMemorySessionStore())
+
 
 router = APIRouter(prefix='/session', tags=['Session Routes'])
 
