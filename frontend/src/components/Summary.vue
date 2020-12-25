@@ -24,7 +24,9 @@
         v-for="watchable in summary.votes"
         :key="watchable.title"
       >
-        <v-expansion-panel-header>
+        <v-expansion-panel-header
+          :color="negativeVotes(watchable).length === 0 ? '#e4ffe8' : undefined"
+        >
           {{ watchable.title }}
         </v-expansion-panel-header>
         <v-expansion-panel-content>
