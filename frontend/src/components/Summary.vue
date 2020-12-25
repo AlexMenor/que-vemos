@@ -62,10 +62,12 @@ export default {
   data() {
     return {
       summary: null,
+      POLLING_INTERVAL: 1000,
     };
   },
   async mounted() {
     this.fetchSummary();
+    setInterval(this.fetchSummary, this.POLLING_INTERVAL);
   },
   methods: {
     async fetchSummary() {
