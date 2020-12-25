@@ -8,6 +8,7 @@ from ...config.config import REDIS_URL, config, REDIS_EXPIRATION
 
 
 class RedisSessionStore(SessionStore):
+
     async def init_pool(self):
         self.__redis = await aioredis.create_redis_pool(config[REDIS_URL])
 
@@ -21,6 +22,9 @@ class RedisSessionStore(SessionStore):
             raise SessionNotFound
 
         return pickle.loads(result)
+
+    async def get_one_and_lock(self, session_id: str) -> Session:
+        return await self.get_one(session_id)
 
 
 redis_session_store = RedisSessionStore()

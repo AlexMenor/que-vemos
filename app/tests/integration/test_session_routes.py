@@ -31,6 +31,9 @@ def existing_session():
         async def save(self, session: Session) -> None:
             pass
 
+        async def get_one_and_lock(self, _):
+            return session
+
         async def get_one(self, _):
             return session
 

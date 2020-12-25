@@ -10,6 +10,7 @@ class InMemorySessionStore(SessionStore):
     stores session inside a dict where the
     keys are each session.id
     """
+
     def __init__(self):
         self.__sessions = {}
 
@@ -28,3 +29,6 @@ class InMemorySessionStore(SessionStore):
             raise SessionNotFound
 
         return self.__sessions[session_id]
+
+    async def get_one_and_lock(self, session_id: str) -> Session:
+        return await self.get_one(session_id)

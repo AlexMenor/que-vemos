@@ -34,7 +34,7 @@ class SessionHandler:
 
     async def join_user_to_session(self, session_id: str, user_name: str = None) -> UserPayload:
 
-        session = await self.__session_store.get_one(session_id)
+        session = await self.__session_store.get_one_and_lock(session_id)
 
         new_user = SessionHandler.__create_user(user_name)
         session.add_user(new_user)
@@ -44,7 +44,7 @@ class SessionHandler:
         return UserPayload(new_user.id, session_id, session.watchables)
 
     async def emit_vote_to_session(self, session_id: str, user_id: str, watchable_index: int, vote: bool) -> None:
-        session = await self.__session_store.get_one(session_id)
+        session = await self.__session_store.get_one_and_lock(session_id)
 
         session.vote(user_id, watchable_index, vote)
 

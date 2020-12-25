@@ -17,6 +17,10 @@ class SessionStore(ABC):
     async def get_one(self, session_id: str) -> Session:
         raise NotImplementedError
 
+    @abstractmethod
+    async def get_one_and_lock(self, session_id: str) -> Session:
+        raise NotImplementedError
+
 
 class SessionNotFound(Exception):
     """ Exception raised when a Session is not found in this handler"""
