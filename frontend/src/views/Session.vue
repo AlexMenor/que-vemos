@@ -29,6 +29,9 @@
       v-else-if="votedEveryWatchable"
       :session-id="sessionId"
     ></session-summary>
+    <v-snackbar v-model="snackbar">
+      Desliza hacia la derecha si te gusta y hacia la izquierda de lo contrario
+    </v-snackbar>
   </v-layout>
 </template>
 
@@ -47,6 +50,7 @@ export default {
       session: null,
       queue: null,
       userName: "",
+      snackbar: false,
     };
   },
   methods: {
@@ -58,6 +62,8 @@ export default {
       );
       this.session = data;
       this.queue = [...this.session.watchables];
+
+      this.snackbar = true;
     },
     async onSubmit(item) {
       const { key, type } = item;
