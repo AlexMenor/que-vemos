@@ -26,3 +26,8 @@ app.add_middleware(
 async def startup_event():
     if config[MODE] == 'prod':
         await redis_session_store.init_pool()
+
+
+@app.get('/status')
+def status():
+    return {'status': 'OK'}
