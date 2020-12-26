@@ -64,7 +64,7 @@ export default {
   data() {
     return {
       summary: null,
-      POLLING_INTERVAL: 1000,
+      POLLING_INTERVAL: 8000,
     };
   },
   async mounted() {
