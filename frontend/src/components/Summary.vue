@@ -6,7 +6,12 @@
     style="width:100%;height:100vh; overflow:scroll;padding-bottom:85px"
     class="summary"
   >
-    <v-layout align-center justify-space-around style="width:100%">
+    <v-layout
+      align-center
+      justify-space-around
+      style="width:100%"
+      v-if="summary"
+    >
       <v-avatar
         color="primary"
         size="56"
@@ -19,7 +24,7 @@
         </span>
       </v-avatar>
     </v-layout>
-    <v-expansion-panels>
+    <v-expansion-panels v-if="summary">
       <v-expansion-panel
         v-for="watchable in summary.votes"
         :key="watchable.title"
