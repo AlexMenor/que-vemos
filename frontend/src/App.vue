@@ -5,6 +5,8 @@
         :src="require('@/assets/logo.png')"
         alt="que-vemos logo"
         max-width="200px"
+        @click="$router.push('/')"
+        id="logo"
       />
       <v-spacer></v-spacer>
       <a
@@ -37,7 +39,12 @@ body {
   width: 100vw;
   overflow: hidden;
 }
+
 ::-webkit-scrollbar {
   display: none;
+}
+
+#logo :hover {
+  cursor: pointer;
 }
 </style>
