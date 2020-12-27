@@ -28,11 +28,6 @@
 <script>
 export default {
   name: "App",
-
-  data: () => ({
-    //
-  }),
-  mounted() {},
 };
 </script>
 
