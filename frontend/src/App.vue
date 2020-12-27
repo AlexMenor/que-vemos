@@ -19,7 +19,7 @@
       </a>
     </v-app-bar>
 
-    <v-main style="background-color: #f2b987;">
+    <v-main style="background-color: #f2b987">
       <router-view></router-view>
     </v-main>
   </v-app>

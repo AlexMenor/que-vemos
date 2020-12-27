@@ -12,12 +12,13 @@
       :offset-y="10"
       @submit="onSubmit"
       v-if="queue && !votedEveryWatchable"
+      style="max-width:700px"
     >
       <template slot-scope="scope">
         <watchable :watchable="scope.data"></watchable>
       </template>
     </Tinder>
-    <card v-else-if="!queue" class="pa-4">
+    <card v-else-if="!queue" class="pa-4" style="max-width:700px">
       <v-card-title>¡Ya estás casi dentro!</v-card-title>
       <v-text-field
         label="Tu nombre (opcional)"

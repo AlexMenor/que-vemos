@@ -2,10 +2,10 @@
   <v-layout
     justify-center
     align-center
-    style="height:100%;width:100%;overflow:hidden;"
+    style="height:100%;width:100%;overflow:hidden"
     class="pa-4"
   >
-    <card>
+    <card style="max-width:700px">
       <div v-if="!qr" class="presession-card-content">
         <v-img src="@/assets/logo-lemur.png" max-height="400px" contain></v-img>
         <v-btn class="ma-5" color="primary" @click="createSession">
