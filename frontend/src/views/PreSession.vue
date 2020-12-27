@@ -18,8 +18,15 @@
         <div id="qr-parent"></div>
         <p>O entrar en:</p>
         <router-link :to="relativeSessionLink">{{ sessionLink }}</router-link>
+        <v-btn color="primary" class="mt-4" @click="copyTestingCode"
+          >Copiar al portapapeles</v-btn
+        >
+        <input type="hidden" id="session-link" :value="sessionLink" />
       </v-layout>
     </card>
+    <v-snackbar v-model="clipboardSnackbar">
+      Link copiado al portapapeles
+    </v-snackbar>
   </v-layout>
 </template>
 
@@ -35,6 +42,7 @@ export default {
     return {
       sessionId: null,
       qr: null,
+      clipboardSnackbar: false,
     };
   },
   methods: {
@@ -64,6 +72,17 @@ export default {
         onResult: console.log,
         timeout: 10000,
       });
+    },
+    copyTestingCode() {
+      const input = document.querySelector("#session-link");
+      input.setAttribute("type", "text");
+      input.select();
+
+      document.execCommand("copy");
+      this.clipboardSnackbar = true;
+
+      input.setAttribute("type", "hidden");
+      window.getSelection().removeAllRanges();
     },
   },
   watch: {
