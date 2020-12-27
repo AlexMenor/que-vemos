@@ -69,8 +69,10 @@ export default {
     },
     scanQr() {
       QRScanner.initiate({
-        onResult: console.log,
         timeout: 10000,
+        onResult: (result) => {
+          alert(result);
+        },
       });
     },
     copyTestingCode() {
