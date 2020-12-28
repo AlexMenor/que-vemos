@@ -34,7 +34,6 @@
 import Card from "@/components/Card.vue";
 import axios from "axios";
 import * as QRCode from "qrcode";
-import QRScanner from "qr-code-scanner";
 
 export default {
   components: { Card },
@@ -67,14 +66,7 @@ export default {
         );
       });
     },
-    scanQr() {
-      QRScanner.initiate({
-        timeout: 10000,
-        onResult: (result) => {
-          alert(result);
-        },
-      });
-    },
+    scanQr() {},
     copyTestingCode() {
       const input = document.querySelector("#session-link");
       input.setAttribute("type", "text");
