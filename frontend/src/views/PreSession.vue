@@ -12,6 +12,7 @@
           Crea una sesión</v-btn
         >
         <v-btn class="ma-5" @click="scanQr"> O únete a una</v-btn>
+        <video id="qr-scan"></video>
       </div>
       <v-layout v-show="qr" column justify-center align-center class="pa-4">
         <p>Los demás tienen que escanear este código</p>
@@ -34,6 +35,7 @@
 import Card from "@/components/Card.vue";
 import axios from "axios";
 import * as QRCode from "qrcode";
+import QrScanner from "qr-scanner";
 
 export default {
   components: { Card },
@@ -66,7 +68,11 @@ export default {
         );
       });
     },
-    scanQr() {},
+    scanQr() {
+      const videoElem = document.querySelector("#qr-scan");
+      const qrScanner = new QrScanner(videoElem, (result) => alert(result));
+      qrScanner.start();
+    },
     copyTestingCode() {
       const input = document.querySelector("#session-link");
       input.setAttribute("type", "text");

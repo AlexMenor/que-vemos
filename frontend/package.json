@@ -11,6 +11,7 @@
     "@mdi/font": "^3.6.95",
     "axios": "^0.21.0",
     "core-js": "^3.6.5",
+    "qr-scanner": "^1.2.0",
     "qrcode": "^1.4.4",
     "roboto-fontface": "*",
     "vue": "^2.6.11",
