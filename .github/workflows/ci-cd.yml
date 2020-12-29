@@ -1,4 +1,4 @@
-name: que-vemos QA
+name: que-vemos CI/CD
 on:
   push:
     branches: [master]
