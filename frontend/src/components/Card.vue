@@ -1,8 +1,14 @@
 <template>
-  <v-card class="vemos-card" raised hover rounded="lg">
+  <v-card class="vemos-card" raised hover rounded="lg" :img="img">
     <slot></slot>
   </v-card>
 </template>
+
+<script>
+export default {
+  props: ["img"],
+};
+</script>
 
 <style>
 .vemos-card {
