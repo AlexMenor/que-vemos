@@ -1,29 +1,29 @@
 <template>
   <card :img="watchable.poster">
     <div
-      style="display:flex; background-color: rgba(255,255,255,0.8); flex-direction: column; height: 100%; justify-content: space-between"
+      style="display:flex; background-color: rgba(0,0,0,0.5); flex-direction: column; height: 100%; justify-content: space-between"
     >
       <div>
         <v-container fluid class="d-flex justify-space-between">
-          <v-chip color="primary">
+          <v-chip>
             {{ watchable.type }}
           </v-chip>
-          <div>
+          <div style="color: white">
             {{ watchable.year }}
           </div>
         </v-container>
-        <v-card-title>{{ watchable.title }}</v-card-title>
-        <v-card-text>
+        <v-card-title style="color:white">{{ watchable.title }}</v-card-title>
+        <v-card-text style="color:white">
           <p>
             {{ watchable.synopsis }}
           </p>
         </v-card-text>
       </div>
       <v-container fluid class="d-flex justify-end align-center">
-        <div>
+        <div style="color: white">
           Popularity:
         </div>
-        <v-chip class="ml-2" color="primary">
+        <v-chip class="ml-2">
           {{ watchable.popularity }}
         </v-chip>
       </v-container>
