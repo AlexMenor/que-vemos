@@ -1,7 +1,7 @@
 <template>
   <card :img="watchable.poster">
     <div
-      style="display:flex; background-color: rgba(255,255,255,0.5); flex-direction: column; height: 100%; justify-content: space-between"
+      style="display:flex; background-color: rgba(255,255,255,0.8); flex-direction: column; height: 100%; justify-content: space-between"
     >
       <div>
         <v-container fluid class="d-flex justify-space-between">
