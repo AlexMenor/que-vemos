@@ -12,8 +12,10 @@
             {{ watchable.year }}
           </div>
         </v-container>
-        <v-card-title style="color:white">{{ watchable.title }}</v-card-title>
-        <v-card-text style="color:white">
+        <v-card-title style="color:white; font-size:2em">{{
+          watchable.title
+        }}</v-card-title>
+        <v-card-text style="color:white; font-size:1.2em; line-height:1.6">
           <p>
             {{ watchable.synopsis }}
           </p>
