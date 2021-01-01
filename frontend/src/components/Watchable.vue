@@ -17,7 +17,7 @@
         }}</v-card-title>
         <v-card-text style="color:white; font-size:1.2em; line-height:1.6">
           <p>
-            {{ watchable.synopsis }}
+            {{ synopsisWithLimit }}
           </p>
         </v-card-text>
       </div>
@@ -38,5 +38,12 @@ import Card from "@/components/Card.vue";
 export default {
   props: ["watchable"],
   components: { Card },
+  computed: {
+    synopsisWithLimit() {
+      const { synopsis } = this.watchable;
+
+      return synopsis.length > 270 ? synopsis.slice(0, 270) + "..." : synopsis;
+    },
+  },
 };
 </script>
