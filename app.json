@@ -1,0 +1,37 @@
+{
+  "name": "Qué vemos",
+  "description": "'Qué vemos' hace una selección de contenido, muestra una sucesión de películas/series en uno o varios clientes con conexión a internet (móvil, ordenador, ...) y cada uno decide si hacer 'swipe left' o 'swipe right'.",
+  "keywords": ["movies", "series", "enterteniment"],
+  "website": "https://que-vemos.herokuapp.com/docs",
+  "logo": "https://raw.githubusercontent.com/AlexMenor/que-vemos/master/docs/img/logo.png",
+  "env": {
+    "MODE": {
+      "description": "App mode",
+      "value": "prod"
+    },
+    "NUM_OF_WATCHABLES_PER_SESSION": {
+      "description": "Number of watchables available per session",
+      "value": "20"
+    },
+    "MAX_USERS_PER_SESSION": {
+      "description": "Number of seats available per session",
+      "value": "8"
+    },
+    "REDIS_EXPIRATION": {
+      "description": "Number of seconds that a key is saved in redis after the last change",
+      "value": "1800"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    "openredis",
+    {
+      "plan": "heroku-redis:hobby-dev"
+    }
+  ]
+}
