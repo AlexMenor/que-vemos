@@ -1,10 +1,12 @@
 ## Tests de integración
+
 Pese a utilizar un framework asíncrono, FastAPI [provee un cliente de tests](https://fastapi.tiangolo.com/tutorial/testing/) basado en [requests](https://requests.readthedocs.io/en/master/)
 que permite programar estos tests con funciones síncronas.
 Además de este cliente, también he considerado [HTTPX](https://github.com/encode/httpx) en los que las funciones sí son asíncronas.
 
 Finalmente me he decantado por el primero porque es más estable, porque no tengo funciones asíncronas en los tests de integración
 y porque tiene un estilo más simple:
+
 ```python
 # Requests
 def test_read_main():
@@ -12,6 +14,7 @@ def test_read_main():
     assert response.status_code == 200
     assert response.json() == {"msg": "Hello World"}
 ```
+
 ```python
 # HTTPX
 @pytest.mark.asyncio
@@ -30,13 +33,3 @@ a las historias de usuario que he comentado en la sección de rutas.
 
 En cuanto a la implementación de los mismos, destacar las fixtures con `yield` que están soportadas
 por `pytest` y me permiten utilizar la inyección de dependencias de FastAPI sin repetir en todos los tests setup y teardown.
-
-## Despliegue en heroku e imagen de producción
-
-He creado [otro dockerfile](Dockerfile.web) para ejecutar el microservicio en producción.
-Y he implementado [una github action](.github/workflows/deploy-to-heroku.yml) que construye la imagen, la publica en el 
-registro de contenedores de heroku y por último la pone en producción [aquí](https://que-vemos.herokuapp.com/docs).
-Se puede interactuar con el microservicio mediante la documentación de Swagger para probarlo y ver las operaciones disponibles.
-
-Al estar ya en producción, se le han pasado las variables de entorno correspondientes y los logs se envían a papertrail.
-![logs](docs/img/logs2.png)
