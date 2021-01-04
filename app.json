@@ -33,5 +33,5 @@
       "plan": "heroku-redis:hobby-dev"
     }
   ],
-  "buildpacks": [{ "url": "heroku/python" }]
+  "buildpacks": [{ "url": "https://github.com/hone/heroku-buildpack-noop" }]
 }
