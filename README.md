@@ -1,4 +1,5 @@
 # ¿Qué vemos?
+
 ![que-vemos gha](https://github.com/AlexMenor/que-vemos/workflows/que-vemos%20QA/badge.svg)
 ![que-vemos travis](https://travis-ci.com/AlexMenor/que-vemos.svg?branch=master)
 [![codecov](https://codecov.io/gh/AlexMenor/que-vemos/branch/master/graph/badge.svg?token=DGPWNVEISN)](https://codecov.io/gh/AlexMenor/que-vemos)
@@ -13,6 +14,9 @@
 ¿Te agobia la indecisión al elegir una nueva serie que empezar? ¿No encuentras una película que haga justicia a las palomitas que acabas de hacer?
 
 ¿Y no es aún peor cuando esta decisión la tienes que tomar junto a tus padres? ¿O tu pareja?
+
+- [Despliegue en PaaS](docs/paas.md)
+- [Implementación de persistencia (redis) y uso dentro del PaaS](docs/bd.md)
 
 ## Comandos
 
@@ -59,10 +63,13 @@ poetry run task start
 ```
 
 ### Iniciar microservicio para desarrollo
+
 En este modo al hacer cambios en cualquier fichero, la aplicación se reinicia.
+
 ```bash
 poetry run task dev
 ```
+
 ## Documentación adicional
 
 - [Configuración de git](docs/configurando-git.md)
@@ -83,8 +90,8 @@ poetry run task dev
 - [Configuración de logs](docs/logs.md)
 - [Tests de integración](docs/tests-integracion.md)
 
-
 ## Agradecimientos
+
 ![movie db](https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg)
 
 Por el acceso a [su API.](https://www.themoviedb.org/documentation/api)
