@@ -1,4 +1,5 @@
 from fastapi import Depends, HTTPException, APIRouter
+from fastapi.responses import JSONResponse
 
 from ..data.session_store.redis_session_store import redis_session_store
 from ..data.session_store.session_store import SessionStore, SessionNotFound
@@ -32,7 +33,8 @@ router = APIRouter(prefix='/session', tags=['Session Routes'])
 @router.post("", status_code=201)
 async def create_session(session_handler: SessionHandler = Depends(session_handler_dependency)):
     session_id = await session_handler.init_session()
-    return {"session_id": session_id}
+    content = {"session_id": session_id}
+    headers = {'Location': f"/session/{session_id}/summary"}
 
 
 @router.post("/{session_id}/user",
