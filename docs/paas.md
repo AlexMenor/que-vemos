@@ -11,7 +11,7 @@ Cualquiera puede desplegar "Qué vemos" en heroku. Basta con:
 
 - Hacer un fork
 - Crear una aplicación en heroku
-- Añadir los secrets: `HEROKU_API_KEY` y `HEROKU_APP_NAME`.
+- Añadir al repositorio los secrets: `HEROKU_API_KEY` y `HEROKU_APP_NAME`.
 
 Con esto, `git push` disparará [la pipeline CI/CD](../.github/workflows/ci-cd.yml), que después de (y solo después de) pasar los tests construye la imagen definida en [Dockerfile.web](../Dockerfile.web), la sube al registro de heroku y hace release. Todo esto usando la CLI de heroku y los secrets definidos arriba.
 
