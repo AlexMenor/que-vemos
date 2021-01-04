@@ -30,12 +30,14 @@ else:
 router = APIRouter(prefix='/session', tags=['Session Routes'])
 
 
-@router.post("", status_code=201)
+@router.post("")
 async def create_session(session_handler: SessionHandler = Depends(session_handler_dependency)):
     session_id = await session_handler.init_session()
+
     content = {"session_id": session_id}
     headers = {'Location': f"/session/{session_id}/summary"}
-    return JSONResponse(content=content, headers=headers)
+
+    return JSONResponse(content=content, headers=headers, status_code=201)
 
 
 @router.post("/{session_id}/user",
