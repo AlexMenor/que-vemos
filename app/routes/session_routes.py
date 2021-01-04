@@ -30,7 +30,7 @@ else:
 router = APIRouter(prefix='/session', tags=['Session Routes'])
 
 
-@router.post("")
+@router.post("", status_code=201)
 async def create_session(session_handler: SessionHandler = Depends(session_handler_dependency)):
     session_id = await session_handler.init_session()
 
