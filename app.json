@@ -32,5 +32,6 @@
     {
       "plan": "heroku-redis:hobby-dev"
     }
-  ]
+  ],
+  "buildpacks": [{ "url": "heroku/python" }]
 }
