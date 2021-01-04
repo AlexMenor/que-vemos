@@ -15,6 +15,10 @@
 
 ¿Y no es aún peor cuando esta decisión la tienes que tomar junto a tus padres? ¿O tu pareja?
 
+<p align="center">
+  <img width="500" height="500" src="docs/img/que-vemos.gif">
+</p>
+
 - [Despliegue en PaaS](docs/paas.md)
 - [Implementación de persistencia (redis) y uso dentro del PaaS](docs/bd.md)
 
