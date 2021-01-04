@@ -35,6 +35,7 @@ async def create_session(session_handler: SessionHandler = Depends(session_handl
     session_id = await session_handler.init_session()
     content = {"session_id": session_id}
     headers = {'Location': f"/session/{session_id}/summary"}
+    return JSONResponse(content=content, headers=headers)
 
 
 @router.post("/{session_id}/user",
