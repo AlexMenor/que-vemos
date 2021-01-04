@@ -19,7 +19,7 @@ Sin embargo, también ha introducido algún problema:
   1. Dos usuarios votan.
   2. Se obtiene la sesión dos veces.
   3. Se modifican las dos sesiones en memoria con los votos
-  4. Se guardan las dos sesiones en memoria. Un voto se pierde.
+  4. Se guardan las dos sesiones. Un voto se pierde.
 
 - Para solucionarlo he usado la orden `setnx` de redis:
 
