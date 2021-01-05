@@ -16,7 +16,7 @@
 ¿Y no es aún peor cuando esta decisión la tienes que tomar junto a tus padres? ¿O tu pareja?
 
 <p align="center">
-  <img width="360" height="640" src="docs/img/que-vemos.gif">
+  <img width="360" height="640" src="docs/img/que-vemos-preview.gif">
 </p>
 
 - [Despliegue en PaaS](docs/paas.md)
