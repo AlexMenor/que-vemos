@@ -15,6 +15,7 @@ python-dotenv = "^0.15.0"
 etcd3 = "^0.12.0"
 taskipy = "^1.5.1"
 aioredis = "^1.3.1"
+gunicorn = "^20.0.4"
 
 [tool.poetry.dev-dependencies]
 pylint = "^2.6.0"
@@ -30,7 +31,7 @@ cov = 'pytest --cov-report=xml --cov=app --cov-config=.coveragerc'
 lint = 'pylint app'
 mut = 'mutmut run --paths-to-mutate=app/ --paths-to-exclude=app/tests/ --tests-dir=app/tests/'
 refresh-data = 'python -m app.data.watchables_extractor.watchables_extractor'
-start = 'uvicorn app.app:app --host 0.0.0.0 --port $PORT'
+start = 'gunicorn app.app:app -w 2 -k uvicorn.workers.UvicornWorker -b 0.0.0.0:$PORT'
 dev = 'uvicorn app.app:app --reload'
 
 [build-system]
