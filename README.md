@@ -21,6 +21,7 @@
 
 - [Despliegue en PaaS](docs/paas.md)
 - [Implementación de persistencia (redis) y uso dentro del PaaS](docs/bd.md)
+- [Diseño de la API (no es nuevo)](docs/diseño-api.md)
 
 ## Comandos
 
@@ -89,7 +90,6 @@ poetry run task dev
 - [Serverless](docs/serverless.md)
 - [Tests de mutación](docs/tests-mutacion.md)
 - [Elección de microframework](docs/microframework.md)
-- [Diseño de la API](docs/diseño-api.md)
 - [Configuración del microservicio](docs/configuracion.md)
 - [Configuración de logs](docs/logs.md)
 - [Tests de integración](docs/tests-integracion.md)
