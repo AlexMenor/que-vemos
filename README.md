@@ -21,6 +21,7 @@
 
 - [Despliegue en PaaS](docs/paas.md)
 - [Implementación de persistencia (redis) y uso dentro del PaaS](docs/bd.md)
+- [Pruebas de prestaciones](docs/prestaciones.md)
 - [Diseño de la API (no es nuevo)](docs/diseño-api.md)
 
 ## Comandos
