@@ -12,7 +12,7 @@ Cualquiera puede desplegar "Qué vemos" en heroku. Basta con:
 - Hacer un fork
 - Crear una aplicación en heroku y añadir redis. Esto se puede hacer:
   - Desde el interfaz web.
-  - Usando [heroku.yml](../heroku.yml) y el cli de heroku:
+  - Usando [heroku.yml](../heroku.yml) (describe la infraestructura virtual) y el cli de heroku:
     `heroku create your-app-name --manifest`
 - [Configurar](configuracion.md) las variables de entorno
 - Añadir al repositorio los secrets: `HEROKU_API_KEY` y `HEROKU_APP_NAME`.
