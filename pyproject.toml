@@ -31,7 +31,7 @@ cov = 'pytest --cov-report=xml --cov=app --cov-config=.coveragerc'
 lint = 'pylint app'
 mut = 'mutmut run --paths-to-mutate=app/ --paths-to-exclude=app/tests/ --tests-dir=app/tests/'
 refresh-data = 'python -m app.data.watchables_extractor.watchables_extractor'
-start = 'gunicorn app.app:app -w 2 -k uvicorn.workers.UvicornWorker -b 0.0.0.0:$PORT'
+start = 'gunicorn app.app:app -w 4 -k uvicorn.workers.UvicornWorker -b 0.0.0.0:$PORT'
 dev = 'uvicorn app.app:app --reload'
 
 [build-system]
