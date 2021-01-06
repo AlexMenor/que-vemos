@@ -4,6 +4,7 @@ He elegido heroku para desplegar mi microservicio:
 
 - Aparte de ofrecer un plan gratuito, con el pack de Github se pueden conseguir créditos en la plataforma. He hecho uso de ellos para tener un plan Hobby que mantiene la aplicación despierta.
 - Permite añadir "addons" como bases de datos, colas, etc... He usado redis de esta manera con mi microservicio.
+- Aparte del despliegue usando buildpacks (propios de heroku) permite utilizar Dockerfile para construir la imagen (definiendo `heroku.yml`) y ponerla en producción. De esta forma también hace el microservicio mas agnóstico de la plataforma.
 
 ## Configuración y despliegue automático
 
@@ -18,6 +19,8 @@ Cualquiera puede desplegar "Qué vemos" en heroku. Basta con:
 - Añadir al repositorio los secrets: `HEROKU_API_KEY` y `HEROKU_APP_NAME` (en caso de querer tener despliegue continuo).
 
 Con esto, `git push` disparará [la pipeline CI/CD](../.github/workflows/ci-cd.yml), que después de (y solo después de) pasar los tests construye la imagen definida en [Dockerfile.web](../Dockerfile.web), la sube al registro de heroku y hace release. Todo esto usando la CLI de heroku y los secrets definidos arriba.
+
+Además también se puede hacer deploy desde local con `git push heroku master` porque `heroku.yml` indica que Dockerfile tiene que usar para construir la imagen y demás.
 
 Para desplegar sin usar la GHA de arriba, se puede usar el cli de heroku y `git push heroku master`: Detecta `heroku.yml`, construye la imagen y la pone en producción.
 
