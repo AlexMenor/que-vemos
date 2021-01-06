@@ -30,7 +30,7 @@ async def get_one_and_lock(self, session_id: str) -> Session:
     while acquired == 0:
         acquired = await self.__redis.setnx(get_lock_name(session_id), 'true')
         if acquired == 0:
-            # Se evita el bloqueo del eventloop
+            # Devuelve el control al eventloop
             await asyncio.sleep(0)
 
     """ Si un proceso obtiene el lock y crashea, no pasa nada.
@@ -40,7 +40,9 @@ async def get_one_and_lock(self, session_id: str) -> Session:
     return await self.get_one(session_id)
 ```
 
-- Esta función solo se usa si se va a modificar la sesión, si no, se utiliza `get_one` que no bloquea la sesión.
+- Pone un "lock" solamente a la sesión y no a toda la base de datos.
+- Durante ese lock, si otra petición quiere modificar la misma sesión "espera" con `asyncio.sleep` sin bloquear otras peticiones.
+- Esta función solo se usa si se va a modificar la sesión, si no, se utiliza `get_one` que no pone un lock a la sesión.
 
 ## Uso dentro del PaaS
 
