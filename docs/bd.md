@@ -8,11 +8,11 @@ Por tanto, las sesiones no sobrevivían a reinicios y no se podían utilizar mú
 
 [La implementación de Session Store en redis](../app/data/session_store/redis_session_store.py) soluciona este problema.
 
-- Utiliza la biblioteca [aioredis](https://github.com/aio-libs/aioredis) como cliente de una instancia redis con interfaz asíncrona.
+- Utiliza la biblioteca [aioredis](https://github.com/aio-libs/aioredis) como cliente de redis con interfaz asíncrona.
 - Utiliza `pickle` para serializar y deserializar las estructuras de datos.
-- Determina fecha de expiración [configurable](configuracion.md). Las sesiones se utilizan y lo normal es que no se vuelvan a acceder a ellas, por lo que acaban expirando para liberar espacio.
+- Determina una fecha de expiración [configurable](configuracion.md). Las sesiones se utilizan y lo normal es que no se vuelvan a acceder a ellas, por lo que acaban expirando para liberar espacio.
 
-Sin embargo, también ha introducido algún problema:
+Sin embargo, también ha introducido un problema:
 
 - Existe una condición de carrera:
 
@@ -40,7 +40,8 @@ async def get_one_and_lock(self, session_id: str) -> Session:
     return await self.get_one(session_id)
 ```
 
-- Pone un "lock" solamente a la sesión y no a toda la base de datos.
+- Pone un "lock" a la sesión.
+- Este lock se elimina cuando se guarda la sesión modificada o si pasan 100ms (eliminando la posibilidad de interbloqueo).
 - Durante ese lock, si otra petición quiere modificar la misma sesión "espera" con `asyncio.sleep` sin bloquear otras peticiones.
 - Esta función solo se usa si se va a modificar la sesión, si no, se utiliza `get_one` que no pone un lock a la sesión.
 
