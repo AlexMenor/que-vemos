@@ -26,7 +26,7 @@
         <input type="hidden" id="session-link" :value="sessionLink" />
       </v-layout>
     </card>
-    <v-snackbar v-model="clipboardSnackbar">
+    <v-snackbar v-model="clipboardSnackbar" top>
       Link copiado al portapapeles
     </v-snackbar>
   </v-layout>
