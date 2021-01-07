@@ -2,7 +2,7 @@
 
 Uso gunicorn como gestor de procesos, usando como "worker" `uvicorn`, que es la manera recomendada [para ejecutar uvicorn en producción](https://www.uvicorn.org/#running-with-gunicorn).
 
-He usado además JMeter para hacer pruebas de prestaciones en producción, usando distinto número de workers para ver cuál es el apropiado dado mi plan en heroku.
+He usado además JMeter para hacer pruebas de prestaciones en producción, usando distintos números de workers para ver cuál es el apropiado dado mi plan en heroku.
 
 El escenario de prueba consiste en 10 usuarios haciendo peticiones de voto y resumen a dos sesiones distintas.
 
