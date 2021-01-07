@@ -20,8 +20,6 @@ Cualquiera puede desplegar "Qué vemos" en heroku. Basta con:
 
 Con esto, `git push` disparará [la pipeline CI/CD](../.github/workflows/ci-cd.yml), que después de (y solo después de) pasar los tests construye la imagen definida en [Dockerfile.web](../Dockerfile.web), la sube al registro de heroku y hace release. Todo esto usando la CLI de heroku y los secrets definidos arriba.
 
-Además también se puede hacer deploy desde local con `git push heroku master` porque `heroku.yml` indica que Dockerfile tiene que usar para construir la imagen y demás.
-
-Para desplegar sin usar la GHA de arriba, se puede usar el cli de heroku y `git push heroku master`: Detecta `heroku.yml`, construye la imagen y la pone en producción.
+Además también se puede hacer deploy desde local con `git push heroku master`: detecta `heroku.yml`, construye la imagen y la pone en producción.
 
 Se puede interactuar con el microservicio mediante la documentación de Swagger para probarlo [aquí](https://que-vemos.herokuapp.com/docs) y ver las operaciones disponibles.
