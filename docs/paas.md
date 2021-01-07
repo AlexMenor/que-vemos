@@ -4,7 +4,7 @@ He elegido heroku para desplegar mi microservicio:
 
 - Aparte de ofrecer un plan gratuito, con el pack de Github se pueden conseguir créditos en la plataforma. He hecho uso de ellos para tener un plan Hobby que mantiene la aplicación despierta.
 - Permite añadir "addons" como bases de datos, colas, etc... He usado redis de esta manera con mi microservicio.
-- Aparte del despliegue usando buildpacks (propios de heroku) permite utilizar Dockerfile para construir la imagen (definiendo `heroku.yml`) y ponerla en producción. De esta forma también hace el microservicio mas agnóstico de la plataforma.
+- Aparte del despliegue usando buildpacks (propios de heroku) permite utilizar Dockerfile para construir la imagen (definiendo `heroku.yml`) y ponerla en producción. Así hacemos el microservicio más independiente de la plataforma y facilita la migración a otro PaaS o a un IaaS en el futuro.
 
 ## Configuración y despliegue automático
 
