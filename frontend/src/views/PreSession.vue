@@ -7,7 +7,7 @@
   >
     <card style="max-width:700px">
       <div v-if="!qr" class="presession-card-content">
-        <v-img src="@/assets/logo-lemur.png" max-height="400px" contain></v-img>
+        <v-img src="@/assets/logo-lemur.png" max-height="300px" contain></v-img>
         <v-btn class="ma-5" color="primary" @click="createSession">
           Crea una sesión</v-btn
         >

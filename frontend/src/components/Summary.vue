@@ -3,7 +3,7 @@
     column
     justify-space-between
     align-center
-    style="width:100%;height:100vh; overflow:scroll;padding-bottom:85px"
+    style="width:100%;height:100vh; height: calc(var(--vh, 1vh) * 100);overflow:scroll;padding-bottom:85px"
     class="summary"
   >
     <v-layout

@@ -30,7 +30,7 @@
       v-else-if="votedEveryWatchable"
       :session-id="sessionId"
     ></session-summary>
-    <v-snackbar v-model="snackbar">
+    <v-snackbar v-model="snackbar" top>
       Desliza hacia la derecha si te gusta y hacia la izquierda de lo contrario
     </v-snackbar>
   </v-layout>

@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="height:100%">
     <v-app-bar app color="white">
       <v-img
         :src="require('@/assets/logo.png')"
@@ -30,12 +30,21 @@
 <script>
 export default {
   name: "App",
+  mounted() {
+    const viewportHeightExcludingBrowserUI = () => {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty("--vh", `${vh}px`);
+    };
+    window.addEventListener("resize", viewportHeightExcludingBrowserUI);
+    viewportHeightExcludingBrowserUI();
+  },
 };
 </script>
 
 <style>
 body {
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   width: 100vw;
   overflow: hidden;
 }
@@ -46,5 +55,8 @@ body {
 
 #logo :hover {
   cursor: pointer;
+}
+.v-application--wrap {
+  min-height: 100% !important;
 }
 </style>
