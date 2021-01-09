@@ -1,14 +1,6 @@
 [
     {
-        "popularity": 4167.11,
-        "poster": "https://image.tmdb.org/t/p/w500//8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg",
-        "synopsis": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
-        "title": "Wonder Woman 1984",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 29.727,
+        "popularity": 41.618,
         "poster": "https://image.tmdb.org/t/p/w500//OgUfLlhfBFx5BPK6LzBWFvBW1w.jpg",
         "synopsis": "A heartbreaking home birth leaves a woman grappling with the profound emotional fallout, isolated from her partner and family by a chasm of grief.",
         "title": "Pieces of a Woman",
@@ -16,7 +8,23 @@
         "year": "2020"
     },
     {
-        "popularity": 3401.963,
+        "popularity": 62.78,
+        "poster": "https://image.tmdb.org/t/p/w500//z4qgLq57TKN7TLWHsNZZmCZOY4d.jpg",
+        "synopsis": "Inspired by the adventures of Ars\u00e8ne Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
+        "title": "Lupin",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 3751.291,
+        "poster": "https://image.tmdb.org/t/p/w500//8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg",
+        "synopsis": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
+        "title": "Wonder Woman 1984",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 3283.369,
         "poster": "https://image.tmdb.org/t/p/w500//hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
         "synopsis": "Joe Gardner is a middle school teacher with a love for jazz music. After a successful gig at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.",
         "title": "Soul",
@@ -24,7 +32,15 @@
         "year": "2020"
     },
     {
-        "popularity": 1510.707,
+        "popularity": 36.678,
+        "poster": "https://image.tmdb.org/t/p/w500//9v43jAAfCYcQEgeMJ1H0rghN0of.jpg",
+        "synopsis": "A married man is tricked into a murder scheme by a female police detective.",
+        "title": "Fatale",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 1124.539,
         "poster": "https://image.tmdb.org/t/p/w500//k68nPLbIST6NP96JmTxmZijEvCA.jpg",
         "synopsis": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
         "title": "Tenet",
@@ -32,31 +48,7 @@
         "year": "2020"
     },
     {
-        "popularity": 1022.858,
-        "poster": "https://image.tmdb.org/t/p/w500//bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
-        "synopsis": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
-        "title": "Vikings",
-        "type": "SERIES",
-        "year": "2013"
-    },
-    {
-        "popularity": 182.615,
-        "poster": "https://image.tmdb.org/t/p/w500//t7EUMSlfUN3jUSZUJOLURAzJzZs.jpg",
-        "synopsis": "A WWII pilot traveling with top secret documents on a B-17 Flying Fortress encounters an evil presence on board the flight.",
-        "title": "Shadow in the Cloud",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 1495.092,
-        "poster": "https://image.tmdb.org/t/p/w500//obLBdhLxheKg8Li1qO11r2SwmYO.jpg",
-        "synopsis": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
-        "title": "Cobra Kai",
-        "type": "SERIES",
-        "year": "2018"
-    },
-    {
-        "popularity": 49.318,
+        "popularity": 69.045,
         "poster": "https://image.tmdb.org/t/p/w500//dzAwoFc87V2zku5FqYoijKfCOvh.jpg",
         "synopsis": "The story of Ben Clemens, who after 32 years as a border patrol agent is forced to work for the very people he spent his career trying to keep out of the United States. Now exposed to life on the other side of the wall, Ben will start to question his black and white views of the world, challenging his ideology and his loyalties.",
         "title": "Coyote",
@@ -64,7 +56,31 @@
         "year": "2021"
     },
     {
-        "popularity": 83.824,
+        "popularity": 928.774,
+        "poster": "https://image.tmdb.org/t/p/w500//bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
+        "synopsis": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
+        "title": "Vikings",
+        "type": "SERIES",
+        "year": "2013"
+    },
+    {
+        "popularity": 255.661,
+        "poster": "https://image.tmdb.org/t/p/w500//t7EUMSlfUN3jUSZUJOLURAzJzZs.jpg",
+        "synopsis": "A WWII pilot traveling with top secret documents on a B-17 Flying Fortress encounters an evil presence on board the flight.",
+        "title": "Shadow in the Cloud",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 154.101,
+        "poster": "https://image.tmdb.org/t/p/w500//98RYSYsRNKWgrAAFBn0WfploUG7.jpg",
+        "synopsis": "Follow the voyages of Starfleet on their missions to discover new worlds and new life forms, and one Starfleet officer who must learn that to truly understand all things alien, you must first understand yourself.",
+        "title": "Star Trek: Discovery",
+        "type": "SERIES",
+        "year": "2017"
+    },
+    {
+        "popularity": 89.702,
         "poster": "https://image.tmdb.org/t/p/w500//mtDYMa2inpJjxq2DjELPXbtf02v.jpg",
         "synopsis": "Chloe, a teenager who is confined to a wheelchair, is homeschooled by her mother, Diane. Chloe soon becomes suspicious of her mother and begins to suspect that she may be harboring a dark secret.",
         "title": "Run",
@@ -72,15 +88,31 @@
         "year": "2020"
     },
     {
-        "popularity": 933.919,
-        "poster": "https://image.tmdb.org/t/p/w500//sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
-        "synopsis": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
-        "title": "The Mandalorian",
+        "popularity": 1265.689,
+        "poster": "https://image.tmdb.org/t/p/w500//obLBdhLxheKg8Li1qO11r2SwmYO.jpg",
+        "synopsis": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
+        "title": "Cobra Kai",
+        "type": "SERIES",
+        "year": "2018"
+    },
+    {
+        "popularity": 103.345,
+        "poster": "https://image.tmdb.org/t/p/w500//3tvm4WdGKw3Db0sMh9Pt4dckePn.jpg",
+        "synopsis": "Emily Dickinson. Poet. Daughter. Total rebel. In this coming-of-age story, Emily\u2019s determined to become the world\u2019s greatest poet.",
+        "title": "Dickinson",
         "type": "SERIES",
         "year": "2019"
     },
     {
-        "popularity": 1097.927,
+        "popularity": 9.416,
+        "poster": "https://image.tmdb.org/t/p/w500//qTCdyHTibEl90w6rDxTTHTX9k3O.jpg",
+        "synopsis": "Struggling to provide her daughters with a safe, happy home, Sandra decides to build one - from scratch. Using all her ingenuity to make her ambitious dream a reality, Sandra draws together a community to lend a helping hand to build her house and ultimately recover her own sense of self.",
+        "title": "Herself",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 952.291,
         "poster": "https://image.tmdb.org/t/p/w500//yxMpoHO0CXP5o9gB7IfsciilQS4.jpg",
         "synopsis": "As her 16th birthday nears, Sabrina must choose between the witch world of her family and the human world of her friends. Based on the Archie comic.",
         "title": "Chilling Adventures of Sabrina",
@@ -88,15 +120,55 @@
         "year": "2018"
     },
     {
-        "popularity": 2.744,
-        "poster": "https://image.tmdb.org/t/p/w500//8zrgid8f6c2ODn2T94jKfopOF4C.jpg",
-        "synopsis": "The background and career of Tony Parker, whose determination led him to become arguably the greatest French basketball player.",
-        "title": "Tony Parker: The Final Shot",
+        "popularity": 888.199,
+        "poster": "https://image.tmdb.org/t/p/w500//sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
+        "synopsis": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
+        "title": "The Mandalorian",
+        "type": "SERIES",
+        "year": "2019"
+    },
+    {
+        "popularity": 1266.019,
+        "poster": "https://image.tmdb.org/t/p/w500//tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+        "synopsis": "Searching for a safer habitat, the prehistoric Crood family discovers an idyllic, walled-in paradise that meets all of its needs. Unfortunately, they must also learn to live with the Bettermans -- a family that's a couple of steps above the Croods on the evolutionary ladder. As tensions between the new neighbors start to rise, a new threat soon propels both clans on an epic adventure that forces them to embrace their differences, draw strength from one another, and survive together.",
+        "title": "The Croods: A New Age",
         "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 97.795,
+        "poster": "https://image.tmdb.org/t/p/w500//5OyAOXbIZiUi8JA5S1eN4yepLTR.jpg",
+        "synopsis": "Closet witch Teresa Palmer and centuries-old vampire Matthew Goode are drawn into a deadly mystery and forbidden romance when a magical book shows up in an Oxford library.",
+        "title": "A Discovery of Witches",
+        "type": "SERIES",
+        "year": "2018"
+    },
+    {
+        "popularity": 50.921,
+        "poster": "https://image.tmdb.org/t/p/w500//qppkOrZKvVhUQhUvMuB5SeHMBVX.jpg",
+        "synopsis": "A retired businessman runs for mayor of Los Angeles to prove he's \"still got it.\" Once he wins, he has to figure out what he stands for, gain the respect of his biggest critic and connect with his teenage daughter, all while trying to get anything right for America's second weirdest city.",
+        "title": "Mr. Mayor",
+        "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 182.239,
+        "popularity": 61.779,
+        "poster": "https://image.tmdb.org/t/p/w500//EpDuYIK81YtCUT3gH2JDpyj8Qk.jpg",
+        "synopsis": "Revisit the epic heroes, villains and moments from across the MCU in preparation for the stories still to come. Each dynamic segment feeds directly into the upcoming series \u2014 setting the stage for future events. This series weaves together the many threads that constitute the unparalleled Marvel Cinematic Universe.",
+        "title": "Marvel Studios: Legends",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 2856.461,
+        "poster": "https://image.tmdb.org/t/p/w500//eDJYDXRoWoUzxjd52gtz5ODTSU1.jpg",
+        "synopsis": "Cosmoball is a mesmerizing intergalactic game of future played between humans and aliens at the giant extraterrestrial ship hovering in the sky over Earth. A young man with enormous power of an unknown nature joins the team of hot-headed superheroes in exchange for a cure for his mother\u2019s deadly illness. The Four from Earth will fight not only to defend the honor of their home planet in the spectacular game, but to face the unprecedented threat to the Galaxy and embrace their own destiny.",
+        "title": "Cosmoball",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 255.135,
         "poster": "https://image.tmdb.org/t/p/w500//w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
         "synopsis": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
         "title": "The Stand",
@@ -104,7 +176,63 @@
         "year": "2020"
     },
     {
-        "popularity": 98.703,
+        "popularity": 114.422,
+        "poster": "https://image.tmdb.org/t/p/w500//lK0NAXT7mcJrC3NK8vpXwK5EJQu.jpg",
+        "synopsis": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
+        "title": "Attack on Titan",
+        "type": "SERIES",
+        "year": "2013"
+    },
+    {
+        "popularity": 123.01,
+        "poster": "https://image.tmdb.org/t/p/w500//6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+        "synopsis": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "title": "Star Wars",
+        "type": "MOVIE",
+        "year": "1977"
+    },
+    {
+        "popularity": 141.511,
+        "poster": "https://image.tmdb.org/t/p/w500//or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+        "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+        "title": "Avengers: Endgame",
+        "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 3.842,
+        "poster": "https://image.tmdb.org/t/p/w500//aZgw36jwqby3sxT7jU8to8Sq9Di.jpg",
+        "synopsis": "The background and career of Tony Parker, whose determination led him to become arguably the greatest French basketball player.",
+        "title": "Tony Parker: The Final Shot",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 2058.091,
+        "poster": "https://image.tmdb.org/t/p/w500//51JxCk77ZCqLzbLkrDl9Qho6KUh.jpg",
+        "synopsis": "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
+        "title": "The Midnight Sky",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 35.538,
+        "poster": "https://image.tmdb.org/t/p/w500//8vQwdV33tthEHmPjGz70ogBUpnR.jpg",
+        "synopsis": "What happens after we die? This docuseries explores personal stories and research on near-death experiences, reincarnation and paranormal phenomena.",
+        "title": "Surviving Death",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 95.218,
+        "poster": "https://image.tmdb.org/t/p/w500//vXuQOGZtmbzuHoWdPKoukb2SWms.jpg",
+        "synopsis": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal\u2019s \u2018Hippie Trail\u2019 in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+        "title": "The Serpent",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 91.93,
         "poster": "https://image.tmdb.org/t/p/w500//5vQlVWkIMPhZ88OWchJsgwGEK9.jpg",
         "synopsis": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
         "title": "The Expanse",
@@ -112,12 +240,20 @@
         "year": "2015"
     },
     {
-        "popularity": 1348.314,
-        "poster": "https://image.tmdb.org/t/p/w500//tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
-        "synopsis": "Searching for a safer habitat, the prehistoric Crood family discovers an idyllic, walled-in paradise that meets all of its needs. Unfortunately, they must also learn to live with the Bettermans -- a family that's a couple of steps above the Croods on the evolutionary ladder. As tensions between the new neighbors start to rise, a new threat soon propels both clans on an epic adventure that forces them to embrace their differences, draw strength from one another, and survive together.",
-        "title": "The Croods: A New Age",
-        "type": "MOVIE",
-        "year": "2020"
+        "popularity": 159.822,
+        "poster": "https://image.tmdb.org/t/p/w500//yxdeII5tI8qqiERcMxjW9DfB6Gz.jpg",
+        "synopsis": "Surrounded by a forest and a gated entrance, the Grace Field House is inhabited by orphans happily living together as one big family, looked after by their \"Mama,\" Isabella. Although they are required to take tests daily, the children are free to spend their time as they see fit, usually playing outside, as long as they do not venture too far from the orphanage \u2014 a rule they are expected to follow no matter what. However, all good times must come to an end, as every few months, a child is adopted and sent to live with their new family... never to be heard from again.\n\nHowever, the three oldest siblings have their suspicions about what is actually happening at the orphanage, and they are about to discover the cruel fate that awaits the children living at Grace Field, including the twisted nature of their beloved Mama.",
+        "title": "The Promised Neverland",
+        "type": "SERIES",
+        "year": "2019"
+    },
+    {
+        "popularity": 150.958,
+        "poster": "https://image.tmdb.org/t/p/w500//cDDb7WA2i7cENhkEEjXEDrXGyNL.jpg",
+        "synopsis": "The Doctor is a Time Lord: a 900 year old alien with 2 hearts, part of a gifted civilization who mastered time travel. The Doctor saves planets for a living\u2014more of a hobby actually, and the Doctor's very, very good at it.",
+        "title": "Doctor Who",
+        "type": "SERIES",
+        "year": "2005"
     },
     {
         "popularity": 191.506,
@@ -128,71 +264,7 @@
         "year": "2020"
     },
     {
-        "popularity": 68.013,
-        "poster": "https://image.tmdb.org/t/p/w500//vXuQOGZtmbzuHoWdPKoukb2SWms.jpg",
-        "synopsis": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal\u2019s \u2018Hippie Trail\u2019 in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
-        "title": "The Serpent",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 158.011,
-        "poster": "https://image.tmdb.org/t/p/w500//yxdeII5tI8qqiERcMxjW9DfB6Gz.jpg",
-        "synopsis": "Surrounded by a forest and a gated entrance, the Grace Field House is inhabited by orphans happily living together as one big family, looked after by their \"Mama,\" Isabella. Although they are required to take tests daily, the children are free to spend their time as they see fit, usually playing outside, as long as they do not venture too far from the orphanage \u2014 a rule they are expected to follow no matter what. However, all good times must come to an end, as every few months, a child is adopted and sent to live with their new family... never to be heard from again.\n\nHowever, the three oldest siblings have their suspicions about what is actually happening at the orphanage, and they are about to discover the cruel fate that awaits the children living at Grace Field, including the twisted nature of their beloved Mama.",
-        "title": "The Promised Neverland",
-        "type": "SERIES",
-        "year": "2019"
-    },
-    {
-        "popularity": 40.502,
-        "poster": "https://image.tmdb.org/t/p/w500//8vQwdV33tthEHmPjGz70ogBUpnR.jpg",
-        "synopsis": "What happens after we die? This docuseries explores personal stories and research on near-death experiences, reincarnation and paranormal phenomena.",
-        "title": "Surviving Death",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 124.067,
-        "poster": "https://image.tmdb.org/t/p/w500//cDDb7WA2i7cENhkEEjXEDrXGyNL.jpg",
-        "synopsis": "The Doctor is a Time Lord: a 900 year old alien with 2 hearts, part of a gifted civilization who mastered time travel. The Doctor saves planets for a living\u2014more of a hobby actually, and the Doctor's very, very good at it.",
-        "title": "Doctor Who",
-        "type": "SERIES",
-        "year": "2005"
-    },
-    {
-        "popularity": 39.426,
-        "poster": "https://image.tmdb.org/t/p/w500//xNw3V6IG88M7n391TSRZt2PHX3D.jpg",
-        "synopsis": "This proudly profane series explores the history and impact of some of the most notorious bad words in the English language.",
-        "title": "History of Swear Words",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 2536.006,
-        "poster": "https://image.tmdb.org/t/p/w500//51JxCk77ZCqLzbLkrDl9Qho6KUh.jpg",
-        "synopsis": "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
-        "title": "The Midnight Sky",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 117.629,
-        "poster": "https://image.tmdb.org/t/p/w500//lK0NAXT7mcJrC3NK8vpXwK5EJQu.jpg",
-        "synopsis": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
-        "title": "Attack on Titan",
-        "type": "SERIES",
-        "year": "2013"
-    },
-    {
-        "popularity": 110.072,
-        "poster": "https://image.tmdb.org/t/p/w500//98RYSYsRNKWgrAAFBn0WfploUG7.jpg",
-        "synopsis": "Follow the voyages of Starfleet on their missions to discover new worlds and new life forms, and one Starfleet officer who must learn that to truly understand all things alien, you must first understand yourself.",
-        "title": "Star Trek: Discovery",
-        "type": "SERIES",
-        "year": "2017"
-    },
-    {
-        "popularity": 86.254,
+        "popularity": 83.139,
         "poster": "https://image.tmdb.org/t/p/w500//6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
         "synopsis": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
         "title": "The Lord of the Rings: The Fellowship of the Ring",
@@ -200,23 +272,7 @@
         "year": "2001"
     },
     {
-        "popularity": 299.269,
-        "poster": "https://image.tmdb.org/t/p/w500//u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
-        "synopsis": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
-        "title": "Game of Thrones",
-        "type": "SERIES",
-        "year": "2011"
-    },
-    {
-        "popularity": 26.984,
-        "poster": "https://image.tmdb.org/t/p/w500//b5cz6BoyHrgBnhfDHOW5hXRWbln.jpg",
-        "synopsis": "Following the death of his wife, Ip Man travels to San Francisco to ease tensions between the local kung fu masters and his star student, Bruce Lee, while searching for a better future for his son.",
-        "title": "Ip Man 4: The Finale",
-        "type": "MOVIE",
-        "year": "2019"
-    },
-    {
-        "popularity": 159.314,
+        "popularity": 143.318,
         "poster": "https://image.tmdb.org/t/p/w500//wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
         "synopsis": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard -- with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths -- and about the villain who's to blame.",
         "title": "Harry Potter and the Philosopher's Stone",
@@ -224,79 +280,23 @@
         "year": "2001"
     },
     {
-        "popularity": 123.735,
-        "poster": "https://image.tmdb.org/t/p/w500//6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
-        "synopsis": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
-        "title": "Star Wars",
-        "type": "MOVIE",
-        "year": "1977"
-    },
-    {
-        "popularity": 398.78,
-        "poster": "https://image.tmdb.org/t/p/w500//qaewZKBKmXjb4ZfFBb1LCug6BE8.jpg",
-        "synopsis": "Wealth, lust, and betrayal set in the backdrop of Regency era England, seen through the eyes of the powerful Bridgerton family.",
-        "title": "Bridgerton",
+        "popularity": 311.233,
+        "poster": "https://image.tmdb.org/t/p/w500//u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+        "synopsis": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+        "title": "Game of Thrones",
         "type": "SERIES",
-        "year": "2020"
+        "year": "2011"
     },
     {
-        "popularity": 797.933,
-        "poster": "https://image.tmdb.org/t/p/w500//bNo2mcvSwIvnx8K6y1euAc1TLVq.jpg",
-        "synopsis": "John Garrity, his estranged wife and their young son embark on a perilous journey to find sanctuary as a planet-killing comet hurtles toward Earth. Amid terrifying accounts of cities getting levelled, the Garrity's experience the best and worst in humanity. As the countdown to the global apocalypse approaches zero, their incredible trek culminates in a desperate and last-minute flight to a possible safe haven.",
-        "title": "Greenland",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 30.818,
-        "poster": "https://image.tmdb.org/t/p/w500//y1AWUlJUxsnwEiC0gTfP2nUZ9c5.jpg",
-        "synopsis": "A group of misfit cops rise up from decades of helplessness to save their corrupt city from catastrophe. Inspired by the characters created by Sir Terry Pratchett\u2019s famous \u201cDiscworld\u201d novels.",
-        "title": "The Watch",
+        "popularity": 27.126,
+        "poster": "https://image.tmdb.org/t/p/w500//xNw3V6IG88M7n391TSRZt2PHX3D.jpg",
+        "synopsis": "This proudly profane series explores the history and impact of some of the most notorious bad words in the English language.",
+        "title": "History of Swear Words",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 55.379,
-        "poster": "https://image.tmdb.org/t/p/w500//2EJ5QSz6f5Iya12DR8pfJ2bNCd2.jpg",
-        "synopsis": "Natsuki Subaru, an ordinary high school  student, is on his way home from the convenience store when he finds  himself transported to another world. As he's lost and confused in a new  world where he doesn't even know left from right, the only person to  reach out to him was a beautiful girl with silver hair. Determined to  repay her somehow for saving him from his own despair, Subaru agrees to  help the girl find something she's looking for.",
-        "title": "Re:ZERO -Starting Life in Another World-",
-        "type": "SERIES",
-        "year": "2016"
-    },
-    {
-        "popularity": 19.307,
-        "poster": "https://image.tmdb.org/t/p/w500//mriIrIbBJb9JtwhLf48MzvvQr6h.jpg",
-        "synopsis": "Two American entrepreneurs must face a Russian mobster's vengeance after they cut him out of a business deal.",
-        "title": "American Dream",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 134.159,
-        "poster": "https://image.tmdb.org/t/p/w500//or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-        "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
-        "title": "Avengers: Endgame",
-        "type": "MOVIE",
-        "year": "2019"
-    },
-    {
-        "popularity": 44.327,
-        "poster": "https://image.tmdb.org/t/p/w500//xhF6IXlq4HjEqoAqoPTq4YkgHB1.jpg",
-        "synopsis": "After an unusual event, Zoey Clarke, a whip-smart computer coder forging her way in San Francisco, suddenly starts to hear the innermost wants, thoughts and desires of the people around her through popular songs.",
-        "title": "Zoey's Extraordinary Playlist",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 1321.581,
-        "poster": "https://image.tmdb.org/t/p/w500//zeD4PabP6099gpE0STWJrJrCBCs.jpg",
-        "synopsis": "A bank robber tries to turn himself in because he's falling in love and wants to live an honest life...but when he realizes the Feds are more corrupt than him, he must fight back to clear his name.",
-        "title": "Honest Thief",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 45.611,
+        "popularity": 34.479,
         "poster": "https://image.tmdb.org/t/p/w500//eYMeV0DQuAkugB3TVBZBe2rEXka.jpg",
         "synopsis": "A woman in her sixties embarks on a journey through the Western United States after losing everything in the Great Recession, living as a van-dwelling modern-day nomad.",
         "title": "Nomadland",
@@ -304,19 +304,19 @@
         "year": "2020"
     },
     {
-        "popularity": 67.613,
-        "poster": "https://image.tmdb.org/t/p/w500//cjzU4g6SlScnP4MdkleyI25KGlR.jpg",
-        "synopsis": "A young woman haunted by a tragedy in her past takes revenge on the predatory men unlucky enough to cross her path.",
-        "title": "Promising Young Woman",
+        "popularity": 30.496,
+        "poster": "https://image.tmdb.org/t/p/w500//rCqDuwCXEibrYBkqGophUAcT0gp.jpg",
+        "synopsis": "Entrenched in a midlife crisis, Aziz seeks solace from his mundane job, lonesome friends and rowdy family while pretending to have his act together.",
+        "title": "Stuck Apart",
         "type": "MOVIE",
-        "year": "2020"
+        "year": "2021"
     },
     {
-        "popularity": 95.781,
-        "poster": "https://image.tmdb.org/t/p/w500//db32LaOibwEliAmSL2jjDF6oDdj.jpg",
-        "synopsis": "The surviving Resistance faces the First Order once again as the journey of Rey, Finn and Poe Dameron continues. With the power and knowledge of generations behind them, the final battle begins.",
-        "title": "Star Wars: The Rise of Skywalker",
+        "popularity": 70.48,
+        "poster": "https://image.tmdb.org/t/p/w500//hTFs6T2k0kdQHFcC4gisT0UtNX8.jpg",
+        "synopsis": "A young American couple travel to the arctic mountains of Norway. After pulling over during a snowstorm, they wake up trapped in their SUV, buried underneath layers of snow and ice.",
+        "title": "Centigrade",
         "type": "MOVIE",
-        "year": "2019"
+        "year": "2020"
     }
 ]
