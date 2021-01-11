@@ -41,7 +41,7 @@ async def get_one_and_lock(self, session_id: str) -> Session:
 ```
 
 - Pone un "lock" a la sesión.
-- Este lock se elimina cuando se guarda la sesión modificada o si pasan 100ms (eliminando la posibilidad de interbloqueo).
+- Este lock se elimina cuando se guarda la sesión modificada o si pasan 100ms (eliminando la posibilidad de bloqueo).
 - Durante ese lock, si otra petición quiere modificar la misma sesión "espera" con `asyncio.sleep` sin bloquear otras peticiones.
 - Esta función solo se usa si se va a modificar la sesión, si no, se utiliza `get_one` que no pone un lock a la sesión.
 
