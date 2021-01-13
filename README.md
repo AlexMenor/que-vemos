@@ -1,6 +1,5 @@
 # ¿Qué vemos?
-
-![que-vemos gha](https://github.com/AlexMenor/que-vemos/workflows/que-vemos%20QA/badge.svg)
+![que-vemos CI/CD](https://github.com/AlexMenor/que-vemos/workflows/que-vemos%20CI/CD/badge.svg)
 ![que-vemos travis](https://travis-ci.com/AlexMenor/que-vemos.svg?branch=master)
 [![codecov](https://codecov.io/gh/AlexMenor/que-vemos/branch/master/graph/badge.svg?token=DGPWNVEISN)](https://codecov.io/gh/AlexMenor/que-vemos)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9256fdf3-62b9-44c4-8238-cccaa06b7c23/deploy-status)](https://app.netlify.com/sites/amazing-villani-e2d732/deploys)
