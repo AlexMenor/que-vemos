@@ -41,9 +41,19 @@ Está bien si te preocupas por buscar linters, task runners, type hinting, async
 - Estaba algo familiarizado con pip y no me gusta nada.
 - Poetry recuerda un poco a npm/yarn y me gusta.
 - Crea los venv y funciona bastante bien.
-- Todavía es joven y mucho contenido, buildpacks de heroku, etc... Todavía usan pip.
+- Todavía es joven y no hay mucho contenido, buildpacks de heroku, etc... Todavía usan pip.
 - pyproject.toml para definir el proyecto.
 - Mejor utilizar un task runner real en vez de Poetry.
     - Hace falta taskipy para ciertas cosas.
     - Quedan comandos largos y no permite dependencia entre tareas y otras cosas
 - Para manejar dependencias ningún problema y muy buena documentación.
+
+## Test runner: Pytest
+
+- Fixtures muy simples e intuitivas y sin más añadidos que los necesarios.
+- Dos opciones para organizar los tests:
+    - Poner la carpeta de tests fuera de la raíz de código (en este caso al mismo nivel que app).
+    - Poner la carpeta de tests dentro de la raíz de código (dentro de app). He acabado decantándome por esta segunda, ya que hay relación entre los test unitarios y los módulos, por ejemplo: test_session.py y session.py.
+
+- Dentro de `tests` he separado por integración y unitarios.
+- `@pytest.mark.asyncio` para testear funciones async.
