@@ -1,14 +1,22 @@
 [
     {
-        "popularity": 172.269,
-        "poster": "https://image.tmdb.org/t/p/w500//z4qgLq57TKN7TLWHsNZZmCZOY4d.jpg",
+        "popularity": 241.177,
+        "poster": "https://image.tmdb.org/t/p/w500//sgxawbFB5Vi5OkPWQLNfl3dvkNJ.jpg",
         "synopsis": "Inspired by the adventures of Ars\u00e8ne Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
         "title": "Lupin",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 5291.83,
+        "popularity": 43.876,
+        "poster": "https://image.tmdb.org/t/p/w500//23Y5tz5YnkRS4TZjWB8GlzJghY2.jpg",
+        "synopsis": "Bruce Wayne faces a deadly menace from his past, with the help of three former classmates: world-renowned martial artists Richard Dragon, Ben Turner and Lady Shiva.",
+        "title": "Batman: Soul of the Dragon",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 3906.05,
         "poster": "https://image.tmdb.org/t/p/w500//8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg",
         "synopsis": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
         "title": "Wonder Woman 1984",
@@ -16,15 +24,15 @@
         "year": "2020"
     },
     {
-        "popularity": 114.199,
-        "poster": "https://image.tmdb.org/t/p/w500//OgUfLlhfBFx5BPK6LzBWFvBW1w.jpg",
-        "synopsis": "When a young mother's home birth ends in unfathomable tragedy, she begins a year-long odyssey of mourning that fractures relationships with loved ones in this deeply personal story of a woman learning to live alongside her loss.",
-        "title": "Pieces of a Woman",
+        "popularity": 13.252,
+        "poster": "https://image.tmdb.org/t/p/w500//wgm4gdJwb7iSYX0uBsRAZmHQmPm.jpg",
+        "synopsis": "Two New Orleans paramedics' lives are ripped apart after encountering a series of horrific deaths linked to a designer drug with bizarre, otherworldly effects.",
+        "title": "Synchronic",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 4345.466,
+        "popularity": 3646.51,
         "poster": "https://image.tmdb.org/t/p/w500//hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
         "synopsis": "Joe Gardner is a middle school teacher with a love for jazz music. After a successful gig at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.",
         "title": "Soul",
@@ -32,23 +40,15 @@
         "year": "2020"
     },
     {
-        "popularity": 149.161,
-        "poster": "https://image.tmdb.org/t/p/w500//3KCAZaKHmoMIN9dHutqaMtubQqD.jpg",
-        "synopsis": "An ex-con becomes the traveling partner of a conman who turns out to be one of the older gods trying to recruit troops to battle the upstart deities. Based on Neil Gaiman's fantasy novel.",
-        "title": "American Gods",
-        "type": "SERIES",
-        "year": "2017"
-    },
-    {
-        "popularity": 100.645,
-        "poster": "https://image.tmdb.org/t/p/w500//9v43jAAfCYcQEgeMJ1H0rghN0of.jpg",
-        "synopsis": "A married man is tricked into a murder scheme by a female police detective.",
-        "title": "Fatale",
+        "popularity": 159.879,
+        "poster": "https://image.tmdb.org/t/p/w500//OgUfLlhfBFx5BPK6LzBWFvBW1w.jpg",
+        "synopsis": "When a young mother's home birth ends in unfathomable tragedy, she begins a year-long odyssey of mourning that fractures relationships with loved ones in this deeply personal story of a woman learning to live alongside her loss.",
+        "title": "Pieces of a Woman",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 1500.892,
+        "popularity": 1299.013,
         "poster": "https://image.tmdb.org/t/p/w500//k68nPLbIST6NP96JmTxmZijEvCA.jpg",
         "synopsis": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
         "title": "Tenet",
@@ -56,7 +56,39 @@
         "year": "2020"
     },
     {
-        "popularity": 154.606,
+        "popularity": 139.716,
+        "poster": "https://image.tmdb.org/t/p/w500//3KCAZaKHmoMIN9dHutqaMtubQqD.jpg",
+        "synopsis": "An ex-con becomes the traveling partner of a conman who turns out to be one of the older gods trying to recruit troops to battle the upstart deities. Based on Neil Gaiman's fantasy novel.",
+        "title": "American Gods",
+        "type": "SERIES",
+        "year": "2017"
+    },
+    {
+        "popularity": 8.982,
+        "poster": "https://image.tmdb.org/t/p/w500//vWGkIHeCLw9wWvPXnPTOM9d5GiK.jpg",
+        "synopsis": "A couple flying on a small plane to attend a tropical island wedding must fight for their lives after their pilot suffers a heart attack.",
+        "title": "Horizon Line",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 87.686,
+        "poster": "https://image.tmdb.org/t/p/w500//9v43jAAfCYcQEgeMJ1H0rghN0of.jpg",
+        "synopsis": "A married man is tricked into a murder scheme by a female police detective.",
+        "title": "Fatale",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 29.347,
+        "poster": "https://image.tmdb.org/t/p/w500//nrWxtM9YbW74PPStSScd5V0lhBM.jpg",
+        "synopsis": "Having just returned home, decorated U.S. Marine Captain Brad Paxton's (Gary Dourdan) wife, Kate, is kidnapped by a terrorist group while working in Morocco. He is forced back into action for a daring and deadly operation to save the woman he loves.",
+        "title": "Redemption Day",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 124.958,
         "poster": "https://image.tmdb.org/t/p/w500//EpDuYIK81YtCUT3gH2JDpyj8Qk.jpg",
         "synopsis": "Revisit the epic heroes, villains and moments from across the MCU in preparation for the stories still to come. Each dynamic segment feeds directly into the upcoming series \u2014 setting the stage for future events. This series weaves together the many threads that constitute the unparalleled Marvel Cinematic Universe.",
         "title": "Marvel Studios: Legends",
@@ -64,7 +96,7 @@
         "year": "2021"
     },
     {
-        "popularity": 109.716,
+        "popularity": 104.375,
         "poster": "https://image.tmdb.org/t/p/w500//5OyAOXbIZiUi8JA5S1eN4yepLTR.jpg",
         "synopsis": "Closet witch Teresa Palmer and centuries-old vampire Matthew Goode are drawn into a deadly mystery and forbidden romance when a magical book shows up in an Oxford library.",
         "title": "A Discovery of Witches",
@@ -72,95 +104,7 @@
         "year": "2018"
     },
     {
-        "popularity": 188.47,
-        "poster": "https://image.tmdb.org/t/p/w500//lK0NAXT7mcJrC3NK8vpXwK5EJQu.jpg",
-        "synopsis": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
-        "title": "Attack on Titan",
-        "type": "SERIES",
-        "year": "2013"
-    },
-    {
-        "popularity": 1128.246,
-        "poster": "https://image.tmdb.org/t/p/w500//bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
-        "synopsis": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
-        "title": "Vikings",
-        "type": "SERIES",
-        "year": "2013"
-    },
-    {
-        "popularity": 700.091,
-        "poster": "https://image.tmdb.org/t/p/w500//w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
-        "synopsis": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
-        "title": "The Stand",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 1269.714,
-        "poster": "https://image.tmdb.org/t/p/w500//obLBdhLxheKg8Li1qO11r2SwmYO.jpg",
-        "synopsis": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
-        "title": "Cobra Kai",
-        "type": "SERIES",
-        "year": "2018"
-    },
-    {
-        "popularity": 701.533,
-        "poster": "https://image.tmdb.org/t/p/w500//t7EUMSlfUN3jUSZUJOLURAzJzZs.jpg",
-        "synopsis": "A WWII pilot traveling with top secret documents on a B-17 Flying Fortress encounters an evil presence on board the flight.",
-        "title": "Shadow in the Cloud",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 437.11,
-        "poster": "https://image.tmdb.org/t/p/w500//8xC6QSyxrpm0D5A6iyHNemEWBVe.jpg",
-        "synopsis": "A mystical, ancient dagger causes a notorious serial killer to magically switch bodies with a 17-year-old girl.",
-        "title": "Freaky",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 205.26,
-        "poster": "https://image.tmdb.org/t/p/w500//glKDfE6btIRcVB5zrjspRIs4r52.jpg",
-        "synopsis": "Wanda Maximoff and Vision\u2014two super-powered beings living idealized suburban lives\u2014begin to suspect that everything is not as it seems.",
-        "title": "WandaVision",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 1137.483,
-        "poster": "https://image.tmdb.org/t/p/w500//sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
-        "synopsis": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
-        "title": "The Mandalorian",
-        "type": "SERIES",
-        "year": "2019"
-    },
-    {
-        "popularity": 387.206,
-        "poster": "https://image.tmdb.org/t/p/w500//u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
-        "synopsis": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
-        "title": "Game of Thrones",
-        "type": "SERIES",
-        "year": "2011"
-    },
-    {
-        "popularity": 1755.138,
-        "poster": "https://image.tmdb.org/t/p/w500//tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
-        "synopsis": "Searching for a safer habitat, the prehistoric Crood family discovers an idyllic, walled-in paradise that meets all of its needs. Unfortunately, they must also learn to live with the Bettermans -- a family that's a couple of steps above the Croods on the evolutionary ladder. As tensions between the new neighbors start to rise, a new threat soon propels both clans on an epic adventure that forces them to embrace their differences, draw strength from one another, and survive together.",
-        "title": "The Croods: A New Age",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 904.0,
-        "poster": "https://image.tmdb.org/t/p/w500//yxMpoHO0CXP5o9gB7IfsciilQS4.jpg",
-        "synopsis": "As her 16th birthday nears, Sabrina must choose between the witch world of her family and the human world of her friends. Based on the Archie comic.",
-        "title": "Chilling Adventures of Sabrina",
-        "type": "SERIES",
-        "year": "2018"
-    },
-    {
-        "popularity": 34.968,
+        "popularity": 48.955,
         "poster": "https://image.tmdb.org/t/p/w500//f7x1RoKXEkYtw175m7sN4emUrXl.jpg",
         "synopsis": "A cheap, powerful drug emerges during a recession, igniting a moral panic fueled by racism.  Explore the complex history of crack in the 1980s.",
         "title": "Crack: Cocaine, Corruption & Conspiracy",
@@ -168,31 +112,79 @@
         "year": "2021"
     },
     {
-        "popularity": 25.837,
-        "poster": "https://image.tmdb.org/t/p/w500//qTCdyHTibEl90w6rDxTTHTX9k3O.jpg",
-        "synopsis": "Struggling to provide her daughters with a safe, happy home, Sandra decides to build one - from scratch. Using all her ingenuity to make her ambitious dream a reality, Sandra draws together a community to lend a helping hand to build her house and ultimately recover her own sense of self.",
-        "title": "Herself",
+        "popularity": 168.757,
+        "poster": "https://image.tmdb.org/t/p/w500//lK0NAXT7mcJrC3NK8vpXwK5EJQu.jpg",
+        "synopsis": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
+        "title": "Attack on Titan",
+        "type": "SERIES",
+        "year": "2013"
+    },
+    {
+        "popularity": 1218.457,
+        "poster": "https://image.tmdb.org/t/p/w500//obLBdhLxheKg8Li1qO11r2SwmYO.jpg",
+        "synopsis": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
+        "title": "Cobra Kai",
+        "type": "SERIES",
+        "year": "2018"
+    },
+    {
+        "popularity": 239.536,
+        "poster": "https://image.tmdb.org/t/p/w500//glKDfE6btIRcVB5zrjspRIs4r52.jpg",
+        "synopsis": "Wanda Maximoff and Vision\u2014two super-powered beings living idealized suburban lives\u2014begin to suspect that everything is not as it seems.",
+        "title": "WandaVision",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 1061.631,
+        "poster": "https://image.tmdb.org/t/p/w500//bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
+        "synopsis": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
+        "title": "Vikings",
+        "type": "SERIES",
+        "year": "2013"
+    },
+    {
+        "popularity": 1064.519,
+        "poster": "https://image.tmdb.org/t/p/w500//sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
+        "synopsis": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
+        "title": "The Mandalorian",
+        "type": "SERIES",
+        "year": "2019"
+    },
+    {
+        "popularity": 320.8,
+        "poster": "https://image.tmdb.org/t/p/w500//8xC6QSyxrpm0D5A6iyHNemEWBVe.jpg",
+        "synopsis": "A mystical, ancient dagger causes a notorious serial killer to magically switch bodies with a 17-year-old girl.",
+        "title": "Freaky",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 829.653,
-        "poster": "https://image.tmdb.org/t/p/w500//qaewZKBKmXjb4ZfFBb1LCug6BE8.jpg",
-        "synopsis": "Wealth, lust, and betrayal set in the backdrop of Regency era England, seen through the eyes of the powerful Bridgerton family.",
-        "title": "Bridgerton",
+        "popularity": 320.8,
+        "poster": "https://image.tmdb.org/t/p/w500//8xC6QSyxrpm0D5A6iyHNemEWBVe.jpg",
+        "synopsis": "A mystical, ancient dagger causes a notorious serial killer to magically switch bodies with a 17-year-old girl.",
+        "title": "Freaky",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 691.533,
+        "poster": "https://image.tmdb.org/t/p/w500//w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
+        "synopsis": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
+        "title": "The Stand",
         "type": "SERIES",
         "year": "2020"
     },
     {
-        "popularity": 113.508,
-        "poster": "https://image.tmdb.org/t/p/w500//lzqJcPaZA9G8C6eS4Hch475Ng3A.jpg",
-        "synopsis": "In this live-action adaptation of the beloved fairytale, old woodcarver Geppetto fashions a wooden puppet, Pinocchio, who magically comes to life. Pinocchio longs for adventure and is easily led astray, encountering magical beasts, fantastical spectacles, while making friends and foes along his journey. However, his dream is to become a real boy, which can only come true if he finally changes his ways.",
-        "title": "Pinocchio",
+        "popularity": 1375.004,
+        "poster": "https://image.tmdb.org/t/p/w500//t7EUMSlfUN3jUSZUJOLURAzJzZs.jpg",
+        "synopsis": "A WWII pilot traveling with top secret documents on a B-17 Flying Fortress encounters an evil presence on board the flight.",
+        "title": "Shadow in the Cloud",
         "type": "MOVIE",
-        "year": "2019"
+        "year": "2020"
     },
     {
-        "popularity": 209.626,
+        "popularity": 180.433,
         "poster": "https://image.tmdb.org/t/p/w500//ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
         "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
         "title": "Avengers: Endgame",
@@ -200,71 +192,23 @@
         "year": "2019"
     },
     {
-        "popularity": 136.575,
-        "poster": "https://image.tmdb.org/t/p/w500//6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
-        "synopsis": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
-        "title": "Star Wars",
-        "type": "MOVIE",
-        "year": "1977"
+        "popularity": 737.177,
+        "poster": "https://image.tmdb.org/t/p/w500//qaewZKBKmXjb4ZfFBb1LCug6BE8.jpg",
+        "synopsis": "Wealth, lust, and betrayal set in the backdrop of Regency era England, seen through the eyes of the powerful Bridgerton family.",
+        "title": "Bridgerton",
+        "type": "SERIES",
+        "year": "2020"
     },
     {
-        "popularity": 82.287,
-        "poster": "https://image.tmdb.org/t/p/w500//mtDYMa2inpJjxq2DjELPXbtf02v.jpg",
-        "synopsis": "Chloe, a teenager who is confined to a wheelchair, is homeschooled by her mother, Diane. Chloe soon becomes suspicious of her mother and begins to suspect that she may be harboring a dark secret.",
-        "title": "Run",
+        "popularity": 1419.345,
+        "poster": "https://image.tmdb.org/t/p/w500//tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+        "synopsis": "Searching for a safer habitat, the prehistoric Crood family discovers an idyllic, walled-in paradise that meets all of its needs. Unfortunately, they must also learn to live with the Bettermans -- a family that's a couple of steps above the Croods on the evolutionary ladder. As tensions between the new neighbors start to rise, a new threat soon propels both clans on an epic adventure that forces them to embrace their differences, draw strength from one another, and survive together.",
+        "title": "The Croods: A New Age",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 109.84,
-        "poster": "https://image.tmdb.org/t/p/w500//98RYSYsRNKWgrAAFBn0WfploUG7.jpg",
-        "synopsis": "Follow the voyages of Starfleet on their missions to discover new worlds and new life forms, and one Starfleet officer who must learn that to truly understand all things alien, you must first understand yourself.",
-        "title": "Star Trek: Discovery",
-        "type": "SERIES",
-        "year": "2017"
-    },
-    {
-        "popularity": 30.238,
-        "poster": "https://image.tmdb.org/t/p/w500//dzAwoFc87V2zku5FqYoijKfCOvh.jpg",
-        "synopsis": "The story of Ben Clemens, who after 32 years as a border patrol agent is forced to work for the very people he spent his career trying to keep out of the United States. Now exposed to life on the other side of the wall, Ben will start to question his black and white views of the world, challenging his ideology and his loyalties.",
-        "title": "Coyote",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 2312.49,
-        "poster": "https://image.tmdb.org/t/p/w500//51JxCk77ZCqLzbLkrDl9Qho6KUh.jpg",
-        "synopsis": "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
-        "title": "The Midnight Sky",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 917.393,
-        "poster": "https://image.tmdb.org/t/p/w500//6tfT03sGp9k4c0J3dypjrI8TSAI.jpg",
-        "synopsis": "A young surgeon with Savant syndrome is recruited into the surgical unit of a prestigious hospital. The question will arise: can a person who doesn't have the ability to relate to people actually save their lives",
-        "title": "The Good Doctor",
-        "type": "SERIES",
-        "year": "2017"
-    },
-    {
-        "popularity": 1217.311,
-        "poster": "https://image.tmdb.org/t/p/w500//bNo2mcvSwIvnx8K6y1euAc1TLVq.jpg",
-        "synopsis": "John Garrity, his estranged wife and their young son embark on a perilous journey to find sanctuary as a planet-killing comet hurtles toward Earth. Amid terrifying accounts of cities getting levelled, the Garrity's experience the best and worst in humanity. As the countdown to the global apocalypse approaches zero, their incredible trek culminates in a desperate and last-minute flight to a possible safe haven.",
-        "title": "Greenland",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 58.715,
-        "poster": "https://image.tmdb.org/t/p/w500//fSHa8kwMPhD29grGX3miBq1BWCN.jpg",
-        "synopsis": "34-year-old virgin loser is kicked out of his home by his family and realized that his life is completely over. As he regrets wasting his life, a truck runs him over and he died. When he wakes up... He\u2019s in a world of sword and sorcery! Reborn as a baby named Rudeus, he decides that this time, he\u2019ll live a life he won\u2019t regret!",
-        "title": "Mushoku Tensei: Jobless Reincarnation",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 511.888,
+        "popularity": 475.574,
         "poster": "https://image.tmdb.org/t/p/w500//aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
         "synopsis": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
         "title": "Mulan",
@@ -272,23 +216,79 @@
         "year": "2020"
     },
     {
-        "popularity": 36.163,
-        "poster": "https://image.tmdb.org/t/p/w500//y1AWUlJUxsnwEiC0gTfP2nUZ9c5.jpg",
-        "synopsis": "A group of misfit cops rise up from decades of helplessness to save their corrupt city from catastrophe. Inspired by the characters created by Sir Terry Pratchett\u2019s famous \u201cDiscworld\u201d novels.",
-        "title": "The Watch",
+        "popularity": 836.751,
+        "poster": "https://image.tmdb.org/t/p/w500//yxMpoHO0CXP5o9gB7IfsciilQS4.jpg",
+        "synopsis": "As her 16th birthday nears, Sabrina must choose between the witch world of her family and the human world of her friends. Based on the Archie comic.",
+        "title": "Chilling Adventures of Sabrina",
+        "type": "SERIES",
+        "year": "2018"
+    },
+    {
+        "popularity": 1478.849,
+        "poster": "https://image.tmdb.org/t/p/w500//51JxCk77ZCqLzbLkrDl9Qho6KUh.jpg",
+        "synopsis": "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
+        "title": "The Midnight Sky",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 93.12,
+        "poster": "https://image.tmdb.org/t/p/w500//5vQlVWkIMPhZ88OWchJsgwGEK9.jpg",
+        "synopsis": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
+        "title": "The Expanse",
+        "type": "SERIES",
+        "year": "2015"
+    },
+    {
+        "popularity": 0.0,
+        "poster": "https://image.tmdb.org/t/p/w500//2gM5PP0EAGz4iKN1AcuOzSBumC1.jpg",
+        "synopsis": "In 2420, after aliens and powerful space wizards enslaved human villages, a group of rebels organize a counter attack against their alien overlords by piloting fully loaded spaceships.",
+        "title": "Battle in Space The Armada Attacks",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 25.315,
+        "poster": "https://image.tmdb.org/t/p/w500//dzAwoFc87V2zku5FqYoijKfCOvh.jpg",
+        "synopsis": "The story of Ben Clemens, who after 32 years as a border patrol agent is forced to work for the very people he spent his career trying to keep out of the United States. Now exposed to life on the other side of the wall, Ben will start to question his black and white views of the world, challenging his ideology and his loyalties.",
+        "title": "Coyote",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 26.569,
-        "poster": "https://image.tmdb.org/t/p/w500//qppkOrZKvVhUQhUvMuB5SeHMBVX.jpg",
-        "synopsis": "A retired businessman runs for mayor of Los Angeles to prove he's \"still got it.\" Once he wins, he has to figure out what he stands for, gain the respect of his biggest critic and connect with his teenage daughter, all while trying to get anything right for America's second weirdest city.",
-        "title": "Mr. Mayor",
-        "type": "SERIES",
-        "year": "2021"
+        "popularity": 136.686,
+        "poster": "https://image.tmdb.org/t/p/w500//6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+        "synopsis": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "title": "Star Wars",
+        "type": "MOVIE",
+        "year": "1977"
     },
     {
-        "popularity": 1.4,
+        "popularity": 52.709,
+        "poster": "https://image.tmdb.org/t/p/w500//oUPzuNw6e0NBbb121odI4ncCvRv.jpg",
+        "synopsis": "Years ago, the fearsome pirate king Gol D. Roger was executed, leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new pirate king. Monkey D. Luffy, a boy who consumed one of the \"Devil's Fruits\", has it in his head that he'll follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and he's surrounded by a bevy of skilled fighters and thieves to help him along the way. Monkey D. Luffy brings a bunch of his crew followed by, Roronoa Zoro, Nami, Usopp, Sanji, Tony-Tony Chopper, Nico Robin, Franky, and Brook. They will do anything to get the One Piece and become King of the Pirates!..",
+        "title": "One Piece",
+        "type": "SERIES",
+        "year": "1999"
+    },
+    {
+        "popularity": 49.432,
+        "poster": "https://image.tmdb.org/t/p/w500//jQb1ztdko9qc4aCdnMXShcIHXRG.jpg",
+        "synopsis": "37-year-old corporate worker Mikami Satoru is stabbed by a random killer, and is reborn to an alternate world. But he turns out to be reborn a slime! Thrown into this new world with the name Rimuru Tempest, he begins his quest to create a world that\u2019s welcoming to all races. Broken free from ordinary, stale past life, his fresh adventure in a fantasy world as a slime monster with unique abilities begins.",
+        "title": "That Time I Got Reincarnated as a Slime",
+        "type": "SERIES",
+        "year": "2018"
+    },
+    {
+        "popularity": 100.122,
+        "poster": "https://image.tmdb.org/t/p/w500//lzqJcPaZA9G8C6eS4Hch475Ng3A.jpg",
+        "synopsis": "In this live-action adaptation of the beloved fairytale, old woodcarver Geppetto fashions a wooden puppet, Pinocchio, who magically comes to life. Pinocchio longs for adventure and is easily led astray, encountering magical beasts, fantastical spectacles, while making friends and foes along his journey. However, his dream is to become a real boy, which can only come true if he finally changes his ways.",
+        "title": "Pinocchio",
+        "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 1.96,
         "poster": "https://image.tmdb.org/t/p/w500//pXXBiCt4MjlSeXUjU8VP7X9LAUF.jpg",
         "synopsis": "A revealing look at the rise, fall, and epic comeback of global icon Tiger Woods. The series paints an intimate picture of the prodigy whose dedication and obsession with the game of golf not only took his fame and success to new heights, but also down a dark, spiraling road that eventually led to a legendary sports comeback, culminated by his victory at the 2019 Masters.",
         "title": "Tiger",
@@ -296,27 +296,27 @@
         "year": "2021"
     },
     {
-        "popularity": 35.761,
-        "poster": "https://image.tmdb.org/t/p/w500//xWJZjIKPeEZhK3JRYKOe06yW6IU.jpg",
-        "synopsis": "New Orleans judge Michael Desiato is forced to confront his own deepest convictions when his son is involved in a hit and run that embroils an organized crime family.",
-        "title": "Your Honor",
+        "popularity": 4.526,
+        "poster": "https://image.tmdb.org/t/p/w500//76rlfITDiYRiraGuE64QMGtvohs.jpg",
+        "synopsis": "A family of sadistic butchers lives deep in the backcountry. From the dead of winter to the dog days of summer, anyone who crosses their path is dead meat.",
+        "title": "Butchers",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 104.634,
+        "poster": "https://image.tmdb.org/t/p/w500//98RYSYsRNKWgrAAFBn0WfploUG7.jpg",
+        "synopsis": "Follow the voyages of Starfleet on their missions to discover new worlds and new life forms, and one Starfleet officer who must learn that to truly understand all things alien, you must first understand yourself.",
+        "title": "Star Trek: Discovery",
         "type": "SERIES",
-        "year": "2020"
+        "year": "2017"
     },
     {
-        "popularity": 183.514,
-        "poster": "https://image.tmdb.org/t/p/w500//wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
-        "synopsis": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard -- with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths -- and about the villain who's to blame.",
-        "title": "Harry Potter and the Philosopher's Stone",
-        "type": "MOVIE",
-        "year": "2001"
-    },
-    {
-        "popularity": 93.033,
-        "poster": "https://image.tmdb.org/t/p/w500//6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
-        "synopsis": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
-        "title": "The Lord of the Rings: The Fellowship of the Ring",
-        "type": "MOVIE",
-        "year": "2001"
+        "popularity": 115.975,
+        "poster": "https://image.tmdb.org/t/p/w500//kG3AlyUz63O8LFS2jJQdmOo7qQI.jpg",
+        "synopsis": "A tough, brilliant senior resident guides an idealistic young doctor through his first day, pulling back the curtain on what really happens, both good and bad, in modern-day medicine.",
+        "title": "The Resident",
+        "type": "SERIES",
+        "year": "2018"
     }
 ]
