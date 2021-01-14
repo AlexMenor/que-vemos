@@ -57,3 +57,39 @@ Está bien si te preocupas por buscar linters, task runners, type hinting, async
 
 - Dentro de `tests` he separado por integración y unitarios.
 - `@pytest.mark.asyncio` para testear funciones async.
+
+## Complementos a los tests
+
+- Coverage: Codecov para medir cobertura
+- Mutmut: Para los tests de mutación
+
+## Servidor: Uvicorn
+
+- Para el servidor en Python podemos elegir WSGI o ASGI.
+- ASGI utiliza la funcionalidad asíncrona de Python introducida en las versiones modernas de Python.
+- Paradigma similar al de NodeJS y que está demostrado funciona muy bien en servicios con uso intensivo de entrada y salida.
+
+- Dentro de los servidores ASGI tenemos:
+    - Hypercorn
+    - Daphne
+    - Uvicorn
+    
+- Estoy utilizando Uvicorn porque utiliza como implementación del loop uvloop (que es una implementación más rápida escrita en C) algo que no tiene Daphne y es más estable que Hypercorn que está en beta. 
+- Sin embargo, no me compromete a nada porque puedo cambiarlo por otro más adelante sin tener que tocar una línea de código (los tres implementan el estándar ASGI).
+
+
+## Microframework: FastAPI
+
+Considerando frameworks con interfaz ASGI:
+
+Empecé con Starlette:
+- Descarté Django/Channels por ser demasiado pesado y no un microframework realmente.
+- Quart tiene poca comunidad.
+- Sanic hubiera sido otra opción, pero Starlette tenía mejor soporte para websockets, aunque como explicaré más adelante al final no los he usado.
+
+Sí quería y tenía recogido en una historia de usuario tener documentación automática de la api con Swagger y no conseguí implementarlo en Starlette.
+
+Por lo que acabé usando FastAPI, que tiene Starlette como base y cuenta con esta documentación de serie.
+
+Además FastAPI tiene alguna conveniencia más como su inyección de dependencias que me ha sido muy útil en tests de integración.
+
