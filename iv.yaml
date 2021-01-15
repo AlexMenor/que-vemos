@@ -9,4 +9,4 @@ recurso:
   nombre: session
   metodo: POST
   payload:
-    - no: hay
+    no: hay
