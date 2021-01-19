@@ -20,27 +20,25 @@ No lo he usado demasiado y quería probar algo distinto a Javascript / Typescrip
 - El tipado gradual ayuda mucho
 
 ### Cosas que no me han gustado
-- Chapucillas del lenguaje:
+- Chapucillas del lenguaje, muy apoyado en convenciones:
     - Tener que pasar self a los métodos de la clase.
     - Ausencia de atributos privados como tal.
     - `__init__.py`
-- Programación funcional en python:
-```python
-if len(list(filter(lambda u: u.id == user_id, self.__users))) != 1:
-    raise UserNotFoundInSession
-```
-```javascript
-if (users.filter(u => u.id == userId).length != 1)
-    throw new UserNotFoundInSession()
-```
 
 Está bien si te preocupas por buscar linters, task runners, type hinting, async, ...
 
 ## Task runner y manejador de dependencias: Poetry
+(Comparando con pip)
+- Archivos .txt distintos para dev y prod
+- Sin builds deterministas (no lock file)
 
-- Estaba algo familiarizado con pip y no me gusta nada.
-- Poetry recuerda un poco a npm/yarn y me gusta.
-- Crea los venv y funciona bastante bien.
+(Comparando con pipenv)
+- Al desinstalar dependencias, pipenv no desinstala subdependencias no utilizadas. Puede causar problemas si acabamos dependiendo sin saberlo 
+de una subdependencia aún instalada en local.
+- Es más rápido en casi todos los comandos.
+- Más explícito en los comandos
+---
+
 - Todavía es joven y no hay mucho contenido, buildpacks de heroku, etc... Todavía usan pip.
 - pyproject.toml para definir el proyecto.
 - Mejor utilizar un task runner real en vez de Poetry.
