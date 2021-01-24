@@ -1,14 +1,6 @@
 [
     {
-        "popularity": 3891.299,
-        "poster": "https://image.tmdb.org/t/p/w500//glKDfE6btIRcVB5zrjspRIs4r52.jpg",
-        "synopsis": "Wanda Maximoff and Vision\u2014two super-powered beings living idealized suburban lives\u2014begin to suspect that everything is not as it seems.",
-        "title": "WandaVision",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 128.414,
+        "popularity": 179.78,
         "poster": "https://image.tmdb.org/t/p/w500//oHj6guMrLfQcBzo3uxwBJc8Y736.jpg",
         "synopsis": "The coming-of-age journey of five fairies attending Alfea, a magical boarding school in the Otherworld where they must learn to master their powers while navigating love, rivalries, and the monsters that threaten their very existence.",
         "title": "Fate: The Winx Saga",
@@ -16,7 +8,7 @@
         "year": "2021"
     },
     {
-        "popularity": 23.422,
+        "popularity": 32.791,
         "poster": "https://image.tmdb.org/t/p/w500//7K4mdWaLGF2F4ASb2L12tlya9c9.jpg",
         "synopsis": "An ambitious Indian driver uses his wit and cunning to escape from poverty and rise to the top. An epic journey based on the New York Times bestseller.",
         "title": "The White Tiger",
@@ -24,7 +16,15 @@
         "year": "2021"
     },
     {
-        "popularity": 649.799,
+        "popularity": 4488.813,
+        "poster": "https://image.tmdb.org/t/p/w500//glKDfE6btIRcVB5zrjspRIs4r52.jpg",
+        "synopsis": "Wanda Maximoff and Vision\u2014two super-powered beings living idealized suburban lives\u2014begin to suspect that everything is not as it seems.",
+        "title": "WandaVision",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 909.719,
         "poster": "https://image.tmdb.org/t/p/w500//e6SK2CAbO3ENy52UTzP3lv32peC.jpg",
         "synopsis": "In the near future, a drone pilot is sent into a deadly militarized zone and must work with an android officer to locate a doomsday device.",
         "title": "Outside the Wire",
@@ -32,47 +32,7 @@
         "year": "2021"
     },
     {
-        "popularity": 3020.035,
-        "poster": "https://image.tmdb.org/t/p/w500//wRbjVBdDo5qHAEOVYoMWpM58FSA.jpg",
-        "synopsis": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale\u2019s wholesome facade.",
-        "title": "Riverdale",
-        "type": "SERIES",
-        "year": "2017"
-    },
-    {
-        "popularity": 2801.027,
-        "poster": "https://image.tmdb.org/t/p/w500//8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg",
-        "synopsis": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
-        "title": "Wonder Woman 1984",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 67.364,
-        "poster": "https://image.tmdb.org/t/p/w500//y4VHQbbY1UcAjHN7UTGu0MGyVl2.jpg",
-        "synopsis": "Reboot of the 1993 series focusing on Walker as he returns from years undercover. A widower and father of two, he begins fighting crime with a new partner, who is one of the only female Rangers in history.",
-        "title": "Walker",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 100.461,
-        "poster": "https://image.tmdb.org/t/p/w500//fYQCgVRsQTEfUrP7cW5iAFVYOlh.jpg",
-        "synopsis": "A Texan traveling across the wild West bringing the news of the world to local townspeople, agrees to help rescue a young girl who was kidnapped.",
-        "title": "News of the World",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 2174.851,
-        "poster": "https://image.tmdb.org/t/p/w500//hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
-        "synopsis": "Joe Gardner is a middle school teacher with a love for jazz music. After a successful gig at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.",
-        "title": "Soul",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 8.075,
+        "popularity": 11.305,
         "poster": "https://image.tmdb.org/t/p/w500//5Rr1QRh7fS7SOJStBUznqIQ24Y3.jpg",
         "synopsis": "Peter and Michael, raised on the streets of Philadelphia, are the children of Irish mob members, forever linked by the crimes of their fathers. 30 years later, Michael now runs the criminal organization and lusts for more power, his dangerous antics frequently held in check by his cautious cousin Peter. Haunted by the death of his sister, whose passing destroyed both his parents, Peter is caught between the dreams of childhood and the realities of his life as an enforcer. His only reprieve is a local boxing gym, a sanctuary that is quickly threatened as Michael\u2019s desire for control escalates.",
         "title": "Brothers by Blood",
@@ -80,71 +40,47 @@
         "year": "2020"
     },
     {
-        "popularity": 283.145,
-        "poster": "https://image.tmdb.org/t/p/w500//bNo2mcvSwIvnx8K6y1euAc1TLVq.jpg",
-        "synopsis": "John Garrity, his estranged wife and their young son embark on a perilous journey to find sanctuary as a planet-killing comet hurtles toward Earth. Amid terrifying accounts of cities getting levelled, the Garrity's experience the best and worst in humanity. As the countdown to the global apocalypse approaches zero, their incredible trek culminates in a desperate and last-minute flight to a possible safe haven.",
-        "title": "Greenland",
+        "popularity": 3040.43,
+        "poster": "https://image.tmdb.org/t/p/w500//8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg",
+        "synopsis": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
+        "title": "Wonder Woman 1984",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 348.035,
-        "poster": "https://image.tmdb.org/t/p/w500//qTZIgXrBKURBK1KrsT7fe3qwtl9.jpg",
-        "synopsis": "In a place where young witches, vampires, and werewolves are nurtured to be their best selves in spite of their worst impulses, Klaus Mikaelson\u2019s daughter, 17-year-old Hope Mikaelson, Alaric Saltzman\u2019s twins, Lizzie and Josie Saltzman, among others, come of age into heroes and villains at The Salvatore School for the Young and Gifted.",
-        "title": "Legacies",
-        "type": "SERIES",
-        "year": "2018"
-    },
-    {
-        "popularity": 684.938,
-        "poster": "https://image.tmdb.org/t/p/w500//sgxawbFB5Vi5OkPWQLNfl3dvkNJ.jpg",
-        "synopsis": "Inspired by the adventures of Ars\u00e8ne Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
-        "title": "Lupin",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 52.175,
-        "poster": "https://image.tmdb.org/t/p/w500//byvJImlUrJv9l0FNSeaSGgbqNYw.jpg",
+        "popularity": 73.045,
+        "poster": "https://image.tmdb.org/t/p/w500//28Y3pxfkRZMhLsw4if6e3J0HD7Q.jpg",
         "synopsis": "Siblings Mimi and Luke unwittingly resurrect an ancient alien overlord. Using a magical amulet, they force the monster to obey their childish whims, and accidentally attract a rogues\u2019 gallery of intergalactic assassins to small-town suburbia.",
         "title": "Psycho Goreman",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 58.801,
-        "poster": "https://image.tmdb.org/t/p/w500//rfIOzedY6LFzdWTeNnIkmxAiLCg.jpg",
-        "synopsis": "In the aftermath of Cassius Clay's defeat of Sonny Liston in 1964, the boxer meets with Malcolm X, Sam Cooke and Jim Brown to change the course of history in the segregated South.",
-        "title": "One Night in Miami...",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 258.412,
-        "poster": "https://image.tmdb.org/t/p/w500//jWTDtbp2TnUGw1OJoDqq2O9IS0M.jpg",
-        "synopsis": "Six teens attending an adventure camp on the opposite side of Isla Nublar must band together to survive when dinosaurs wreak havoc on the island.",
-        "title": "Jurassic World: Camp Cretaceous",
+        "popularity": 2716.553,
+        "poster": "https://image.tmdb.org/t/p/w500//wRbjVBdDo5qHAEOVYoMWpM58FSA.jpg",
+        "synopsis": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale\u2019s wholesome facade.",
+        "title": "Riverdale",
         "type": "SERIES",
-        "year": "2020"
+        "year": "2017"
     },
     {
-        "popularity": 1093.504,
-        "poster": "https://image.tmdb.org/t/p/w500//k68nPLbIST6NP96JmTxmZijEvCA.jpg",
-        "synopsis": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
-        "title": "Tenet",
+        "popularity": 109.388,
+        "poster": "https://image.tmdb.org/t/p/w500//fYQCgVRsQTEfUrP7cW5iAFVYOlh.jpg",
+        "synopsis": "A Texan traveling across the wild West bringing the news of the world to local townspeople, agrees to help rescue a young girl who was kidnapped.",
+        "title": "News of the World",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 50.601,
-        "poster": "https://image.tmdb.org/t/p/w500//wlP25H14OvKoFORIwuKomZzioA5.jpg",
-        "synopsis": "17-year-old Zoe Hull uses her wits, survival skills, and compassion to fight for her life, and those of her fellow classmates, against a group of live-streaming school shooters.",
-        "title": "Run Hide Fight",
+        "popularity": 2334.597,
+        "poster": "https://image.tmdb.org/t/p/w500//hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
+        "synopsis": "Joe Gardner is a middle school teacher with a love for jazz music. After a successful gig at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.",
+        "title": "Soul",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 68.753,
+        "popularity": 96.254,
         "poster": "https://image.tmdb.org/t/p/w500//vg9C5LttsKBqoLuqeQvOXaeBGiD.jpg",
         "synopsis": "After learning that his terminally ill wife has six months to live, a man welcomes the support of his best friend who moves into their home to help out.",
         "title": "Our Friend",
@@ -152,55 +88,47 @@
         "year": "2021"
     },
     {
-        "popularity": 3.842,
-        "poster": "https://image.tmdb.org/t/p/w500//3JJMgQ09UpZKzfsbjHatqhSmPJc.jpg",
-        "synopsis": "The spy game is a serious business, and throughout history, the tools and technologies developed for it have mattered as much as the spies themselves.",
-        "title": "Spycraft",
+        "popularity": 348.324,
+        "poster": "https://image.tmdb.org/t/p/w500//5mi3aRl16yKmfpQJMzvqN5TXkdA.jpg",
+        "synopsis": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
+        "title": "Euphoria",
+        "type": "SERIES",
+        "year": "2019"
+    },
+    {
+        "popularity": 673.004,
+        "poster": "https://image.tmdb.org/t/p/w500//sgxawbFB5Vi5OkPWQLNfl3dvkNJ.jpg",
+        "synopsis": "Inspired by the adventures of Ars\u00e8ne Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
+        "title": "Lupin",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 63.704,
-        "poster": "https://image.tmdb.org/t/p/w500//leCkJsZbQDULb0x5EocYs0JEloF.jpg",
-        "synopsis": "After an attack renders her blind, Ellen withdraws from the world to recover. But soon she plunges into paranoia, unable to convince anyone that her assailant has returned to terrorize her by hiding in plain sight.",
-        "title": "Sightless",
+        "popularity": 325.097,
+        "poster": "https://image.tmdb.org/t/p/w500//qTZIgXrBKURBK1KrsT7fe3qwtl9.jpg",
+        "synopsis": "In a place where young witches, vampires, and werewolves are nurtured to be their best selves in spite of their worst impulses, Klaus Mikaelson\u2019s daughter, 17-year-old Hope Mikaelson, Alaric Saltzman\u2019s twins, Lizzie and Josie Saltzman, among others, come of age into heroes and villains at The Salvatore School for the Young and Gifted.",
+        "title": "Legacies",
+        "type": "SERIES",
+        "year": "2018"
+    },
+    {
+        "popularity": 341.975,
+        "poster": "https://image.tmdb.org/t/p/w500//bNo2mcvSwIvnx8K6y1euAc1TLVq.jpg",
+        "synopsis": "John Garrity, his estranged wife and their young son embark on a perilous journey to find sanctuary as a planet-killing comet hurtles toward Earth. Amid terrifying accounts of cities getting levelled, the Garrity's experience the best and worst in humanity. As the countdown to the global apocalypse approaches zero, their incredible trek culminates in a desperate and last-minute flight to a possible safe haven.",
+        "title": "Greenland",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 48.597,
-        "poster": "https://image.tmdb.org/t/p/w500//tKXd7O2nR3hpe3jwulhGbivtF2J.jpg",
-        "synopsis": "Late one night, Bill Greer and his son Jackson patrol their ranch when Jackson accidentally kills an immigrant Mexican boy. When Bill tries to take the blame for his son, Jackson flees south on horseback, becoming a gringo \"illegal alien\" in Mexico. Chased by Texas Rangers and Mexican federales, Jackson journeys across Mexico to seek forgiveness from the dead boy's father only to fall in love with the land he was taught to hate.",
-        "title": "No Man's Land",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 74.49,
-        "poster": "https://image.tmdb.org/t/p/w500//cjzU4g6SlScnP4MdkleyI25KGlR.jpg",
-        "synopsis": "A young woman haunted by a tragedy in her past takes revenge on the predatory men unlucky enough to cross her path.",
-        "title": "Promising Young Woman",
+        "popularity": 1247.445,
+        "poster": "https://image.tmdb.org/t/p/w500//k68nPLbIST6NP96JmTxmZijEvCA.jpg",
+        "synopsis": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+        "title": "Tenet",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 52.511,
-        "poster": "https://image.tmdb.org/t/p/w500//wgm4gdJwb7iSYX0uBsRAZmHQmPm.jpg",
-        "synopsis": "Two New Orleans paramedics' lives are ripped apart after encountering a series of horrific deaths linked to a designer drug with bizarre, otherworldly effects.",
-        "title": "Synchronic",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 888.45,
-        "poster": "https://image.tmdb.org/t/p/w500//jzhbZZWHMOxVF9uz8lNilDEx8dl.jpg",
-        "synopsis": "Bruce Wayne faces a deadly menace from his past, with the help of three former classmates: world-renowned martial artists Richard Dragon, Ben Turner and Lady Shiva.",
-        "title": "Batman: Soul of the Dragon",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 32.491,
+        "popularity": 45.487,
         "poster": "https://image.tmdb.org/t/p/w500//pRpwcEKPvsj0WKbhrowQbyy4bIg.jpg",
         "synopsis": "A collection of mini shorts starring some of your favorite Pixar characters in all-new, bite size stories.",
         "title": "Pixar Popcorn",
@@ -208,15 +136,23 @@
         "year": "2021"
     },
     {
-        "popularity": 137.308,
-        "poster": "https://image.tmdb.org/t/p/w500//tQhQPIO85lIEbodo9qkGrWVNg0r.jpg",
-        "synopsis": "",
-        "title": "Madre solo hay dos",
+        "popularity": 75.655,
+        "poster": "https://image.tmdb.org/t/p/w500//y4VHQbbY1UcAjHN7UTGu0MGyVl2.jpg",
+        "synopsis": "Reboot of the 1993 series focusing on Walker as he returns from years undercover. A widower and father of two, he begins fighting crime with a new partner, who is one of the only female Rangers in history.",
+        "title": "Walker",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 5.369,
+        "popularity": 361.777,
+        "poster": "https://image.tmdb.org/t/p/w500//jWTDtbp2TnUGw1OJoDqq2O9IS0M.jpg",
+        "synopsis": "Six teens attending an adventure camp on the opposite side of Isla Nublar must band together to survive when dinosaurs wreak havoc on the island.",
+        "title": "Jurassic World: Camp Cretaceous",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 7.517,
         "poster": "https://image.tmdb.org/t/p/w500//rrAauv4Y3oPocyr3ZFY8TO2XhKB.jpg",
         "synopsis": "Eva, a young and promising Spanish lawyer based in Edinburgh, sees her wedding plans with the heir to an important and ultra-conservative Scottish family in jeopardy when she learns that her grandmother, Sof\u00eda, has decided to marry\u2026",
         "title": "So My Grandma's a Lesbian!",
@@ -224,55 +160,31 @@
         "year": "2020"
     },
     {
-        "popularity": 295.392,
-        "poster": "https://image.tmdb.org/t/p/w500//ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
-        "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
-        "title": "Avengers: Endgame",
-        "type": "MOVIE",
-        "year": "2019"
-    },
-    {
-        "popularity": 431.925,
-        "poster": "https://image.tmdb.org/t/p/w500//xjyEpcuDbB1jy0ehNQMBiO8KOdr.jpg",
-        "synopsis": "Kate Kane, armed with a passion for social justice and a flair for speaking her mind, soars onto the streets of Gotham as Batwoman, an out lesbian and highly trained street fighter primed to snuff out the failing city's criminal resurgence. But don't call her a hero yet. In a city desperate for a savior, Kate must overcome her own demons before embracing the call to be Gotham's symbol of hope",
-        "title": "Batwoman",
-        "type": "SERIES",
-        "year": "2019"
-    },
-    {
-        "popularity": 493.87,
-        "poster": "https://image.tmdb.org/t/p/w500//w6XiuRK5QQaLNmIqDRCWOpEcHwi.jpg",
-        "synopsis": "In a world mostly wiped out by the plague and embroiled in an elemental struggle between good and evil, the fate of mankind rests on the frail shoulders of the 108-year-old Mother Abagail and a handful of survivors. Their worst nightmares are embodied in a man with a lethal smile and unspeakable powers: Randall Flagg, the Dark Man.",
-        "title": "The Stand",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 471.037,
-        "poster": "https://image.tmdb.org/t/p/w500//8yfkkAeoI77opqAvB9fyf4knftS.jpg",
-        "synopsis": "A Philadelphia couple are in mourning after an unspeakable tragedy creates a rift in their marriage and opens the door for a mysterious force to enter their home.",
-        "title": "Servant",
-        "type": "SERIES",
-        "year": "2019"
-    },
-    {
-        "popularity": 332.773,
-        "poster": "https://image.tmdb.org/t/p/w500//sy6DvAu72kjoseZEjocnm2ZZ09i.jpg",
-        "synopsis": "A soldier and his team battle hordes of post-apocalyptic zombies in the wastelands of the Korean Peninsula.",
-        "title": "Peninsula",
+        "popularity": 52.566,
+        "poster": "https://image.tmdb.org/t/p/w500//wlP25H14OvKoFORIwuKomZzioA5.jpg",
+        "synopsis": "17-year-old Zoe Hull uses her wits, survival skills, and compassion to fight for her life, and those of her fellow classmates, against a group of live-streaming school shooters.",
+        "title": "Run Hide Fight",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 181.909,
-        "poster": "https://image.tmdb.org/t/p/w500//lK0NAXT7mcJrC3NK8vpXwK5EJQu.jpg",
-        "synopsis": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
-        "title": "Attack on Titan",
-        "type": "SERIES",
-        "year": "2013"
+        "popularity": 59.013,
+        "poster": "https://image.tmdb.org/t/p/w500//7PloiGUSH2OUWrk6ctchGhMOL3s.jpg",
+        "synopsis": "Late one night, Bill Greer and his son Jackson patrol their ranch when Jackson accidentally kills an immigrant Mexican boy. When Bill tries to take the blame for his son, Jackson flees south on horseback, becoming a gringo \"illegal alien\" in Mexico. Chased by Texas Rangers and Mexican federales, Jackson journeys across Mexico to seek forgiveness from the dead boy's father only to fall in love with the land he was taught to hate.",
+        "title": "No Man's Land",
+        "type": "MOVIE",
+        "year": "2021"
     },
     {
-        "popularity": 7.808,
+        "popularity": 47.789,
+        "poster": "https://image.tmdb.org/t/p/w500//hkoQ9Ut0mmQC8BmlScrGD78PlXw.jpg",
+        "synopsis": "A chronicle of four friends during a decade in which everything changed, including the rise of AIDS.",
+        "title": "It's a Sin",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 10.931,
         "poster": "https://image.tmdb.org/t/p/w500//dcQkMhsQt0FFHanfjAboIoe7E9A.jpg",
         "synopsis": "The story of Alice, an ambitious 47 year old female film director who becomes obsessed with 24 year old femme-fatale Sophie and eventually surrenders all moral integrity in order to achieve power, success and unlimited relevance.",
         "title": "Losing Alice",
@@ -280,7 +192,95 @@
         "year": "2020"
     },
     {
-        "popularity": 386.965,
+        "popularity": 51.299,
+        "poster": "https://image.tmdb.org/t/p/w500//rfIOzedY6LFzdWTeNnIkmxAiLCg.jpg",
+        "synopsis": "In the aftermath of Cassius Clay's defeat of Sonny Liston in 1964, the boxer meets with Malcolm X, Sam Cooke and Jim Brown to change the course of history in the segregated South.",
+        "title": "One Night in Miami...",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 178.432,
+        "poster": "https://image.tmdb.org/t/p/w500//lK0NAXT7mcJrC3NK8vpXwK5EJQu.jpg",
+        "synopsis": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
+        "title": "Attack on Titan",
+        "type": "SERIES",
+        "year": "2013"
+    },
+    {
+        "popularity": 332.452,
+        "poster": "https://image.tmdb.org/t/p/w500//ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
+        "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+        "title": "Avengers: Endgame",
+        "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 69.766,
+        "poster": "https://image.tmdb.org/t/p/w500//cjzU4g6SlScnP4MdkleyI25KGlR.jpg",
+        "synopsis": "A young woman haunted by a tragedy in her past takes revenge on the predatory men unlucky enough to cross her path.",
+        "title": "Promising Young Woman",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 74.114,
+        "poster": "https://image.tmdb.org/t/p/w500//leCkJsZbQDULb0x5EocYs0JEloF.jpg",
+        "synopsis": "After an attack renders her blind, Ellen withdraws from the world to recover. But soon she plunges into paranoia, unable to convince anyone that her assailant has returned to terrorize her by hiding in plain sight.",
+        "title": "Sightless",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 604.695,
+        "poster": "https://image.tmdb.org/t/p/w500//xjyEpcuDbB1jy0ehNQMBiO8KOdr.jpg",
+        "synopsis": "Kate Kane, armed with a passion for social justice and a flair for speaking her mind, soars onto the streets of Gotham as Batwoman, an out lesbian and highly trained street fighter primed to snuff out the failing city's criminal resurgence. But don't call her a hero yet. In a city desperate for a savior, Kate must overcome her own demons before embracing the call to be Gotham's symbol of hope",
+        "title": "Batwoman",
+        "type": "SERIES",
+        "year": "2019"
+    },
+    {
+        "popularity": 47.266,
+        "poster": "https://image.tmdb.org/t/p/w500//wgm4gdJwb7iSYX0uBsRAZmHQmPm.jpg",
+        "synopsis": "Two New Orleans paramedics' lives are ripped apart after encountering a series of horrific deaths linked to a designer drug with bizarre, otherworldly effects.",
+        "title": "Synchronic",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 77.619,
+        "poster": "https://image.tmdb.org/t/p/w500//ijizwYu2B04gVkrbGlclAAfdN3p.jpg",
+        "synopsis": "After a blood- soaked jujitsu match in Dubai, fighting legend Mickey Kelley falls to superstar Blaine. But years later, an online video proves that Blaine cheated, and the world demands a rematch. Can the aging underdog get back into shape in time to vanquish his foe, get revenge, and claim his prize?",
+        "title": "Born a Champion",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 896.974,
+        "poster": "https://image.tmdb.org/t/p/w500//jzhbZZWHMOxVF9uz8lNilDEx8dl.jpg",
+        "synopsis": "Bruce Wayne faces a deadly menace from his past, with the help of three former classmates: world-renowned martial artists Richard Dragon, Ben Turner and Lady Shiva.",
+        "title": "Batman: Soul of the Dragon",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 5.379,
+        "poster": "https://image.tmdb.org/t/p/w500//3JJMgQ09UpZKzfsbjHatqhSmPJc.jpg",
+        "synopsis": "The spy game is a serious business, and throughout history, the tools and technologies developed for it have mattered as much as the spies themselves.",
+        "title": "Spycraft",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 352.611,
+        "poster": "https://image.tmdb.org/t/p/w500//sy6DvAu72kjoseZEjocnm2ZZ09i.jpg",
+        "synopsis": "A soldier and his team battle hordes of post-apocalyptic zombies in the wastelands of the Korean Peninsula.",
+        "title": "Peninsula",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 407.695,
         "poster": "https://image.tmdb.org/t/p/w500//u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
         "synopsis": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
         "title": "Game of Thrones",
@@ -288,35 +288,35 @@
         "year": "2011"
     },
     {
-        "popularity": 863.189,
-        "poster": "https://image.tmdb.org/t/p/w500//sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
-        "synopsis": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
-        "title": "The Mandalorian",
+        "popularity": 192.231,
+        "poster": "https://image.tmdb.org/t/p/w500//tQhQPIO85lIEbodo9qkGrWVNg0r.jpg",
+        "synopsis": "",
+        "title": "Daughter From Another Mother",
         "type": "SERIES",
-        "year": "2019"
-    },
-    {
-        "popularity": 123.925,
-        "poster": "https://image.tmdb.org/t/p/w500//xLo8sXtdsjFPdM0RhcXt0inWP1f.jpg",
-        "synopsis": "In a time when monsters walk the Earth, humanity\u2019s fight for its future sets Godzilla and Kong on a collision course that will see the two most powerful forces of nature on the planet collide in a spectacular battle for the ages.",
-        "title": "Godzilla vs. Kong",
-        "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 75.474,
-        "poster": "https://image.tmdb.org/t/p/w500//5vQlVWkIMPhZ88OWchJsgwGEK9.jpg",
-        "synopsis": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
-        "title": "The Expanse",
-        "type": "SERIES",
-        "year": "2015"
+        "popularity": 99.103,
+        "poster": "https://image.tmdb.org/t/p/w500//6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+        "synopsis": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+        "title": "Star Wars",
+        "type": "MOVIE",
+        "year": "1977"
     },
     {
-        "popularity": 554.288,
-        "poster": "https://image.tmdb.org/t/p/w500//qaewZKBKmXjb4ZfFBb1LCug6BE8.jpg",
-        "synopsis": "Wealth, lust, and betrayal set in the backdrop of Regency era England, seen through the eyes of the powerful Bridgerton family.",
-        "title": "Bridgerton",
+        "popularity": 263.438,
+        "poster": "https://image.tmdb.org/t/p/w500//htJzeRcYI2ewMm4PTrg98UMXShe.jpg",
+        "synopsis": "Raymond \"Red\" Reddington, one of the FBI's most wanted fugitives, surrenders in person at FBI Headquarters in Washington, D.C. He claims that he and the FBI have the same interests: bringing down dangerous criminals and terrorists. In the last two decades, he's made a list of criminals and terrorists that matter the most but the FBI cannot find because it does not know they exist. Reddington calls this \"The Blacklist\". Reddington will co-operate, but insists that he will speak only to Elizabeth Keen, a rookie FBI profiler.",
+        "title": "The Blacklist",
         "type": "SERIES",
-        "year": "2020"
+        "year": "2013"
+    },
+    {
+        "popularity": 96.715,
+        "poster": "https://image.tmdb.org/t/p/w500//1WynayCqKRzrl4cFZR8NOfiDwd6.jpg",
+        "synopsis": "Set in a ruined medieval city called Dreamland, Disenchantment follows the grubby adventures of a hard-drinking princess, her feisty elf companion and her personal demon.",
+        "title": "Disenchantment",
+        "type": "SERIES",
+        "year": "2018"
     }
 ]
