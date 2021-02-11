@@ -1,6 +1,6 @@
 [
     {
-        "popularity": 145.638,
+        "popularity": 203.893,
         "poster": "https://image.tmdb.org/t/p/w500//bmemsraCG1kIthY74NjDnnLRT2Q.jpg",
         "synopsis": "In the year 2092, space is full of dangerous floating garbage like discarded satellites and deserted spaceships. The crew of a space junk collector ship called The Victory discovers a humanoid robot that\u2019s known to be a weapon of mass destruction. They get involved in a risky business deal and travel through space looking for garbage they can make money off of while also competing with rival junk collectors.",
         "title": "Space Sweepers",
@@ -8,122 +8,18 @@
         "year": "2021"
     },
     {
-        "popularity": 164.317,
+        "popularity": 58.372,
+        "poster": "https://image.tmdb.org/t/p/w500//fYQCgVRsQTEfUrP7cW5iAFVYOlh.jpg",
+        "synopsis": "A Texan traveling across the wild West bringing the news of the world to local townspeople, agrees to help rescue a young girl who was kidnapped.",
+        "title": "News of the World",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 230.044,
         "poster": "https://image.tmdb.org/t/p/w500//b7BllsQkD6nTkAdtd28UVCmKqVi.jpg",
         "synopsis": "A mind-bending love story following Greg who, after recently being divorced and then fired, meets the mysterious Isabel, a woman living on the streets and convinced that the polluted, broken world around them is just a computer simulation. Doubtful at first, Greg eventually discovers there may be some truth to Isabel\u2019s wild conspiracy.",
         "title": "Bliss",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 70.801,
-        "poster": "https://image.tmdb.org/t/p/w500//bdidDnAZwchN5vTenoNuhGPJTri.jpg",
-        "synopsis": "As a filmmaker and his girlfriend return home from his movie premiere, smoldering tensions and painful revelations push them toward a romantic reckoning.",
-        "title": "Malcolm & Marie",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 3288.49,
-        "poster": "https://image.tmdb.org/t/p/w500//glKDfE6btIRcVB5zrjspRIs4r52.jpg",
-        "synopsis": "Wanda Maximoff and Vision\u2014two super-powered beings living idealized suburban lives\u2014begin to suspect that everything is not as it seems.",
-        "title": "WandaVision",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 2696.241,
-        "poster": "https://image.tmdb.org/t/p/w500//8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg",
-        "synopsis": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
-        "title": "Wonder Woman 1984",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 2730.281,
-        "poster": "https://image.tmdb.org/t/p/w500//c7VlGCCgM9GZivKSzBgzuOVxQn7.jpg",
-        "synopsis": "Deputy Sheriff Joe \"Deke\" Deacon joins forces with Sgt. Jim Baxter to search for a serial killer who's terrorizing Los Angeles. As they track the culprit, Baxter is unaware that the investigation is dredging up echoes of Deke's past, uncovering disturbing secrets that could threaten more than his case.",
-        "title": "The Little Things",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 231.882,
-        "poster": "https://image.tmdb.org/t/p/w500//aiy35Evcofzl7hASZZvsFgltHTX.jpg",
-        "synopsis": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
-        "title": "Attack on Titan",
-        "type": "SERIES",
-        "year": "2013"
-    },
-    {
-        "popularity": 69.292,
-        "poster": "https://image.tmdb.org/t/p/w500//gAgShytJMWSYkjxa7ZDjSZhsnlc.jpg",
-        "synopsis": "Robyn McCall, an enigmatic former CIA operative with a mysterious background, uses her extensive skills to help those with nowhere else to turn.",
-        "title": "The Equalizer",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 66.806,
-        "poster": "https://image.tmdb.org/t/p/w500//9S36vdeagChJeb3OziMOCiqVfPj.jpg",
-        "synopsis": "An environmental police officer uncovers a hidden world of mythological entities from Brazilian folklore when he finds a connection between the mysterious appearance of a dead river dolphin on a Rio de Janeiro beach and the death of his beloved wife.",
-        "title": "Invisible City",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 96.324,
-        "poster": "https://image.tmdb.org/t/p/w500//blB1T2zUAqP9Qv8dyoB9Xn7W7qI.jpg",
-        "synopsis": "In 1950s Italy, a farmer's dream of improving workers\u2019 living conditions collapses when he falls for a landowner's daughter. Based on true events.",
-        "title": "The Last Paradiso",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 94.834,
-        "poster": "https://image.tmdb.org/t/p/w500//h1xbvvO6oqchfLe6xh0yLNnQxeM.jpg",
-        "synopsis": "Jefferson Pierce is a man wrestling with a secret. As the father of two daughters and principal of a charter high school that also serves as a safe haven for young people in a New Orleans neighborhood overrun by gang violence, he is a hero to his community.",
-        "title": "Black Lightning",
-        "type": "SERIES",
-        "year": "2018"
-    },
-    {
-        "popularity": 536.346,
-        "poster": "https://image.tmdb.org/t/p/w500//95xQPSqwvQDRoB3rXUn4lRyJrBW.jpg",
-        "synopsis": "Set more than seven years after the world has become a frozen wasteland, the remnants of humanity inhabit a gigantic, perpetually-moving train that circles the globe as class warfare, social injustice and the politics of survival play out.",
-        "title": "Snowpiercer",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 68.719,
-        "poster": "https://image.tmdb.org/t/p/w500//fff1w6H5zi8tLfyzDOWdNhKmwVs.jpg",
-        "synopsis": "Following the events of \u201cAvengers: Endgame\u201d, the Falcon, Sam Wilson and the Winter Soldier, Bucky Barnes team up in a global adventure that tests their abilities, and their patience.",
-        "title": "The Falcon and the Winter Soldier",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 306.841,
-        "poster": "https://image.tmdb.org/t/p/w500//dFDNb9Gk1kyLRcconpj7Mc7C7IL.jpg",
-        "synopsis": "As WWII looms, a wealthy widow hires an amateur archaeologist to excavate the burial mounds on her estate. When they make a historic discovery, the echoes of Britain's past resonate in the face of its uncertain future\u200e.",
-        "title": "The Dig",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 49.06,
-        "poster": "https://image.tmdb.org/t/p/w500//a7bW3uKOMPBnmHs8gnlpfhTD8YQ.jpg",
-        "synopsis": "When illness strikes two people who are polar opposites, life and death bring them together in surprising ways.",
-        "title": "2 Hearts",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 652.404,
-        "poster": "https://image.tmdb.org/t/p/w500//xSDdRAjxKAGi8fUBLOqSrBhJmF0.jpg",
-        "synopsis": "After 12 years in prison, former high school football star Eddie Palmer returns home to put his life back together\u2014and forms an unlikely bond with Sam, an outcast boy from a troubled home. But Eddie's past threatens to ruin his new life and family.",
-        "title": "Palmer",
         "type": "MOVIE",
         "year": "2021"
     },
@@ -136,15 +32,95 @@
         "year": "2021"
     },
     {
-        "popularity": 1338.739,
-        "poster": "https://image.tmdb.org/t/p/w500//hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
-        "synopsis": "Joe Gardner is a middle school teacher with a love for jazz music. After a successful gig at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.",
-        "title": "Soul",
+        "popularity": 99.121,
+        "poster": "https://image.tmdb.org/t/p/w500//bdidDnAZwchN5vTenoNuhGPJTri.jpg",
+        "synopsis": "As a filmmaker and his girlfriend return home from his movie premiere, smoldering tensions and painful revelations push them toward a romantic reckoning.",
+        "title": "Malcolm & Marie",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 3154.164,
+        "poster": "https://image.tmdb.org/t/p/w500//glKDfE6btIRcVB5zrjspRIs4r52.jpg",
+        "synopsis": "Wanda Maximoff and Vision\u2014two super-powered beings living idealized suburban lives\u2014begin to suspect that everything is not as it seems.",
+        "title": "WandaVision",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 2407.318,
+        "poster": "https://image.tmdb.org/t/p/w500//8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg",
+        "synopsis": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
+        "title": "Wonder Woman 1984",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 361.663,
+        "popularity": 42.189,
+        "poster": "https://image.tmdb.org/t/p/w500//9s5Za1RYXSjIA1g0KO1R7uywGlA.jpg",
+        "synopsis": "The notorious Cecil Hotel grows in infamy when guest Elisa Lam vanishes. From the creator of \"The Ted Bundy Tapes,\" a dive into crime's darkest places.",
+        "title": "Crime Scene: The Vanishing at the Cecil Hotel",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 62.966,
+        "poster": "https://image.tmdb.org/t/p/w500//gAgShytJMWSYkjxa7ZDjSZhsnlc.jpg",
+        "synopsis": "Robyn McCall, an enigmatic former CIA operative with a mysterious background, uses her extensive skills to help those with nowhere else to turn.",
+        "title": "The Equalizer",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 2119.969,
+        "poster": "https://image.tmdb.org/t/p/w500//c7VlGCCgM9GZivKSzBgzuOVxQn7.jpg",
+        "synopsis": "Deputy Sheriff Joe \"Deke\" Deacon joins forces with Sgt. Jim Baxter to search for a serial killer who's terrorizing Los Angeles. As they track the culprit, Baxter is unaware that the investigation is dredging up echoes of Deke's past, uncovering disturbing secrets that could threaten more than his case.",
+        "title": "The Little Things",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 202.744,
+        "poster": "https://image.tmdb.org/t/p/w500//aiy35Evcofzl7hASZZvsFgltHTX.jpg",
+        "synopsis": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
+        "title": "Attack on Titan",
+        "type": "SERIES",
+        "year": "2013"
+    },
+    {
+        "popularity": 52.424,
+        "poster": "https://image.tmdb.org/t/p/w500//9S36vdeagChJeb3OziMOCiqVfPj.jpg",
+        "synopsis": "An environmental police officer uncovers a hidden world of mythological entities from Brazilian folklore when he finds a connection between the mysterious appearance of a dead river dolphin on a Rio de Janeiro beach and the death of his beloved wife.",
+        "title": "Invisible City",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 87.174,
+        "poster": "https://image.tmdb.org/t/p/w500//h1xbvvO6oqchfLe6xh0yLNnQxeM.jpg",
+        "synopsis": "Jefferson Pierce is a man wrestling with a secret. As the father of two daughters and principal of a charter high school that also serves as a safe haven for young people in a New Orleans neighborhood overrun by gang violence, he is a hero to his community.",
+        "title": "Black Lightning",
+        "type": "SERIES",
+        "year": "2018"
+    },
+    {
+        "popularity": 474.91,
+        "poster": "https://image.tmdb.org/t/p/w500//xSDdRAjxKAGi8fUBLOqSrBhJmF0.jpg",
+        "synopsis": "After 12 years in prison, former high school football star Eddie Palmer returns home to put his life back together\u2014and forms an unlikely bond with Sam, an outcast boy from a troubled home. But Eddie's past threatens to ruin his new life and family.",
+        "title": "Palmer",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 222.015,
+        "poster": "https://image.tmdb.org/t/p/w500//dFDNb9Gk1kyLRcconpj7Mc7C7IL.jpg",
+        "synopsis": "As WWII looms, a wealthy widow hires an amateur archaeologist to excavate the burial mounds on her estate. When they make a historic discovery, the echoes of Britain's past resonate in the face of its uncertain future\u200e.",
+        "title": "The Dig",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 361.693,
         "poster": "https://image.tmdb.org/t/p/w500//bNo2mcvSwIvnx8K6y1euAc1TLVq.jpg",
         "synopsis": "John Garrity, his estranged wife and their young son embark on a perilous journey to find sanctuary as a planet-killing comet hurtles toward Earth. Amid terrifying accounts of cities getting levelled, the Garrity's experience the best and worst in humanity. As the countdown to the global apocalypse approaches zero, their incredible trek culminates in a desperate and last-minute flight to a possible safe haven.",
         "title": "Greenland",
@@ -152,7 +128,39 @@
         "year": "2020"
     },
     {
-        "popularity": 419.13,
+        "popularity": 494.898,
+        "poster": "https://image.tmdb.org/t/p/w500//95xQPSqwvQDRoB3rXUn4lRyJrBW.jpg",
+        "synopsis": "Set more than seven years after the world has become a frozen wasteland, the remnants of humanity inhabit a gigantic, perpetually-moving train that circles the globe as class warfare, social injustice and the politics of survival play out.",
+        "title": "Snowpiercer",
+        "type": "SERIES",
+        "year": "2020"
+    },
+    {
+        "popularity": 26.044,
+        "poster": "https://image.tmdb.org/t/p/w500//q6lnTrwkxM8ppIdTQL0keDuNrtx.jpg",
+        "synopsis": "",
+        "title": "The Misadventures of Hedi and Cokeman",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 1175.056,
+        "poster": "https://image.tmdb.org/t/p/w500//hm58Jw4Lw8OIeECIq5qyPYhAeRJ.jpg",
+        "synopsis": "Joe Gardner is a middle school teacher with a love for jazz music. After a successful gig at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.",
+        "title": "Soul",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 65.658,
+        "poster": "https://image.tmdb.org/t/p/w500//6kbAMLteGO8yyewYau6bJ683sw7.jpg",
+        "synopsis": "Following the events of \u201cAvengers: Endgame\u201d, the Falcon, Sam Wilson and the Winter Soldier, Bucky Barnes team up in a global adventure that tests their abilities, and their patience.",
+        "title": "The Falcon and the Winter Soldier",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 418.492,
         "poster": "https://image.tmdb.org/t/p/w500//u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
         "synopsis": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
         "title": "Game of Thrones",
@@ -160,7 +168,7 @@
         "year": "2011"
     },
     {
-        "popularity": 794.002,
+        "popularity": 694.457,
         "poster": "https://image.tmdb.org/t/p/w500//k68nPLbIST6NP96JmTxmZijEvCA.jpg",
         "synopsis": "Armed with only one word - Tenet - and fighting for the survival of the entire world, the Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
         "title": "Tenet",
@@ -168,39 +176,39 @@
         "year": "2020"
     },
     {
-        "popularity": 979.179,
-        "poster": "https://image.tmdb.org/t/p/w500//tTWl37oAYRXS3D5mEHmjveXXyrN.jpg",
-        "synopsis": "Two Brooklyn siblings' summer in a rural Oahu town takes an exciting turn when a journal pointing to long-lost treasure sets them on an adventure, leading them to reconnect with their Hawaiian heritage.",
-        "title": "Finding 'Ohana",
+        "popularity": 134.854,
+        "poster": "https://image.tmdb.org/t/p/w500//blB1T2zUAqP9Qv8dyoB9Xn7W7qI.jpg",
+        "synopsis": "In 1950s Italy, a farmer's dream of improving workers\u2019 living conditions collapses when he falls for a landowner's daughter. Based on true events.",
+        "title": "The Last Paradiso",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 624.235,
-        "poster": "https://image.tmdb.org/t/p/w500//sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
-        "synopsis": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
-        "title": "The Mandalorian",
+        "popularity": 62.747,
+        "poster": "https://image.tmdb.org/t/p/w500//a7bW3uKOMPBnmHs8gnlpfhTD8YQ.jpg",
+        "synopsis": "When illness strikes two people who are polar opposites, life and death bring them together in surprising ways.",
+        "title": "2 Hearts",
+        "type": "MOVIE",
+        "year": "2020"
+    },
+    {
+        "popularity": 1679.753,
+        "poster": "https://image.tmdb.org/t/p/w500//wRbjVBdDo5qHAEOVYoMWpM58FSA.jpg",
+        "synopsis": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale\u2019s wholesome facade.",
+        "title": "Riverdale",
         "type": "SERIES",
-        "year": "2019"
+        "year": "2017"
     },
     {
-        "popularity": 43.278,
-        "poster": "https://image.tmdb.org/t/p/w500//4GGF9oW3b8qqjvig3n8Qftl4P1Q.jpg",
-        "synopsis": "A group of friends at a New Year\u2019s Eve party go through a whirlwind of events that exposes secrets, breaks hearts \u2014 and leads to a shocking outcome.",
-        "title": "All My Friends Are Dead",
+        "popularity": 50.583,
+        "poster": "https://image.tmdb.org/t/p/w500//293ioYzD3SsOtGt090DTR3aI8t6.jpg",
+        "synopsis": "Isaac and his pregnant wife visit a remote Norwegian village to claim an unexpected inheritance. The couple finds themselves caught in a nightmare when they encounter a sinister cult that worships a sea-dwelling deity.",
+        "title": "Sacrifice",
         "type": "MOVIE",
-        "year": "2020"
+        "year": "2021"
     },
     {
-        "popularity": 947.71,
-        "poster": "https://image.tmdb.org/t/p/w500//zeD4PabP6099gpE0STWJrJrCBCs.jpg",
-        "synopsis": "A bank robber tries to turn himself in because he's falling in love and wants to live an honest life...but when he realizes the Feds are more corrupt than him, he must fight back to clear his name.",
-        "title": "Honest Thief",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 144.732,
+        "popularity": 123.963,
         "poster": "https://image.tmdb.org/t/p/w500//t7EUMSlfUN3jUSZUJOLURAzJzZs.jpg",
         "synopsis": "A WWII pilot traveling with top secret documents on a B-17 Flying Fortress encounters an evil presence on board the flight.",
         "title": "Shadow in the Cloud",
@@ -208,39 +216,7 @@
         "year": "2020"
     },
     {
-        "popularity": 1.96,
-        "poster": "https://image.tmdb.org/t/p/w500//7p0O4mKYLIhU2E5Zcq9Z3vOZ4e9.jpg",
-        "synopsis": "A man will become a criminal to save his family.  Director: Shawn Welling  Writer: Derek H. Potts  Stars: Tom Vera, Tom Sizemore, Lee Majors |",
-        "title": "Narco Sub",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 1754.238,
-        "poster": "https://image.tmdb.org/t/p/w500//dWSnsAGTfc8U27bWsy2RfwZs0Bs.jpg",
-        "synopsis": "When a prisoner transfer van is attacked, the cop in charge must fight those inside and outside while dealing with a silent foe: the icy temperatures.",
-        "title": "Below Zero",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 20.072,
-        "poster": "https://image.tmdb.org/t/p/w500//7JiIGsH3Q1M6bCzTR0QxP7gyDed.jpg",
-        "synopsis": "Every few hundred years, the most powerful demon on earth\u2014a snake demon\u2014awakens, and the Yin-Yang Masters are summoned to the capital. Meanwhile, the Princess of the realm has her own plans, as she conspires to claim the demon\u2019s power.",
-        "title": "The Yin Yang Master: Dream of Eternity",
-        "type": "MOVIE",
-        "year": "2020"
-    },
-    {
-        "popularity": 818.193,
-        "poster": "https://image.tmdb.org/t/p/w500//3Iso4hatk3N0RTkQFAk7YFO4GGy.jpg",
-        "synopsis": "In a time when monsters walk the Earth, humanity\u2019s fight for its future sets Godzilla and Kong on a collision course that will see the two most powerful forces of nature on the planet collide in a spectacular battle for the ages.",
-        "title": "Godzilla vs. Kong",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 40.536,
+        "popularity": 52.721,
         "poster": "https://image.tmdb.org/t/p/w500//b2shaNA4F8zNIwoRYr33lPTiFfl.jpg",
         "synopsis": "A teenage girl living with schizophrenia begins to suspect her neighbor has kidnapped a child. Her parents try desperately to help her live a normal life, without exposing their own tragic secrets, and the only person who believes her is Caleb \u2013 a boy she isn\u2019t even sure exists.",
         "title": "Fear of Rain",
@@ -248,23 +224,63 @@
         "year": "2021"
     },
     {
-        "popularity": 58.599,
-        "poster": "https://image.tmdb.org/t/p/w500//6IK84A1Pg5RRE3Bh28eG3gy2bB0.jpg",
-        "synopsis": "When a dark secret from this past threatens to be exposed, unorthodox and brilliant medical examiner, Doctor Daniel Harrow, must use all his forensic skills to keep it buried forever.",
-        "title": "Harrow",
-        "type": "SERIES",
-        "year": "2018"
+        "popularity": 2338.434,
+        "poster": "https://image.tmdb.org/t/p/w500//dWSnsAGTfc8U27bWsy2RfwZs0Bs.jpg",
+        "synopsis": "When a prisoner transfer van is attacked, the cop in charge must fight those inside and outside while dealing with a silent foe: the icy temperatures.",
+        "title": "Below Zero",
+        "type": "MOVIE",
+        "year": "2021"
     },
     {
-        "popularity": 7.93,
-        "poster": "https://image.tmdb.org/t/p/w500//ckcn7tYzqVUABxMZhqHUbaSeLKf.jpg",
-        "synopsis": "The Honeymoon is over\u2026 How we enjoyed the party when our amphibious Nestrian chums discovered their incredible newfound agility underwater! But, when we revisit our curious, loveable pals, the entire animal kingdom\u2019s survival is once again at stake. Amid the prospect of no new land on which to live and prosper, not to mention the ever-diminishing food resources, the mood on board the Ark is laden with mounting tensions, which regularly spill over into ark rage. Fragile peace is frequently broken with general chaos ensuing. How can our unlikely heroes help? And what lies beneath for Finny in an oceanful of possibilities when he quite literally falls into some rather surprising new company?",
-        "title": "Ooops! The Adventure Continues...",
+        "popularity": 622.217,
+        "poster": "https://image.tmdb.org/t/p/w500//bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
+        "synopsis": "The adventures of Ragnar Lothbrok, the greatest hero of his age. The series tells the sagas of Ragnar's band of Viking brothers and his family, as he rises to become King of the Viking tribes. As well as being a fearless warrior, Ragnar embodies the Norse traditions of devotion to the gods. Legend has it that he was a direct descendant of Odin, the god of war and warriors.",
+        "title": "Vikings",
+        "type": "SERIES",
+        "year": "2013"
+    },
+    {
+        "popularity": 862.505,
+        "poster": "https://image.tmdb.org/t/p/w500//tTWl37oAYRXS3D5mEHmjveXXyrN.jpg",
+        "synopsis": "Two Brooklyn siblings' summer in a rural Oahu town takes an exciting turn when a journal pointing to long-lost treasure sets them on an adventure, leading them to reconnect with their Hawaiian heritage.",
+        "title": "Finding 'Ohana",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 414.422,
+        "poster": "https://image.tmdb.org/t/p/w500//udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+        "synopsis": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+        "title": "Joker",
+        "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 681.615,
+        "poster": "https://image.tmdb.org/t/p/w500//3Iso4hatk3N0RTkQFAk7YFO4GGy.jpg",
+        "synopsis": "In a time when monsters walk the Earth, humanity\u2019s fight for its future sets Godzilla and Kong on a collision course that will see the two most powerful forces of nature on the planet collide in a spectacular battle for the ages.",
+        "title": "Godzilla vs. Kong",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 719.222,
+        "poster": "https://image.tmdb.org/t/p/w500//zeD4PabP6099gpE0STWJrJrCBCs.jpg",
+        "synopsis": "A bank robber tries to turn himself in because he's falling in love and wants to live an honest life...but when he realizes the Feds are more corrupt than him, he must fight back to clear his name.",
+        "title": "Honest Thief",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 141.102,
+        "popularity": 276.555,
+        "poster": "https://image.tmdb.org/t/p/w500//ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
+        "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+        "title": "Avengers: Endgame",
+        "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 148.773,
         "poster": "https://image.tmdb.org/t/p/w500//wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
         "synopsis": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard -- with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths -- and about the villain who's to blame.",
         "title": "Harry Potter and the Philosopher's Stone",
@@ -272,51 +288,35 @@
         "year": "2001"
     },
     {
-        "popularity": 145.214,
-        "poster": "https://image.tmdb.org/t/p/w500//wP9Ho6PCmmrFHLK1VjSAwZKVKtX.jpg",
-        "synopsis": "Explore the high-pressure experiences of police officers, paramedics and firefighters who are thrust into the most frightening, shocking and heart-stopping situations. These emergency responders must try to balance saving those who are at their most vulnerable with solving the problems in their own lives.",
-        "title": "9-1-1",
-        "type": "SERIES",
-        "year": "2018"
-    },
-    {
-        "popularity": 40.423,
-        "poster": "https://image.tmdb.org/t/p/w500//xWJZjIKPeEZhK3JRYKOe06yW6IU.jpg",
-        "synopsis": "New Orleans judge Michael Desiato is forced to confront his own deepest convictions when his son is involved in a hit and run that embroils an organized crime family.",
-        "title": "Your Honor",
-        "type": "SERIES",
+        "popularity": 45.554,
+        "poster": "https://image.tmdb.org/t/p/w500//4GGF9oW3b8qqjvig3n8Qftl4P1Q.jpg",
+        "synopsis": "A group of friends at a New Year\u2019s Eve party go through a whirlwind of events that exposes secrets, breaks hearts \u2014 and leads to a shocking outcome.",
+        "title": "All My Friends Are Dead",
+        "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 42.218,
-        "poster": "https://image.tmdb.org/t/p/w500//CXQ5zOrhHGcw1imsRMwa7W8izS.jpg",
-        "synopsis": "The feature documentary follows women of all walks of life, all ages and ethnic backgrounds, as they shed trauma, body image shame, sexual abuse and other issues locked in their bodies, and embark on a journey to reclaim themselves. The film also gives a rare window into the world of Pole artistry and expression.",
-        "title": "Strip Down Rise Up",
+        "popularity": 11.102,
+        "poster": "https://image.tmdb.org/t/p/w500//ckcn7tYzqVUABxMZhqHUbaSeLKf.jpg",
+        "synopsis": "The Honeymoon is over\u2026 How we enjoyed the party when our amphibious Nestrian chums discovered their incredible newfound agility underwater! But, when we revisit our curious, loveable pals, the entire animal kingdom\u2019s survival is once again at stake. Amid the prospect of no new land on which to live and prosper, not to mention the ever-diminishing food resources, the mood on board the Ark is laden with mounting tensions, which regularly spill over into ark rage. Fragile peace is frequently broken with general chaos ensuing. How can our unlikely heroes help? And what lies beneath for Finny in an oceanful of possibilities when he quite literally falls into some rather surprising new company?",
+        "title": "Ooops! The Adventure Continues...",
         "type": "MOVIE",
-        "year": "2021"
+        "year": "2020"
     },
     {
-        "popularity": 233.343,
-        "poster": "https://image.tmdb.org/t/p/w500//MoEKaPFHABtA1xKoOteirGaHl1.jpg",
-        "synopsis": "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.",
-        "title": "Money Heist",
-        "type": "SERIES",
-        "year": "2017"
-    },
-    {
-        "popularity": 54.696,
-        "poster": "https://image.tmdb.org/t/p/w500//8JJa4gduVytwpXQzFtZNibRA6S.jpg",
-        "synopsis": "A unique fusion of blue chip natural history and earth science that explains how our living planet operates. This five-part series shows how the forces of nature drive, shape and support Earth\u2019s great diversity of wildlife.",
-        "title": "A Perfect Planet",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 76.189,
+        "popularity": 76.004,
         "poster": "https://image.tmdb.org/t/p/w500//5vQlVWkIMPhZ88OWchJsgwGEK9.jpg",
         "synopsis": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
         "title": "The Expanse",
         "type": "SERIES",
         "year": "2015"
+    },
+    {
+        "popularity": 641.172,
+        "poster": "https://image.tmdb.org/t/p/w500//tK1zy5BsCt1J4OzoDicXmr0UTFH.jpg",
+        "synopsis": "Searching for a safer habitat, the prehistoric Crood family discovers an idyllic, walled-in paradise that meets all of its needs. Unfortunately, they must also learn to live with the Bettermans -- a family that's a couple of steps above the Croods on the evolutionary ladder. As tensions between the new neighbors start to rise, a new threat soon propels both clans on an epic adventure that forces them to embrace their differences, draw strength from one another, and survive together.",
+        "title": "The Croods: A New Age",
+        "type": "MOVIE",
+        "year": "2020"
     }
 ]
