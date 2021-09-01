@@ -1,14 +1,70 @@
 [
     {
-        "popularity": 993.338,
-        "poster": "https://image.tmdb.org/t/p/w500//9dKCd55IuTT5QRs989m9Qlb7d2B.jpg",
-        "synopsis": "Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his dilapidated boat. Together, they search for an ancient tree that holds the power to heal \u2013 a discovery that will change the future of medicine.",
-        "title": "Jungle Cruise",
+        "popularity": 68.072,
+        "poster": "https://image.tmdb.org/t/p/w500//ablrE8IbWcIrAxMmm4gnPn75AMS.jpg",
+        "synopsis": "The Earthrealm heroes must journey to the Outworld and fight for the survival of their homeland, invaded by the forces of evil warlord Shao Kahn, in the tournament to end all tournaments: the final Mortal Kombat.",
+        "title": "Mortal Kombat Legends: Battle of the Realms",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 2990.092,
+        "popularity": 241.255,
+        "poster": "https://image.tmdb.org/t/p/w500//Ae3cbmy52HKCTebvdUCCF0vZGrK.jpg",
+        "synopsis": "Rescued as a child by the legendary assassin Moody and trained in the family business, Anna is the world\u2019s most skilled contract killer. When Moody, the man who was like a father to her and taught her everything she needs to know about trust and survival, is brutally killed, Anna vows revenge. As she becomes entangled with an enigmatic killer whose attraction to her goes way beyond cat and mouse, their confrontation turns deadly and the loose ends of a life spent killing will weave themselves ever tighter.",
+        "title": "The Prot\u00e9g\u00e9",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 186.397,
+        "poster": "https://image.tmdb.org/t/p/w500//uTgZuqUQbaCB6Wfk03N8IUEuzQf.jpg",
+        "synopsis": "When a straight-laced couple that has fun with a rowdy couple on vacation in Mexico return to the States, they discover that the crazy couple they met in Mexico followed them back home and decide to play tricks on them.",
+        "title": "Vacation Friends",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 69.668,
+        "poster": "https://image.tmdb.org/t/p/w500//lxCmHIN7TTO0sxeAmgDYxqzq8Ob.jpg",
+        "synopsis": "Three strangers who share an obsession with true crime suddenly find themselves wrapped up in one.",
+        "title": "Only Murders in the Building",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 354.222,
+        "poster": "https://image.tmdb.org/t/p/w500//kW3AG5NHoyq52dcSbMiFB6LyHvk.jpg",
+        "synopsis": "To get revenge on her ex-boyfriend, an influencer attempts to transform an unpopular classmate into prom king.",
+        "title": "He's All That",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 102.312,
+        "poster": "https://image.tmdb.org/t/p/w500//6Y9fl8tD1xtyUrOHV2MkCYTpzgi.jpg",
+        "synopsis": "An off-duty SAS soldier, Tom Buckingham, must thwart a terror attack on a train running through the Channel Tunnel. As the action escalates on the train, events transpire in the corridors of power that may make the difference as to whether Buckingham and the civilian passengers make it out of the tunnel alive.",
+        "title": "SAS: Red Notice",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 19.065,
+        "poster": "https://image.tmdb.org/t/p/w500//aIY2QF211NLB1AOjZPFImusCLI1.jpg",
+        "synopsis": "Haunted by his mysterious past, a devoted high school football coach leads a scrawny team of orphans to the state championship during the Great Depression and inspires a broken nation along the way.",
+        "title": "12 Mighty Orphans",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 478.865,
+        "poster": "https://image.tmdb.org/t/p/w500//j5ZeKzMxZus53z3aEtWcPdSltU7.jpg",
+        "synopsis": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 1637.843,
         "poster": "https://image.tmdb.org/t/p/w500//bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg",
         "synopsis": "Dominic Toretto and his crew battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother.",
         "title": "F9",
@@ -16,23 +72,87 @@
         "year": "2021"
     },
     {
-        "popularity": 59.09,
-        "poster": "https://image.tmdb.org/t/p/w500//ttpKJ7XQxDZV252KNEHXtykYT41.jpg",
-        "synopsis": "A mysterious former secret service agent must urgently return to France when his estranged son  is falsely accused of arms and drug trafficking by the government, following a blunder by an overzealous bureaucrat and a mafia operation.",
-        "title": "The Last Mercenary",
+        "popularity": 3692.281,
+        "poster": "https://image.tmdb.org/t/p/w500//kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
+        "synopsis": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
+        "title": "The Suicide Squad",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 31.478,
-        "poster": "https://image.tmdb.org/t/p/w500//1v3QzfD6qWN7BEa2BRaOuMWsAVi.jpg",
-        "synopsis": "Kenshin Himura goes up against mysterious weapons dealer Enishi. He controls the underworld of China. The secret of Kenshin Himura\u2019s \"Jujishou\" is also revealed.",
-        "title": "Rurouni Kenshin: The Beginning",
+        "popularity": 1138.365,
+        "poster": "https://image.tmdb.org/t/p/w500//w21lgYIi9GeUH5dO8l3B9ARZbCB.jpg",
+        "synopsis": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+        "title": "The Walking Dead",
+        "type": "SERIES",
+        "year": "2010"
+    },
+    {
+        "popularity": 333.54,
+        "poster": "https://image.tmdb.org/t/p/w500//A6dnHWe8YYcoFBHzP7T6WPP4b6F.jpg",
+        "synopsis": "A virus has decimated humankind. Those who survived emerged blind. Centuries later when twins are born with the mythic ability to see, their father must protect his tribe against a threatened queen.",
+        "title": "See",
+        "type": "SERIES",
+        "year": "2019"
+    },
+    {
+        "popularity": 347.233,
+        "poster": "https://image.tmdb.org/t/p/w500//MoEKaPFHABtA1xKoOteirGaHl1.jpg",
+        "synopsis": "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.",
+        "title": "Money Heist",
+        "type": "SERIES",
+        "year": "2017"
+    },
+    {
+        "popularity": 174.824,
+        "poster": "https://image.tmdb.org/t/p/w500//3sLz2yv6vBDWqBbd8rdnNeoJ2kJ.jpg",
+        "synopsis": "Escaping from poverty to become a witcher, Vesemir slays monsters for coin and glory, but when a new menace rises, he must face the demons of his past.",
+        "title": "The Witcher: Nightmare of the Wolf",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 3807.768,
+        "popularity": 583.821,
+        "poster": "https://image.tmdb.org/t/p/w500//17siH6wJRQ2jZiqz9BWUhy1UtZ.jpg",
+        "synopsis": "Nicolas Bannister, a rugged and solitary veteran living in a near-future Miami flooded by rising seas, is an expert in a dangerous occupation: he offers clients the chance to relive any memory they desire. His life changes when he meets a mysterious young woman named Mae. What begins as a simple matter of lost and found becomes a passionate love affair. But when a different client's memories implicate Mae in a series of violent crimes, Bannister must delve through the dark world of the past to uncover the truth about the woman he fell for.",
+        "title": "Reminiscence",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 3122.09,
+        "poster": "https://image.tmdb.org/t/p/w500//6KFrffYXYrgszW4FqhGvOEfg9P7.jpg",
+        "synopsis": "A devastated husband vows to bring justice to the people responsible for his wife's death while protecting the only family he has left, his daughter.",
+        "title": "Sweet Girl",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 317.515,
+        "poster": "https://image.tmdb.org/t/p/w500//dqoshZPLNsXlC1qtz5n34raUyrE.jpg",
+        "synopsis": "Anthony and his partner move into a loft in the now gentrified Cabrini-Green, and after a chance encounter with an old-timer exposes Anthony to the true story behind Candyman, he unknowingly opens a door to a complex past that unravels his own sanity and unleashes a terrifying wave of violence.",
+        "title": "Candyman",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 77.907,
+        "poster": "https://image.tmdb.org/t/p/w500//iUtPwOBZJc8uJnDqlCXTibdgxKz.jpg",
+        "synopsis": "The rise of Aretha Franklin\u2019s career from a child singing in her father\u2019s church\u2019s choir to her international superstardom.",
+        "title": "Respect",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 69.516,
+        "poster": "https://image.tmdb.org/t/p/w500//wbixU7Pqr04jALK1HqMosuzKE7r.jpg",
+        "synopsis": "The mysterious disappearance of a Scottish fishing trawler and a death on-board the submarine HMS Vigil bring the police into conflict with the Navy and British security services. DCI Amy Silva and DS Kirsten Longacre lead an investigation on land and at sea into a conspiracy that goes to the very heart of Britain\u2019s national security.",
+        "title": "Vigil",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 1900.35,
         "poster": "https://image.tmdb.org/t/p/w500//qAZ0pzat24kLdO3o8ejmbLxyOac.jpg",
         "synopsis": "Natasha Romanoff, also known as Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger.",
         "title": "Black Widow",
@@ -40,283 +160,163 @@
         "year": "2021"
     },
     {
-        "popularity": 405.317,
-        "poster": "https://image.tmdb.org/t/p/w500//gYZAHan5CHPFXORpQMvOjCTug4E.jpg",
-        "synopsis": "Lindy is an acid-tongued woman with rage issues who controls her temper by shocking herself with an electrode vest. One day she makes a connection with Justin, who gives her a glimmer of hope for a shock-free future, but when he\u2019s murdered she launches herself on a revenge-fueled rampage in pursuit of his killer.",
-        "title": "Jolt",
+        "popularity": 735.266,
+        "poster": "https://image.tmdb.org/t/p/w500//5RjyUm9HP2ZRwvqCqK9sDqlQHxa.jpg",
+        "synopsis": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+        "title": "Spider-Man: No Way Home",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 184.738,
-        "poster": "https://image.tmdb.org/t/p/w500//ovDgO2LPfwdVRfvScAqo9aMiIW.jpg",
-        "synopsis": "A tight-knit group of teens unearths a long-buried secret, setting off a chain of illicit events that takes them on an adventure they'll never forget.",
-        "title": "Outer Banks",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 61.328,
-        "poster": "https://image.tmdb.org/t/p/w500//6TrkFcgCF8Vznk45rs3qvxxejiV.jpg",
-        "synopsis": "Aspiring pop star Erica ends up as the entertainment at her ex-fianc\u00e9\u2019s wedding after reluctantly taking a gig at a luxurious island resort while in the wake of a music career meltdown.",
-        "title": "Resort to Love",
+        "popularity": 334.004,
+        "poster": "https://image.tmdb.org/t/p/w500//uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+        "synopsis": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested \u2013 even if that means losing the trust of those closest to him.",
+        "title": "Snake Eyes: G.I. Joe Origins",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 239.841,
-        "poster": "https://image.tmdb.org/t/p/w500//5X1n5q08mZ7NpNpxehMFODxfNYq.jpg",
-        "synopsis": "As Gotham City's young vigilante, the Batman, struggles to pursue a brutal serial killer, district attorney Harvey Dent gets caught in a feud involving the criminal family of the Falcones.",
-        "title": "Batman: The Long Halloween, Part Two",
+        "popularity": 1583.419,
+        "poster": "https://image.tmdb.org/t/p/w500//hEqw9swA8gFJuNjgWYEypwZfkZg.jpg",
+        "synopsis": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+        "title": "Free Guy",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 728.406,
-        "poster": "https://image.tmdb.org/t/p/w500//ky8Fua6PD7FyyOA7JACh3GDETli.jpg",
-        "synopsis": "A woman with a mysterious illness is forced into action when a group of terrorists attempt to hijack a transatlantic overnight flight. In order to protect her son she will have to reveal a dark secret, and unleash the inner monster she has fought to hide.",
-        "title": "Blood Red Sky",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 4097.378,
-        "poster": "https://image.tmdb.org/t/p/w500//5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg",
-        "synopsis": "When LeBron and his young son Dom are trapped in a digital space by a rogue A.I., LeBron must get them home safe by leading Bugs, Lola Bunny and the whole gang of notoriously undisciplined Looney Tunes to victory over the A.I.'s digitized champions on the court. It's Tunes versus Goons in the highest-stakes challenge of his life.",
-        "title": "Space Jam: A New Legacy",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 997.424,
-        "poster": "https://image.tmdb.org/t/p/w500//4q2hz2m8hubgvijz8Ez0T2Os2Yv.jpg",
-        "synopsis": "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
-        "title": "A Quiet Place Part II",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 437.354,
-        "poster": "https://image.tmdb.org/t/p/w500//cE9SBjWMUK0HFxmT1cVFDtu5CLT.jpg",
-        "synopsis": "Tragedy, betrayal and a mysterious discovery fuel a woman's vengeance for the loss of her tribe and family in this special episode of \"Kingdom.\"",
-        "title": "Kingdom: Ashin of the North",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 2524.561,
-        "poster": "https://image.tmdb.org/t/p/w500//jTswp6KyDYKtvC52GbHagrZbGvD.jpg",
-        "synopsis": "Luca and his best friend Alberto experience an unforgettable summer on the Italian Riviera. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water\u2019s surface.",
-        "title": "Luca",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 82.153,
-        "poster": "https://image.tmdb.org/t/p/w500//kOVko9u2CSwpU8zGj14Pzei6Eco.jpg",
-        "synopsis": "After his brother dies in a car crash, a disgraced MMA fighter takes over the family nightclub \u2014 and soon learns his sibling's death wasn\u2019t an accident.",
-        "title": "Bartkowiak",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 520.632,
-        "poster": "https://image.tmdb.org/t/p/w500//464N3J1i6L5SsazPmX9m3q1GiZ3.jpg",
-        "synopsis": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-        "title": "The Suicide Squad",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 1015.316,
-        "poster": "https://image.tmdb.org/t/p/w500//2DyEk84XnbJEdPlGF43crxfdtHH.jpg",
-        "synopsis": "The tenth installment in the Fast Saga.",
-        "title": "Fast & Furious 10",
-        "type": "MOVIE",
-        "year": null
-    },
-    {
-        "popularity": 222.315,
-        "poster": "https://image.tmdb.org/t/p/w500//6zwGWDpY8Zu0L6W4SYWERBR8Msw.jpg",
-        "synopsis": "The world\u2019s most lethal odd couple \u2013 bodyguard Michael Bryce and hitman Darius Kincaid \u2013 are back on another life-threatening mission. Still unlicensed and under scrutiny, Bryce is forced into action by Darius's even more volatile wife, the infamous international con artist Sonia Kincaid. As Bryce is driven over the edge by his two most dangerous protectees, the trio get in over their heads in a global plot and soon find that they are all that stand between Europe and a vengeful and powerful madman.",
-        "title": "Hitman's Wife's Bodyguard",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 1940.334,
-        "poster": "https://image.tmdb.org/t/p/w500//kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
-        "synopsis": "After stealing the Tesseract during the events of \u201cAvengers: Endgame,\u201d an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a \u201ctime variant\u201d or help fix the timeline and stop a greater threat.",
-        "title": "Loki",
+        "popularity": 66.946,
+        "poster": "https://image.tmdb.org/t/p/w500//45ZwrPZ9NXOmPL1wTYxWuto6ZZk.jpg",
+        "synopsis": "A young private\u2019s assignment to capture army deserters reveals the painful reality endured by each enlistee during his compulsory call of duty.",
+        "title": "D.P.",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 2956.411,
-        "poster": "https://image.tmdb.org/t/p/w500//uHA5COgDzcxjpYSHHulrKVl6ByL.jpg",
-        "synopsis": "All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end as they chase a group of immigrants who they want to punish because of their harsh historical past.",
-        "title": "The Forever Purge",
+        "popularity": 3313.915,
+        "poster": "https://image.tmdb.org/t/p/w500//9dKCd55IuTT5QRs989m9Qlb7d2B.jpg",
+        "synopsis": "Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his dilapidated boat. Together, they search for an ancient tree that holds the power to heal \u2013 a discovery that will change the future of medicine.",
+        "title": "Jungle Cruise",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 667.547,
-        "poster": "https://image.tmdb.org/t/p/w500//cGLL4SY6jFjjUZkz2eFxgtCtGgK.jpg",
-        "synopsis": "A group of families on a tropical holiday discover that the secluded beach where they are staying is somehow causing them to age rapidly \u2013 reducing their entire lives into a single day.",
-        "title": "Old",
+        "popularity": 2750.783,
+        "poster": "https://image.tmdb.org/t/p/w500//ic0intvXZSfBlYPIvWXpU1ivUCO.jpg",
+        "synopsis": "Ryder and the pups are called to Adventure City to stop Mayor Humdinger from turning the bustling metropolis into a state of chaos.",
+        "title": "PAW Patrol: The Movie",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 252.241,
-        "poster": "https://image.tmdb.org/t/p/w500//7bbEASVf9XWtfxWiuWUMY3uyhTb.jpg",
-        "synopsis": "In 1879, Kenshin and his allies face their strongest enemy yet: his former brother-in-law Enishi Yukishiro and his minions, who've vowed their revenge.",
-        "title": "Rurouni Kenshin: The Final",
+        "popularity": 591.293,
+        "poster": "https://image.tmdb.org/t/p/w500//8NMACR0OE5bwC27rE15f8ManNBO.jpg",
+        "synopsis": "An anthology horror drama series centering on different characters and locations, including a house with a murderous past, an asylum, a witch coven, a freak show, a hotel, a farmhouse in Roanoke, a cult, the apocalypse and a summer camp.",
+        "title": "American Horror Story",
+        "type": "SERIES",
+        "year": "2011"
+    },
+    {
+        "popularity": 358.508,
+        "poster": "https://image.tmdb.org/t/p/w500//zFIjKtZrzhmc7HecdFXXjsLR2Ig.jpg",
+        "synopsis": "Cold War spy Greville Wynne and his Russian source try to put an end to the Cuban Missile Crisis.",
+        "title": "The Courier",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 4.879,
-        "poster": "https://image.tmdb.org/t/p/w500//cd0T7Wv9ek03iwYY0wsnkgoqImq.jpg",
-        "synopsis": "After Bobby and his best friend Kevin are kidnapped and taken to a strange house in the middle of nowhere, Bobby manages to escape. But as he starts to make a break for it, he hears Kevin\u2019s screams for help and realizes he can\u2019t leave his friend behind.",
-        "title": "The Boy Behind the Door",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 88.512,
-        "poster": "https://image.tmdb.org/t/p/w500//bAtl4ccfb37XS2ecCi1cwsw5Uno.jpg",
-        "synopsis": "The frantic race to locate the Allspark first culminates on a strange planet as the future comes crashing through to the present day.",
-        "title": "Transformers: War for Cybertron: Kingdom",
+        "popularity": 2271.98,
+        "poster": "https://image.tmdb.org/t/p/w500//lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
+        "synopsis": "Taking inspiration from the comic books of the same name, each episode explores a pivotal moment from the Marvel Cinematic Universe and turns it on its head, leading the audience into uncharted territory.",
+        "title": "What If...?",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 193.754,
-        "poster": "https://image.tmdb.org/t/p/w500//fDKK51YdOfu9pTmSRw7sHUhGFxm.jpg",
-        "synopsis": "A young journalist in London becomes obsessed with a series of letters she discovers that recounts an intense star-crossed love affair from the 1960s.",
-        "title": "The Last Letter From Your Lover",
+        "popularity": 46.673,
+        "poster": "https://image.tmdb.org/t/p/w500//jJzmSlNorOu6yvHSjXoF0bBcx17.jpg",
+        "synopsis": "Based on real life transcripts culled from conversations between FBI analyst Bill Hagmaier and serial killer Ted Bundy that took place between 1984 and 1989, No Man of God details the complicated relationship that formed between the two men during Bundy\u2019s final years on death row.",
+        "title": "No Man of God",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 1208.386,
-        "poster": "https://image.tmdb.org/t/p/w500//M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
-        "synopsis": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
-        "title": "Wrath of Man",
+        "popularity": 136.028,
+        "poster": "https://image.tmdb.org/t/p/w500//if4hw3Ou5Sav9Em7WWHj66mnywp.jpg",
+        "synopsis": "An epic fantasy adventure based on the timeless Arthurian legend, The Green Knight tells the story of Sir Gawain, King Arthur's reckless and headstrong nephew, who embarks on a daring quest to confront the eponymous Green Knight, a gigantic emerald-skinned stranger and tester of men.",
+        "title": "The Green Knight",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 65.44,
-        "poster": "https://image.tmdb.org/t/p/w500//xeItgLK9qcafxbd8kYgv7XnMEog.jpg",
-        "synopsis": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
-        "title": "Shang-Chi and the Legend of the Ten Rings",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 502.971,
-        "poster": "https://image.tmdb.org/t/p/w500//fvaB0jrzFXq07bUpox03k6qOAJu.jpg",
-        "synopsis": "Following a brutal series of murders taking place on Halloween, Thanksgiving, and Christmas, Gotham City's young vigilante known as the Batman sets out to pursue the mysterious serial killer alongside police officer James Gordon and district attorney Harvey Dent.",
-        "title": "Batman: The Long Halloween, Part One",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 1704.634,
-        "poster": "https://image.tmdb.org/t/p/w500//zvUNFeTz0Sssb210wSiIiHRjA4W.jpg",
-        "synopsis": "Arcadia may look like an ordinary town, but it lies at the center of magical and mystical lines that makes it a nexus for many battles among otherworldly creatures, including trolls, aliens, and wizards. Now, various heroes will team-up in an epic adventure where they must fight the Arcane Order for control over the magic that binds them all together.",
-        "title": "Trollhunters: Rise of the Titans",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 2273.138,
-        "poster": "https://image.tmdb.org/t/p/w500//34nDCQZwaEvsy4CFO5hkGRFDCVU.jpg",
-        "synopsis": "The world is stunned when a group of time travelers arrive from the year 2051 to deliver an urgent message: Thirty years in the future, mankind is losing a global war against a deadly alien species. The only hope for survival is for soldiers and civilians from the present to be transported to the future and join the fight. Among those recruited is high school teacher and family man Dan Forester. Determined to save the world for his young daughter, Dan teams up with a brilliant scientist and his estranged father in a desperate quest to rewrite the fate of the planet.",
-        "title": "The Tomorrow War",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 468.749,
-        "poster": "https://image.tmdb.org/t/p/w500//xCEg6KowNISWvMh8GvPSxtdf9TO.jpg",
-        "synopsis": "A young boy finds himself pursued by two assassins in the Montana wilderness, with a survival expert determined to protect him, and a forest fire threatening to consume them all.",
-        "title": "Those Who Wish Me Dead",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 1288.087,
-        "poster": "https://image.tmdb.org/t/p/w500//rTh4K5uw9HypmpGslcKd4QfHl93.jpg",
+        "popularity": 888.19,
+        "poster": "https://image.tmdb.org/t/p/w500//wToO8opxkGwKgSfJ1JK8tGvkG6U.jpg",
         "synopsis": "In 1970s London amidst the punk rock revolution, a young grifter named Estella is determined to make a name for herself with her designs. She befriends a pair of young thieves who appreciate her appetite for mischief, and together they are able to build a life for themselves on the London streets. One day, Estella\u2019s flair for fashion catches the eye of the Baroness von Hellman, a fashion legend who is devastatingly chic and terrifyingly haute. But their relationship sets in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent Cruella.",
         "title": "Cruella",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 74.101,
-        "poster": "https://image.tmdb.org/t/p/w500//39rtdG2QoPIOISmS6KNdJDes8vy.jpg",
-        "synopsis": "Ted Lasso, an American football coach, moves to England when he\u2019s hired to manage a soccer team\u2014despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
-        "title": "Ted Lasso",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 208.126,
-        "poster": "https://image.tmdb.org/t/p/w500//bbDhTRe2vFT0B6xHuZ7KJMmKZha.jpg",
-        "synopsis": "On their dying planet, the Autobots and Decepticons battle fiercely for control of the AllSpark in the Transformers universe's origin story.",
-        "title": "Transformers: War for Cybertron: Siege",
-        "type": "SERIES",
-        "year": "2020"
-    },
-    {
-        "popularity": 783.843,
-        "poster": "https://image.tmdb.org/t/p/w500//pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg",
-        "synopsis": "In a time when monsters walk the Earth, humanity\u2019s fight for its future sets Godzilla and Kong on a collision course that will see the two most powerful forces of nature on the planet collide in a spectacular battle for the ages.",
-        "title": "Godzilla vs. Kong",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 48.664,
-        "poster": "https://image.tmdb.org/t/p/w500//zlECyoV9XINpkunjOOoJDtOD8ew.jpg",
-        "synopsis": "In the automotive world, John DeLorean rose from engineer to executive to icon. But under the hood of his self-created legend lies darkness and deceit.",
-        "title": "Myth And Mogul: John DeLorean",
+        "popularity": 74.16,
+        "poster": "https://image.tmdb.org/t/p/w500//q42t4S113jebD1khigJt8z3m1mD.jpg",
+        "synopsis": "When family man Nick Brewer is abducted in a crime with a sinister online twist, those closest to him race to uncover who is behind it and why.",
+        "title": "Clickbait",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 18.568,
-        "poster": "https://image.tmdb.org/t/p/w500//wlP25H14OvKoFORIwuKomZzioA5.jpg",
-        "synopsis": "A 17-year-old girl uses her wits, survival skills, and compassion to fight for her life, and those of her fellow classmates, against a group of live-streaming school shooters.",
-        "title": "Run Hide Fight",
+        "popularity": 760.42,
+        "poster": "https://image.tmdb.org/t/p/w500//cPdmPwcIcmu0ugfKcdFtI3vmOJq.jpg",
+        "synopsis": "Bill Baker, an American oil-rig roughneck from Oklahoma, travels to Marseille to visit his estranged daughter, Allison, who is in prison for a murder she claims she did not commit. Confronted with language barriers, cultural differences, and a complicated legal system, Bill builds a new life for himself in France as he makes it his personal mission to exonerate his daughter.",
+        "title": "Stillwater",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 1496.346,
+        "poster": "https://image.tmdb.org/t/p/w500//niw2AKHz6XmwiRMLWaoyAOAti0G.jpg",
+        "synopsis": "Evan McCauley has skills he never learned and memories of places he has never visited. Self-medicated and on the brink of a mental breakdown, a secret group that call themselves \u201cInfinites\u201d come to his rescue, revealing that his memories are real.",
+        "title": "Infinite",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 109.196,
+        "poster": "https://image.tmdb.org/t/p/w500//3h34xP5pvLTA7ofOrfUnBN7CMDE.jpg",
+        "synopsis": "Cristina, a journalist of Mexican origin, travels to her ancestral home in Veracruz to investigate a story of sorcery and healing. There, she is kidnapped by a group of locals who claim she's the devil incarnated.",
+        "title": "The Old Ways",
         "type": "MOVIE",
         "year": "2020"
     },
     {
-        "popularity": 34.986,
-        "poster": "https://image.tmdb.org/t/p/w500//xigoOefmTruDPydbUtibOPe8vgl.jpg",
-        "synopsis": "A socially awkward but highly enterprising teenager decides to acquire a \"mail order best friend\"; a sophisticated exchange student from France. Instead, he ends up importing his personal nightmare, a cologne-soaked, chain-smoking, sex-obsessed youth who quickly becomes the hero of his new community.",
-        "title": "The Exchange",
+        "popularity": 490.367,
+        "poster": "https://image.tmdb.org/t/p/w500//jNd6tx7FL2h7wtZgLUsLvzD0kFN.jpg",
+        "synopsis": "Sequel to the box-office hit film \"Venom.\"",
+        "title": "Venom: Let There Be Carnage",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 45.19,
-        "poster": "https://image.tmdb.org/t/p/w500//1OTSuh2HNcTRfme8caU8DjgJ39K.jpg",
-        "synopsis": "FBI Agent Helter and his partner Lombardi are very close to busting a sex-trafficking ring. When they realize their investigation has crossed the path of a brutal serial killer, they team up with a Texas Ranger to put an end to the infamous 'Truck Stop Killer'.",
-        "title": "Midnight in the Switchgrass",
-        "type": "MOVIE",
+        "popularity": 10.543,
+        "poster": "https://image.tmdb.org/t/p/w500//Ag3emeMLadTuBJxgnd3Ao1cdHhA.jpg",
+        "synopsis": "",
+        "title": "The Worm Valley",
+        "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 604.897,
-        "poster": "https://image.tmdb.org/t/p/w500//rmEPtz3Ufzol2VWUAZYzOFaBio3.jpg",
-        "synopsis": "In 1666, a colonial town is gripped by a hysterical witch-hunt that has deadly consequences for centuries to come, and it's up to teenagers in 1994 to finally put an end to their town's curse, before it's too late.",
-        "title": "Fear Street: 1666",
+        "popularity": 319.201,
+        "poster": "https://image.tmdb.org/t/p/w500//or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+        "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+        "title": "Avengers: Endgame",
         "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 979.914,
+        "poster": "https://image.tmdb.org/t/p/w500//kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
+        "synopsis": "After stealing the Tesseract during the events of \u201cAvengers: Endgame,\u201d an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a \u201ctime variant\u201d or help fix the timeline and stop a greater threat.",
+        "title": "Loki",
+        "type": "SERIES",
         "year": "2021"
     }
 ]
