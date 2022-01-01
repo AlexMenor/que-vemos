@@ -1,62 +1,38 @@
 [
     {
-        "popularity": 143.556,
-        "poster": "https://image.tmdb.org/t/p/w500//zjrJE0fpzPvX8saJXj8VNfcjBoU.jpg",
-        "synopsis": "King Charles VI declares that Knight Jean de Carrouges settle his dispute with his squire, Jacques Le Gris, by challenging him to a duel.",
-        "title": "The Last Duel",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 18405.785,
-        "poster": "https://image.tmdb.org/t/p/w500//rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
-        "synopsis": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
-        "title": "Venom: Let There Be Carnage",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 2520.608,
-        "poster": "https://image.tmdb.org/t/p/w500//iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
-        "synopsis": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
-        "title": "No Time to Die",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 2375.071,
-        "poster": "https://image.tmdb.org/t/p/w500//pqzjCxPVc9TkVgGRWeAoMmyqkZV.jpg",
-        "synopsis": "Former Avenger Clint Barton has a seemingly simple mission: get back to his family for Christmas. Possible? Maybe with the help of Kate Bishop, a 22-year-old archer with dreams of becoming a superhero. The two are forced to work together when a presence from Barton\u2019s past threatens to derail far more than the festive spirit.",
-        "title": "Hawkeye",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 1843.72,
+        "popularity": 10507.821,
         "poster": "https://image.tmdb.org/t/p/w500//1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
-        "synopsis": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a Super Hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+        "synopsis": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
         "title": "Spider-Man: No Way Home",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 221.325,
-        "poster": "https://image.tmdb.org/t/p/w500//wlh2wY2yC2SkwAdjcMRH4oiw04V.jpg",
-        "synopsis": "In suburban Chicago during the late 1980s, ten-year-old Jake Doyle embarks on a herculean quest to get the latest and greatest video game system for Christmas.",
-        "title": "8-Bit Christmas",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 81.88,
-        "poster": "https://image.tmdb.org/t/p/w500//ydAoSBtvi41yMmqkOL7Y43DcbCX.jpg",
-        "synopsis": "The Christmas vacation of a teenage girl and her family turns into a nightmare when they discover the ancient threat that haunts the island where they are.",
-        "title": "Elves",
+        "popularity": 379.662,
+        "poster": "https://image.tmdb.org/t/p/w500//3IAghjAacZKP2aomDmZsUDuq812.jpg",
+        "synopsis": "Legendary bounty hunter Boba Fett and mercenary Fennec Shand must navigate the galaxy\u2019s underworld when they return to the sands of Tatooine to stake their claim on the territory once ruled by Jabba the Hutt and his crime syndicate.",
+        "title": "The Book of Boba Fett",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 3176.492,
+        "popularity": 1223.015,
+        "poster": "https://image.tmdb.org/t/p/w500//th4E1yqsE8DGpAseLiUrI60Hf8V.jpg",
+        "synopsis": "Two low-level astronomers must go on a giant media tour to warn humankind of an approaching comet that will destroy planet Earth.",
+        "title": "Don't Look Up",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 1729.162,
+        "poster": "https://image.tmdb.org/t/p/w500//6POBWybSBDBKjSs1VAQcnQC1qyt.jpg",
+        "synopsis": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
+        "title": "Cobra Kai",
+        "type": "SERIES",
+        "year": "2018"
+    },
+    {
+        "popularity": 9023.557,
         "poster": "https://image.tmdb.org/t/p/w500//4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg",
         "synopsis": "The tale of an extraordinary family, the Madrigals, who live hidden in the mountains of Colombia, in a magical house, in a vibrant town, in a wondrous, charmed place called an Encanto. The magic of the Encanto has blessed every child in the family with a unique gift from super strength to the power to heal\u2014every child except one, Mirabel. But when she discovers that the magic surrounding the Encanto is in danger, Mirabel decides that she, the only ordinary Madrigal, might just be her exceptional family's last hope.",
         "title": "Encanto",
@@ -64,7 +40,63 @@
         "year": "2021"
     },
     {
-        "popularity": 1364.612,
+        "popularity": 9082.388,
+        "poster": "https://image.tmdb.org/t/p/w500//8c4a8kE7PizaGQQnditMmI1xbRp.jpg",
+        "synopsis": "Plagued by strange memories, Neo's life takes an unexpected turn when he finds himself back inside the Matrix.",
+        "title": "The Matrix Resurrections",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 8993.756,
+        "poster": "https://image.tmdb.org/t/p/w500//sR3iV0Jt080jgvPBtJhs3Tta1y9.jpg",
+        "synopsis": "Once the booming home of pharmaceutical giant Umbrella Corporation, Raccoon City is now a dying Midwestern town. The company\u2019s exodus left the city a wasteland\u2026with great evil brewing below the surface. When that evil is unleashed, the townspeople are forever\u2026changed\u2026and a small group of survivors must work together to uncover the truth behind Umbrella and make it through the night.",
+        "title": "Resident Evil: Welcome to Raccoon City",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 5334.034,
+        "poster": "https://image.tmdb.org/t/p/w500//rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+        "synopsis": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+        "title": "Venom: Let There Be Carnage",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 16.97,
+        "poster": "https://image.tmdb.org/t/p/w500//t1oLNRFixpFOVsyz1HCqCUW3wiW.jpg",
+        "synopsis": "A woman's seaside vacation takes a dark turn when her obsession with a young mother forces her to confront secrets from her past.",
+        "title": "The Lost Daughter",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 1056.934,
+        "poster": "https://image.tmdb.org/t/p/w500//iUgygt3fscRoKWCV1d0C7FbM9TP.jpg",
+        "synopsis": "Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+        "title": "No Time to Die",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 5.456,
+        "poster": "https://image.tmdb.org/t/p/w500//yPZ3I27oeSm4zVesgMxXlhW8GDe.jpg",
+        "synopsis": "After his best friend is killed in a shark attack, Quinn, a lovable yet tenacious seal assembles a SEAL TEAM to fight back against a gang of sharks overtaking the neighborhood. But this merry band of international seals are not at all trained for such a mission. They seek the help of a much more skillful combatant, Claggart, but even his tricks and flips can\u2019t whip these guys into shape. However, with a little bit of ingenuity, intelligence and a lot of heart, our SEAL TEAM may actually be able to bring peace back to their undersea community.",
+        "title": "Seal Team",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 1423.61,
+        "poster": "https://image.tmdb.org/t/p/w500//zjrJE0fpzPvX8saJXj8VNfcjBoU.jpg",
+        "synopsis": "King Charles VI declares that Knight Jean de Carrouges settle his dispute with his squire, Jacques Le Gris, by challenging him to a duel.",
+        "title": "The Last Duel",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 931.717,
         "poster": "https://image.tmdb.org/t/p/w500//d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
         "synopsis": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
         "title": "Dune",
@@ -72,159 +104,39 @@
         "year": "2021"
     },
     {
-        "popularity": 4333.018,
-        "poster": "https://image.tmdb.org/t/p/w500//1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
-        "synopsis": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
-        "title": "Shang-Chi and the Legend of the Ten Rings",
-        "type": "MOVIE",
-        "year": "2021"
+        "popularity": 1014.038,
+        "poster": "https://image.tmdb.org/t/p/w500//7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
+        "synopsis": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
+        "title": "The Witcher",
+        "type": "SERIES",
+        "year": "2019"
     },
     {
-        "popularity": 276.923,
-        "poster": "https://image.tmdb.org/t/p/w500//1sRejtiHOZGggZd9RcmdqbapLM5.jpg",
-        "synopsis": "An ordinary young boy called Nikolas sets out on an extraordinary adventure into the snowy north in search of his father who is on a quest to discover the fabled village of the elves, Elfhelm. Taking with him a headstrong reindeer called Blitzen and a loyal pet mouse, Nikolas soon meets his destiny in this magical and endearing story that proves nothing is impossible\u2026",
-        "title": "A Boy Called Christmas",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 4.31,
-        "poster": "https://image.tmdb.org/t/p/w500//o7o8DJb33bOhhjVIjRXi25rl78e.jpg",
-        "synopsis": "Multiple stories about the oscillating world of couple relationships and how difficult it can be to separate sex from love.",
-        "title": "More the Merrier",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 132.129,
-        "poster": "https://image.tmdb.org/t/p/w500//zTA9Fk9GHU5eBmCB76kMFKn3MO8.jpg",
-        "synopsis": "To escape a scandal, a bestselling author journeys to Scotland, where she falls in love with a castle -- and faces off with the grumpy duke who owns it.",
-        "title": "A Castle for Christmas",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 146.344,
-        "poster": "https://image.tmdb.org/t/p/w500//3yrV1J3j4fndIsYz3tMt2yIaSgi.jpg",
-        "synopsis": "The three-part documentary series, compiled from over 60 hours of unseen footage, captures the warmth, camaraderie, and creative genius that defined the legacy of music\u2019s most iconic foursome. The series also includes \u2013 for the first time in its entirety \u2013 The Beatles\u2019 final performance at London\u2019s Savile Row.",
-        "title": "The Beatles: Get Back",
+        "popularity": 44.236,
+        "poster": "https://image.tmdb.org/t/p/w500//31la2vscsB0ttcGiwGHJaBC2Mbz.jpg",
+        "synopsis": "The lives of a photojournalist, a soccer mom and a homicide detective are disturbed by a terrible event from the past.",
+        "title": "Stay Close",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 5.995,
-        "poster": "https://image.tmdb.org/t/p/w500//iowz7MwaTWMYlfLUE6GeM0m3Hze.jpg",
-        "synopsis": "A photojournalist\u2019s obsessive quest for the truth about the first expedition to Mt. Everest leads him to search for an esteemed climber who went missing.",
-        "title": "The Summit of the Gods",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 494.089,
-        "poster": "https://image.tmdb.org/t/p/w500//reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
-        "synopsis": "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.",
-        "title": "Money Heist",
+        "popularity": 67.388,
+        "poster": "https://image.tmdb.org/t/p/w500//kOAn06LmRCg4YiSStwrGL6UOQ3a.jpg",
+        "synopsis": "The Doom Patrol\u2019s members each suffered horrible accidents that gave them superhuman abilities \u2014 but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence \u2014 and to protect Earth from what they find.",
+        "title": "Doom Patrol",
         "type": "SERIES",
-        "year": "2017"
+        "year": "2019"
     },
     {
-        "popularity": 4880.782,
-        "poster": "https://image.tmdb.org/t/p/w500//wdE6ewaKZHr62bLqCn7A2DiGShm.jpg",
-        "synopsis": "An Interpol-issued Red Notice is a global alert to hunt and capture the world's most wanted. But when a daring heist brings together the FBI's top profiler and two rival criminals, there's no telling what will happen.",
-        "title": "Red Notice",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 354.96,
-        "poster": "https://image.tmdb.org/t/p/w500//cy6fvTf9YqehVhReYnm5cc3GqhZ.jpg",
-        "synopsis": "When Patrizia Reggiani, an outsider from humble beginnings, marries into the Gucci family, her unbridled ambition begins to unravel the family legacy and triggers a reckless spiral of betrayal, decadence, revenge, and ultimately\u2026murder.",
-        "title": "House of Gucci",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 2472.028,
-        "poster": "https://image.tmdb.org/t/p/w500//mpgDeLhl8HbhI03XLB7iKO6M6JE.jpg",
-        "synopsis": "Follow Moiraine, a member of the shadowy and influential all-female organization called the \u201cAes Sedai\u201d as she embarks on a dangerous, world-spanning journey with five young men and women. Moiraine believes one of them might be the reincarnation of an incredibly powerful individual, whom prophecies say will either save humanity or destroy it.",
-        "title": "The Wheel of Time",
+        "popularity": 1758.15,
+        "poster": "https://image.tmdb.org/t/p/w500//pqzjCxPVc9TkVgGRWeAoMmyqkZV.jpg",
+        "synopsis": "Former Avenger Clint Barton has a seemingly simple mission: get back to his family for Christmas. Possible? Maybe with the help of Kate Bishop, a 22-year-old archer with dreams of becoming a superhero. The two are forced to work together when a presence from Barton\u2019s past threatens to derail far more than the festive spirit.",
+        "title": "Hawkeye",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 1176.375,
-        "poster": "https://image.tmdb.org/t/p/w500//fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg",
-        "synopsis": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
-        "title": "Arcane",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 251.261,
-        "poster": "https://image.tmdb.org/t/p/w500//axibOQF9QnThrr8M37ufAYurP4R.jpg",
-        "synopsis": "Jackie Justice is a mixed martial arts fighter who leaves the sport in disgrace. Down on her luck and simmering with rage and regret years after the fight, she's coaxed into a brutal underground fight by her manager and boyfriend Desi and grabs the attention of a fight league promoter who promises Jackie a life back in the Octagon. But the road to redemption becomes unexpectedly personal when Manny - the son she gave up as an infant - shows up at her doorstep. A triumphant story of a fighter who reclaims her power, in and out of the ring, when everyone has counted her out",
-        "title": "Bruised",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 1158.911,
-        "poster": "https://image.tmdb.org/t/p/w500//dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
-        "synopsis": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games\u2014with high stakes. But, a tempting prize awaits the victor.",
-        "title": "Squid Game",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 6.012,
-        "poster": "https://image.tmdb.org/t/p/w500//saGMNCD6ayFqmOb9mX2MkkMmW7w.jpg",
-        "synopsis": "In 2019, Nepalese mountain climber Nirmal \u201cNims\u201d Purja set out to do the unthinkable by climbing the world\u2019s fourteen highest summits in less than seven months. (The previous record was eight years). He called the effort \u201cProject Possible 14/7\u201d and saw it as a way to inspire others to strive for greater heights in any pursuit. The film follows his team as they seek to defy naysayers and push the limits of human endurance.",
-        "title": "14 Peaks: Nothing Is Impossible",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 838.348,
-        "poster": "https://image.tmdb.org/t/p/w500//9EBKgrFIsCFSV1RZKWhYUdbtGiv.jpg",
-        "synopsis": "10 years after Dexter went missing in the eye of Hurricane Laura, we find him living under an assumed name in the small town of Iron Lake, New York.  Dexter may be embracing his new life, but in the wake of unexpected events in this close-knit community, his Dark Passenger beckons.",
-        "title": "Dexter: New Blood",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 1548.369,
-        "poster": "https://image.tmdb.org/t/p/w500//6AdXwFTRTAzggD2QUTt5B7JFGKL.jpg",
-        "synopsis": "The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind\u2019s most ancient enemy, the Deviants.",
-        "title": "Eternals",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 1134.381,
-        "poster": "https://image.tmdb.org/t/p/w500//5iGVofFc0mCr8aJYsVICm42ThIu.jpg",
-        "synopsis": "A young girl, passionate about fashion design, is mysteriously able to enter the 1960s where she encounters her idol, a dazzling wannabe singer. But 1960s London is not what it seems, and time seems to be falling apart with shady consequences.",
-        "title": "Last Night in Soho",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 3247.013,
-        "poster": "https://image.tmdb.org/t/p/w500//ygPTrycbMSFDc5zUpy4K5ZZtQSC.jpg",
-        "synopsis": "As Emily struggles to fit in at home and at school, she discovers a small red puppy who is destined to become her best friend. When Clifford magically undergoes one heck of a growth spurt, becomes a gigantic dog and attracts the attention of a genetics company, Emily and her Uncle Casey have to fight the forces of greed as they go on the run across New York City. Along the way, Clifford affects the lives of everyone around him and teaches Emily and her uncle the true meaning of acceptance and unconditional love.",
-        "title": "Clifford the Big Red Dog",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 122.48,
-        "poster": "https://image.tmdb.org/t/p/w500//7GcqdBKaMM9BWXWN07BirBMkcBF.jpg",
-        "synopsis": "During her Christmas holidays with the royal family at the Sandringham estate in Norfolk, England, Diana decides to leave her marriage to Prince Charles.",
-        "title": "Spencer",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 419.804,
+        "popularity": 515.465,
         "poster": "https://image.tmdb.org/t/p/w500//kHNWm8YDl1Pf6tyzluLagbtkU94.jpg",
         "synopsis": "When a single mom and her two kids arrive in a small town, they begin to discover their connection to the original Ghostbusters and the secret legacy their grandfather left behind.",
         "title": "Ghostbusters: Afterlife",
@@ -232,39 +144,119 @@
         "year": "2021"
     },
     {
-        "popularity": 541.17,
-        "poster": "https://image.tmdb.org/t/p/w500//7uRbWOXxpWDMtnsd2PF3clu65jc.jpg",
-        "synopsis": "Once the booming home of pharmaceutical giant Umbrella Corporation, Raccoon City is now a dying Midwestern town. The company\u2019s exodus left the city a wasteland\u2026with great evil brewing below the surface. When that evil is unleashed, the townspeople are forever\u2026changed\u2026and a small group of survivors must work together to uncover the truth behind Umbrella and make it through the night.",
-        "title": "Resident Evil: Welcome to Raccoon City",
+        "popularity": 1381.859,
+        "poster": "https://image.tmdb.org/t/p/w500//4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+        "synopsis": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+        "title": "Spider-Man: Far From Home",
+        "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 2651.545,
+        "poster": "https://image.tmdb.org/t/p/w500//1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg",
+        "synopsis": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+        "title": "Shang-Chi and the Legend of the Ten Rings",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 1913.253,
-        "poster": "https://image.tmdb.org/t/p/w500//5NYdSAnDVIXePrSG2dznHdiibMk.jpg",
-        "synopsis": "Unearthly beings deliver bloody condemnations, sending individuals to hell and giving rise to a religious group founded on the idea of divine justice.",
-        "title": "Hellbound",
+        "popularity": 197.129,
+        "poster": "https://image.tmdb.org/t/p/w500//fFT0IgqtCOks4munDTxQwkvNJkd.jpg",
+        "synopsis": "During a perilous 24-hour mission on the moon, space explorers try to retrieve samples from an abandoned research facility steeped in classified secrets.",
+        "title": "The Silent Sea",
         "type": "SERIES",
         "year": "2021"
     },
     {
-        "popularity": 35.431,
-        "poster": "https://image.tmdb.org/t/p/w500//nW5LHayHlbavYD6XRM9SjKi55uu.jpg",
-        "synopsis": "The billionaire is tired of the whims of his own children and decides to teach them a lesson. He announces to them that he has become bankrupt. Now spoiled teenagers will have to do what they have never done: go to work, learn to love and value life.",
-        "title": "Spoiled Brats",
+        "popularity": 598.19,
+        "poster": "https://image.tmdb.org/t/p/w500//reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+        "synopsis": "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.",
+        "title": "Money Heist",
+        "type": "SERIES",
+        "year": "2017"
+    },
+    {
+        "popularity": 927.393,
+        "poster": "https://image.tmdb.org/t/p/w500//dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+        "synopsis": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games\u2014with high stakes. But, a tempting prize awaits the victor.",
+        "title": "Squid Game",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 1418.677,
+        "poster": "https://image.tmdb.org/t/p/w500//mpgDeLhl8HbhI03XLB7iKO6M6JE.jpg",
+        "synopsis": "Follow Moiraine, a member of the shadowy and influential all-female organization called the \u201cAes Sedai\u201d as she embarks on a dangerous, world-spanning journey with five young men and women. Moiraine believes one of them might be the reincarnation of an incredibly powerful individual, whom prophecies say will either save humanity or destroy it.",
+        "title": "The Wheel of Time",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 20.236,
+        "poster": "https://image.tmdb.org/t/p/w500//ud0XdA2xAghDR66j3I84DnNlC2g.jpg",
+        "synopsis": "A disgraced ex-cop seeks solace by moving to the woods, but his quiet life comes to an end when a private eye recruits him to investigate the murder of an eccentric TV star's wife.",
+        "title": "Last Looks",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 276.177,
-        "poster": "https://image.tmdb.org/t/p/w500//qQl0QS5P15vVzUcaP8rAqxbQ6Wp.jpg",
-        "synopsis": "The TRUE STORY of how Richard Williams served as a coach to his daughters Venus and Serena, who will soon become two of the most legendary tennis players in history.",
-        "title": "King Richard",
+        "popularity": 49.078,
+        "poster": "https://image.tmdb.org/t/p/w500//kLltzS6akC5Klto8ROEHSJOuztw.jpg",
+        "synopsis": "When Hilda wakes up in the body of a troll, she must use her wits and courage to get back home, become human again \u2014 and save the city of Trolberg.",
+        "title": "Hilda and the Mountain King",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 629.074,
+        "popularity": 77.771,
+        "poster": "https://image.tmdb.org/t/p/w500//hCxHr0i1BruFS9T9eiD6RanOJdJ.jpg",
+        "synopsis": "The series is about a couple of rich teenagers from Munich who travel to Kitzb\u00fchel for the party of the year. And there is indeed a lot going on in the alpine town, from forbidden love affairs to family dramas.",
+        "title": "Kitz",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 1736.09,
+        "poster": "https://image.tmdb.org/t/p/w500//aWeKITRFbbwY8txG5uCj4rMCfSP.jpg",
+        "synopsis": "Buster and his new cast now have their sights set on debuting a new show at the Crystal Tower Theater in glamorous Redshore City. But with no connections, he and his singers must sneak into the Crystal Entertainment offices, run by the ruthless wolf mogul Jimmy Crystal, where the gang pitches the ridiculous idea of casting the lion rock legend Clay Calloway in their show. Buster must embark on a quest to find the now-isolated Clay and persuade him to return to the stage.",
+        "title": "Sing 2",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 515.46,
+        "poster": "https://image.tmdb.org/t/p/w500//or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+        "synopsis": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+        "title": "Avengers: Endgame",
+        "type": "MOVIE",
+        "year": "2019"
+    },
+    {
+        "popularity": 136.994,
+        "poster": "https://image.tmdb.org/t/p/w500//ztJHKv6KSSgCTWAI2STrX2BeuJZ.jpg",
+        "synopsis": "After getting electrocuted by an MRI machine, an ambitious young medical student begins to hear the thoughts of others.",
+        "title": "Lulli",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 1168.855,
+        "poster": "https://image.tmdb.org/t/p/w500//gSZyYEK5AfZuOFFjnVPUCLvdOD6.jpg",
+        "synopsis": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
+        "title": "Spider-Man",
+        "type": "MOVIE",
+        "year": "2002"
+    },
+    {
+        "popularity": 1765.231,
+        "poster": "https://image.tmdb.org/t/p/w500//c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+        "synopsis": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.",
+        "title": "Spider-Man: Homecoming",
+        "type": "MOVIE",
+        "year": "2017"
+    },
+    {
+        "popularity": 620.257,
         "poster": "https://image.tmdb.org/t/p/w500//kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
         "synopsis": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
         "title": "The Suicide Squad",
@@ -272,50 +264,58 @@
         "year": "2021"
     },
     {
-        "popularity": 28.22,
-        "poster": "https://image.tmdb.org/t/p/w500//ia4T3caId93c8Rc6yp0JPwqkCVM.jpg",
-        "synopsis": "Sharon Pici, a Kansas City Police Detective, is locked in a room that she cannot escape.",
-        "title": "The Box",
-        "type": "SERIES",
-        "year": "2021"
-    },
-    {
-        "popularity": 144.149,
-        "poster": "https://image.tmdb.org/t/p/w500//bm3N4UaaznVswjxcNuTPBZN1Xo2.jpg",
-        "synopsis": "What happened to the children who lived through the Pandemic? Stan, Kyle, Cartman and Kenny survived but will never be the same Post Covid.",
-        "title": "South Park: Post Covid",
+        "popularity": 323.263,
+        "poster": "https://image.tmdb.org/t/p/w500//gJYJyyvvhxxQDBTRfuBYMkvjhjh.jpg",
+        "synopsis": "As a collection of history's worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them.",
+        "title": "The King's Man",
         "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 52.342,
-        "poster": "https://image.tmdb.org/t/p/w500//6CSPieuzXvp4gcSSPZzuUwBXjaP.jpg",
-        "synopsis": "In this anthology series, heroic scientists risk all to deal with deadly outbreaks.",
-        "title": "The Hot Zone",
+        "popularity": 628.974,
+        "poster": "https://image.tmdb.org/t/p/w500//fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg",
+        "synopsis": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
+        "title": "Arcane",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 308.473,
+        "poster": "https://image.tmdb.org/t/p/w500//f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+        "synopsis": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "title": "The Matrix",
+        "type": "MOVIE",
+        "year": "1999"
+    },
+    {
+        "popularity": 1722.718,
+        "poster": "https://image.tmdb.org/t/p/w500//fSbqPbqXa7ePo8bcnZYN9AHv6zA.jpg",
+        "synopsis": "Peter Parker is an outcast high schooler abandoned by his parents as a boy, leaving him to be raised by his Uncle Ben and Aunt May. Like most teenagers, Peter is trying to figure out who he is and how he got to be the person he is today. As Peter discovers a mysterious briefcase that belonged to his father, he begins a quest to understand his parents' disappearance \u2013 leading him directly to Oscorp and the lab of Dr. Curt Connors, his father's former partner. As Spider-Man is set on a collision course with Connors' alter ego, The Lizard, Peter will make life-altering choices to use his powers and shape his destiny to become a hero.",
+        "title": "The Amazing Spider-Man",
+        "type": "MOVIE",
+        "year": "2012"
+    },
+    {
+        "popularity": 159.203,
+        "poster": "https://image.tmdb.org/t/p/w500//wrCVHdkBlBWdJUZPvnJWcBRuhSY.jpg",
+        "synopsis": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a \u201cdemon slayer\u201d so that he can turn his sister back into a human, and kill the demon that massacred his family.",
+        "title": "Demon Slayer: Kimetsu no Yaiba",
         "type": "SERIES",
         "year": "2019"
     },
     {
-        "popularity": 88.424,
-        "poster": "https://image.tmdb.org/t/p/w500//7zMbzJijHQv5oOtkb8rdYarn9X6.jpg",
-        "synopsis": "A world-famous comedian desperately searches for a way out after a night in Philadelphia with his brother threatens to sabotage more than his success.",
-        "title": "True Story",
-        "type": "SERIES",
+        "popularity": 138.636,
+        "poster": "https://image.tmdb.org/t/p/w500//qmddUxRwbsxHa7oEXm4PWh1KZe8.jpg",
+        "synopsis": "Sara is a teen girl who is looking forward to her 18th birthday to move away from her controlling father Don. But before she could even blow out the candles, Don imprisons her in the basement of their home.",
+        "title": "Girl in the Basement",
+        "type": "MOVIE",
         "year": "2021"
     },
     {
-        "popularity": 725.696,
-        "poster": "https://image.tmdb.org/t/p/w500//2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
-        "synopsis": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
-        "title": "Venom",
-        "type": "MOVIE",
-        "year": "2018"
-    },
-    {
-        "popularity": 365.048,
-        "poster": "https://image.tmdb.org/t/p/w500//DPmfcuR8fh8ROYXgdjrAjSGA0o.jpg",
-        "synopsis": "On the cusp of his 30th birthday, Jonathon Larson, a promising young theater composer, navigates love, friendship, and the pressures of life as an artist in New York City.",
-        "title": "tick, tick...BOOM!",
+        "popularity": 961.772,
+        "poster": "https://image.tmdb.org/t/p/w500//xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+        "synopsis": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+        "title": "Free Guy",
         "type": "MOVIE",
         "year": "2021"
     }
