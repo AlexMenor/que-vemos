@@ -1,126 +1,6 @@
 [
     {
-        "popularity": 12139.383,
-        "poster": "https://image.tmdb.org/t/p/w500//jrgifaYeUtTnaH7NF5Drkgjg2MB.jpg",
-        "synopsis": "Professor Albus Dumbledore knows the powerful, dark wizard Gellert Grindelwald is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts magizoologist Newt Scamander to lead an intrepid team of wizards and witches. They soon encounter an array of old and new beasts as they clash with Grindelwald's growing legion of followers.",
-        "title": "Fantastic Beasts: The Secrets of Dumbledore",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 6387.73,
-        "poster": "https://image.tmdb.org/t/p/w500//49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
-        "synopsis": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
-        "title": "Stranger Things",
-        "type": "SERIES",
-        "year": "2016"
-    },
-    {
-        "popularity": 1118.858,
-        "poster": "https://image.tmdb.org/t/p/w500//qJRB789ceLryrLvOKrZqLKr2CGf.jpg",
-        "synopsis": "During the reign of the Galactic Empire, former Jedi Master, Obi-Wan Kenobi, embarks on a crucial mission to confront allies turned enemies and face the wrath of the Empire.",
-        "title": "Obi-Wan Kenobi",
-        "type": "SERIES",
-        "year": "2022"
-    },
-    {
-        "popularity": 93.261,
-        "poster": "https://image.tmdb.org/t/p/w500//pLAeWgqXbTeJ2gQtNvRmdIncYsk.jpg",
-        "synopsis": "The true-life story of boxer-turned-priest. When an injury ends his amateur boxing career, Stuart Long moves to Los Angeles to find money and fame. While scraping by as a supermarket clerk, he meets Carmen, a Sunday school teacher who seems immune to his bad-boy charm. Determined to win her over, the longtime agnostic starts going to church to impress her. However, a motorcycle accident leaves him wondering if he can use his second chance to help others, leading to the surprising realization that he's meant to be a Catholic priest.",
-        "title": "Father Stu",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 1407.309,
-        "poster": "https://image.tmdb.org/t/p/w500//62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
-        "synopsis": "After more than thirty years of service as one of the Navy\u2019s top aviators, and dodging the advancement in rank that would ground him, Pete \u201cMaverick\u201d Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen. Facing an uncertain future and confronting the ghosts of his past, Maverick is drawn into a confrontation with his own deepest fears, culminating in a mission that demands the ultimate sacrifice from those who will be chosen to fly it.",
-        "title": "Top Gun: Maverick",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 4349.679,
-        "poster": "https://image.tmdb.org/t/p/w500//6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
-        "synopsis": "After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands.",
-        "title": "Sonic the Hedgehog 2",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 74.327,
-        "poster": "https://image.tmdb.org/t/p/w500//jAvMlX3n9Fme3k1yFIVyqbLv2Nv.jpg",
-        "synopsis": "Ready for a night of legendary partying, three college students must weigh the pros and cons of calling the police when faced with an unexpected situation.",
-        "title": "Emergency",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 2442.284,
-        "poster": "https://image.tmdb.org/t/p/w500//74xTEgt7R36Fpooo50r9T25onhq.jpg",
-        "synopsis": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
-        "title": "The Batman",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 1673.482,
-        "poster": "https://image.tmdb.org/t/p/w500//7UGmn8TyWPPzkjhLUW58cOUHjPS.jpg",
-        "synopsis": "Decades after their successful television series was canceled, Chip and Dale must repair their broken friendship and take on their Rescue Rangers detective personas once again when a former cast mate mysteriously disappears.",
-        "title": "Chip 'n Dale: Rescue Rangers",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 904.079,
-        "poster": "https://image.tmdb.org/t/p/w500//yMdFsHKp4YX2CUkAQcZswxXDuoe.jpg",
-        "synopsis": "Experience the wonders of our world like never before in this epic docuseries from Jon Favreau and the producers of Planet Earth. Travel back 66 million years to when majestic dinosaurs and extraordinary creatures roamed the lands, seas, and skies.",
-        "title": "Prehistoric Planet",
-        "type": "SERIES",
-        "year": "2022"
-    },
-    {
-        "popularity": 827.518,
-        "poster": "https://image.tmdb.org/t/p/w500//xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg",
-        "synopsis": "For Lieutenant Pete 'Maverick' Mitchell and his friend and co-pilot Nick 'Goose' Bradshaw, being accepted into an elite training school for fighter pilots is a dream come true. But a tragedy, as well as personal demons, will threaten Pete's dreams of becoming an ace pilot.",
-        "title": "Top Gun",
-        "type": "MOVIE",
-        "year": "1986"
-    },
-    {
-        "popularity": 961.617,
-        "poster": "https://image.tmdb.org/t/p/w500//kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
-        "synopsis": "Four years after Isla Nublar was destroyed, dinosaurs now live\u2014and hunt\u2014alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history\u2019s most fearsome creatures.",
-        "title": "Jurassic World Dominion",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 5297.313,
-        "poster": "https://image.tmdb.org/t/p/w500//6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
-        "synopsis": "Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.",
-        "title": "Morbius",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 170.003,
-        "poster": "https://image.tmdb.org/t/p/w500//w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
-        "synopsis": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
-        "title": "Everything Everywhere All at Once",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 3624.907,
-        "poster": "https://image.tmdb.org/t/p/w500//zhLKlUaF1SEpO58ppHIAyENkwgw.jpg",
-        "synopsis": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
-        "title": "The Northman",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 2548.626,
+        "popularity": 10084.004,
         "poster": "https://image.tmdb.org/t/p/w500//9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
         "synopsis": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
         "title": "Doctor Strange in the Multiverse of Madness",
@@ -128,103 +8,87 @@
         "year": "2022"
     },
     {
-        "popularity": 2433.126,
-        "poster": "https://image.tmdb.org/t/p/w500//1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
-        "synopsis": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
-        "title": "Spider-Man: No Way Home",
-        "type": "MOVIE",
-        "year": "2021"
-    },
-    {
-        "popularity": 4839.769,
-        "poster": "https://image.tmdb.org/t/p/w500//neMZH82Stu91d3iqvLdNQfqPPyl.jpg",
-        "synopsis": "A reclusive romance novelist was sure nothing could be worse than getting stuck on a book tour with her cover model until a kidnapping attempt sweeps them both into a cutthroat jungle adventure, proving life can be so much stranger, and more romantic, than any of her paperback fictions.",
-        "title": "The Lost City",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 417.808,
-        "poster": "https://image.tmdb.org/t/p/w500//cRiDlzzZC5lL7fvImuSjs04SUIJ.jpg",
-        "synopsis": "Terrifying creatures, wicked surprises and dark comedy converge in this NSFW anthology of animated stories presented by Tim Miller and David Fincher.",
-        "title": "Love, Death & Robots",
-        "type": "SERIES",
-        "year": "2019"
-    },
-    {
-        "popularity": 4040.452,
-        "poster": "https://image.tmdb.org/t/p/w500//4Q1n3TwieoULnuaztu9aFjqHDTI.jpg",
-        "synopsis": "Alex, an assassin-for-hire, finds that he's become a target after he refuses to complete a job for a dangerous criminal organization. With the crime syndicate and FBI in hot pursuit, Alex has the skills to stay ahead, except for one thing: he is struggling with severe memory loss, affecting his every move. Alex must question his every action and whom he can ultimately trust.",
-        "title": "Memory",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 43.21,
-        "poster": "https://image.tmdb.org/t/p/w500//qHswJ2FXpN9jJIqNlxgc5ZooFb4.jpg",
-        "synopsis": "The story of a band of spotty, noisy, working-class kids with \u201cno future,\u201d who shook the boring, corrupt Establishment to its core, threatened to bring down the government and changed music and culture forever.",
-        "title": "Pistol",
+        "popularity": 86.003,
+        "poster": "https://image.tmdb.org/t/p/w500//muzgYvvFniQnwiTdAvfMCEkHsT4.jpg",
+        "synopsis": "Return to the fantastical city of San Fransokyo where the affable, inflatable, inimitable healthcare companion robot, Baymax, sets out to do what he was programmed to do: help others.",
+        "title": "Baymax!",
         "type": "SERIES",
         "year": "2022"
     },
     {
-        "popularity": 2550.056,
-        "poster": "https://image.tmdb.org/t/p/w500//tlZpSxYuBRoVJBOpUrPdQe9FmFq.jpg",
-        "synopsis": "A young street-smart, Nathan Drake and his wisecracking partner Victor \u201cSully\u201d Sullivan embark on a dangerous pursuit of \u201cthe greatest treasure never found\u201d while also tracking clues that may lead to Nathan\u2019s long-lost brother.",
-        "title": "Uncharted",
+        "popularity": 21.055,
+        "poster": "https://image.tmdb.org/t/p/w500//aEB9ogCBCUpSFTZVhD7NvTh44VW.jpg",
+        "synopsis": "When a former childhood friend crashes Sebastian's bachelor party and makes it all about himself, only an alien invasion can make them put aside their bad blood and reunite as the kick-ass laser-tag duo they once were.",
+        "title": "Blasted",
         "type": "MOVIE",
         "year": "2022"
     },
     {
-        "popularity": 1626.294,
-        "poster": "https://image.tmdb.org/t/p/w500//7qop80YfuO0BwJa1uXk1DXUUEwv.jpg",
-        "synopsis": "When the infamous Bad Guys are finally caught after years of countless heists and being the world\u2019s most-wanted villains, Mr. Wolf brokers a deal to save them all from prison.",
-        "title": "The Bad Guys",
+        "popularity": 3421.944,
+        "poster": "https://image.tmdb.org/t/p/w500//49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+        "synopsis": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+        "title": "Stranger Things",
+        "type": "SERIES",
+        "year": "2016"
+    },
+    {
+        "popularity": 577.181,
+        "poster": "https://image.tmdb.org/t/p/w500//5TdKvZimLSJHPQW8t3ctlsusnmH.jpg",
+        "synopsis": "In a case of mistaken identity, the world\u2019s deadliest assassin, known as the Man from Toronto, and a New York City screw-up are forced to team up after being confused for each other at an Airbnb.",
+        "title": "The Man From Toronto",
         "type": "MOVIE",
         "year": "2022"
     },
     {
-        "popularity": 3371.384,
-        "poster": "https://image.tmdb.org/t/p/w500//eO0QV5qJaEngP1Ax9w3eV6bJG2f.jpg",
-        "synopsis": "Depicting an epic 26th-century conflict between humanity and an alien threat known as the Covenant, the series weaves deeply drawn personal stories with action, adventure and a richly imagined vision of the future.",
-        "title": "Halo",
+        "popularity": 2820.589,
+        "poster": "https://image.tmdb.org/t/p/w500//cdkyMYdu8ao26XOBvilNzLneUg1.jpg",
+        "synopsis": "A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a special affinity for superheroes, particularly Captain Marvel. However, she struggles to fit in at home and at school \u2014 that is, until she gets superpowers like the heroes she\u2019s always looked up to. Life is easier with superpowers, right?",
+        "title": "Ms. Marvel",
         "type": "SERIES",
         "year": "2022"
     },
     {
-        "popularity": 94.534,
-        "poster": "https://image.tmdb.org/t/p/w500//qNOYmU6JYMeu2I0xOX9pgCBOBXi.jpg",
-        "synopsis": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force \u2014 and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
-        "title": "We Own This City",
+        "popularity": 255.397,
+        "poster": "https://image.tmdb.org/t/p/w500//8MfgyFHf7XEboZJPZXCIDqqiz6e.jpg",
+        "synopsis": "A dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.",
+        "title": "Westworld",
+        "type": "SERIES",
+        "year": "2016"
+    },
+    {
+        "popularity": 1408.742,
+        "poster": "https://image.tmdb.org/t/p/w500//wKiOkZTN9lUUUNZLmtnwubZYONg.jpg",
+        "synopsis": "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.",
+        "title": "Minions: The Rise of Gru",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 11.138,
+        "poster": "https://image.tmdb.org/t/p/w500//yjAXHyMz0JZzYiQP7q1fT5kXLif.jpg",
+        "synopsis": "A young singer on the brink of a promising career finds herself torn between a domineering family, industry pressures and her love for her girlfriend.",
+        "title": "Beauty",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 516.956,
+        "poster": "https://image.tmdb.org/t/p/w500//c80mxgOPvSWJBcgWoI5bf3et5Ws.jpg",
+        "synopsis": "A man finds himself at war with a bee while house-sitting a luxurious mansion. Who will win, and what irreparable damage will be done in the process?",
+        "title": "Man Vs Bee",
         "type": "SERIES",
         "year": "2022"
     },
     {
-        "popularity": 224.062,
-        "poster": "https://image.tmdb.org/t/p/w500//hepwOZWJNUmLzB68gKYEdEJAaD3.jpg",
-        "synopsis": "The film explores the world of firefighters in 1920s New York City and tells the story of a 16-year-old girl who will have to become a hero in order to save her city.",
-        "title": "Fireheart",
-        "type": "MOVIE",
+        "popularity": 1749.206,
+        "poster": "https://image.tmdb.org/t/p/w500//mbsRGqJtdKcVbjQxkrfzKCAkYoU.jpg",
+        "synopsis": "Disguised under the shadows of a mask, a crew of desperados band together under the leadership of a criminal mastermind known only as \u201cThe Professor\u201d to pull off the biggest heist Korea has ever seen.",
+        "title": "Money Heist: Korea - Joint Economic Area",
+        "type": "SERIES",
         "year": "2022"
     },
     {
-        "popularity": 90.737,
-        "poster": "https://image.tmdb.org/t/p/w500//frHjhJEKD9k71Bw9sfhHtEoM73Y.jpg",
-        "synopsis": "Produced in 17 different countries entirely virtually during the 2020 global pandemic, the film follows five characters based all over the world, connected only by their devotion to the late founder and tech titan Finley Hart. Forced to work together to shut down Hart\u2019s most secret invention, a machine that is either the solution to mankind\u2019s problems or the end of the earth.",
-        "title": "Zero Contact",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 591.072,
-        "poster": "https://image.tmdb.org/t/p/w500//2p6yIPQP2IpQ44wBkL3xhKrot0V.jpg",
-        "synopsis": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together, they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher\u2019s vengeance and stop him before it\u2019s too late.",
-        "title": "Thor: Love and Thunder",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 363.959,
+        "popularity": 3786.662,
         "poster": "https://image.tmdb.org/t/p/w500//stTEycfG9928HYGEISBFaG1ngjM.jpg",
         "synopsis": "A group of vigilantes known informally as \u201cThe Boys\u201d set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
         "title": "The Boys",
@@ -232,31 +96,215 @@
         "year": "2019"
     },
     {
-        "popularity": 1381.765,
-        "poster": "https://image.tmdb.org/t/p/w500//q7FmdJHKMLIC4XgWfcFRIu2iVdL.jpg",
-        "synopsis": "World famous movie star Olivia faces a PR disaster when a paparazzi snaps a photo of her with her married lover, Vincent. The hard-working valet Antonio accidentally appears in the same photo and is enlisted to pose as Olivia\u2019s new boyfriend as a cover-up. This ruse with Olivia thrusts Antonio into the spotlight and unexpected chaos.",
-        "title": "The Valet",
+        "popularity": 820.608,
+        "poster": "https://image.tmdb.org/t/p/w500//4zLfBbGnuUBLbMVtagTZvzFwS8l.jpg",
+        "synopsis": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher\u2019s vengeance and stop him before it\u2019s too late.",
+        "title": "Thor: Love and Thunder",
         "type": "MOVIE",
         "year": "2022"
     },
     {
-        "popularity": 1786.111,
-        "poster": "https://image.tmdb.org/t/p/w500//YksR65as1ppF2N48TJAh2PLamX.jpg",
-        "synopsis": "When Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life, he discovers he has dissociative identity disorder and shares a body with mercenary Marc Spector. As Steven/Marc\u2019s enemies converge upon them, they must navigate their complex identities while thrust into a deadly mystery among the powerful gods of Egypt.",
-        "title": "Moon Knight",
+        "popularity": 262.978,
+        "poster": "https://image.tmdb.org/t/p/w500//ArsVbYhS6DiFJtRAlV8ytAauNlp.jpg",
+        "synopsis": "Three strangers who share an obsession with true crime suddenly find themselves wrapped up in one.",
+        "title": "Only Murders in the Building",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 1000.323,
+        "poster": "https://image.tmdb.org/t/p/w500//62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+        "synopsis": "After more than thirty years of service as one of the Navy\u2019s top aviators, and dodging the advancement in rank that would ground him, Pete \u201cMaverick\u201d Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+        "title": "Top Gun: Maverick",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 1465.379,
+        "poster": "https://image.tmdb.org/t/p/w500//qJRB789ceLryrLvOKrZqLKr2CGf.jpg",
+        "synopsis": "During the reign of the Galactic Empire, former Jedi Master, Obi-Wan Kenobi, embarks on a crucial mission to confront allies turned enemies and face the wrath of the Empire.",
+        "title": "Obi-Wan Kenobi",
         "type": "SERIES",
         "year": "2022"
     },
     {
-        "popularity": 355.031,
-        "poster": "https://image.tmdb.org/t/p/w500//fMMrl8fD9gRCFJvsx0SuFwkEOop.jpg",
-        "synopsis": "Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his cause\u2014elevating wizards above all non-magical beings. The only one capable of putting a stop to him is the wizard he once called his closest friend, Albus Dumbledore. However, Dumbledore will need to seek help from the wizard who had thwarted Grindelwald once before, his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
-        "title": "Fantastic Beasts: The Crimes of Grindelwald",
+        "popularity": 2818.865,
+        "poster": "https://image.tmdb.org/t/p/w500//jrgifaYeUtTnaH7NF5Drkgjg2MB.jpg",
+        "synopsis": "Professor Albus Dumbledore knows the powerful, dark wizard Gellert Grindelwald is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts magizoologist Newt Scamander to lead an intrepid team of wizards and witches. They soon encounter an array of old and new beasts as they clash with Grindelwald's growing legion of followers.",
+        "title": "Fantastic Beasts: The Secrets of Dumbledore",
         "type": "MOVIE",
-        "year": "2018"
+        "year": "2022"
     },
     {
-        "popularity": 135.616,
+        "popularity": 94.504,
+        "poster": "https://image.tmdb.org/t/p/w500//jo1Kv3P3UgDVk7JnUFr2Cl8WWUM.jpg",
+        "synopsis": "In the aftermath of a personal tragedy, Harper retreats alone to the beautiful English countryside, hoping to find a place to heal. But someone \u2014 or something \u2014 from the surrounding woods appears to be stalking her, and what begins as simmering dread becomes a fully-formed nightmare, inhabited by her darkest memories and fears.",
+        "title": "Men",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 439.436,
+        "poster": "https://image.tmdb.org/t/p/w500//czXyMcmiulyZjhYAnnMwVhFCvN.jpg",
+        "synopsis": "After emigrating to Greece from Nigeria, Vera and Charles Antetokounmpo struggled to survive and provide for their five children, while living under the daily threat of deportation. Desperate to obtain Greek citizenship but undermined by a system that blocked them at every turn, the family's vision, determination and faith lifted them out of obscurity to launch the careers of three NBA champions.",
+        "title": "Rise",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 54.323,
+        "poster": "https://image.tmdb.org/t/p/w500//dvzUTBvOzJsnQOyozWIfglSm9zN.jpg",
+        "synopsis": "When evil forces threaten to resurrect Anthrasax, the God of Destruction, the Kingdom of Meta-llicana calls on a volatile dark wizard for help.",
+        "title": "Bastard!! -Heavy Metal, Dark Fantasy-",
+        "type": "SERIES",
+        "year": "2022"
+    },
+    {
+        "popularity": 1710.904,
+        "poster": "https://image.tmdb.org/t/p/w500//scZlQQYnDVlnpxFTxaIv2g0BWnL.jpg",
+        "synopsis": "A dysfunctional family of superheroes comes together to solve the mystery of their father's death, the threat of the apocalypse and more.",
+        "title": "The Umbrella Academy",
+        "type": "SERIES",
+        "year": "2019"
+    },
+    {
+        "popularity": 1927.454,
+        "poster": "https://image.tmdb.org/t/p/w500//1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+        "synopsis": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+        "title": "Spider-Man: No Way Home",
+        "type": "MOVIE",
+        "year": "2021"
+    },
+    {
+        "popularity": 1920.879,
+        "poster": "https://image.tmdb.org/t/p/w500//kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
+        "synopsis": "Four years after Isla Nublar was destroyed, dinosaurs now live\u2014and hunt\u2014alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history\u2019s most fearsome creatures.",
+        "title": "Jurassic World Dominion",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 1169.242,
+        "poster": "https://image.tmdb.org/t/p/w500//74xTEgt7R36Fpooo50r9T25onhq.jpg",
+        "synopsis": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+        "title": "The Batman",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 2387.591,
+        "poster": "https://image.tmdb.org/t/p/w500//6DrHO1jr3qVrViUO6s6kFiAGM7.jpg",
+        "synopsis": "After settling in Green Hills, Sonic is eager to prove he has what it takes to be a true hero. His test comes when Dr. Robotnik returns, this time with a new partner, Knuckles, in search for an emerald that has the power to destroy civilizations. Sonic teams up with his own sidekick, Tails, and together they embark on a globe-trotting journey to find the emerald before it falls into the wrong hands.",
+        "title": "Sonic the Hedgehog 2",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 360.065,
+        "poster": "https://image.tmdb.org/t/p/w500//w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
+        "synopsis": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+        "title": "Everything Everywhere All at Once",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 158.781,
+        "poster": "https://image.tmdb.org/t/p/w500//ujVz6YZxBkDsw3wanO2AKhl3A9y.jpg",
+        "synopsis": "Navy SEAL Commander James Reece turns to vengeance as he investigates the mysterious forces behind the murder of his entire platoon. Free from the military\u2019s command structure, Reece applies the lessons he\u2019s learned from nearly two decades of warfare to hunt down the people responsible.",
+        "title": "The Terminal List",
+        "type": "SERIES",
+        "year": "2022"
+    },
+    {
+        "popularity": 229.115,
+        "poster": "https://image.tmdb.org/t/p/w500//qBOKWqAFbveZ4ryjJJwbie6tXkQ.jpg",
+        "synopsis": "The life story of Elvis Presley as seen through the complicated relationship with his enigmatic manager, Colonel Tom Parker.",
+        "title": "Elvis",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 1120.897,
+        "poster": "https://image.tmdb.org/t/p/w500//vpILbP9eOQEtdQgl4vgjZUNY07r.jpg",
+        "synopsis": "Legendary Space Ranger Buzz Lightyear embarks on an intergalactic adventure alongside a group of ambitious recruits and his robot companion Sox.",
+        "title": "Lightyear",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 2038.496,
+        "poster": "https://image.tmdb.org/t/p/w500//6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg",
+        "synopsis": "Dangerously ill with a rare blood disorder, and determined to save others suffering his same fate, Dr. Michael Morbius attempts a desperate gamble. What at first appears to be a radical success soon reveals itself to be a remedy potentially worse than the disease.",
+        "title": "Morbius",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 1773.238,
+        "poster": "https://image.tmdb.org/t/p/w500//bxHZpV02OOu9vq3sb3MsOudEnYc.jpg",
+        "synopsis": "Finney Shaw, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer\u2019s previous victims. And they are dead set on making sure that what happened to them doesn\u2019t happen to Finney.",
+        "title": "The Black Phone",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 66.475,
+        "poster": "https://image.tmdb.org/t/p/w500//1bInSWX10mdONmTjSRvsLjfVR2O.jpg",
+        "synopsis": "Brilliant attorney Woo Young-woo tackles challenges in the courtroom and beyond as a newbie at a top law firm and a woman on the autism spectrum.",
+        "title": "Extraordinary Attorney Woo",
+        "type": "SERIES",
+        "year": "2022"
+    },
+    {
+        "popularity": 81.467,
+        "poster": "https://image.tmdb.org/t/p/w500//iSx6t4mj1FT4ePqPYHW287SmNa1.jpg",
+        "synopsis": "As the human species adapts to a synthetic environment, the body undergoes new transformations and mutations. Accompanied by his partner Caprice, celebrity performance artist Saul Tenser showcases the metamorphosis of his organs. Meanwhile, a mysterious group tries to use Saul's notoriety to shed light on the next phase of human evolution.",
+        "title": "Crimes of the Future",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 378.857,
+        "poster": "https://image.tmdb.org/t/p/w500//reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+        "synopsis": "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.",
+        "title": "Money Heist",
+        "type": "SERIES",
+        "year": "2017"
+    },
+    {
+        "popularity": 1682.375,
+        "poster": "https://image.tmdb.org/t/p/w500//7COPO5B9AOKIB4sEkvNu0wfve3c.jpg",
+        "synopsis": "A prisoner in a state-of-the-art penitentiary begins to question the purpose of the emotion-controlling drugs he's testing for a pharmaceutical genius.",
+        "title": "Spiderhead",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 568.811,
+        "poster": "https://image.tmdb.org/t/p/w500//u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+        "synopsis": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+        "title": "Game of Thrones",
+        "type": "SERIES",
+        "year": "2011"
+    },
+    {
+        "popularity": 45.551,
+        "poster": "https://image.tmdb.org/t/p/w500//bgtpwAsKNfqJmgp3zBxuSHMBAaW.jpg",
+        "synopsis": "Bennie Upshaw, the head of a Black working class family in Indianapolis, is a charming, well-intentioned mechanic and lifelong mess just trying his best to step up and care for his family and tolerate his sardonic sister-in-law, all without a blueprint for success.",
+        "title": "The Upshaws",
+        "type": "SERIES",
+        "year": "2021"
+    },
+    {
+        "popularity": 917.51,
+        "poster": "https://image.tmdb.org/t/p/w500//7qop80YfuO0BwJa1uXk1DXUUEwv.jpg",
+        "synopsis": "When the infamous Bad Guys are finally caught after years of countless heists and being the world\u2019s most-wanted villains, Mr. Wolf brokers a deal to save them all from prison.",
+        "title": "The Bad Guys",
+        "type": "MOVIE",
+        "year": "2022"
+    },
+    {
+        "popularity": 122.929,
         "poster": "https://image.tmdb.org/t/p/w500//fcXdJlbSdUEeMSJFsXKsznGwwok.jpg",
         "synopsis": "Years ago, the fearsome Pirate King, Gol D. Roger was executed leaving a huge pile of treasure and the famous \"One Piece\" behind. Whoever claims the \"One Piece\" will be named the new King of the Pirates. Monkey D. Luffy, a boy who consumed a \"Devil Fruit,\" decides to follow in the footsteps of his idol, the pirate Shanks, and find the One Piece. It helps, of course, that his body has the properties of rubber and that he's surrounded by a bevy of skilled fighters and thieves to help him along the way. Luffy will do anything to get the One Piece and become King of the Pirates!",
         "title": "One Piece",
@@ -264,59 +312,11 @@
         "year": "1999"
     },
     {
-        "popularity": 414.751,
-        "poster": "https://image.tmdb.org/t/p/w500//fLsaFKExQt05yqjoAvKsmOMYvJR.jpg",
-        "synopsis": "In 1926, Newt Scamander arrives at the Magical Congress of the United States of America with a magically expanded briefcase, which houses a number of dangerous creatures and their habitats. When the creatures escape from the briefcase, it sends the American wizarding authorities after Newt, and threatens to strain even further the state of magical and non-magical relations.",
-        "title": "Fantastic Beasts and Where to Find Them",
-        "type": "MOVIE",
-        "year": "2016"
-    },
-    {
-        "popularity": 77.297,
-        "poster": "https://image.tmdb.org/t/p/w500//m7gKiAdNHf0uLkZAdgWgLGrPtll.jpg",
-        "synopsis": "The intricate and magical love story of Clare and Henry, and a marriage with a problem\u2026 time travel.",
-        "title": "The Time Traveler's Wife",
+        "popularity": 54.896,
+        "poster": "https://image.tmdb.org/t/p/w500//xaq3mnifkknC8cGA7I65W3bTmu0.jpg",
+        "synopsis": "Will this expert team unearth legendary pirate treasure? Follow the hunt for buried gold amid the harsh Alaskan wilderness in this documentary series.",
+        "title": "Pirate Gold of Adak Island",
         "type": "SERIES",
         "year": "2022"
-    },
-    {
-        "popularity": 48.767,
-        "poster": "https://image.tmdb.org/t/p/w500//gq4HVa4SGfoikGHeSXVsnuIWTjV.jpg",
-        "synopsis": "A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a special affinity for superheroes, particularly Captain Marvel. However, she struggles to fit in at home and at school \u2014 that is, until she gets super powers like the heroes she\u2019s always looked up to. Life is easier with super powers, right?",
-        "title": "Ms. Marvel",
-        "type": "SERIES",
-        "year": "2022"
-    },
-    {
-        "popularity": 288.644,
-        "poster": "https://image.tmdb.org/t/p/w500//fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
-        "synopsis": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is \u201cfixer\u201d Mike Ehrmantraut. The series tracks Jimmy\u2019s transformation into Saul Goodman, the man who puts \u201ccriminal\u201d in \u201ccriminal lawyer\".",
-        "title": "Better Call Saul",
-        "type": "SERIES",
-        "year": "2015"
-    },
-    {
-        "popularity": 1.96,
-        "poster": "https://image.tmdb.org/t/p/w500//7WfgrhW9FJ5obrymcEucllDIqVp.jpg",
-        "synopsis": "August 1944. With the American Eighth Air Force poised to strike over Nazi Germany, British Intelligence learns that they could be flying into a deadly trap. With only hours to spare, Flight Lieutenant Edward Barnes must fly a life and death mission over Berlin in his unarmed Spitfire to obtain photographic evidence and save the lives of 1200 men.",
-        "title": "Spitfire Over Berlin",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 1467.64,
-        "poster": "https://image.tmdb.org/t/p/w500//odVv1sqVs0KxBXiA8bhIBlPgalx.jpg",
-        "synopsis": "A mysterious force knocks the moon from its orbit around Earth and sends it hurtling on a collision course with life as we know it.",
-        "title": "Moonfall",
-        "type": "MOVIE",
-        "year": "2022"
-    },
-    {
-        "popularity": 224.574,
-        "poster": "https://image.tmdb.org/t/p/w500//wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
-        "synopsis": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard\u2014with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths\u2014and about the villain who's to blame.",
-        "title": "Harry Potter and the Philosopher's Stone",
-        "type": "MOVIE",
-        "year": "2001"
     }
 ]
